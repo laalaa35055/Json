@@ -17,37 +17,37 @@
         {
             "Name": "NoteBook",
             "ID": "NoteBook",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Learn.json"
+            "URL":"https://laalaa35055.github.io/Json/NavList/NoteBook.json"
         },
         {
             "Name": "Tool Resources",
             "ID": "ToolResources",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Tool.json"
+            "URL":"https://laalaa35055.github.io/Json/NavList/ToolResources.json"
         },
         {
             "Name": "Art & Animation",
             "ID": "Animation",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Art.json"
+            "URL":"https://laalaa35055.github.io/Json/NavList/Animation.json"
         },
         {
             "Name": "Google Analytics",
             "ID": "GoogleAnalytics",
-            "URL":"https://laalaa35055.github.io/Json/NavList/GA.json"
+            "URL":"https://laalaa35055.github.io/Json/NavList/GoogleAnalytics.json"
         },
         {
             "Name": "Forum Resources",
             "ID": "ForumResources",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Dis.json"
+            "URL":"https://laalaa35055.github.io/Json/NavList/ForumResources.json"
         },
         {
             "Name": "Extension Tool",
             "ID": "ExtensionTool",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Pack.json"
+            "URL":"https://laalaa35055.github.io/Json/NavList/ExtensionTool.json"
         },
         {
             "Name": "Study Plan",
             "ID": "StudyPlan",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Plan.json"
+            "URL":"https://laalaa35055.github.io/Json/NavList/StudyPlan.json"
         },
         {
             "Name": "Problem",
@@ -57,7 +57,7 @@
         {
             "Name": "Backend Setting",
             "ID": "Setting",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Backend.json"
+            "URL":"https://laalaa35055.github.io/Json/NavList/Setting.json"
         }
     ]
 }
