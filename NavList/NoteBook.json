@@ -5,6 +5,7 @@
     "Data": [
         {
             "Name": "前端技術",
+            "ID":"FrontEnd",
             "Group": 1,
             "Data": [
             {
@@ -59,6 +60,7 @@
         },
         {
             "Name": "後端技術",
+            "ID":"BackEnd",
             "Group": 1,
             "Data": [
             {
@@ -97,6 +99,7 @@
         },
         {
             "Name": "網站可靠性工程 ( SRE )",
+            "ID":"SRE",
             "Group": 1,
             "Data": [
             {
@@ -123,6 +126,7 @@
         },
         {
             "Name": "英文學習",
+            "ID":"English",
             "Group": 1,
             "Data": [
             {
