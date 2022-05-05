@@ -7,57 +7,57 @@
         {
             "name": "API",
             "id": "API",
-            "url":"https://laalaa35055.github.io/Json/navList/API.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/API.json"
         },
         {
             "name": "Search",
             "id": "Search",
-            "url":"https://laalaa35055.github.io/Json/navList/Search.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/Search.json"
         },
         {
             "name": "NoteBook",
             "id": "NoteBook",
-            "url":"https://laalaa35055.github.io/Json/navList/Learn.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/Learn.json"
         },
         {
             "name": "Tool Resources",
             "id": "ToolResources",
-            "url":"https://laalaa35055.github.io/Json/navList/Tool.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/Tool.json"
         },
         {
             "name": "Art & Animation",
             "id": "Animation",
-            "url":"https://laalaa35055.github.io/Json/navList/Art.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/Art.json"
         },
         {
             "name": "Google Analytics",
             "id": "GoogleAnalytics",
-            "url":"https://laalaa35055.github.io/Json/navList/GA.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/GA.json"
         },
         {
             "name": "Forum Resources",
             "id": "ForumResources",
-            "url":"https://laalaa35055.github.io/Json/navList/Dis.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/Dis.json"
         },
         {
             "name": "Extension Tool",
             "id": "ExtensionTool",
-            "url":"https://laalaa35055.github.io/Json/navList/Pack.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/Pack.json"
         },
         {
             "name": "Study Plan",
             "id": "StudyPlan",
-            "url":"https://laalaa35055.github.io/Json/navList/Plan.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/Plan.json"
         },
         {
             "name": "Problem",
             "id": "Problem",
-            "url":"https://laalaa35055.github.io/Json/navList/Problem.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/Problem.json"
         },
         {
             "name": "Backend Setting",
             "id": "Setting",
-            "url":"https://laalaa35055.github.io/Json/navList/Backend.json"
+            "url":"https://laalaa35055.github.io/Json/NavList/Backend.json"
         }
     ]
 }
