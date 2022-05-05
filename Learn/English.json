@@ -1,0 +1,86 @@
+{
+    "Name": "English",
+    "ID":"English",
+    "Type":0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "$.ajax()",
+                "Contnet": [
+                    {
+                        "Title": "Axios  使用",
+                        "Data": [
+                            {
+                                "Text": "需先有 JQuery",
+                                "URL": null
+                            },
+                            {
+                                "Title": "基本使用",
+                                "Text": "$.ajax({\n URL:,\n method:,\n DataType:,\n Data\n success:function(res){console.log(res)},\n error:function(err){console.log(err)},\n});",
+                                "Group": true
+                            },
+                            {
+                                "Text": "Data: 如果需要傳送資料時，則將資料設定在這裡",
+                                "URL": null
+                            },
+                            {
+                                "Text": "method: 請求資料的方式(Ex:POST / GET / PUT...等)",
+                                "URL": null
+                            },
+                            {
+                                "Text": "DataType: 請求資料的類型(Ex:xml, json, script, or html...等)",
+                                "URL": null
+                            },
+                            {
+                                "Text": "success: 當成功接收到資料時，success 會執行並顯示結果。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "error : 當接收資料失敗時，error 會執行並顯示結果。",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Ajax ？",
+                        "Data": [
+                            {
+                                "Title": "Asynchronous Javascript And XML",
+                                "Text": "Ajax 流程",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWjkArIL5I2a2qmkwAs4Ruq7I0FTPUnafTSFfIGuT-ia_0GnvsSNNq0VPhfwSaXV_bDFRhTTaiiQlEtBb4NavELzUW4EVutVJAmWHyn1Dedo9Nlth3URAqtKZEbH4COaXJm8p-33njl1NxKNpqUX84=w800-h534-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Text": "不是一種程式語言，以新的方法重新整合現有各種網頁技術",
+                                "URL": null
+                            },
+                            {
+                                "Text": "使用非同步的 HTTP 通訊協定 ( HyperText Transfer Protocal )",
+                                "URL": null
+                            },
+                            {
+                                "Text": "以提供更好、更快、更友善的 Web 應用程式",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}
