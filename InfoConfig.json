@@ -1,9 +1,9 @@
 {
-    "infomation": {
+    "Infomation": {
         "writer": "盜才生",
-        "version": "0.1.0"
+        "version": "0.2.0"
     },
-    "navlist": [
+    "NavList": [
         {
             "name": "API",
             "id": "API",
@@ -15,34 +15,39 @@
             "url":"https://laalaa35055.github.io/Json/navList/Search.json"
         },
         {
-            "name": "Learn",
-            "id": "Learn",
+            "name": "NoteBook",
+            "id": "NoteBook",
             "url":"https://laalaa35055.github.io/Json/navList/Learn.json"
         },
         {
-            "name": "Tool-G",
-            "id": "Tool",
+            "name": "Tool Resources",
+            "id": "ToolResources",
             "url":"https://laalaa35055.github.io/Json/navList/Tool.json"
         },
         {
-            "name": "AG-G",
-            "id": "Art",
+            "name": "Art & Animation",
+            "id": "Animation",
             "url":"https://laalaa35055.github.io/Json/navList/Art.json"
         },
         {
-            "name": "GA-G",
-            "id": "GA",
+            "name": "Google Analytics",
+            "id": "GoogleAnalytics",
             "url":"https://laalaa35055.github.io/Json/navList/GA.json"
         },
         {
-            "name": "Dis-G",
-            "id": "Dis",
+            "name": "Forum Resources",
+            "id": "ForumResources",
             "url":"https://laalaa35055.github.io/Json/navList/Dis.json"
         },
         {
-            "name": "Pack-G",
-            "id": "Pack",
+            "name": "Extension Tool",
+            "id": "ExtensionTool",
             "url":"https://laalaa35055.github.io/Json/navList/Pack.json"
+        },
+        {
+            "name": "Study Plan",
+            "id": "StudyPlan",
+            "url":"https://laalaa35055.github.io/Json/navList/Plan.json"
         },
         {
             "name": "Problem",
@@ -50,8 +55,8 @@
             "url":"https://laalaa35055.github.io/Json/navList/Problem.json"
         },
         {
-            "name": "Backend",
-            "id": "Backend",
+            "name": "Backend Setting",
+            "id": "Setting",
             "url":"https://laalaa35055.github.io/Json/navList/Backend.json"
         }
     ]
