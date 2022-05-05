@@ -1,307 +1,308 @@
 {
-    "name": "CSS 選擇器",
-    "type":0,
-    "nav": false,
-    "contents": {
-        "left": [
+    "Name": "CSS 選擇器",
+    "ID":"CSS-Select",
+    "Type":0,
+    "Nav": false,
+    "Contents": {
+        "Left": [
             {
-                "title": "常用略複雜",
-                "contnet": [
+                "Title": "常用略複雜",
+                "Contnet": [
                     {
-                        "title":"表單用偽類選擇器",
-                        "data": [
+                        "Title":"表單用偽類選擇器",
+                        "Data": [
                             {
-                                "text": "：check 通常出現在 checkbox or radio",
-                                "url": null
+                                "Text": "：check 通常出現在 checkbox or radio",
+                                "URL": null
                             },
                             {
-                                "text": "《 ：disabled 》 and 《：enabled 》停用與否",
-                                "url": null
+                                "Text": "《 ：disabled 》 and 《：enabled 》停用與否",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：選取設定在 input 上面有必填與否的標籤",
-                                "url": null
+                                "Text": "Complement：選取設定在 input 上面有必填與否的標籤",
+                                "URL": null
                             },
                             {
-                                "text": "《 ：valid》 and 《：invalid 》預先檢查 input 內格式正確與否，可改變 input 樣式",
-                                "url": null
+                                "Text": "《 ：valid》 and 《：invalid 》預先檢查 input 內格式正確與否，可改變 input 樣式",
+                                "URL": null
                             },
                             {
-                                "text": "《 ：in-range 》 and 《：out-of-range 》檢查 input 內數值限制，正確與否",
-                                "url": null
+                                "Text": "《 ：in-range 》 and 《：out-of-range 》檢查 input 內數值限制，正確與否",
+                                "URL": null
                             },
                             {
-                                "text": "《 ：read-only 》選取有 readonly 設定的 input，可改變 input 樣式",
-                                "url": null
+                                "Text": "《 ：read-only 》選取有 readonly 設定的 input，可改變 input 樣式",
+                                "URL": null
                             },
                             {
-                                "text": "《 ：placeholder 》可改變背景文字屬性",
-                                "url": null
+                                "Text": "《 ：placeholder 》可改變背景文字屬性",
+                                "URL": null
                             },
                             {
-                                "text": "《 ：focus-within 》焦點在此物件內的子物件，對父層進行附值",
-                                "url": null
+                                "Text": "《 ：focus-within 》焦點在此物件內的子物件，對父層進行附值",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title":"：root 根目錄選取器",
-                        "data": [
+                        "Title":"：root 根目錄選取器",
+                        "Data": [
                             {
-                                "text": "使用方式『 -- 變數名稱：值 』 雙 dash",
-                                "url": null
+                                "Text": "使用方式『 -- 變數名稱：值 』 雙 dash",
+                                "URL": null
                             },
                             {
-                                "text": "全域變數 = 放置 ：root 中",
-                                "url": null
+                                "Text": "全域變數 = 放置 ：root 中",
+                                "URL": null
                             },
                             {
-                                "text": "套用變數 放置 var ( --變數名稱 )",
-                                "url": null
+                                "Text": "套用變數 放置 var ( --變數名稱 )",
+                                "URL": null
                             },
                             {
-                                "text": "非全域變數即為區域變數",
-                                "url": null
+                                "Text": "非全域變數即為區域變數",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title":"：nth-child 選擇器",
-                        "data": [
+                        "Title":"：nth-child 選擇器",
+                        "Data": [
                             {
-                                "text": "：nth-child ( n ) 』 雙 dash",
-                                "url": null
+                                "Text": "：nth-child ( n ) 』 雙 dash",
+                                "URL": null
                             },
                             {
-                                "text": "能指定數量，起始值為 0",
-                                "url": null
+                                "Text": "能指定數量，起始值為 0",
+                                "URL": null
                             },
                             {
-                                "text": "n 能寫成 (3n)，由 3 開始往上加更甚者 (3n+b)",
-                                "url": null
+                                "Text": "n 能寫成 (3n)，由 3 開始往上加更甚者 (3n+b)",
+                                "URL": null
                             },
                             {
-                                "text": "n 可以是 odd(奇數) 、even(偶數)",
-                                "url": null
+                                "Text": "n 可以是 odd(奇數) 、even(偶數)",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title":"：nth-of-type 選擇器",
-                        "data": [
+                        "Title":"：nth-of-type 選擇器",
+                        "Data": [
                             {
-                                "text": "：nth-of-type ( n )",
-                                "url": null
+                                "Text": "：nth-of-type ( n )",
+                                "URL": null
                             },
                             {
-                                "text": "與上相同可寫 n",
-                                "url": null
+                                "Text": "與上相同可寫 n",
+                                "URL": null
                             },
                             {
-                                "text": "不同處為指定不同元素中的第幾個",
-                                "url": null
+                                "Text": "不同處為指定不同元素中的第幾個",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title":"首項與尾首選擇器",
-                        "data": [
+                        "Title":"首項與尾首選擇器",
+                        "Data": [
                             {
-                                "text": "：first-of-type 選取第一次出現的標籤",
-                                "url": null
+                                "Text": "：first-of-type 選取第一次出現的標籤",
+                                "URL": null
                             },
                             {
-                                "text": "：last-of-type 選取最後一次出現的標籤",
-                                "url": null
+                                "Text": "：last-of-type 選取最後一次出現的標籤",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：緊貼與否會有差異",
-                                "url": null
+                                "Text": "Complement：緊貼與否會有差異",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：第一次也能是最後一次",
-                                "url": null
+                                "Text": "Complement：第一次也能是最後一次",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title":"頭尾選擇器",
-                        "data": [
+                        "Title":"頭尾選擇器",
+                        "Data": [
                             {
-                                "text": "：first-child 選取標籤的第一個子物件",
-                                "url": null
+                                "Text": "：first-child 選取標籤的第一個子物件",
+                                "URL": null
                             },
                             {
-                                "text": "：last-child 選取標籤的最後一個子物件",
-                                "url": null
+                                "Text": "：last-child 選取標籤的最後一個子物件",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：緊貼與否會有差異",
-                                "url": null
+                                "Text": "Complement：緊貼與否會有差異",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title":"偽類選擇器",
-                        "data": [
+                        "Title":"偽類選擇器",
+                        "Data": [
                             {
-                                "text": "以一個『 ： 』做開頭",
-                                "url": null
+                                "Text": "以一個『 ： 』做開頭",
+                                "URL": null
                             },
                             {
-                                "text": "：link 尚未點擊，指具有 href 屬性",
-                                "url": null
+                                "Text": "：link 尚未點擊，指具有 href 屬性",
+                                "URL": null
                             },
                             {
-                                "text": "：hover 滑鼠觸碰",
-                                "url": null
+                                "Text": "：hover 滑鼠觸碰",
+                                "URL": null
                             },
                             {
-                                "text": "：active 點擊當下",
-                                "url": null
+                                "Text": "：active 點擊當下",
+                                "URL": null
                             },
                             {
-                                "text": "：focus 取得焦點",
-                                "url": null
+                                "Text": "：focus 取得焦點",
+                                "URL": null
                             },
                             {
-                                "text": "：visitrd 點擊過後",
-                                "url": null
+                                "Text": "：visitrd 點擊過後",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title":"選取狀態偽元素",
-                        "data": [
+                        "Title":"選取狀態偽元素",
+                        "Data": [
                             {
-                                "text": "：：selection",
-                                "url": null
+                                "Text": "：：selection",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：選取文字可改變反白顏色等屬性",
-                                "url": null
+                                "Text": "Complement：選取文字可改變反白顏色等屬性",
+                                "URL": null
                             },
                             {
-                                "text": "background-color 背景顏色",
-                                "url": null
+                                "Text": "background-color 背景顏色",
+                                "URL": null
                             },
                             {
-                                "text": "cursor 滑鼠游標",
-                                "url": null
+                                "Text": "cursor 滑鼠游標",
+                                "URL": null
                             },
                             {
-                                "text": "caret-color 閃動標點",
-                                "url": null
+                                "Text": "caret-color 閃動標點",
+                                "URL": null
                             },
                             {
-                                "text": "outline 外框線",
-                                "url": null
+                                "Text": "outline 外框線",
+                                "URL": null
                             },
                             {
-                                "text": "text-decoration 文字裝飾",
-                                "url": null
+                                "Text": "Text-decoration 文字裝飾",
+                                "URL": null
                             },
                             {
-                                "text": "text-emphasis-color 文字加重強調符號色彩",
-                                "url": null
+                                "Text": "Text-emphasis-color 文字加重強調符號色彩",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：與 text-emphasis 一起使用，文字上方加上字",
-                                "url": null
+                                "Text": "Complement：與 Text-emphasis 一起使用，文字上方加上字",
+                                "URL": null
                             },
                             {
-                                "text": "text-shadow 文字陰影",
-                                "url": null
+                                "Text": "Text-shadow 文字陰影",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title":"偽元素",
-                        "data": [
+                        "Title":"偽元素",
+                        "Data": [
                             {
-                                "text": "div：：after or div：：before",
-                                "url": null
+                                "Text": "div：：after or div：：before",
+                                "URL": null
                             },
                             {
-                                "text": "兩者必須有 content",
-                                "url": null
+                                "Text": "兩者必須有 content",
+                                "URL": null
                             },
                             {
-                                "text": "畫面上的偽元素無法選取，但佔空間",
-                                "url": null
+                                "Text": "畫面上的偽元素無法選取，但佔空間",
+                                "URL": null
                             },
                             {
-                                "text": "注意 display",
-                                "url": null
+                                "Text": "注意 display",
+                                "URL": null
                             },
                             {
-                                "text": "-- content 常用的值--",
-                                "url": null
+                                "Text": "-- content 常用的值--",
+                                "URL": null
                             },
                             {
-                                "text": "string：content： ''",
-                                "url": null
+                                "Text": "string：content： ''",
+                                "URL": null
                             },
                             {
-                                "text": "counter：計數器，搭配counter-reset、counter-increment使用",
-                                "url": null
+                                "Text": "counter：計數器，搭配counter-reset、counter-increment使用",
+                                "URL": null
                             },
                             {
-                                "text": "attr：用以取得 元素內屬性值 content： attr ( 屬性 )",
-                                "url": null
+                                "Text": "attr：用以取得 元素內屬性值 content： attr ( 屬性 )",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：url 可使圖片出來，但無法控制寬高",
-                                "url": null
+                                "Text": "Complement：URL 可使圖片出來，但無法控制寬高",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title":"屬性選取器",
-                        "data": [
+                        "Title":"屬性選取器",
+                        "Data": [
                             {
-                                "text": "[ ]：img [ alt ]",
-                                "url": null
+                                "Text": "[ ]：img [ alt ]",
+                                "URL": null
                             },
                             {
-                                "text": "=：img [ alt = '屬性值' ]",
-                                "url": null
+                                "Text": "=：img [ alt = '屬性值' ]",
+                                "URL": null
                             },
                             {
-                                "text": "^：img [ alt ^= '屬性值' ] -- 開頭",
-                                "url": null
+                                "Text": "^：img [ alt ^= '屬性值' ] -- 開頭",
+                                "URL": null
                             },
                             {
-                                "text": "$：img [ href $= '.png' i ] -- 結尾",
-                                "url": null
+                                "Text": "$：img [ href $= '.png' i ] -- 結尾",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：i -- 不區分大小寫",
-                                "url": null
+                                "Text": "Complement：i -- 不區分大小寫",
+                                "URL": null
                             },
                             {
-                                "text": "*：img [ alt *= '文字' ] -- 特定文字",
-                                "url": null
+                                "Text": "*：img [ alt *= '文字' ] -- 特定文字",
+                                "URL": null
                             },
                             {
-                                "text": "~：img [ alt ~= '單字' ] -- 英文明顯",
-                                "url": null
+                                "Text": "~：img [ alt ~= '單字' ] -- 英文明顯",
+                                "URL": null
                             },
                             {
-                                "text": "|： img [ alt |= '文字' ]",
-                                "url": null
+                                "Text": "|： img [ alt |= '文字' ]",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：開頭等於特定文字或包括 『 - 』 號",
-                                "url": null
+                                "Text": "Complement：開頭等於特定文字或包括 『 - 』 號",
+                                "URL": null
                             },
                             {
-                                "text": "not： a ： not ( [ href = 'test' ] )",
-                                "url": null
+                                "Text": "not： a ： not ( [ href = 'test' ] )",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：如果連結網址中不是 test 都要被選到",
-                                "url": null
+                                "Text": "Complement：如果連結網址中不是 test 都要被選到",
+                                "URL": null
                             }
                         ]
                     }
@@ -310,274 +311,274 @@
         ],
         "right": [
             {
-                "title": "基礎知識",
-                "contnet": [
+                "Title": "基礎知識",
+                "Contnet": [
                     {
-                        "title": "命名規則",
-                        "data": [
+                        "Title": "命名規則",
+                        "Data": [
                             {
-                                "text": "區分大小",
-                                "url": null
+                                "Text": "區分大小",
+                                "URL": null
                             },
                             {
-                                "text": "第一個文字 可以 為『-』",
-                                "url": null
+                                "Text": "第一個文字 可以 為『-』",
+                                "URL": null
                             },
                             {
-                                "text": "第一個文字 可以 為『_』",
-                                "url": null
+                                "Text": "第一個文字 可以 為『_』",
+                                "URL": null
                             },
                             {
-                                "text": "第一個文字 不能 為『數字』",
-                                "url": null
+                                "Text": "第一個文字 不能 為『數字』",
+                                "URL": null
                             },
                             {
-                                "text": "可用中文 ( 有負面效應，盡量不要 )",
-                                "url": null
+                                "Text": "可用中文 ( 有負面效應，盡量不要 )",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "選擇器種類",
-                        "data": [
+                        "Title": "選擇器種類",
+                        "Data": [
                             {
-                                "text": "ID 選擇器：#name{ }",
-                                "url": null
+                                "Text": "ID 選擇器：#name{ }",
+                                "URL": null
                             },
                             {
-                                "text": "class 選擇器：.name{ } ( 偽類相同 )",
-                                "url": null
+                                "Text": "class 選擇器：.name{ } ( 偽類相同 )",
+                                "URL": null
                             },
                             {
-                                "text": "Tag 選擇器：Tagname{ }",
-                                "url": null
+                                "Text": "Tag 選擇器：Tagname{ }",
+                                "URL": null
                             },
                             {
-                                "text": "萬用選擇器：* { }",
-                                "url": null
+                                "Text": "萬用選擇器：* { }",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "優先權 ( 高-低 )",
-                        "data": [
+                        "Title": "優先權 ( 高-低 )",
+                        "Data": [
                             {
-                                "text": "!important",
-                                "url": null
+                                "Text": "!important",
+                                "URL": null
                             },
                             {
-                                "text": "Animation ( 動畫執行期間 )",
-                                "url": null
+                                "Text": "Animation ( 動畫執行期間 )",
+                                "URL": null
                             },
                             {
-                                "text": "ID",
-                                "url": null
+                                "Text": "ID",
+                                "URL": null
                             },
                             {
-                                "text": "class / 屬性選取器",
-                                "url": null
+                                "Text": "class / 屬性選取器",
+                                "URL": null
                             },
                             {
-                                "text": "Tag",
-                                "url": null
+                                "Text": "Tag",
+                                "URL": null
                             },
                             {
-                                "text": "* 號通用選取器",
-                                "url": null
+                                "Text": "* 號通用選取器",
+                                "URL": null
                             },
                             {
-                                "text": "繼承屬性",
-                                "url": null
+                                "Text": "繼承屬性",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "命名方式",
-                        "data": [
+                        "Title": "命名方式",
+                        "Data": [
                             {
-                                "text": "骨式：item-content",
-                                "url": null
+                                "Text": "骨式：item-content",
+                                "URL": null
                             },
                             {
-                                "text": "蛇式：item_content",
-                                "url": null
+                                "Text": "蛇式：item_content",
+                                "URL": null
                             },
                             {
-                                "text": "大駝峰：ItemContent",
-                                "url": null
+                                "Text": "大駝峰：ItemContent",
+                                "URL": null
                             },
                             {
-                                "text": "小駝峰：itemContent",
-                                "url": null
+                                "Text": "小駝峰：itemContent",
+                                "URL": null
                             },
                             {
-                                "text": "綜合式：骨式 + 蛇式合併應用...",
-                                "url": null
+                                "Text": "綜合式：骨式 + 蛇式合併應用...",
+                                "URL": null
                             },
                             {
-                                "text": "自由式：隨意命名",
-                                "url": null
+                                "Text": "自由式：隨意命名",
+                                "URL": null
                             },
                             {
-                                "title": "BEM：拆解三種類型",
-                                "text": "Block：獨立區塊...『.menu』\nElement：獨立區塊內的項目...『.menu-item』\nModifier：更改外觀或行為...『.item-big』",
-                                "group": true
+                                "Title": "BEM：拆解三種類型",
+                                "Text": "Block：獨立區塊...『.menu』\nElement：獨立區塊內的項目...『.menu-item』\nModifier：更改外觀或行為...『.item-big』",
+                                "Group": true
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "常用選擇器",
-                "contnet": [
+                "Title": "常用選擇器",
+                "Contnet": [
                     {
-                        "title": "多層選取器",
-                        "data": [
+                        "Title": "多層選取器",
+                        "Data": [
                             {
-                                "text": ".test div",
-                                "url": null
+                                "Text": ".test div",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：會選擇 test 之後的所有 div 標籤",
-                                "url": null
+                                "Text": "Complement：會選擇 test 之後的所有 div 標籤",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "子代選取器",
-                        "data": [
+                        "Title": "子代選取器",
+                        "Data": [
                             {
-                                "text": "> ： div > p",
-                                "url": null
+                                "Text": "> ： div > p",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：子層內第一層面的 p 標籤",
-                                "url": null
+                                "Text": "Complement：子層內第一層面的 p 標籤",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "親代選取器",
-                        "data": [
+                        "Title": "親代選取器",
+                        "Data": [
                             {
-                                "text": "+：h1 + p",
-                                "url": null
+                                "Text": "+：h1 + p",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：同層後一個",
-                                "url": null
+                                "Text": "Complement：同層後一個",
+                                "URL": null
                             },
                             {
-                                "text": "~：h1 ~ p",
-                                "url": null
+                                "Text": "~：h1 ~ p",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：同層之後全部",
-                                "url": null
+                                "Text": "Complement：同層之後全部",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "不常用選擇器",
-                "contnet": [
+                "Title": "不常用選擇器",
+                "Contnet": [
                     {
-                        "title": "獨子選擇器",
-                        "data": [
+                        "Title": "獨子選擇器",
+                        "Data": [
                             {
-                                "text": "：only-child 匹配没有任何兄弟元素的元素",
-                                "url": null
+                                "Text": "：only-child 匹配没有任何兄弟元素的元素",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：緊貼與否會有差異",
-                                "url": null
+                                "Text": "Complement：緊貼與否會有差異",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "類型獨子選擇器",
-                        "data": [
+                        "Title": "類型獨子選擇器",
+                        "Data": [
                             {
-                                "text": "：only-of-type 選取唯一一個該類型的標籤",
-                                "url": null
+                                "Text": "：only-of-type 選取唯一一個該類型的標籤",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：緊貼與否會有差異",
-                                "url": null
+                                "Text": "Complement：緊貼與否會有差異",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：前者指全部標籤數量，後者指不同標籤的數量",
-                                "url": null
+                                "Text": "Complement：前者指全部標籤數量，後者指不同標籤的數量",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "首行選取器",
-                        "data": [
+                        "Title": "首行選取器",
+                        "Data": [
                             {
-                                "text": "：：first-line",
-                                "url": null
+                                "Text": "：：first-line",
+                                "URL": null
                             },
                             {
-                                "text": "Complement：只會選取到第一行，需控制寬度",
-                                "url": null
+                                "Text": "Complement：只會選取到第一行，需控制寬度",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "首字選擇器",
-                        "data": [
+                        "Title": "首字選擇器",
+                        "Data": [
                             {
-                                "text": "：first-letter 選取單詞字首",
-                                "url": null
+                                "Text": "：first-letter 選取單詞字首",
+                                "URL": null
                             },
                             {
-                                "text": "：Complement：可用：：表示",
-                                "url": null
+                                "Text": "：Complement：可用：：表示",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "語言偽類選擇器",
-                        "data": [
+                        "Title": "語言偽類選擇器",
+                        "Data": [
                             {
-                                "text": "：lang 基本上用於 html 標籤",
-                                "url": null
+                                "Text": "：lang 基本上用於 html 標籤",
+                                "URL": null
                             },
                             {
-                                "text": "：lang(en) p { }",
-                                "url": null
+                                "Text": "：lang(en) p { }",
+                                "URL": null
                             },
                             {
-                                "text": "：Complement：可搭配 hyphens：auto 會變成駝峰式",
-                                "url": null
+                                "Text": "：Complement：可搭配 hyphens：auto 會變成駝峰式",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "空值選擇器",
-                        "data": [
+                        "Title": "空值選擇器",
+                        "Data": [
                             {
-                                "text": "：empty 選取空值的標籤，空格不算",
-                                "url": null
+                                "Text": "：empty 選取空值的標籤，空格不算",
+                                "URL": null
                             },
                             {
-                                "text": "：Complement：內中註解也算",
-                                "url": null
+                                "Text": "：Complement：內中註解也算",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "否定選擇器",
-                        "data": [
+                        "Title": "否定選擇器",
+                        "Data": [
                             {
-                                "text": "input：not ( [ type = ' sumbit ' ] ) 選取指定之外的標籤",
-                                "url": null
+                                "Text": "input：not ( [ type = ' sumbit ' ] ) 選取指定之外的標籤",
+                                "URL": null
                             },
                             {
-                                "text": "：Complement：內中註解也算",
-                                "url": null
+                                "Text": "：Complement：內中註解也算",
+                                "URL": null
                             }
                         ]
                     }
@@ -585,9 +586,9 @@
             }
         ]
     },
-    "source": {
-        "text": true,
-        "from": [],
-        "refer": []
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
     }
 }

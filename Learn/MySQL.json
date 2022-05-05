@@ -1,125 +1,126 @@
 {
-    "name": "MySQL",
-    "type":0,
-    "nav": true,
-    "contents": {
-        "left": [
+    "Name": "MySQL",
+    "ID":"MySQL",
+    "Type":0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
             {
-                "title": "SQL 基礎指令",
-                "contnet": [
+                "Title": "SQL 基礎指令",
+                "Contnet": [
                     {
-                        "title": "SQL",
-                        "data": [
+                        "Title": "SQL",
+                        "Data": [
                             {
-                                "text": "show databases;",
-                                "url": null
+                                "Text": "show Databases;",
+                                "URL": null
                             },
                             {
-                                "text": "use {database-name};",
-                                "url": null
+                                "Text": "use {Database-name};",
+                                "URL": null
                             },
                             {
-                                "text": "create database {name};",
-                                "url": null
+                                "Text": "create Database {name};",
+                                "URL": null
                             },
                             {
-                                "text": "執行 sql 檔：source {url};",
-                                "url": null
+                                "Text": "執行 sql 檔：source {URL};",
+                                "URL": null
                             },
                             {
-                                "text": "先使用 database：show tables;",
-                                "url": null
+                                "Text": "先使用 Database：show tables;",
+                                "URL": null
                             },
                             {
-                                "text": "desc[ribe] {table-name};",
-                                "url": null
+                                "Text": "desc[ribe] {table-name};",
+                                "URL": null
                             },
                             {
-                                "text": "存成文字檔：tee '路徑';",
-                                "url": null
+                                "Text": "存成文字檔：tee '路徑';",
+                                "URL": null
                             },
                             {
-                                "text": "notee",
-                                "url": null
+                                "Text": "notee",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "select",
-                        "data": [
+                        "Title": "select",
+                        "Data": [
                             {
-                                "text": "select * from {table-name};",
-                                "url": null
+                                "Text": "select * from {table-name};",
+                                "URL": null
                             },
                             {
-                                "text": "concat：字串連結",
-                                "url": null
+                                "Text": "concat：字串連結",
+                                "URL": null
                             },
                             {
-                                "title": "DISTINCT：排除重複資料列",
-                                "text": "",
+                                "Title": "DISTINCT：排除重複資料列",
+                                "Text": "",
                                 "group": true,
-                                "imgs": [
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUVit0UsXZ1iIiuNEsHlHGBegOcMOzw-9M3v9_BowOAS_oJuiRO12VIBr-8mUxpfusS2KDe7UJDFfpqcEWMqN6zV6z-8EE0mKHAGGivw0unZxFUoWvDDABrD27RVQxvBKb0CiMTDNi7thQdstiU0tY=w1428-h702-no?authuser=0"
                                 ]
                             },
                             {
-                                "text": "",
-                                "title": "SELECT 敘述",
+                                "Text": "",
+                                "Title": "SELECT 敘述",
                                 "group": true,
-                                "imgs": [
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLW3KhNNyRi30v5h5tgw9l8eHqe13yUwqegLwKgAO-Bv8DR5oFSQ4FQzyK3iFHrvU9mp-_6Pcux-F_4yHetFW2oLeRdi33YBWaAgeBy1e_W7fOwBn1tqoZ-riYLnFpWk1pORmxZSnd4B-2MIsCTbGpQ=w1082-h611-no?authuser=0"
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "INSERT",
-                        "data": [
+                        "Title": "INSERT",
+                        "Data": [
                             {
-                                "title": "INSERT",
-                                "text": "INSERT INTO table [(column,...)] VALUES(value,...);",
+                                "Title": "INSERT",
+                                "Text": "INSERT INTO table [(column,...)] VALUES(value,...);",
                                 "group": true,
-                                "imgs": [
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXAzD2pOPomKNsoKJXM6zvnTUGUiYAZj-n6joEZ8pIN-28MuMv-A_Ztipf5ciEVevwSkrwvDoy7iaJz9PIdM570ZXAV_ImynOsQ30zBd82Ho4ZwjJEjFS4xScni_z3TQtHqdAqtofmbPJ89EX0ocRA=w892-h589-no?authuser=0"
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "UPDATE",
-                        "data": [
+                        "Title": "UPDATE",
+                        "Data": [
                             {
-                                "text": "UPDATE table SET column=value,[column=value,]... WHERE conditions;",
-                                "title": "UPDATE",
+                                "Text": "UPDATE table SET column=value,[column=value,]... WHERE conditions;",
+                                "Title": "UPDATE",
                                 "group": true,
-                                "imgs": [
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVdQy5RDR8Uuz2Bx21vKS5UpSPAzqgSIzcYsDdt17MJqPzzxY7DcQ3mEJK0mdMXIscDbIpAbIpOpdmkvJ2FXM3GkrWRrALJwINJTWqTb_3emnIhaJVfw3MRKWYoSdOFX9TAEAVLUtrMm-6lZrYyELI=w1288-h437-no?authuser=0"
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "DELETE",
-                        "data": [
+                        "Title": "DELETE",
+                        "Data": [
                             {
-                                "title": "DELETE",
-                                "text": "DELETE FROM table WHERE deptno= 50;",
+                                "Title": "DELETE",
+                                "Text": "DELETE FROM table WHERE deptno= 50;",
                                 "group": true,
-                                "imgs": [
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUdAZGoOUr49RFHPGfeGeCRsb6g09tywxVEhHa-QtPGSEhZI7AdHKmKs2yQ928x4M7SFmcZsI6RfLdSJGRenid1l8FbteX58NVmTy9JL9ftxczia38L-JnHGt8Sn4k6tiOKjkP7ASJjuVArS6h4I-o=w1157-h697-no?authuser=0"
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "CREATE",
-                        "data": [
+                        "Title": "CREATE",
+                        "Data": [
                             {
-                                "text": "CREATE TABLE TableName ( ColumnNametype,...);",
-                                "title": "CREATE",
+                                "Text": "CREATE TABLE TableName ( ColumnNametype,...);",
+                                "Title": "CREATE",
                                 "group": true,
-                                "imgs": [
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUSVmsVo27yc2fOfWiFWXtd_D17FLbFrO1W5Pxcq4iL81rKhGEFEdtTn15vVRXfR0uNNV_EEDqoweOswdCgtdCvMipVOWexVKwRVchSg3F2P_h1EStWyDuI4v4UivZ_n4t0oXOgDk1qseEwZ3cVAwI=w791-h585-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXLq1O37SJ1f38o2OPwLJMNaR9QLdCFp8GNuIKTFof6mluIOIeJvAsE5j3-Cw_b44eOb14mJAkCcPUYK_arjck6w8OE8t35HOKIvDwPbpun3orqyRb2nO7yZ1KI-3v8tN9YF3L7jgxaKNH-0EF5Eko=w1127-h629-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVgZDKxwpon22zz3Rgaa3DAPqttSCNcpKqCzkba6YeMQjy1W79XQZmqA2-nzojrnE_IDVtXY69m8nvR_8IMx-n8Ne9GsRcGlGWsTuGdaiogkYDhvYo0g0EAzsgq7jmbaZPkuV1lbQ-pf4l1G6KINwo=w952-h590-no?authuser=0",
@@ -132,20 +133,20 @@
                 ]
             },
             {
-                "title": "資料庫安全",
-                "contnet": [
+                "Title": "資料庫安全",
+                "Contnet": [
                     {
-                        "title": "使用者帳號",
-                        "data": [
+                        "Title": "使用者帳號",
+                        "Data": [
                             {
-                                "text": "使用者須利用一個使用者帳號來連線",
-                                "url": null
+                                "Text": "使用者須利用一個使用者帳號來連線",
+                                "URL": null
                             },
                             {
-                                "text": "",
+                                "Text": "",
                                 "group": true,
-                                "title": "使用者帳號由兩部分組成",
-                                "imgs": [
+                                "Title": "使用者帳號由兩部分組成",
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLW5uGGNT4qRYwAvmFvMyhylRyKJAKUQv8MPg7WGFGrlul9BReZgFQ7HcavGv5mFmEzqxwRqTuINWQSM0KorhALeKMTa2enWAvTxpNYjwNefBd3LyQ18WZwFFePOn3t4QNXrizOO1r5YymOKy95POD4=w1386-h530-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVSMa3SKo9k4lpK9untXtmvnDdFQDlV-8lLKCDHm9Cy6S5p1h7yHZ7mZtZDKnA1Xt8ursFy99Gq1rSiEVOile9oDO3cX9Z5BQvX1hwxR9lEIy_uoWCSysP2SVvc1StD97gDdkPFbvFefYcnNyOKDYE=w1467-h690-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVMooGnthnxxIvD4arA13VbUd3Bw4Q49rw6I3KkjHtre72JktjruOWeidKVbBUtx7Ukg_qiDNFcYY60BW4qOQbBydufaTyOGEYHJuh8fgdgJ0sLIQSaMdDF23NKXvqPdiQglxzIIr3to5y8LMCrpGI=w1035-h541-no?authuser=0"
@@ -154,13 +155,13 @@
                         ]
                     },
                     {
-                        "title": "權限管理",
-                        "data": [
+                        "Title": "權限管理",
+                        "Data": [
                             {
-                                "title": "權限授權",
-                                "text": "授權命令",
+                                "Title": "權限授權",
+                                "Text": "授權命令",
                                 "group": true,
-                                "imgs": [
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLX4V26kIFAUo1oSe1it69jVykU5egZFrdE3w2Eypz7WQlhy1CwG3wt1Vx36ZHjd1eCfjmX_B7ryzmDjNMRCIVB2SdW6ZvIcq432PJU_cLC3hnyILHjA6rYMBrEQkGeL8oPa_ZTkHqURUVb2CEzJl0E=w903-h535-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVolzIw6vLq3JR0YzZ1SzB_W8HT6E7YfTbkc8DyasU5ZEKXFSSyprU-tOhEm4phDg8KtAxzaRQLo0VZPy0mJVZW9OBzojGo08RsOQA3yYQaPmFGV1HDnl2qujtlB324Yob9Yfg17vj4JLn95kvNwpQ=w1430-h611-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLWNctRX5PHuaDqumRIrz0yNvZDB7J-vjCrcmVFI8xd3iBLLcbNHQCzrimhzgiyH4qLNlAC4mPIbYVJz1C7j7nsFeQMV2FUm_nKiwZxWRxR4fRkgqMx-ePUlR3GfqNuf8a2v9AzZgmu9qxfgJ3-M88U=w1369-h680-no?authuser=0",
@@ -173,39 +174,39 @@
                         ]
                     },
                     {
-                        "title": "修改帳號密碼",
-                        "data": [
+                        "Title": "修改帳號密碼",
+                        "Data": [
                             {
-                                "title": "DROP USER UserAccount;",
-                                "text": "移除使用者帳號",
+                                "Title": "DROP USER UserAccount;",
+                                "Text": "移除使用者帳號",
                                 "group": true,
-                                "imgs": [
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXIiFfFQlTnFZVdL2q1hsUXlPa3tZfwXMaEmHWHsDJ5Wnj1sw0bgVU76Gr7G9maos41Twujw7WIxrkiEsjqjqEJ7TkmrMfPzMdJNNYMTxDxmPtCnldbPXIrop8S3FURU2iaB8OlLNubnNwB1mRiqNE=w1038-h690-no?authuser=0"
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "連線到遠端 MySQL 資料庫",
-                        "data": [
+                        "Title": "連線到遠端 MySQL 資料庫",
+                        "Data": [
                             {
-                                "title": "連線到 MySQL 資料庫;",
-                                "text": "連線到 MySQL 資料庫",
+                                "Title": "連線到 MySQL 資料庫;",
+                                "Text": "連線到 MySQL 資料庫",
                                 "group": true,
-                                "imgs": [
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXIiFfFQlTnFZVdL2q1hsUXlPa3tZfwXMaEmHWHsDJ5Wnj1sw0bgVU76Gr7G9maos41Twujw7WIxrkiEsjqjqEJ7TkmrMfPzMdJNNYMTxDxmPtCnldbPXIrop8S3FURU2iaB8OlLNubnNwB1mRiqNE=w1038-h690-no?authuser=0"
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "DROP",
-                        "data": [
+                        "Title": "DROP",
+                        "Data": [
                             {
-                                "title": "DROP USER UserAccount;",
-                                "text": "移除使用者帳號",
+                                "Title": "DROP USER UserAccount;",
+                                "Text": "移除使用者帳號",
                                 "group": true,
-                                "imgs": [
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLU6KYo2qRj_ZVIM8d2biXwTh8m73VsV4PjI5DpOk-F3jnReKFTkx0un1ctkZqIRc8drcXN6gH09NLSWhcjC9hbaTNnekc8Iot9haSQwYAhb44GfYBDpBjPTv1W6vNSQ0aM_4-D8xgUmuitypq-eMl8=w834-h505-no?authuser=0"
                                 ]
                             }
@@ -214,36 +215,36 @@
                 ]
             }
         ],
-        "right": [
+        "Right": [
             {
-                "title": "基礎知識",
-                "contnet": [
+                "Title": "基礎知識",
+                "Contnet": [
                     {
-                        "title": "SQL 是什麼？",
-                        "data": [
+                        "Title": "SQL 是什麼？",
+                        "Data": [
                             {
-                                "text": "MySQL 是一個關聯式資料庫管理系統",
-                                "url": null
+                                "Text": "MySQL 是一個關聯式資料庫管理系統",
+                                "URL": null
                             },
                             {
-                                "text": "開放原始碼(Community Server)",
-                                "url": null
+                                "Text": "開放原始碼(Community Server)",
+                                "URL": null
                             },
                             {
-                                "text": "速度快的，可靠的，且易於使用",
-                                "url": null
+                                "Text": "速度快的，可靠的，且易於使用",
+                                "URL": null
                             },
                             {
-                                "text": "主從式架構 ( Client / Server )",
-                                "url": null
+                                "Text": "主從式架構 ( Client / Server )",
+                                "URL": null
                             },
                             {
-                                "text": "大量的網路貢獻者 , 提供 MySQL 相關軟體",
-                                "url": null
+                                "Text": "大量的網路貢獻者 , 提供 MySQL 相關軟體",
+                                "URL": null
                             },
                             {
-                                "text": "Workbench 工具",
-                                "url": null
+                                "Text": "Workbench 工具",
+                                "URL": null
                             }
                         ]
                     }
@@ -251,9 +252,9 @@
             }
         ]
     },
-    "source": {
-        "text": true,
-        "from": [],
-        "refer": []
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
     }
 }

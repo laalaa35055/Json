@@ -1,631 +1,632 @@
 {
-    "name": "Docker",
-    "type": 0,
-    "nav": true,
-    "contents": {
-        "left": [
+    "Name": "Docker",
+    "ID":"Docker",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
             {
-                "title": "Docker 系統有關",
-                "contnet": [
+                "Title": "Docker 系統有關",
+                "Contnet": [
                     {
-                        "title": "Docker 系統有關",
-                        "data": [
+                        "Title": "Docker 系統有關",
+                        "Data": [
                             {
-                                "title": "查看 docker 服務訊息",
-                                "text": "docker info\n\ndocker info | grep Root",
-                                "group": true,
-                                "url": null
+                                "Title": "查看 docker 服務訊息",
+                                "Text": "docker info\n\ndocker info | grep Root",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "查看 docker 版本，及Go語言的版本等",
-                                "text": "docker version",
-                                "group": true,
-                                "url": null
+                                "Title": "查看 docker 版本，及Go語言的版本等",
+                                "Text": "docker version",
+                                "Group": true,
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "Docker Hub相關指令",
-                "contnet": [
+                "Title": "Docker Hub相關指令",
+                "Contnet": [
                     {
-                        "title": "Docker Hub相關指令",
-                        "data": [
+                        "Title": "Docker Hub相關指令",
+                        "Data": [
                             {
-                                "title": "本機登入",
-                                "text": "docker login",
-                                "group": true,
-                                "url": null
+                                "Title": "本機登入",
+                                "Text": "docker login",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "私有登入",
-                                "text": "docker login 192.168.1.100:8000",
-                                "group": true,
-                                "url": null
+                                "Title": "私有登入",
+                                "Text": "docker login 192.168.1.100:8000",
+                                "Group": true,
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "Docker Bash",
-                "contnet": [
+                "Title": "Docker Bash",
+                "Contnet": [
                     {
-                        "title": "Docker Bash",
-                        "data": [
+                        "Title": "Docker Bash",
+                        "Data": [
                             {
-                                "title": "查看 docker 日誌",
-                                "text": "查看至今日誌\ndocker logs ( 容器id )\n\n查看當前產生日誌\ndocker logs -f ( 容器id )\n\n指定幾條日誌\ndocker logs ( 容器id ) | tail 5",
-                                "group": true,
-                                "url": null
+                                "Title": "查看 docker 日誌",
+                                "Text": "查看至今日誌\ndocker logs ( 容器id )\n\n查看當前產生日誌\ndocker logs -f ( 容器id )\n\n指定幾條日誌\ndocker logs ( 容器id ) | tail 5",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "進入正在運行容器",
-                                "text": "docker exec -it ( 容器id ) bash",
-                                "group": true,
-                                "url": null
+                                "Title": "進入正在運行容器",
+                                "Text": "docker exec -it ( 容器id ) bash",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "Commit 產生新鏡像",
-                                "text": "docker commit 容器id 新的鏡像名",
-                                "group": true,
-                                "url": null
+                                "Title": "Commit 產生新鏡像",
+                                "Text": "docker commit 容器id 新的鏡像名",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "查看容器內進程信息",
-                                "text": "docker top ( 容器id )",
-                                "group": true,
-                                "url": null
+                                "Title": "查看容器內進程信息",
+                                "Text": "docker top ( 容器id )",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "查看容器內資源",
-                                "text": "docker stats ( 容器id )",
-                                "group": true,
-                                "url": null
+                                "Title": "查看容器內資源",
+                                "Text": "docker stats ( 容器id )",
+                                "Group": true,
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "Image",
-                "contnet": [
+                "Title": "Image",
+                "Contnet": [
                     {
-                        "title": "查找 Image",
-                        "data": [
+                        "Title": "查找 Image",
+                        "Data": [
                             {
-                                "title": "查看所有鏡像 - 1",
-                                "text": "docker images",
-                                "group": true,
-                                "url": null
+                                "Title": "查看所有鏡像 - 1",
+                                "Text": "docker images",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "查看所有鏡像 - 2",
-                                "text": "docker image ls",
-                                "group": true,
-                                "url": null
+                                "Title": "查看所有鏡像 - 2",
+                                "Text": "docker image ls",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "查看指定鏡像",
-                                "text": "docker images ( ubuntu )",
-                                "group": true,
-                                "url": null
+                                "Title": "查看指定鏡像",
+                                "Text": "docker images ( ubuntu )",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "查看鏡像id",
-                                "text": "docker images -q ( 等同 --quiet )",
-                                "group": true,
-                                "url": null
+                                "Title": "查看鏡像id",
+                                "Text": "docker images -q ( 等同 --quiet )",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "images 篩選 - 1",
-                                "text": "docker images --format \"{{.ID}}--{{.Repository}}\"\n\ndocker images --format \"table {{.ID}}\\t{{.Repository}}\\t{{.Tag}}\"\n\n{{.}}：為 Docker 模板語言",
-                                "group": true,
-                                "url": null
+                                "Title": "images 篩選 - 1",
+                                "Text": "docker images --format \"{{.ID}}--{{.Repository}}\"\n\ndocker images --format \"table {{.ID}}\\t{{.Repository}}\\t{{.Tag}}\"\n\n{{.}}：為 Docker 模板語言",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "images 篩選 - 2",
-                                "text": "docker images --format \"{{.Gradfather.Son}}\n\nJson 格式不必子層，可跨層",
-                                "group": true,
-                                "url": null
+                                "Title": "images 篩選 - 2",
+                                "Text": "docker images --format \"{{.Gradfather.Son}}\n\nJson 格式不必子層，可跨層",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "查看鏡像詳細訊息",
-                                "text": "docker image inspect ( id )",
-                                "group": true,
-                                "url": null
+                                "Title": "查看鏡像詳細訊息",
+                                "Text": "docker image inspect ( id )",
+                                "Group": true,
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "獲取 Image",
-                        "data": [
+                        "Title": "獲取 Image",
+                        "Data": [
                             {
-                                "title": "搜尋鏡像",
-                                "text": "docker search ( nginx )",
-                                "group": true,
-                                "url": null
+                                "Title": "搜尋鏡像",
+                                "Text": "docker search ( nginx )",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "text": "▲ -s 10：篩選星級",
-                                "url": null
+                                "Text": "▲ -s 10：篩選星級",
+                                "URL": null
                             },
                             {
-                                "title": "拉取鏡像",
-                                "text": "docker pull ( nginx:tag )",
-                                "group": true,
-                                "url": null
+                                "Title": "拉取鏡像",
+                                "Text": "docker pull ( nginx:tag )",
+                                "Group": true,
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "刪除 Image",
-                        "data": [
+                        "Title": "刪除 Image",
+                        "Data": [
                             {
-                                "title": "刪除鏡像",
-                                "text": "docker rmi ( name / id 前三位即可 )",
-                                "group": true,
-                                "url": null
+                                "Title": "刪除鏡像",
+                                "Text": "docker rmi ( name / id 前三位即可 )",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "批量刪除鏡像",
-                                "text": "docker rmi `docker images -aq`",
-                                "group": true,
-                                "url": null
+                                "Title": "批量刪除鏡像",
+                                "Text": "docker rmi `docker images -aq`",
+                                "Group": true,
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "導 ( 入 / 出 ) Image",
-                        "data": [
+                        "Title": "導 ( 入 / 出 ) Image",
+                        "Data": [
                             {
-                                "title": "導出鏡像",
-                                "text": "docker image save ( centos:7.8.2003 ) > /opt/centos7.8.2003.tgz",
-                                "group": true,
-                                "url": null
+                                "Title": "導出鏡像",
+                                "Text": "docker image save ( centos:7.8.2003 ) > /opt/centos7.8.2003.tgz",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "導入鏡像",
-                                "text": "docker image load -i /opt/centos7.8.2003.tgz",
-                                "group": true,
-                                "url": null
+                                "Title": "導入鏡像",
+                                "Text": "docker image load -i /opt/centos7.8.2003.tgz",
+                                "Group": true,
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "Run",
-                "contnet": [
+                "Title": "Run",
+                "Contnet": [
                     {
-                        "title": "docker run 參數",
-                        "data": [
+                        "Title": "docker run 參數",
+                        "Data": [
                             {
-                                "text": "創建 + 啟動",
-                                "url": null
+                                "Text": "創建 + 啟動",
+                                "URL": null
                             },
                             {
-                                "text": "===== 參數 =====",
-                                "url": null
+                                "Text": "===== 參數 =====",
+                                "URL": null
                             },
                             {
-                                "text": "( 鏡像名字 / id )",
-                                "url": null
+                                "Text": "( 鏡像名字 / id )",
+                                "URL": null
                             },
                             {
-                                "text": "-d ： 後台運行",
-                                "url": null
+                                "Text": "-d ： 後台運行",
+                                "URL": null
                             },
                             {
-                                "title": "-p ： 端口映射",
-                                "text": "宿主機端口：容器內端口\n\n-p 80:80\n\n-P 隨機端口映射",
-                                "group": true,
-                                "url": null 
+                                "Title": "-p ： 端口映射",
+                                "Text": "宿主機端口：容器內端口\n\n-p 80:80\n\n-P 隨機端口映射",
+                                "Group": true,
+                                "URL": null 
                             },
                             {
-                                "title": "-it ： 開啟交互式終端",
-                                "text": "-i ： 交互式命令操作\n\n-t ： 開啟終端",
-                                "group": true,
-                                "url": null 
+                                "Title": "-it ： 開啟交互式終端",
+                                "Text": "-i ： 交互式命令操作\n\n-t ： 開啟終端",
+                                "Group": true,
+                                "URL": null 
                             },
                             {
-                                "text": "--rm ： 退出時刪除容器",
-                                "url": null
+                                "Text": "--rm ： 退出時刪除容器",
+                                "URL": null
                             },
                             {
-                                "title": "進入容器",
-                                "text": "docker run -it ( ubuntu / id ) bash",
-                                "group": true,
-                                "url": null
+                                "Title": "進入容器",
+                                "Text": "docker run -it ( ubuntu / id ) bash",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "常見指令",
-                                "text": "docker run -it --rm (centos) bash",
-                                "group": true,
-                                "url": null
+                                "Title": "常見指令",
+                                "Text": "docker run -it --rm (centos) bash",
+                                "Group": true,
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "Container", 
-                "contnet": [
+                "Title": "Container", 
+                "Contnet": [
                     {
-                        "title": "查看 Container",
-                        "data": [
+                        "Title": "查看 Container",
+                        "Data": [
                             {
-                                "title": "查看所有容器",
-                                "text": "docker ps",
-                                "group": true,
-                                "url": null
+                                "Title": "查看所有容器",
+                                "Text": "docker ps",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "查看容器詳細訊息",
-                                "text": "docker container inspect ( 容器id )",
-                                "group": true,
-                                "url": null
+                                "Title": "查看容器詳細訊息",
+                                "Text": "docker container inspect ( 容器id )",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "查看所有運行過容器",
-                                "text": "docker ps -a",
-                                "group": true,
-                                "url": null
+                                "Title": "查看所有運行過容器",
+                                "Text": "docker ps -a",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "查看容器端口",
-                                "text": "docker port ( 容器id )",
-                                "group": true,
-                                "url": null
+                                "Title": "查看容器端口",
+                                "Text": "docker port ( 容器id )",
+                                "Group": true,
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "使用 Container",
-                        "data": [
+                        "Title": "使用 Container",
+                        "Data": [
                             {
-                                "title": "啟用容器",
-                                "text": "docker start ( 容器 id )",
-                                "group": true,
-                                "url": null
+                                "Title": "啟用容器",
+                                "Text": "docker start ( 容器 id )",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "停止容器",
-                                "text": "docker stop ( 容器 id )",
-                                "group": true,
-                                "url": null
+                                "Title": "停止容器",
+                                "Text": "docker stop ( 容器 id )",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "刪除容器",
-                                "text": "docker rm ( 容器 id )",
-                                "group": true,
-                                "url": null
+                                "Title": "刪除容器",
+                                "Text": "docker rm ( 容器 id )",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "title": "批量刪除容器",
-                                "text": "docker rm `docker ps -aq`",
-                                "group": true,
-                                "url": null
+                                "Title": "批量刪除容器",
+                                "Text": "docker rm `docker ps -aq`",
+                                "Group": true,
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "Dockerfile", 
-                "contnet": [
+                "Title": "Dockerfile", 
+                "Contnet": [
                     {
-                        "title": "主要組成",
-                        "data": [
+                        "Title": "主要組成",
+                        "Data": [
                             {
-                                "text": "FROM centos:6.8",
-                                "url": null
+                                "Text": "FROM centos:6.8",
+                                "URL": null
                             },
                             {
-                                "text": "RUN yum install openssh-server -y",
-                                "url": null
+                                "Text": "RUN yum install openssh-server -y",
+                                "URL": null
                             },
                             {
-                                "text": "CMD [\"/bin/bash\"]",
-                                "url": null
+                                "Text": "CMD [\"/bin/bash\"]",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "指令介紹",
-                        "data": [
+                        "Title": "指令介紹",
+                        "Data": [
                             {
-                                "text": "FROM ： 指定基礎鏡像",
-                                "url": null
+                                "Text": "FROM ： 指定基礎鏡像",
+                                "URL": null
                             },
                             {
-                                "text": "MAINTAINER ： 指定維護者信息，可以沒有",
-                                "url": null
+                                "Text": "MAINTAINER ： 指定維護者信息，可以沒有",
+                                "URL": null
                             },
                             {
-                                "text": "RUN ： 在命令前加上 RUN 即可",
-                                "url": null
+                                "Text": "RUN ： 在命令前加上 RUN 即可",
+                                "URL": null
                             },
                             {
-                                "text": "ADD ： 添加宿主機的文件到容器內，自動解壓",
-                                "url": null
+                                "Text": "ADD ： 添加宿主機的文件到容器內，自動解壓",
+                                "URL": null
                             },
                             {
-                                "text": "COPY ： 拷貝宿主機的文件到容器內",
-                                "url": null
+                                "Text": "COPY ： 拷貝宿主機的文件到容器內",
+                                "URL": null
                             },
                             {
-                                "text": "WORKDIR ： 設置當前工作目錄",
-                                "url": null
+                                "Text": "WORKDIR ： 設置當前工作目錄",
+                                "URL": null
                             },
                             {
-                                "text": "USER ： 切換用戶",
-                                "url": null
+                                "Text": "USER ： 切換用戶",
+                                "URL": null
                             },
                             {
-                                "title":"VOLUME ： 目錄映射",
-                                "group":true,
-                                "text": "VOLUME ['data']\n\ndocker run -v 參數",
-                                "url": null
+                                "Title":"VOLUME ： 目錄映射",
+                                "Group":true,
+                                "Text": "VOLUME ['Data']\n\ndocker run -v 參數",
+                                "URL": null
                             },
                             {
-                                "title":"EXPOSE ： 打開端口",
-                                "group":true,
-                                "text": "VOLUME ['data']\n\ndocker run -v 參數",
-                                "url": null
+                                "Title":"EXPOSE ： 打開端口",
+                                "Group":true,
+                                "Text": "VOLUME ['Data']\n\ndocker run -v 參數",
+                                "URL": null
                             },
                             {
-                                "title":"ENV ： 設置環境變數",
-                                "group":true,
-                                "text": "ENV NAME='Roydon'\n\nENV MYSQL_VERSION=5.6\n\n通過 $NAME 調用",
-                                "url": null
+                                "Title":"ENV ： 設置環境變數",
+                                "Group":true,
+                                "Text": "ENV NAME='Roydon'\n\nENV MYSQL_VERSION=5.6\n\n通過 $NAME 調用",
+                                "URL": null
                             },
                             {
-                                "title":"ARG ： 設置環境變數",
-                                "group":true,
-                                "text": "與 ENV 相同，但只在建構鏡像時存在",
-                                "url": null
+                                "Title":"ARG ： 設置環境變數",
+                                "Group":true,
+                                "Text": "與 ENV 相同，但只在建構鏡像時存在",
+                                "URL": null
                             },
                             {
-                                "text": "CMD ： 指定容器啟動運行",
-                                "url": null
+                                "Text": "CMD ： 指定容器啟動運行",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "建構 Dockerfile 步驟",
-                        "data": [
+                        "Title": "建構 Dockerfile 步驟",
+                        "Data": [
                             {
-                                "text": "建立一個 Dockerfile 檔案",
-                                "url": null
+                                "Text": "建立一個 Dockerfile 檔案",
+                                "URL": null
                             },
                             {
-                                "text": "docker build .",
-                                "url": null
+                                "Text": "docker build .",
+                                "URL": null
                             },
                             {
-                                "text": "▲ 可加上 --no-cache",
-                                "url": null
+                                "Text": "▲ 可加上 --no-cache",
+                                "URL": null
                             },
                             {
-                                "text": "docker tag ( id ) my_nginx",
-                                "url": null
+                                "Text": "docker tag ( id ) my_nginx",
+                                "URL": null
                             },
                             {
-                                "text": "docker run -d -p 80:80 ( id / name )",
-                                "url": null
+                                "Text": "docker run -d -p 80:80 ( id / name )",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             }
         ],
-        "right": [
+        "Right": [
             {
-                "title": "基礎知識",
-                "contnet": [
+                "Title": "基礎知識",
+                "Contnet": [
                     {
-                        "title": "什麼是 Docker ？",
-                        "data": [
+                        "Title": "什麼是 Docker ？",
+                        "Data": [
                             {
-                                "text": "Docker 是容器的作業系統",
-                                "url": null
+                                "Text": "Docker 是容器的作業系統",
+                                "URL": null
                             },
                             {
-                                "text": "能快速地建立、測試和部署應用程式",
-                                "url": null
+                                "Text": "能快速地建立、測試和部署應用程式",
+                                "URL": null
                             },
                             {
-                                "text": "在 AWS 上執行 Docker 可讓開發人員和管理員以高度可靠且低成本的方式建立、發佈和執行各種規模的分散式應用程式。",
-                                "url": null
+                                "Text": "在 AWS 上執行 Docker 可讓開發人員和管理員以高度可靠且低成本的方式建立、發佈和執行各種規模的分散式應用程式。",
+                                "URL": null
                             },
                             {
-                                "text": "官網",
-                                "url": "https://aws.amazon.com/tw/docker/"
+                                "Text": "官網",
+                                "URL": "https://aws.amazon.com/tw/docker/"
                             }
                         ]
                     },
                     {
-                        "title": "Docker 步驟",
-                        "data": [
+                        "Title": "Docker 步驟",
+                        "Data": [
                             {
-                                "text": "獲取鏡像",
-                                "url": null
+                                "Text": "獲取鏡像",
+                                "URL": null
                             },
                             {
-                                "text": "運行鏡像，生成容器",
-                                "url": null
+                                "Text": "運行鏡像，生成容器",
+                                "URL": null
                             },
                             {
-                                "title": "Docker 基礎圖示",
-                                "text": "Docker 基礎圖示",
-                                "group": true,
-                                "url": null,
-                                "imgs": [
+                                "Title": "Docker 基礎圖示",
+                                "Text": "Docker 基礎圖示",
+                                "Group": true,
+                                "URL": null,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/2pqXhKKML1CuUApf3SbN7wAv9y92cWnTm9Rv80OgxxInuxdCrtckgOfdJ0ZqbeFS5U8vdlGV05GECPaGsQ4aoglUdeOdPIwnEwhF1IsaP6H00a5WFef3-BUw-PhhtVHUUQ19eIDWvgfM2xsUIUrUvdN4mC6hBT-sJ86g38YHFQtDa3VHTIlqVTRwru6eWbwryVeZ-aG3B4WDULIak5CMY8VGAMvcrGAxkch4OsziQRoIOGTEwhqxFbBfxxJu4NHxOTMCLSz0gza7YiNgcszwKb-HE3sFWlV4IgAR_dNwaBrGDKIP1mM3GKvq7YaJnv8_JTtUoXGqn30Dc5lRr1FtfFnYGOOwRGTV-cWZcRmVCiiQKYL_AZilmkndy2Qz8SnVfh7-BM29EYbQoBeuJ0_mzbsxUJG8Eyb_09K3sWcp9FAvN7j6YKjz52CZT0okHk02xQC8amOxYJPTb7A_mVE3bIXduOX09ddvEE9DVluEX86DJr8r5jh3AjnmhwuKpmgZw03t9CL9tU5zVCGWnktgj5PYSM0MHNwMA-c8k6h4xOcpTGO7E94MwCbWitLvT1mnVvABuMdFBkaZGrm5W-o9POy1mZkCrVwYS0j0ho4SPYWpA-4fMcIzVAUFEu6Lr9q65eCzCXmhxDJdJrbAxwwFUPo7UG6z4KmhflPt5DgHMNTukISvjqdonPndlI6UssCskkzJppr-QW9tenFTD2ldPD8rVPmisWT-omKUy4E5qhHF6mKcO_371CZlFL8RtE6XtU7qxJP0ECvrf7R8ILyGls6S1Rs=w594-h479-no?authuser=0"
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "",
-                        "data": [
+                        "Title": "",
+                        "Data": [
                             {
-                                "text": "",
-                                "url": null
+                                "Text": "",
+                                "URL": null
                             },
                             {
-                                "text": "",
-                                "url": null
+                                "Text": "",
+                                "URL": null
                             },
                             {
-                                "text": "",
-                                "url": null
+                                "Text": "",
+                                "URL": null
                             },
                             {
-                                "text": "",
-                                "url": null
+                                "Text": "",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": " 安裝 Docker",
-                "contnet": [
+                "Title": " 安裝 Docker",
+                "Contnet": [
                     {
-                        "title": "CentOS Docker 安裝",
-                        "data": [
+                        "Title": "CentOS Docker 安裝",
+                        "Data": [
                             {
-                                "title": "官方安裝指令碼自動安裝",
-                                "group": true,
-                                "text": "curl -fsSL https://get.docker.com | bash -s docker --mirror aliyun",
-                                "url": null
+                                "Title": "官方安裝指令碼自動安裝",
+                                "Group": true,
+                                "Text": "cURL -fsSL https://get.docker.com | bash -s docker --mirror aliyun",
+                                "URL": null
                             },
                             {
-                                "text": "▼ 手動安裝",
-                                "url": null
+                                "Text": "▼ 手動安裝",
+                                "URL": null
                             },
                             {
-                                "text": "===== 依賴設定 =====",
-                                "url": null
+                                "Text": "===== 依賴設定 =====",
+                                "URL": null
                             },
                             {
-                                "title": "解除安裝舊版本",
-                                "group": true,
-                                "text": "sudo yum remove docker \\ \n\t docker-client \\ \n\t docker-client-latest \\ \n\t docker-common \\ \n\t docker-latest \\ \n\t docker-latest-logrotate \\ \n\t docker-logrotate \\ \n\t docker-engine",
-                                "url": null
+                                "Title": "解除安裝舊版本",
+                                "Group": true,
+                                "Text": "sudo yum remove docker \\ \n\t docker-client \\ \n\t docker-client-latest \\ \n\t docker-common \\ \n\t docker-latest \\ \n\t docker-latest-logrotate \\ \n\t docker-logrotate \\ \n\t docker-engine",
+                                "URL": null
                             },
                             {
-                                "title": "安裝所需的軟體包",
-                                "group": true,
-                                "text": "sudo yum install -y yum-utils \\ \n\t device-mapper-persistent-data \\ \n\t lvm2",
-                                "url": null
+                                "Title": "安裝所需的軟體包",
+                                "Group": true,
+                                "Text": "sudo yum install -y yum-utils \\ \n\t device-mapper-persistent-data \\ \n\t lvm2",
+                                "URL": null
                             },
                             {
-                                "title": "設定 Docker 倉庫",
-                                "group": true,
-                                "text": "sudo yum-config-manager \\ \n\t --add-repo \\ \n\t https://download.docker.com/linux/centos/docker-ce.repo",
-                                "url": null
+                                "Title": "設定 Docker 倉庫",
+                                "Group": true,
+                                "Text": "sudo yum-config-manager \\ \n\t --add-repo \\ \n\t https://download.docker.com/linux/centos/docker-ce.repo",
+                                "URL": null
                             },
                             {
-                                "text": "===== 安裝 Docker =====",
-                                "url": null
+                                "Text": "===== 安裝 Docker =====",
+                                "URL": null
                             },
                             {
-                                "title": "安裝最新版本",
-                                "group": true,
-                                "text": "sudo yum install docker-ce docker-ce-cli containerd.io",
-                                "url": null
+                                "Title": "安裝最新版本",
+                                "Group": true,
+                                "Text": "sudo yum install docker-ce docker-ce-cli containerd.io",
+                                "URL": null
                             },
                             {
-                                "title": "安裝指定版本 - 1",
-                                "group": true,
-                                "text": "yum list docker-ce --showduplicates | sort -r",
-                                "url": null
+                                "Title": "安裝指定版本 - 1",
+                                "Group": true,
+                                "Text": "yum list docker-ce --showduplicates | sort -r",
+                                "URL": null
                             },
                             {
-                                "title": "安裝指定版本 - 2",
-                                "group": true,
-                                "text": "sudo yum install docker-ce-<VERSION_STRING> docker-ce-cli-<VERSION_STRING> containerd.io\n\n例如：docker-ce-18.09.1",
-                                "url": null
+                                "Title": "安裝指定版本 - 2",
+                                "Group": true,
+                                "Text": "sudo yum install docker-ce-<VERSION_STRING> docker-ce-cli-<VERSION_STRING> containerd.io\n\n例如：docker-ce-18.09.1",
+                                "URL": null
                             },
                             {
-                                "text": "===== 啟動 Docker =====",
-                                "url": null
+                                "Text": "===== 啟動 Docker =====",
+                                "URL": null
                             },
                             {
-                                "title": "啟動 Docker",
-                                "group": true,
-                                "text": "sudo systemctl start docker",
-                                "url": null
+                                "Title": "啟動 Docker",
+                                "Group": true,
+                                "Text": "sudo systemctl start docker",
+                                "URL": null
                             },
                             {
-                                "title": "驗證是否正確安裝",
-                                "group": true,
-                                "text": "sudo docker run hello-world",
-                                "url": null
+                                "Title": "驗證是否正確安裝",
+                                "Group": true,
+                                "Text": "sudo docker run hello-world",
+                                "URL": null
                             },
                             {
-                                "text": "===== 解除安裝 docker =====",
-                                "url": null
+                                "Text": "===== 解除安裝 docker =====",
+                                "URL": null
                             },
                             {
-                                "title": "刪除安裝包",
-                                "group": true,
-                                "text": "yum remove docker-ce",
-                                "url": null
+                                "Title": "刪除安裝包",
+                                "Group": true,
+                                "Text": "yum remove docker-ce",
+                                "URL": null
                             },
                             {
-                                "title": "刪除映象、容器、配置檔案等內容",
-                                "group": true,
-                                "text": "rm -rf /var/lib/docker",
-                                "url": null
+                                "Title": "刪除映象、容器、配置檔案等內容",
+                                "Group": true,
+                                "Text": "rm -rf /var/lib/docker",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "權限設定",
-                "contnet": [
+                "Title": "權限設定",
+                "Contnet": [
                     {
-                        "title": "權限設定",
-                        "data": [
+                        "Title": "權限設定",
+                        "Data": [
                             {
-                                "title": "建立 docker 群組",
-                                "group": true,
-                                "text": "sudo groupadd docker",
-                                "url": null
+                                "Title": "建立 docker 群組",
+                                "Group": true,
+                                "Text": "sudo Groupadd docker",
+                                "URL": null
                             },
                             {
-                                "title": "將非 root 帳號加上 docker 群組中",
-                                "group": true,
-                                "text": "sudo usermod -G docker -a testuser",
-                                "url": null
+                                "Title": "將非 root 帳號加上 docker 群組中",
+                                "Group": true,
+                                "Text": "sudo usermod -G docker -a testuser",
+                                "URL": null
                             },
                             {
-                                "text": "Ps：加入群組後，group 的資訊並不會立刻更新",
-                                "url": null
+                                "Text": "Ps：加入群組後，Group 的資訊並不會立刻更新",
+                                "URL": null
                             },
                             {
-                                "title": "查看資訊",
-                                "group": true,
-                                "text": "groups",
-                                "url": null
+                                "Title": "查看資訊",
+                                "Group": true,
+                                "Text": "Groups",
+                                "URL": null
                             },
                             {
-                                "title": "立即生效",
-                                "group": true,
-                                "text": "讓這個帳號立刻改成使用 docker 這個群組 (或是你要登出登入也行)\n\nnewgrp docker",
-                                "url": null
+                                "Title": "立即生效",
+                                "Group": true,
+                                "Text": "讓這個帳號立刻改成使用 docker 這個群組 (或是你要登出登入也行)\n\nnewgrp docker",
+                                "URL": null
                             },
                             {
-                                "title": "重新啟動 docker 服務",
-                                "group": true,
-                                "text": "sudo systemctl restart docker",
-                                "url": null
+                                "Title": "重新啟動 docker 服務",
+                                "Group": true,
+                                "Text": "sudo systemctl restart docker",
+                                "URL": null
                             }
                         ]
                     }
@@ -633,13 +634,13 @@
             }
         ]
     },
-    "source": {
-        "text": true,
-        "from": [
+    "Source": {
+        "Text": true,
+        "From": [
             "https://joshhu.gitbooks.io/dockercommands/content/Basics/Basics.html",
             "https://www.itread01.com/study/centos-docker-install.html"
         ],
-        "refer": [
+        "Refer": [
             "https://ephrain.net/docker-%E4%BD%BF%E7%94%A8%E9%9D%9E-root-%E6%AC%8A%E9%99%90%E4%BE%86%E5%9F%B7%E8%A1%8C-docker-client/",
             "https://www.gundam.com.tw/2021/11/04/%E5%A6%82%E4%BD%95%E5%9C%A8-ubuntu-20-04-%E4%B8%8A%E5%AE%89%E8%A3%9D%E5%92%8C%E4%BD%BF%E7%94%A8-docker/",
             "https://philipzheng.gitbook.io/docker_practice/advanced_network/quick_guide"

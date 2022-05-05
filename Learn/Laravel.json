@@ -1,289 +1,290 @@
 {
-    "name": "Laravel",
-    "type": 0,
-    "nav": true,
-    "contents":
+    "Name": "Laravel",
+    "ID":"Laravel",
+    "Type": 0,
+    "Nav": true,
+    "Contents":
     {
-        "left": [
+        "Left": [
         {
-            "title": "Route",
-            "contnet": [
+            "Title": "Route",
+            "Contnet": [
             {
-                "title": "Route 知識點",
-                "data": [
+                "Title": "Route 知識點",
+                "Data": [
                 {
-                    "text": "放置 routes\\web.php or api.php",
-                    "url": null
+                    "Text": "放置 routes\\web.php or api.php",
+                    "URL": null
                 },
                 {
-                    "text": "數據庫的版本控制，能快速建立資料表",
-                    "url": null
+                    "Text": "數據庫的版本控制，能快速建立資料表",
+                    "URL": null
                 },
                 {
-                    "title": "Route 列表 指令",
-                    "text": "php artisan route:list",
-                    "group": true,
-                    "url": null
+                    "Title": "Route 列表 指令",
+                    "Text": "php artisan route:list",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "基本型態",
-                    "text": "基本型態",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Title": "基本型態",
+                    "Text": "基本型態",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/pw/AM-JKLVpngDlYaDzYoGCLL8fTVpIS09rBFwicFMPrOvOTQqLhaVH-_dIKOjgsxWD7pM-hlCMg7EDp6N6SIboViG7MCEbUedQHLBOls9cm8Yy_mnPQMS-hxKgUG5l3EIsJh13YflLOgf9sLO_TdCEwQ_VbkA=w729-h172-no?authuser=0", "https://lh3.googleusercontent.com/pw/AM-JKLXNpl-sVXRXYsdyzvlAPZoHFKPIvRQ5d3qSyGSK0rKv-Wd9j2jLC5XPfjXSQoSLk1aWsmQgJo_4bxd3452113yE4JIX8_lmyKyycVQLwi9XxFQDKJRLjggPNWlUBJhYOGG9VI0jFqqxzp6n86N-YTs=w774-h118-no?authuser=0"
                         ,"https://lh3.googleusercontent.com/pw/AM-JKLWo66-CtdU54GbFyYU9p_qmjnxJnUWEGVtRmxOLUxb_6r5oTUMKOs5CcAHKVjrQfO5kB-O_Vybp027b4wk6NMq049-X1dI-asXM0DIRYjmLqRqDzDld9a74GsXl9dUr1yGQIELR5t4XZ_t-hG6HMYI=w789-h128-no?authuser=0"
                         ,"https://lh3.googleusercontent.com/pw/AM-JKLVBYC4OGF2T7HG_E3Rx8KdYMFrGik_vv9xD8Z2czvIsRZvGYNxvMJQdoQenMTqLMBhtXSLyW9tDYyEN265dHaq8sGB_n1XoARNejG1JqNTQjaik84Ox0wVMiZRY1a06E-XppTEZKcEbGdPcKbjArgc=w497-h114-no?authuser=0"
                     ]
                 },
                 {
-                    "text": "可指定路徑建立，--path = 路徑",
-                    "url": null
+                    "Text": "可指定路徑建立，--path = 路徑",
+                    "URL": null
                 },
                 {
-                    "text": "基本種類",
-                    "title": "基本種類",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Text": "基本種類",
+                    "Title": "基本種類",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/pw/AM-JKLUru612UwJEqlX5cLHgNY9MjDT-5Ok3ss4pTVwaMG3IlGLTrguZQ5FB38gy0C2uJVis9cEHFzzwasLuNIeQ6LnT31ApA9z4l_82fjgJz6q-Ksgp0uChN4bOJ-35CkVNqAsPwj-nRqUBtBJKWsD2sCI=w776-h212-no?authuser=0"
                         ,"https://lh3.googleusercontent.com/pw/AM-JKLUq9X-Ro5DYK0ktkAqFoZ5xkNPurGBqm0bxay4cWrt1V9-9zgdEGoAs_sWryoayTSkdgbo0wkYPOYeUSqyVAbz6_1SR52gpx8IzeuvAZ2kS5z2MfXyaNDLi8WEkGMg3gHfYzw_mMn4Na2wBgshW6TI=w546-h230-no?authuser=0"
                     ]
                 },
                 {
-                    "text": "官方參考",
-                    "url": "https://laravel.com/docs/9.x/routing"
+                    "Text": "官方參考",
+                    "URL": "https://laravel.com/docs/9.x/routing"
                 }]
             },
             {
-                "title": "Route 函式",
-                "data": [
+                "Title": "Route 函式",
+                "Data": [
                 {
-                    "title": "where",
-                    "text": "where",
-                    "group": true,
-                    "url": null,
-                    "imgs":[
+                    "Title": "where",
+                    "Text": "where",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs":[
                         "https://lh3.googleusercontent.com/pw/AM-JKLWTsmjoB5cBAXCKYAprDnyamlfWS3IWmgMILAZPwxpUD38HB-dFjt8ARhWhfK8h0gl6aTOp1y0F_NtWIH5XGOldBliHkxVBG7y_QZ79Eye76KktvQE6arE4bI1FyEFOL8SjBC0Zb6D8P1c80chWCD0=w659-h356-no?authuser=0"
                     ]
                 }]
             }]
         },
         {
-            "title": "Migrations",
+            "Title": "Migrations",
             "contnet": [
             {
-                "title": "Migrations 知識點",
-                "data": [
+                "Title": "Migrations 知識點",
+                "Data": [
                 {
-                    "text": "放置 database\\migrations",
-                    "url": null
+                    "Text": "放置 Database\\migrations",
+                    "URL": null
                 },
                 {
-                    "text": "數據庫的版本控制，能快速建立資料表",
-                    "url": null
+                    "Text": "數據庫的版本控制，能快速建立資料表",
+                    "URL": null
                 },
                 {
-                    "title": "建立指令",
-                    "text": "php artisan make:migration create_flights_table",
-                    "group": true,
-                    "url": null
+                    "Title": "建立指令",
+                    "Text": "php artisan make:migration create_flights_table",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "text": "可指定路徑建立，--path = 路徑",
-                    "url": null
+                    "Text": "可指定路徑建立，--path = 路徑",
+                    "URL": null
                 },
                 {
-                    "text": "可指定路徑建立，--path = 路徑",
-                    "url": null
+                    "Text": "可指定路徑建立，--path = 路徑",
+                    "URL": null
                 },
                 {
-                    "text": "官方參考",
-                    "url": "https://laravel.com/docs/9.x/migrations"
+                    "Text": "官方參考",
+                    "URL": "https://laravel.com/docs/9.x/migrations"
                 }]
             },
             {
-                "title": "Migrations 執行",
-                "data": [
+                "Title": "Migrations 執行",
+                "Data": [
                 {
-                    "title": "執行所有",
-                    "text": "php artisan migrate",
-                    "group": true,
-                    "url": null
+                    "Title": "執行所有",
+                    "Text": "php artisan migrate",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "查看已運行",
-                    "text": "php artisan migrate:status",
-                    "group": true,
-                    "url": null
+                    "Title": "查看已運行",
+                    "Text": "php artisan migrate:status",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "表單回歸",
-                    "text": "php artisan migrate:rollback --step=1",
-                    "group": true,
-                    "url": null
+                    "Title": "表單回歸",
+                    "Text": "php artisan migrate:rollback --step=1",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "初始化",
-                    "text": "php artisan migrate:reset",
-                    "group": true,
-                    "url": null
+                    "Title": "初始化",
+                    "Text": "php artisan migrate:reset",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "刪除並重建",
-                    "text": "php artisan migrate:fresh",
-                    "group": true,
-                    "url": null
+                    "Title": "刪除並重建",
+                    "Text": "php artisan migrate:fresh",
+                    "Group": true,
+                    "URL": null
                 }]
             },
             {
-                "title": "Migrations 表單操作",
-                "data": [
+                "Title": "Migrations 表單操作",
+                "Data": [
                 {
-                    "title": "表單建立",
-                    "text": "表單建立",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Title": "表單建立",
+                    "Text": "表單建立",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/pw/AM-JKLUgkpC8rpvDxjIyGoLIWy12yaSKeile_DXvdSfjJYLYEFqbdusu1YX_GGdrQ1lu6zQByQZA26GE37SOrh3SFcU5qEEvssxyO3fyLj2Ft5vMTV69shYhnN3ZWpDguGM3ZR_UEGChjis0c85nVBwmsE8=w828-h338-no?authuser=0"
                     ]
                 },
                 {
-                    "title": "檢查表 或 列",
-                    "text": "檢查表 或 列",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Title": "檢查表 或 列",
+                    "Text": "檢查表 或 列",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/pw/AM-JKLWXM6sBUu0wLAO1wqC8TA80SOK0ON9UYU8axEE1gyK8xh7LMiUH1Ic4x20u2FRqsDpOCUgDX7c1WDBVJYIRhRftfKkwBkqFZuyDOFUEilCUgUM2TEld-HC-CYzbSHiQYJPozhAmIRSm1c2i9WUlMmA=w793-h248-no?authuser=0"
                     ]
                 },
                 {
-                    "title": "非使用預設資料庫",
-                    "text": "更改資料庫 與 相關設定",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Title": "非使用預設資料庫",
+                    "Text": "更改資料庫 與 相關設定",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/pw/AM-JKLXG_sGVV6REWepVGKDgZzLUsLFr84cW3HR98oaXOS5fWXdERFOpkTzs84pA0wFjKtMqcsqO4EZfaRaFS5xWD2l_aj3F3fKepThFXzQiZEIbgWeQuUzJ0k5nCgS_FSmxxodGHCq9h36z0s2c33tKj1I=w793-h248-no?authuser=0",
                         "https://lh3.googleusercontent.com/pw/AM-JKLWDbGxcn5iHAiSCD8tdIIlkXgmzP3Ks0Saq3rH4Q7j-WTSD_KKCT5621brPXG1KMesXO9RAxvyEJrFw9POtSZXtj_oF71lTYmYyOSi-jqVBncthgPIas2w_Z3KDpCkfUSlb-Ij9fWzh90pUPVkRdJw=w782-h216-no?authuser=0"
                     ]
                 },
                 {
-                    "title": "更新表",
-                    "text": "更新表",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Title": "更新表",
+                    "Text": "更新表",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/pw/AM-JKLUV4WfraD3Ld2mOnM4rGgwIuZTWUfg1z_Q8wrRtM_EkY7xV98el3LtDgPtIr73sQyQSNJGMN2hLSP5t8I0ELA1OWzOhZIoeVjSIlviD2lRID-9sPwSdf9Jcj2EDV3rzl-FmUHQ7z6CI63HoIGbd1d8=w779-h208-no?authuser=0"
                     ]
                 },
                 {
-                    "title": "重新命名 / 刪除 表",
-                    "text": "刪除則一",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Title": "重新命名 / 刪除 表",
+                    "Text": "刪除則一",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/pw/AM-JKLXNi9OK2G0tW-zuyWLMHtqR1BskKPxZ-4-nInCABf0nCa91cAL1NxHCdCVI5YRcJhm4qE0TqNd0hBJaXXmQa1UQcgjX_6L9b7dD5XAxb2DJFI1GaAoRgk2o85hQBOojrLuJO7zfHq7dhD3FQi2czKk=w798-h127-no?authuser=0",
                         "https://lh3.googleusercontent.com/pw/AM-JKLWJKND8pKKabRD76_AcucznMgLwDKfV7e5Ve4o-4kxEc1QRwXEAR26naSOOSH-QN4_w3ECjt1BUzi-gYqV-jnQFO2lDTOqj228j--_Q_j5QXTqcIcyQXc-n43Zbqh4FwwYLWqw62kFx7dln6RmzqXc=w782-h118-no?authuser=0"
                     ]
                 },
                 {
-                    "title": "創建列",
-                    "text": "創建列",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Title": "創建列",
+                    "Text": "創建列",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/pw/AM-JKLVdOBIStJSqXWig6oZlJHBTSH5s0UjuemQ1rQrSy_rDy0-cU8Q1FUD-yj60fJCLbX8DT0rSTMIomY44J66tF_-x3iHmt9P25cZYAiCq3EFcp2-UMMYl7AXSNxF3WhV-9ho4lPppD1RCc91PwxvLIhw=w794-h203-no?authuser=0"
                     ]
                 }]
             },
             {
-                "title": "Migrations 常用列類型",
-                "data": [
+                "Title": "Migrations 常用列類型",
+                "Data": [
                 {
-                    "title": "常用列類型",
-                    "text": "常用列類型",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Title": "常用列類型",
+                    "Text": "常用列類型",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/pw/AM-JKLVmXt_NnsSuhHdHO3-vhQt-IvzCyM2vCP9ykznb1dXq4GROLZGU-iS1YZWk8qQDFP90k4CjprO02U2PK_GhjxBzD2I8t57ofeEUynwqHT9981tmGZdYqYQEuWM72rxYf_Bl_sa5Mm-nC7KMHpf8U_4=w985-h929-no?authuser=0"
                     ]
                 },
                 {
-                    "title": "char()",
-                    "text": "$table->char('name', 100);",
-                    "group": true,
-                    "url": null
+                    "Title": "char()",
+                    "Text": "$table->char('name', 100);",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "double()",
-                    "text": "$table->double('amount', 總位數 , 小數位數);",
-                    "group": true,
-                    "url": null
+                    "Title": "double()",
+                    "Text": "$table->double('amount', 總位數 , 小數位數);",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "float()",
-                    "text": "$table->float('amount', 總位數, 小數位數);",
-                    "group": true,
-                    "url": null
+                    "Title": "float()",
+                    "Text": "$table->float('amount', 總位數, 小數位數);",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "foreignId()",
-                    "text": "$table->foreignId('user_id');",
-                    "group": true,
-                    "url": null
+                    "Title": "foreignId()",
+                    "Text": "$table->foreignId('user_id');",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "id()",
-                    "text": "$table->id('可更名');",
-                    "group": true,
-                    "url": null
+                    "Title": "id()",
+                    "Text": "$table->id('可更名');",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "rememberToken()",
-                    "text": "$table->rememberToken();",
-                    "group": true,
-                    "url": null
+                    "Title": "rememberToken()",
+                    "Text": "$table->rememberToken();",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "string()",
-                    "text": "VARCHAR\n\n$table->string('name', 100);",
-                    "group": true,
-                    "url": null
+                    "Title": "string()",
+                    "Text": "VARCHAR\n\n$table->string('name', 100);",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "time()",
-                    "text": "$table->time('sunrise', $precision = 0);",
-                    "group": true,
-                    "url": null
+                    "Title": "time()",
+                    "Text": "$table->time('sunrise', $precision = 0);",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "timestamp()",
-                    "text": "$table->timestamp('added_at', $precision = 0);",
-                    "group": true,
-                    "url": null
+                    "Title": "timestamp()",
+                    "Text": "$table->timestamp('added_at', $precision = 0);",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "timestamps()",
-                    "text": "$table->timestamps($precision = 0);",
-                    "group": true,
-                    "url": null
+                    "Title": "timestamps()",
+                    "Text": "$table->timestamps($precision = 0);",
+                    "Group": true,
+                    "URL": null
                 },
                 {
-                    "title": "uuid()",
-                    "text": "$table->uuid('id');",
-                    "group": true,
-                    "url": null
+                    "Title": "uuid()",
+                    "Text": "$table->uuid('id');",
+                    "Group": true,
+                    "URL": null
                 }]
             },
             {
-                "title": "Migrations 索引類型",
-                "data": [
+                "Title": "Migrations 索引類型",
+                "Data": [
                 {
-                    "title": "索引類型",
-                    "text": "索引類型",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Title": "索引類型",
+                    "Text": "索引類型",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/pw/AM-JKLWWbE5pr-nhtDkRJ6KLUW8my0hHPw5S9r6iq2msW2gVgeNr-nef4glsVl7IYYsHjHA0y4QjXhkDmNGvX5cMmCfjR16kuKsvDri-uBuyfb5NpP5LpohDf5chgmESdqildSBrN1IgUPAo4aySNBx0CrM=w863-h700-no?authuser=0",
                         "https://lh3.googleusercontent.com/pw/AM-JKLW_tqoXl44DSDb1Cc-ZBDqU9YfdVfNaJrbxaMe-L_oN3VoiGEUmmqTWrVMXBzJ5CwH5QJa1cAXh0p5rj069h8JayT8dsTbBgclbiIYpWkuzl7OvYyZGM8dZH2B0ngvdhlvXKJOUOw2gk8zOQara4fw=w865-h269-no?authuser=0",
                         "https://lh3.googleusercontent.com/pw/AM-JKLURkcJFN0nqTaHWgEE_NBGpmQk1CkN1FUod8FDd-gHYZoE94f2pk8RdnozF0GauGHYzF0cR5EpfWa2-B20Rf8K5lFd2gJp49dbKi-THanEXm_FMztgelZIEcrVObnsV9-Kd9fvafCzGyfpmXNlyJV4=w835-h398-no?authuser=0",
@@ -292,49 +293,49 @@
                 }]
             }]
         }],
-        "right": [
+        "Right": [
         {
-            "title": "基礎知識",
+            "Title": "基礎知識",
             "contnet": [
             {
-                "title": "什麼是 Laravel  ？",
-                "data": [
+                "Title": "什麼是 Laravel  ？",
+                "Data": [
                 {
-                    "title": "Laravel 是基於 MVC 架構模式來打造的框架",
-                    "text": "MVC",
-                    "group": true,
-                    "url": null,
-                    "imgs": [
+                    "Title": "Laravel 是基於 MVC 架構模式來打造的框架",
+                    "Text": "MVC",
+                    "Group": true,
+                    "URL": null,
+                    "Imgs": [
                         "https://lh3.googleusercontent.com/9bZJxBW2GYyJX1e9PZh_-6C2iI6vg22heAg7uwsgNxoW5L0-1J5bUCI_ZSRiqCGQSZrKGN4Z2J4m2OYOQHgleqpiYous6M-kZ3fffZYfkKLmUZLDJXe4gD8ealslXCqOWlkL-jU56HW5TndJ8aEjzBep2_GpYMg6TsE8AahFudNiOiIvQ1H6Th6uUIyR1kFy1FpvQlJ7hGfn28tQDd3iYOZ-OZxsFw73vVmp6qkl1PSWVjMKa0CtwlWklwSZmRD1lsnZJ8J0m-OY_wGZhVAIpESubHWlmgyBkha9EyLvi7w06uGnxchknMQSUNcgZO6Wun-mtiZnSh7OJLAimprepurkvd1dQWgBV2yu11qssRH_C8AV3DElX1lnzIOF4iedXrampVZPEFCF6BLmxQfxCKh1it2zNWT_f0m_yttWD7Lvga_nRdkWNwE1a3_ZnbVSmsTQstvui05yepjSicJSBSyXFHhbsez4qZIl_FUDyJ6BNICxZcYMGGVFySAb6a1C-Z7BmeEhSdAC7bxLaqQ0tNlVbqolOdIs8SuRkXzIRqFQeaYNQuNC3TJYrqDhNO_MMSw2ECSH497n2Qgf19nz5hxHmPQOMIsDeH9PNvmRvktYkBGILA8uOLpG348c5GJ4LeUtp5ANnn0NAF00MhaXhgYGyl3QzcDrfX38qESXnQsYH7zDEBn6zR4-zUcRdbMdiqpv513k8IXj1m-su-cik3zhNmnzzwG6bnnya_3by-FpM8s8cCtMJkPyEkaa2k6L7rd7jjl1vFep6gQ9hBPiy_9Gf6A=w939-h710-no?authuser=0"
                     ]
                 },
                 {
-                    "text": "Laravel 的 Artisan 提供許多指令，使快速的完成許多任務。",
-                    "url": null
+                    "Text": "Laravel 的 Artisan 提供許多指令，使快速的完成許多任務。",
+                    "URL": null
                 },
                 {
-                    "text": "它的 Blade 樣板系統，將程式碼與 HTML 頁面完整的分離。",
-                    "url": null
+                    "Text": "它的 Blade 樣板系統，將程式碼與 HTML 頁面完整的分離。",
+                    "URL": null
                 },
                 {
-                    "text": "它的 Routing 機制，簡單卻強大的管理網址與頁面的路徑指定",
-                    "url": null
+                    "Text": "它的 Routing 機制，簡單卻強大的管理網址與頁面的路徑指定",
+                    "URL": null
                 },
                 {
-                    "text": "利用 Controller 將程式邏輯隱藏在背後。",
-                    "url": null
+                    "Text": "利用 Controller 將程式邏輯隱藏在背後。",
+                    "URL": null
                 },
                 {
-                    "text": "Eloquent ORM 讓你再也不必撰寫任何的 SQL 指令就能和資料庫互動。",
-                    "url": null
+                    "Text": "Eloquent ORM 讓你再也不必撰寫任何的 SQL 指令就能和資料庫互動。",
+                    "URL": null
                 }]
             }]
         }]
     },
-    "source":
+    "Source":
     {
-        "text": true,
-        "from": [],
-        "refer": []
+        "Text": true,
+        "From": [],
+        "Refer": []
     }
 }

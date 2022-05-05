@@ -1,144 +1,145 @@
 {
-    "name": "SRE",
-    "type":0,
-    "nav": false,
-    "contents": {
-        "left": [
+    "Name": "SRE",
+    "ID":"SRE",
+    "Type":0,
+    "Nav": false,
+    "Contents": {
+        "Left": [
             {
-                "title": "test",
-                "contnet": [
+                "Title": "test",
+                "Contnet": [
                     {
-                        "title": "",
-                        "data": [
+                        "Title": "",
+                        "Data": [
                             {
-                                "text": "",
-                                "url": null
+                                "Text": "",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             }
         ],
-        "right": [
+        "Right": [
             {
-                "title": "基礎知識",
-                "contnet": [
+                "Title": "基礎知識",
+                "Contnet": [
                     {
-                        "title": "什麼是 SRE ？",
-                        "data": [
+                        "Title": "什麼是 SRE ？",
+                        "Data": [
                             {
-                                "text": "SRE，全稱為 Site Reliability Engineering",
-                                "url": null
+                                "Text": "SRE，全稱為 Site Reliability Engineering",
+                                "URL": null
                             },
                             {
-                                "text": " ▲ 臺灣通常譯為 「 網站可靠性工程 」",
-                                "url": null
+                                "Text": " ▲ 臺灣通常譯為 「 網站可靠性工程 」",
+                                "URL": null
                             },
                             {
-                                "text": "MTBF（平均故障間隔時間，Mean Time Between Failure）",
-                                "url": null
+                                "Text": "MTBF（平均故障間隔時間，Mean Time Between Failure）",
+                                "URL": null
                             },
                             {
-                                "text": "MTTR（平均修復時間，Mean Time To Repair）",
-                                "url": null
+                                "Text": "MTTR（平均修復時間，Mean Time To Repair）",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "演進歷史",
-                "contnet": [
+                "Title": "演進歷史",
+                "Contnet": [
                     {
-                        "title": "純物理機",
-                        "data": [
+                        "Title": "純物理機",
+                        "Data": [
                             {
-                                "text": "部屬非常慢",
-                                "url": null
+                                "Text": "部屬非常慢",
+                                "URL": null
                             },
                             {
-                                "text": "成本非常高",
-                                "url": null
+                                "Text": "成本非常高",
+                                "URL": null
                             },
                             {
-                                "text": "資源浪費",
-                                "url": null
+                                "Text": "資源浪費",
+                                "URL": null
                             },
                             {
-                                "text": "難於遷移和擴展",
-                                "url": null
+                                "Text": "難於遷移和擴展",
+                                "URL": null
                             },
                             {
-                                "text": "可能會被限定硬件廠商",
-                                "url": null
+                                "Text": "可能會被限定硬件廠商",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "虛擬化技術",
-                        "data": [
+                        "Title": "虛擬化技術",
+                        "Data": [
                             {
-                                "text": "部屬非常慢",
-                                "url": null
+                                "Text": "部屬非常慢",
+                                "URL": null
                             },
                             {
-                                "text": "成本相較得到控制",
-                                "url": null
+                                "Text": "成本相較得到控制",
+                                "URL": null
                             },
                             {
-                                "text": "資源相較得到利用",
-                                "url": null
+                                "Text": "資源相較得到利用",
+                                "URL": null
                             },
                             {
-                                "text": "遷移與擴展相較方便一些",
-                                "url": null
+                                "Text": "遷移與擴展相較方便一些",
+                                "URL": null
                             },
                             {
-                                "text": "Ps：VMware 為虛擬機工具",
-                                "url": null
+                                "Text": "Ps：VMware 為虛擬機工具",
+                                "URL": null
                             },
                             {
-                                "text": "虛擬化也是有侷限性，每一個虛擬機都是一個完整的操作系統",
-                                "url": null
+                                "Text": "虛擬化也是有侷限性，每一個虛擬機都是一個完整的操作系統",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "",
-                        "data": [
+                        "Title": "",
+                        "Data": [
                             {
-                                "text": "",
-                                "url": null
+                                "Text": "",
+                                "URL": null
                             },
                             {
-                                "text": "",
-                                "url": null
+                                "Text": "",
+                                "URL": null
                             },
                             {
-                                "text": "",
-                                "url": null
+                                "Text": "",
+                                "URL": null
                             },
                             {
-                                "text": "",
-                                "url": null
+                                "Text": "",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "補充知識",
-                "contnet": [
+                "Title": "補充知識",
+                "Contnet": [
                     {
-                        "title": "補充詞彙",
-                        "data": [
+                        "Title": "補充詞彙",
+                        "Data": [
                             {
-                                "text": "Hypervisor：虛擬化技術",
-                                "url": null
+                                "Text": "Hypervisor：虛擬化技術",
+                                "URL": null
                             },
                             {
-                                "text": "",
-                                "url": null
+                                "Text": "",
+                                "URL": null
                             }
                         ]
                     }
@@ -146,10 +147,10 @@
             }
         ]
     },
-    "source": {
-        "text": true,
-        "from": [],
-        "refer": [
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": [
             "https://cloud.tencent.com/developer/article/1667706"
         ]
     }

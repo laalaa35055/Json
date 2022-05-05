@@ -1,59 +1,60 @@
 {
-    "name": "Router",
-    "type":0,
-    "nav": true,
-    "contents": {
-        "left": [
+    "Name": "Vue-Router",
+    "ID":"Vue-Router",
+    "Type":0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
             {
-                "title": "Vue-Router",
-                "contnet": [
+                "Title": "Vue-Router",
+                "Contnet": [
                     {
-                        "title": "Routes",
-                        "data": [
+                        "Title": "Routes",
+                        "Data": [
                             {
-                                "title": "Routes",
-                                "text": "",
-                                "group": true,
-                                "imgs":[
+                                "Title": "Routes",
+                                "Text": "",
+                                "Group": true,
+                                "Imgs":[
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVeAtslx2kzYjGIA32N-58_2nJr2AhymKcgZBnrVMJpCrLH8ahVX4fNsoNKBHrJHiGyc9TjoTmPm6tN9VsBQOWnK1_3nFPoeztmOFnSIQV6fTlLfI4RNBvJWEKbcF7ek3Kr6RtCJ17kzH6yBBF4HSs=w622-h171-no?authuser=0"
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "404 Not found 路由",
-                        "data": [
+                        "Title": "404 Not found 路由",
+                        "Data": [
                             {
-                                "title": "基本使用",
-                                "text": "",
-                                "group": true,
-                                "imgs":[
+                                "Title": "基本使用",
+                                "Text": "",
+                                "Group": true,
+                                "Imgs":[
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVeAtslx2kzYjGIA32N-58_2nJr2AhymKcgZBnrVMJpCrLH8ahVX4fNsoNKBHrJHiGyc9TjoTmPm6tN9VsBQOWnK1_3nFPoeztmOFnSIQV6fTlLfI4RNBvJWEKbcF7ek3Kr6RtCJ17kzH6yBBF4HSs=w622-h171-no?authuser=0"
                                 ]
                             }
                         ]
                     },
                     {
-                        "title": "可选参数",
-                        "data": [
+                        "Title": "可选参数",
+                        "Data": [
                             {
-                                "text": "path: '/products/:sn?' 加『?』代表 products 後面的路徑可有可無",
+                                "Text": "path: '/products/:sn?' 加『?』代表 products 後面的路徑可有可無",
                                 "url": null
                             },
                             {
-                                "text": "this.$route.query.sn; // ?sn=123",
+                                "Text": "this.$route.query.sn; // ?sn=123",
                                 "url": null
                             },
                             {
-                                "text": "this.$route.params.sn; // /123",
+                                "Text": "this.$route.params.sn; // /123",
                                 "url": null
                             },
                             {
-                                "text": "router-link",
+                                "Text": "router-link",
                                 "url": null
                             },
                             {
-                                "text": "router-view",
+                                "Text": "router-view",
                                 "url": null
                             }
                         ]
@@ -61,27 +62,27 @@
                 ]
             }
         ],
-        "right": [
+        "Right": [
             {
-                "title": "基礎知識",
-                "contnet": [
+                "Title": "基礎知識",
+                "Contnet": [
                     {
-                        "title": "什麼是 Vue Router ？",
-                        "data": [
+                        "Title": "什麼是 Vue Router ？",
+                        "Data": [
                             {
-                                "text":"用 Vue + Vue Router 创建单页应用",
+                                "Text":"用 Vue + Vue Router 创建单页应用",
                                 "url":null
                             },
                             {
-                                "title": "安裝指令",
-                                "text": "npm install vue-router@4",
-                                "group": true
+                                "Title": "安裝指令",
+                                "Text": "npm install vue-router@4",
+                                "Group": true
                             },
                             {
-                                "title": "开发版本构建",
-                                "text": "开发版本构建",
-                                "group": true,
-                                "imgs":[
+                                "Title": "开发版本构建",
+                                "Text": "开发版本构建",
+                                "Group": true,
+                                "Imgs":[
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUShSrMbz0lqRwxjyZsouCB3bQAMer0NdyuENRviyKoKbL-ttacgCjHbnkQ014NjC5SqAWzzFWZU71xIez_iPgpFPv3MXj-G0z64n8myGVb3il4X-S4hdytHsG47_OEdAzaAraenc1kRu7Fh58L93g=w771-h269-no?authuser=0"
                                 ]
                             }
@@ -91,11 +92,11 @@
             }
         ]
     },
-    "source": {
-        "text": true,
-        "from": [
+    "Source": {
+        "Text": true,
+        "From": [
             "https://router.vuejs.org/zh/guide/#html"
         ],
-        "refer": []
+        "Refer": []
     }
 }

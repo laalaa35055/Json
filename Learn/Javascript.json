@@ -1,48 +1,49 @@
 {
-    "name": "Javascript",
-    "type":0,
-    "nav": true,
-    "contents": {
-        "left": [
+    "Name": "Javascript",
+    "ID":"Javascript",
+    "Type":0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
             {
-                "title": "ES6",
-                "contnet": [
+                "Title": "ES6",
+                "Contnet": [
                     {
-                        "title": "ES6",
-                        "data": [
+                        "Title": "ES6",
+                        "Data": [
                             {
-                                "title": "解構賦值",
-                                "text": "// ES6 提供了解構賦值的語法，可以將陣列或者物件裡面的資料解開變成獨立的變數\n\n",
-                                "group": true,
-                                "imgs": [
+                                "Title": "解構賦值",
+                                "Text": "// ES6 提供了解構賦值的語法，可以將陣列或者物件裡面的資料解開變成獨立的變數\n\n",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUQkGcHlV5QPSdyCgsDMS3fFm4r8tswC7M-1Or6f9t0z6QWwwWPMRIoXRAm_HpB4x0hehhmV_f8q1Mm_AF97_6bi_eaAWcJpvOFbDAeqOAuySkysAFy2gSU67qdlidjuw1UESVXl9q_UhEq3QB3Iso=w358-h453-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLWjdY0MJCem99bEiLWldsKJhkrVEPQtqOhLuJqrtkdCF5HRkihOP4x5RLTgFUyYNG1huR-GXfaIWtCN3JZAn0VuhpRcdR4428XLJxwl_ODuboSreiP2Fum_ceI3d2LWrsPDCqWBOgRJOI2EMmPJ-kg=w287-h231-no?authuser=0"
                                 ]
                             },
                             {
-                                "title": "展開運算子 / 其餘運算子",
-                                "text": "雖然 ES6 提供的展開運算子與其餘運算子的語法都是...，不過它們兩者所代表的涵意還是不太一樣。",
-                                "group": true,
-                                "imgs": [
+                                "Title": "展開運算子 / 其餘運算子",
+                                "Text": "雖然 ES6 提供的展開運算子與其餘運算子的語法都是...，不過它們兩者所代表的涵意還是不太一樣。",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLV3r3YECuJXxFEOoCs0Vx1lfUEl4aBiPJAWSHOTHldHbiwtKkX3rEuse_Juen9dkigIzqQOffNM7NuTXgtp-0C6NwUa8yjx3P-r-irBLE0Mx4A1lzLjzFPyNK52TXAfIlu74B0edCsKJyRz94YFSqg=w407-h131-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXWDlVAE6271guORxTNeU1KvfTnG_bMsg3j53BRsehjR5MEy-tGijSuMOL0js61ZNGRKB100DLnJY1odlT9eBpFCJrp4YCvfT51mOz2zhiuN2UGHZIBGH5PruU08fgKkq0ITuhttcNcvUg0mO_fvx8=w360-h267-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUW4IP1cqa_SPcTU38Bi3UMfIH07kMZgyGCam2bfnou7OBhLXrIAD1MveH-kGKykWjtMcFaV2A5Bzp_oH1FIqJy0GWrCo6w3Zs1dbVH9PP5sQsLtljYdwDbau73LayxGV9Qe1gS4OiBbxAwpqxxUFI=w401-h221-no?authuser=0"
                                 ]
                             },
                             {
-                                "title": "Promise 物件",
-                                "text": "為了解決過去同步與非同步的問題，ES6 提供了 Promise 物件",
-                                "group": true,
-                                "imgs": [
+                                "Title": "Promise 物件",
+                                "Text": "為了解決過去同步與非同步的問題，ES6 提供了 Promise 物件",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVe8_Mt2c2YT-IS5m_a1_822ewmxScsrdleq2jSwM2tnPT6TOeXNixKzrinSvpTtoD4ZpGYqcCqsD9newnX2sIsrnjcUuPd-kxwho_jC5rla00Y4EWG_v3bXLlbcGFlq6LqD4D7v8wwEke7R9TvcCg=w456-h107-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLWU7Qt0xdnZ0Z5sYyfDA1CL1Fk8BPw5RPjh7qV_NlyFaBC24Db84y1bC1WV0tUKBDPiKewmUgtTt45xoUn8C8lIRBFlJCyap9q1vpgCVpS_ZkCLEho4RZ1yfgo0Qvtrcj5RXa2zi-PPTccR6XSiRwY=w352-h222-no?authuser=0"
                                 ]
                             },
                             {
-                                "title": "async 與 await",
-                                "text": "從 Promise 物件又延伸出 async 與 await 兩個新特性",
-                                "group": true,
-                                "imgs": [
+                                "Title": "async 與 await",
+                                "Text": "從 Promise 物件又延伸出 async 與 await 兩個新特性",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVFmQEksaD4bP9lULVF7v7yFz3mjdbXaalPeMpZ0bDmnhMCU5bRj9RZqeP1zaXBmP0VaWcJhmHE3Zk9qHHqaOLuBzSQMO2PrR7HddG0LIot3PsVdy-SGGoUylhLorHrt8ONvhsjHk2tBi19S1ncZ5o=w369-h371-no?authuser=0"
                                 ]
                             }
@@ -51,24 +52,24 @@
                 ]
             },
             {
-                "title": "Math 物件",
-                "contnet": [
+                "Title": "Math 物件",
+                "Contnet": [
                     {
-                        "title": "Math 物件",
-                        "data": [
+                        "Title": "Math 物件",
+                        "Data": [
                             {
-                                "title": "屬性",
-                                "text": "屬性",
-                                "group": true,
-                                "imgs": [
+                                "Title": "屬性",
+                                "Text": "屬性",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUH8P81AAeFz93PB9ZSBuNsB7e4_fWDcseeEJixiMklsqy9ZZlGF3CxjBQhVl1y2rePYsTqQxAzheSRW9sRWvcuIzf8BoRAQU3iglI2ysVpry7lB8ZDzmaVa_BpuZUcZBOHkEdsjWaRO3spVq3jUUk=w412-h367-no?authuser=0"
                                 ]
                             },
                             {
-                                "title": "方法",
-                                "text": "方法",
-                                "group": true,
-                                "imgs": [
+                                "Title": "方法",
+                                "Text": "方法",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLX-qeI_q6YY3hh3uc9Lsyd8kpfo1c4H-mYUx5g6WUeIuAL5IIFtDlodNs8CDd00-_LZNk8k0LUHIR30piY9XsTU7PTEseVxUPExk-4VKf_dD3a4u-mLUhbkUsc5uBohuNzBO3mEUzA9Z-WDF83gYV0=w417-h314-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXEE2pcSE7ZQyMRfkoVn0kLfmTr7VXyR16bjEetd1_6k-b34TWDMG0346O8f2xpX-Z4eGnrhSC3TfOzdDli3F2rH4_Tq6b7CY4yFThi-XR_uvppOcgBowI-xEtPwTutIn7XCg2OoEcKhNbJJJ0ZF6U=w415-h280-no?authuser=0"
                                 ]
@@ -78,16 +79,16 @@
                 ]
             },
             {
-                "title": "String",
-                "contnet": [
+                "Title": "String",
+                "Contnet": [
                     {
-                        "title": "String",
-                        "data": [
+                        "Title": "String",
+                        "Data": [
                             {
-                                "title": "方法",
-                                "text": "方法",
-                                "group": true,
-                                "imgs": [
+                                "Title": "方法",
+                                "Text": "方法",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLX9DKNUM_AhtesxD5QdpfYa_EBHOg9f60XjMnkKgmD9xRu1CNC9L8gl8kcDRMTYwb3a2hkOWSbNEtOL7xMavlA3gkd_Dcs4b1YW7h_9ov9hjLxJxAHz96gMu4vYTZl_pe54fXlQyt_dO_m-lv7wJtM=w413-h152-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVCN-iM1Mcg1U1EWp0B_gpmo8wuUGf_fubj_34ZM5uLHtoeCmcekLp30Szy-8EyhfeKtOm3w-BUtCMi46iUKHOOrLTbNDIKOnT0Upb6d4YHPtkWwo2_FLLkbgyZ5zIYc4mGbYwgNqc6IUZuQuTMVEY=w410-h438-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLU9fv8qmRZG-4X3NQOCbiKrV1cNheuTga_tqeWSL52LQOUJhceMIxSvpQLk8QnIIgrQUMYvWktlz9zX1x4WULnfFcQawvpW1ws6GMqosgTQ9WmSJMJTiH28cCsIuEAMFlugEDFh0BAyrd-YWtlwZhg=w424-h148-no?authuser=0",
@@ -99,24 +100,24 @@
                 ]
             },
             {
-                "title": "Number",
-                "contnet": [
+                "Title": "Number",
+                "Contnet": [
                     {
-                        "title": "Number",
-                        "data": [
+                        "Title": "Number",
+                        "Data": [
                             {
-                                "title": "屬性",
-                                "text": "屬性",
-                                "group": true,
-                                "imgs": [
+                                "Title": "屬性",
+                                "Text": "屬性",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUmbY1Gjp3qeYWg9otGfSt9trXf8TTAQto46w428AjtpDMTHbw8-d3UKEtWMGSl3MQv2ws3w2smPLbHJeaqW8okCVc7_OBSvZSahbYIdEmPS-FrPzyBo2Vn9NdcTE7NdDJqh6Ivja6UdS799qHOERs=w417-h279-no?authuser=0"
                                 ]
                             },
                             {
-                                "title": "方法 ",
-                                "text": "方法 ",
-                                "group": true,
-                                "imgs": [
+                                "Title": "方法 ",
+                                "Text": "方法 ",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXGjwp_oWKCxgsKu35i-HMst3JY7YKZ9cmkNos-5En-fxmvkP_OGfudceA9AIPJ6413Aqaf776Nbt3e_fC9zx9pibTRy67iR5PqU2GZUkSp6MP8zBZlmcsuxu13CMc7QAo_Y54vum1Dp0tSnqMBL8U=w402-h225-no?authuser=0"
                                 ]
                             }
@@ -125,29 +126,29 @@
                 ]
             },
             {
-                "title": "Date",
-                "contnet": [
+                "Title": "Date",
+                "Contnet": [
                     {
-                        "title": "Date",
-                        "data": [
+                        "Title": "Date",
+                        "Data": [
                             {
-                                "title": "建立",
-                                "text": "obj = new Date () ;\nobj = new Date (2000,2,21) ;\nobj = new Date (2000,2,21,12,10,30) ;\nobj = new Date (\"Mar 21,2000\") ;\nobj = new Date (\"Mar 21,2000 12:10:30\") ;\nobj = new Date (168800000000 ) ;\n",
-                                "group": true
+                                "Title": "建立",
+                                "Text": "obj = new Date () ;\nobj = new Date (2000,2,21) ;\nobj = new Date (2000,2,21,12,10,30) ;\nobj = new Date (\"Mar 21,2000\") ;\nobj = new Date (\"Mar 21,2000 12:10:30\") ;\nobj = new Date (168800000000 ) ;\n",
+                                "Group": true
                             },
                             {
-                                "text": "toDateString() -- 將日期物件轉日期字串",
-                                "url": null
+                                "Text": "toDateString() -- 將日期物件轉日期字串",
+                                "URL": null
                             },
                             {
-                                "text": "toString() -- 將日期物件轉字串 (含時分秒)",
-                                "url": null
+                                "Text": "toString() -- 將日期物件轉字串 (含時分秒)",
+                                "URL": null
                             },
                             {
-                                "title": "方法 ",
-                                "text": "方法 ",
-                                "group": true,
-                                "imgs": [
+                                "Title": "方法 ",
+                                "Text": "方法 ",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVgJ4LbQTVx7N67KxpzHrIdWI3RLlP9KplOwhQeNVqenVs-yUXVGjJnkS3Ov60sn9uKWBVGTgBuWeQqt_qfURDFDRiLBaFzequidDxCLFHFCpJytu0ksp18l-Plte-6YLfsNtqEYBs74vnLflfeajY=w424-h425-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVrFNQgZGBCPYQ16C3LC7nMWFpwEKDNmCBZjS7bl8dAk3LJQBV-MDWgpBuxd80NI-euarKZCBONquckrmAAHQj9aUD4MrDHxPXW9-OyirSHSpe_FqppKxT1BtUkNbCg3j-im6Pz0jPmowIfhowTL4g=w415-h479-no?authuser=0"
                                 ]
@@ -157,16 +158,16 @@
                 ]
             },
             {
-                "title": "陣列方法",
-                "contnet": [
+                "Title": "陣列方法",
+                "Contnet": [
                     {
-                        "title": "Array-List",
-                        "data": [
+                        "Title": "Array-List",
+                        "Data": [
                             {
-                                "title": "方法",
-                                "text": "方法",
-                                "group": true,
-                                "imgs": [
+                                "Title": "方法",
+                                "Text": "方法",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXP-NxZ4knzsRuN15KaiCD1eG58C0kaAcmKgWuSh7f4s6bZm9-7ixhYG9hGZ2Z9nsTeeaKdGcifZkx-6nW5WOQDsrQYzNF3vvSTvzKVlFz3jXC_KQOEkUIr_SFoWHenTt7WmW9UmbqkGDFcc2qIjX8=w417-h754-no?authuser=0"
                                 ]
                             }
@@ -175,16 +176,16 @@
                 ]
             },
             {
-                "title": "內建函式",
-                "contnet": [
+                "Title": "內建函式",
+                "Contnet": [
                     {
-                        "title": "內建函式",
-                        "data": [
+                        "Title": "內建函式",
+                        "Data": [
                             {
-                                "title": "方法",
-                                "text": "方法",
-                                "group": true,
-                                "imgs": [
+                                "Title": "方法",
+                                "Text": "方法",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXnI0ROGcfKK5uWuYo69YAyp71zB3befmlVaLju06W_T5DywCW3-H52cL4j7g-rq0Qh63QauOekQRy77HMfpbTy-qRhQ1Rq2eGzxrHeTw3RhXznH2Y02fSwMMhsxDFg8t7xnraZe0ayHrtt8XBxAb4=w419-h185-no?authuser=0"
                                 ]
                             }
@@ -193,262 +194,262 @@
                 ]
             },
             {
-                "title": "RegExp",
-                "contnet": [
+                "Title": "RegExp",
+                "Contnet": [
                     {
-                        "title": "RegExp 簡介",
-                        "data": [
+                        "Title": "RegExp 簡介",
+                        "Data": [
                             {
-                                "text": "可用來描述字串應符合的樣式",
-                                "url": null
+                                "Text": "可用來描述字串應符合的樣式",
+                                "URL": null
                             },
                             {
-                                "text": "產生 RegExp 物件的方法",
-                                "url": null
+                                "Text": "產生 RegExp 物件的方法",
+                                "URL": null
                             },
                             {
-                                "text": "/pattern/modifiers",
-                                "url": null
+                                "Text": "/pattern/modifiers",
+                                "URL": null
                             },
                             {
-                                "text": "new RegExp(pattern[,modifiers]);",
-                                "url": null
+                                "Text": "new RegExp(pattern[,modifiers]);",
+                                "URL": null
                             },
                             {
-                                "text": "--modifier--",
-                                "url": null
+                                "Text": "--modifier--",
+                                "URL": null
                             },
                             {
-                                "text": "i： case-insensitive matching",
-                                "url": null
+                                "Text": "i： case-insensitive matching",
+                                "URL": null
                             },
                             {
-                                "text": "g：global match",
-                                "url": null
+                                "Text": "g：global match",
+                                "URL": null
                             },
                             {
-                                "text": "m：multiline matching",
-                                "url": null
+                                "Text": "m：multiline matching",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "自訂函式",
-                "contnet": [
+                "Title": "自訂函式",
+                "Contnet": [
                     {
-                        "title": "函式基礎",
-                        "data": [
+                        "Title": "函式基礎",
+                        "Data": [
                             {
-                                "text": "函式本身是一個物件，避免使用相同名稱",
-                                "url": null
+                                "Text": "函式本身是一個物件，避免使用相同名稱",
+                                "URL": null
                             },
                             {
-                                "text": "函式可以重複定義",
-                                "url": null
+                                "Text": "函式可以重複定義",
+                                "URL": null
                             },
                             {
-                                "text": "不支援 overloading",
-                                "url": null
+                                "Text": "不支援 overloading",
+                                "URL": null
                             },
                             {
-                                "text": "可用 arguments 來呼叫此函式所有實際引數資料",
-                                "url": null
+                                "Text": "可用 arguments 來呼叫此函式所有實際引數資料",
+                                "URL": null
                             },
                             {
-                                "text": "可以設定參數預設值",
-                                "url": null
+                                "Text": "可以設定參數預設值",
+                                "URL": null
                             },
                             {
-                                "text": "函數中 this 用來參考到呼叫此函式的操作",
-                                "url": null
+                                "Text": "函數中 this 用來參考到呼叫此函式的操作",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "匿名函式",
-                        "data": [
+                        "Title": "匿名函式",
+                        "Data": [
                             {
-                                "text": "可以建立沒有名稱的函式，又稱匿名函式",
-                                "url": null
+                                "Text": "可以建立沒有名稱的函式，又稱匿名函式",
+                                "URL": null
                             },
                             {
-                                "text": "具名函式 以 function statement 宣告，有 hoist 現象，宣告時即刻被建立",
-                                "url": null
+                                "Text": "具名函式 以 function statement 宣告，有 hoist 現象，宣告時即刻被建立",
+                                "URL": null
                             },
                             {
-                                "text": "匿名函式 以 function expression 撰寫，執行該 expression 才被建立",
-                                "url": null
+                                "Text": "匿名函式 以 function expression 撰寫，執行該 expression 才被建立",
+                                "URL": null
                             },
                             {
-                                "text": "最常被拿來用在回呼函式",
-                                "url": null
+                                "Text": "最常被拿來用在回呼函式",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "函式建立",
-                        "data": [
+                        "Title": "函式建立",
+                        "Data": [
                             {
-                                "title": "語法",
-                                "text": "// 視函式的功能決定參數的個體及是否回傳值\n\nfunction ( [參數1[,參數2[,...]]] ) {\n   函式主體\n   [[return 值;][return;]]\n}",
-                                "group": true
+                                "Title": "語法",
+                                "Text": "// 視函式的功能決定參數的個體及是否回傳值\n\nfunction ( [參數1[,參數2[,...]]] ) {\n   函式主體\n   [[return 值;][return;]]\n}",
+                                "Group": true
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "型態轉換",
-                "contnet": [
+                "Title": "型態轉換",
+                "Contnet": [
                     {
-                        "title": "數字",
-                        "data": [
+                        "Title": "數字",
+                        "Data": [
                             {
-                                "text": "parseInt ( 資料 )",
-                                "url": null
+                                "Text": "parseInt ( 資料 )",
+                                "URL": null
                             },
                             {
-                                "text": "parseFloat ( 資料 )",
-                                "url": null
+                                "Text": "parseFloat ( 資料 )",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "history 物件",
-                "contnet": [
+                "Title": "history 物件",
+                "Contnet": [
                     {
-                        "title": "history 方法",
-                        "data": [
+                        "Title": "history 方法",
+                        "Data": [
                             {
-                                "text": "back()：回到上一頁",
-                                "url": null
+                                "Text": "back()：回到上一頁",
+                                "URL": null
                             },
                             {
-                                "text": "forward()：移動到下一頁",
-                                "url": null
+                                "Text": "forward()：移動到下一頁",
+                                "URL": null
                             },
                             {
-                                "text": "go(n)：n>0 ,往下移 n 頁 ; n < 0 ,往上回 n 頁",
-                                "url": null
+                                "Text": "go(n)：n>0 ,往下移 n 頁 ; n < 0 ,往上回 n 頁",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "document 物件",
-                "contnet": [
+                "Title": "document 物件",
+                "Contnet": [
                     {
-                        "title": "document 屬性",
-                        "data": [
+                        "Title": "document 屬性",
+                        "Data": [
                             {
-                                "text": "title",
-                                "url": null
+                                "Text": "Title",
+                                "URL": null
                             },
                             {
-                                "text": "bgColor：背景顏色",
-                                "url": null
+                                "Text": "bgColor：背景顏色",
+                                "URL": null
                             },
                             {
-                                "text": "fgColor：前景顏色",
-                                "url": null
+                                "Text": "fgColor：前景顏色",
+                                "URL": null
                             },
                             {
-                                "text": "linkColor：可能連結且未被連結過的顏色",
-                                "url": null
+                                "Text": "linkColor：可能連結且未被連結過的顏色",
+                                "URL": null
                             },
                             {
-                                "text": "vlinkColor：已被連結過的顏色",
-                                "url": null
+                                "Text": "vlinkColor：已被連結過的顏色",
+                                "URL": null
                             },
                             {
-                                "text": "alinkColor：作用中連結顏色",
-                                "url": null
+                                "Text": "alinkColor：作用中連結顏色",
+                                "URL": null
                             },
                             {
-                                "text": "lastModified：檔案的最新更新日期",
-                                "url": null
+                                "Text": "lastModified：檔案的最新更新日期",
+                                "URL": null
                             },
                             {
-                                "text": "documentElement：文件中的根元素",
-                                "url": null
+                                "Text": "documentElement：文件中的根元素",
+                                "URL": null
                             },
                             {
-                                "text": "head：文件中的 head 元素",
-                                "url": null
+                                "Text": "head：文件中的 head 元素",
+                                "URL": null
                             },
                             {
-                                "text": "body：文件中的 body 元素",
-                                "url": null
+                                "Text": "body：文件中的 body 元素",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "document 方法",
-                        "data": [
+                        "Title": "document 方法",
+                        "Data": [
                             {
-                                "text": "write ( data1 , data2,... )",
-                                "url": null
+                                "Text": "write ( Data1 , Data2,... )",
+                                "URL": null
                             },
                             {
-                                "text": "getElementById ( id-name )",
-                                "url": null
+                                "Text": "getElementById ( id-name )",
+                                "URL": null
                             },
                             {
-                                "text": "getElementsByName ( name )",
-                                "url": null
+                                "Text": "getElementsByName ( name )",
+                                "URL": null
                             },
                             {
-                                "text": "getElementsByTagName ( tagname )",
-                                "url": null
+                                "Text": "getElementsByTagName ( tagname )",
+                                "URL": null
                             },
                             {
-                                "text": "getElementsByClassName ( classname )",
-                                "url": null
+                                "Text": "getElementsByClassName ( classname )",
+                                "URL": null
                             },
                             {
-                                "text": "querySelector ()",
-                                "url": null
+                                "Text": "querySelector ()",
+                                "URL": null
                             },
                             {
-                                "text": "querySelectorAll()",
-                                "url": null
+                                "Text": "querySelectorAll()",
+                                "URL": null
                             },
                             {
-                                "text": "createElement ()：創造新元素",
-                                "url": null
+                                "Text": "createElement ()：創造新元素",
+                                "URL": null
                             },
                             {
-                                "text": "createTextNode ()：創造文字節點",
-                                "url": null
+                                "Text": "createTextNode ()：創造文字節點",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "window 物件",
-                "contnet": [
+                "Title": "window 物件",
+                "Contnet": [
                     {
-                        "title": "window 物件",
-                        "data": [
+                        "Title": "window 物件",
+                        "Data": [
                             {
-                                "title": "方法",
-                                "text": "方法",
-                                "group": true,
-                                "imgs": [
+                                "Title": "方法",
+                                "Text": "方法",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXiWZprHjKTVm-JumIkafAmL0qTIpKjOsIGz2IZevWPn_9lQPFJhoH-7jhSwOmBBexSUvCPQwqBwxFtg4VROISB3YSIIakDjmL4VDCtOkBhvNnSKcU9YXZTpKEKQQio-OqAPKv4cyGiHvmiOG6-ssc=w416-h721-no?authuser=0"
                                 ]
                             },
                             {
-                                "title": "屬性",
-                                "text": "屬性",
-                                "group": true,
-                                "imgs": [
+                                "Title": "屬性",
+                                "Text": "屬性",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUeMcG5tBQ2FQZNWoiySf1fdDSarrp9kZWEZ_ghNK4zQOblH1UvX41YyoBj5ZLBrLBCaLAU1bv7TQZrKE7ti3ZnBFWpTFiPJJlvzPzViC4QKyUZbr-VtORiGRNnduLRN55Y7QCrsnYmCfeIxppi77w=w411-h578-no?authuser=0"
                                 ]
                             }
@@ -457,110 +458,110 @@
                 ]
             },
             {
-                "title": "navigator 物件",
-                "contnet": [
+                "Title": "navigator 物件",
+                "Contnet": [
                     {
-                        "title": "navigator 屬性方法",
-                        "data": [
+                        "Title": "navigator 屬性方法",
+                        "Data": [
                             {
-                                "text": "appCodeName：瀏覽器代碼",
-                                "url": null
+                                "Text": "appCodeName：瀏覽器代碼",
+                                "URL": null
                             },
                             {
-                                "text": "appName：瀏覽器名稱",
-                                "url": null
+                                "Text": "appName：瀏覽器名稱",
+                                "URL": null
                             },
                             {
-                                "text": "appVersion：瀏覽器版本",
-                                "url": null
+                                "Text": "appVersion：瀏覽器版本",
+                                "URL": null
                             },
                             {
-                                "text": "userAgent：此用者代理器",
-                                "url": null
+                                "Text": "userAgent：此用者代理器",
+                                "URL": null
                             },
                             {
-                                "text": "platform：瀏覽器所在地作業平台",
-                                "url": null
+                                "Text": "platform：瀏覽器所在地作業平台",
+                                "URL": null
                             },
                             {
-                                "text": "browserLanguage：瀏覽器所使用的語系",
-                                "url": null
+                                "Text": "browserLanguage：瀏覽器所使用的語系",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "location 物件",
-                "contnet": [
+                "Title": "location 物件",
+                "Contnet": [
                     {
-                        "title": "location 屬性",
-                        "data": [
+                        "Title": "location 屬性",
+                        "Data": [
                             {
-                                "text": "https://Tibame.com:8080/index.php?type=asd&id=123",
-                                "url": null
+                                "Text": "https://Tibame.com:8080/index.php?type=asd&id=123",
+                                "URL": null
                             },
                             {
-                                "text": "// 伺服器網址\n\nhostname : Tibame.com",
-                                "title": "hostname",
-                                "group": true
+                                "Text": "// 伺服器網址\n\nhostname : Tibame.com",
+                                "Title": "hostname",
+                                "Group": true
                             },
                             {
-                                "text": "// 完整的 URL 字串\n\nhref : 整串網址",
-                                "title": "href",
-                                "group": true
+                                "Text": "// 完整的 URL 字串\n\nhref : 整串網址",
+                                "Title": "href",
+                                "Group": true
                             },
                             {
-                                "text": "// URL 的 hostname:port\n\nhost : Tibame.com:8080",
-                                "title": "host",
-                                "group": true
+                                "Text": "// URL 的 hostname:port\n\nhost : Tibame.com:8080",
+                                "Title": "host",
+                                "Group": true
                             },
                             {
-                                "text": "// 所使用的通訊阜\n\nport : 8080",
-                                "title": "port",
-                                "group": true
+                                "Text": "// 所使用的通訊阜\n\nport : 8080",
+                                "Title": "port",
+                                "Group": true
                             },
                             {
-                                "text": "// 網頁檔案的路徑和名稱\n\npathname : /index.php",
-                                "title": "pathname",
-                                "group": true
+                                "Text": "// 網頁檔案的路徑和名稱\n\npathname : /index.php",
+                                "Title": "pathname",
+                                "Group": true
                             },
                             {
-                                "text": "// 查詢字串\n\nsearch : ?type=asd&id=123",
-                                "title": "search",
-                                "group": true
+                                "Text": "// 查詢字串\n\nsearch : ?type=asd&id=123",
+                                "Title": "search",
+                                "Group": true
                             },
                             {
-                                "text": "reload ()：重新載入目前所瀏覽的文件",
-                                "url": null
+                                "Text": "reload ()：重新載入目前所瀏覽的文件",
+                                "URL": null
                             },
                             {
-                                "text": "replace ( url )：換掉目前所瀏覽的文件",
-                                "url": null
+                                "Text": "replace ( URL )：換掉目前所瀏覽的文件",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "input 物件",
-                "contnet": [
+                "Title": "input 物件",
+                "Contnet": [
                     {
-                        "title": "input 物件",
-                        "data": [
+                        "Title": "input 物件",
+                        "Data": [
                             {
-                                "text": "屬性",
-                                "title": "屬性",
-                                "group": true,
-                                "imgs": [
+                                "Text": "屬性",
+                                "Title": "屬性",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLV-4qw-o3DerICTdyPsfLrkBcpaLx24gI1r9fhBDK0f8kJ9J914scYM7sjJLtf0AkN8EgcbELVcyTVqvFv04faTBLl36L5yf1muwpcBWZwI5qpHRB4Ll7RcczR3ut7sFzJGAYMvdzq-u7vBojKDGBM=w431-h459-no?authuser=0"
                                 ]
                             },
                             {
-                                "text": "方法",
-                                "title": "方法",
-                                "group": true,
-                                "imgs": [
+                                "Text": "方法",
+                                "Title": "方法",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXp8PB8wJmRm1r8GzvAyapQVpf2f8Q-vHQUkoNkt9_GAfXBKy6je9CWT2lNlMcj4j2SGT1POxH7ZWCw0IDGbf6bykUoKDh72U-aK7nxGgMt1TE9840ZASnLKwUi-fvI9_SbWwMyAYLGdlsYgipDyo4=w427-h238-no?authuser=0"
                                 ]
                             }
@@ -569,28 +570,28 @@
                 ]
             },
             {
-                "title": "option 物件",
-                "contnet": [
+                "Title": "option 物件",
+                "Contnet": [
                     {
-                        "title": "option 物件",
-                        "data": [
+                        "Title": "option 物件",
+                        "Data": [
                             {
-                                "text": "option = new Option(text,value);",
-                                "url": null
+                                "Text": "option = new Option(Text,value);",
+                                "URL": null
                             },
                             {
-                                "text": "屬性",
-                                "title": "屬性",
-                                "group": true,
-                                "imgs": [
+                                "Text": "屬性",
+                                "Title": "屬性",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLW1LK-qhlfRngvEZL8BgqBtP_5JHr-ZnHWQbbkZxyyK-biQUSCc2vQj50nEcjpJA2nW_UuGq9vMzs_5RHdIE5DGxO-mUvzllNU967sLNK5qipbWm5LiJYbl6MfLeEkC1xx5d4yvgrJIXaRkUSagd7A=w432-h277-no?authuser=0"
                                 ]
                             },
                             {
-                                "text": "方法",
-                                "group": true,
-                                "title": "方法",
-                                "imgs": [
+                                "Text": "方法",
+                                "Group": true,
+                                "Title": "方法",
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXp8PB8wJmRm1r8GzvAyapQVpf2f8Q-vHQUkoNkt9_GAfXBKy6je9CWT2lNlMcj4j2SGT1POxH7ZWCw0IDGbf6bykUoKDh72U-aK7nxGgMt1TE9840ZASnLKwUi-fvI9_SbWwMyAYLGdlsYgipDyo4=w427-h238-no?authuser=0"
                                 ]
                             }
@@ -599,24 +600,24 @@
                 ]
             },
             {
-                "title": "select 物件",
-                "contnet": [
+                "Title": "select 物件",
+                "Contnet": [
                     {
-                        "title": "select 物件",
-                        "data": [
+                        "Title": "select 物件",
+                        "Data": [
                             {
-                                "text": "屬性",
-                                "title": "屬性",
-                                "group": true,
-                                "imgs": [
+                                "Text": "屬性",
+                                "Title": "屬性",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXVD-zT2VtkrjpTLRRWG3P99UqfqwMOQWP4XYX9IqTdC1yED1MZ-08M0De4c3KdirnLISOEoSqStHvmbLotgniisaLb37yQ-CZGVIWaJL6xbbdeQcvpvY5o0KsXOA3OkWNgP7JuwYxTlDW-zRC1clo=w413-h463-no?authuser=0"
                                 ]
                             },
                             {
-                                "text": "常見的方法",
-                                "group": true,
-                                "title": "方法",
-                                "imgs": [
+                                "Text": "常見的方法",
+                                "Group": true,
+                                "Title": "方法",
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLWUs84ecjxSnyhjJYXvGpWzZNGcusVEZV1PaaD6BHmnZWsw4l00OKw6q3qNAxplSVbXMM7AgE-CD_guB8zx2YakLu8l54XtgRHz9PBAH0MlWZjo6h1L_arLXm5lYP34kX2a1xMnIY78pcOeR9DnW14=w425-h173-no?authuser=0"
                                 ]
                             }
@@ -625,24 +626,24 @@
                 ]
             },
             {
-                "title": "Form 物件",
-                "contnet": [
+                "Title": "Form 物件",
+                "Contnet": [
                     {
-                        "title": "Form 物件",
-                        "data": [
+                        "Title": "Form 物件",
+                        "Data": [
                             {
-                                "text": "屬性",
-                                "title": "屬性",
-                                "group": true,
-                                "imgs": [
+                                "Text": "屬性",
+                                "Title": "屬性",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVP5twIvjrAZI6KY20rGkyqbgTcFXo95vBj8FhQnZJgzUOsyNXOJ7J8inWoPKP172kDIqtgxTbZwxHPCqxeH7oyayzezuczoNguC4m_ii5c8rveNJ3w-nDumwMPMDeczwOP0BHWEH-G3WjCV5mZ_Io=w414-h317-no?authuser=0"
                                 ]
                             },
                             {
-                                "text": "常見的方法",
-                                "group": true,
-                                "title": "方法",
-                                "imgs": [
+                                "Text": "常見的方法",
+                                "Group": true,
+                                "Title": "方法",
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLU6McXYfi_PvKHill1b8apD_A9rU361HO4v8KIOT_rWdS1G535oUtEkWb8Sb79sLtZwxLULdWaDrsMXm5B_vClz6RJeHRN2Uq7T6O636r2XRFtWz33nY9OLr03vefkHk6FcUlw5eKMAYk6lqOM24Qo=w409-h141-no?authuser=0"
                                 ]
                             }
@@ -651,24 +652,24 @@
                 ]
             },
             {
-                "title": "Form 物件",
-                "contnet": [
+                "Title": "Form 物件",
+                "Contnet": [
                     {
-                        "title": "Form 物件",
-                        "data": [
+                        "Title": "Form 物件",
+                        "Data": [
                             {
-                                "text": "屬性",
-                                "title": "屬性",
-                                "group": true,
-                                "imgs": [
+                                "Text": "屬性",
+                                "Title": "屬性",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVP5twIvjrAZI6KY20rGkyqbgTcFXo95vBj8FhQnZJgzUOsyNXOJ7J8inWoPKP172kDIqtgxTbZwxHPCqxeH7oyayzezuczoNguC4m_ii5c8rveNJ3w-nDumwMPMDeczwOP0BHWEH-G3WjCV5mZ_Io=w414-h317-no?authuser=0"
                                 ]
                             },
                             {
-                                "text": "常見的方法",
-                                "group": true,
-                                "title": "方法",
-                                "imgs": [
+                                "Text": "常見的方法",
+                                "Group": true,
+                                "Title": "方法",
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLU6McXYfi_PvKHill1b8apD_A9rU361HO4v8KIOT_rWdS1G535oUtEkWb8Sb79sLtZwxLULdWaDrsMXm5B_vClz6RJeHRN2Uq7T6O636r2XRFtWz33nY9OLr03vefkHk6FcUlw5eKMAYk6lqOM24Qo=w409-h141-no?authuser=0"
                                 ]
                             }
@@ -677,543 +678,543 @@
                 ]
             }
         ],
-        "right": [
+        "Right": [
             {
-                "title": "基礎知識",
-                "contnet": [
+                "Title": "基礎知識",
+                "Contnet": [
                     {
-                        "title": "主要功能",
-                        "data": [
+                        "Title": "主要功能",
+                        "Data": [
                             {
-                                "text": "動態改變頁面中元素的內容",
-                                "url": null
+                                "Text": "動態改變頁面中元素的內容",
+                                "URL": null
                             },
                             {
-                                "text": "動態改變頁面中元素的外觀",
-                                "url": null
+                                "Text": "動態改變頁面中元素的外觀",
+                                "URL": null
                             },
                             {
-                                "text": "提升網頁的趣味性",
-                                "url": null
+                                "Text": "提升網頁的趣味性",
+                                "URL": null
                             },
                             {
-                                "text": "提升使用者與網頁間有更好的互動性",
-                                "url": null
+                                "Text": "提升使用者與網頁間有更好的互動性",
+                                "URL": null
                             },
                             {
-                                "text": "分擔伺服器端的運算工作",
-                                "url": null
+                                "Text": "分擔伺服器端的運算工作",
+                                "URL": null
                             },
                             {
-                                "text": "減少網路傳輸所需的負荷",
-                                "url": null
+                                "Text": "減少網路傳輸所需的負荷",
+                                "URL": null
                             },
                             {
-                                "text": "做一些基本的表單驗證",
-                                "url": null
+                                "Text": "做一些基本的表單驗證",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "註解方式",
-                        "data": [
+                        "Title": "註解方式",
+                        "Data": [
                             {
-                                "text": "// 單行註解",
-                                "url": null
+                                "Text": "// 單行註解",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "嵌入方式",
-                "contnet": [
+                "Title": "嵌入方式",
+                "Contnet": [
                     {
-                        "title": "嵌入 Html",
-                        "data": [
+                        "Title": "嵌入 Html",
+                        "Data": [
                             {
-                                "text": "可寫在 head 元素中",
-                                "url": null
+                                "Text": "可寫在 head 元素中",
+                                "URL": null
                             },
                             {
-                                "text": "可寫在 body 元素中",
-                                "url": null
+                                "Text": "可寫在 body 元素中",
+                                "URL": null
                             },
                             {
-                                "text": "可以內嵌多份的 script 區塊",
-                                "url": null
+                                "Text": "可以內嵌多份的 script 區塊",
+                                "URL": null
                             },
                             {
-                                "text": "以往通常會將函數或事件處理程式寫在 head 標籤中",
-                                "url": null
+                                "Text": "以往通常會將函數或事件處理程式寫在 head 標籤中",
+                                "URL": null
                             },
                             {
-                                "text": "為了提升網頁剖析的效能，可以將 script 寫在 body 元素 的最後面",
-                                "url": null
+                                "Text": "為了提升網頁剖析的效能，可以將 script 寫在 body 元素 的最後面",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "引用外部 Javascript 檔案",
-                        "data": [
+                        "Title": "引用外部 Javascript 檔案",
+                        "Data": [
                             {
-                                "text": "script 標籤中的 src 路徑",
-                                "url": null
+                                "Text": "script 標籤中的 src 路徑",
+                                "URL": null
                             },
                             {
-                                "text": "script 標籤中的 不要再放入其他 js 程式碼",
-                                "url": null
+                                "Text": "script 標籤中的 不要再放入其他 js 程式碼",
+                                "URL": null
                             },
                             {
-                                "text": "script 標籤中加 async 屬性，可以非同步的方式下載後再執行",
-                                "url": null
+                                "Text": "script 標籤中加 async 屬性，可以非同步的方式下載後再執行",
+                                "URL": null
                             },
                             {
-                                "text": "script 標籤中加 defer 屬性，可以非同步的方式下載，待網頁剖析完畢後再執行",
-                                "url": null
+                                "Text": "script 標籤中加 defer 屬性，可以非同步的方式下載，待網頁剖析完畢後再執行",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "DOM",
-                "contnet": [
+                "Title": "DOM",
+                "Contnet": [
                     {
-                        "title": "DOM 簡介",
-                        "data": [
+                        "Title": "DOM 簡介",
+                        "Data": [
                             {
-                                "text": "Document Object Model",
-                                "url": null
+                                "Text": "Document Object Model",
+                                "URL": null
                             },
                             {
-                                "text": "將文件視為一棵文件樹",
-                                "url": null
+                                "Text": "將文件視為一棵文件樹",
+                                "URL": null
                             },
                             {
-                                "text": "文件從根元素開始，包含了許多子元素",
-                                "url": null
+                                "Text": "文件從根元素開始，包含了許多子元素",
+                                "URL": null
                             },
                             {
-                                "text": "文件上的標籤元素或文字等均視為文件樹上的一個節點",
-                                "url": null
+                                "Text": "文件上的標籤元素或文字等均視為文件樹上的一個節點",
+                                "URL": null
                             },
                             {
-                                "text": "瀏覽器將瀏覽器上所展示的文件以一群物件的方式架構起來",
-                                "url": null
+                                "Text": "瀏覽器將瀏覽器上所展示的文件以一群物件的方式架構起來",
+                                "URL": null
                             },
                             {
-                                "text": "我們透過對物件的操作，使網頁富有動態感，而非靜態網頁",
-                                "url": null
+                                "Text": "我們透過對物件的操作，使網頁富有動態感，而非靜態網頁",
+                                "URL": null
                             },
                             {
-                                "text": "當瀏覽器將網頁文件打開後，便將該文件物件化成為 document object",
-                                "url": null
+                                "Text": "當瀏覽器將網頁文件打開後，便將該文件物件化成為 document object",
+                                "URL": null
                             },
                             {
-                                "text": "document object 就是網頁文件內其它物件的源頭",
-                                "url": null
+                                "Text": "document object 就是網頁文件內其它物件的源頭",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "物件操作",
-                "contnet": [
+                "Title": "物件操作",
+                "Contnet": [
                     {
-                        "title": "物件原理",
-                        "data": [
+                        "Title": "物件原理",
+                        "Data": [
                             {
-                                "text": "document.title = \"Welcome to Tibame\";",
-                                "group": true,
-                                "title": "物件.屬性"
+                                "Text": "document.Title = \"Welcome to Tibame\";",
+                                "Group": true,
+                                "Title": "物件.屬性"
                             },
                             {
-                                "text": "document.[\"title\"] = \"Welcome to Tibame\";",
-                                "group": true,
-                                "title": "物件.['屬性']"
+                                "Text": "document.[\"Title\"] = \"Welcome to Tibame\";",
+                                "Group": true,
+                                "Title": "物件.['屬性']"
                             },
                             {
-                                "text": "document.write = \"Hello world\";",
-                                "group": true,
-                                "title": "物件.方法( 參數值1 , 參數值2 , ... )"
+                                "Text": "document.write = \"Hello world\";",
+                                "Group": true,
+                                "Title": "物件.方法( 參數值1 , 參數值2 , ... )"
                             },
                             {
-                                "text": "btnSend.onclick",
-                                "group": true,
-                                "title": "物件.事件屬性"
+                                "Text": "btnSend.onclick",
+                                "Group": true,
+                                "Title": "物件.事件屬性"
                             },
                             {
-                                "text": "document 是文件物件，它提供了一些功能讓我們可以操作文件上的元素",
-                                "url": null
+                                "Text": "document 是文件物件，它提供了一些功能讓我們可以操作文件上的元素",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "變數",
-                "contnet": [
+                "Title": "變數",
+                "Contnet": [
                     {
-                        "title": "變數型別",
-                        "data": [
+                        "Title": "變數型別",
+                        "Data": [
                             {
-                                "text": "String",
-                                "url": null
+                                "Text": "String",
+                                "URL": null
                             },
                             {
-                                "title": "Number",
-                                "text": "十進位：17、八進位：017、十六進位：0x17",
-                                "group": true
+                                "Title": "Number",
+                                "Text": "十進位：17、八進位：017、十六進位：0x17",
+                                "Group": true
                             },
                             {
-                                "title": "Boolean",
-                                "text": "有兩個值：true , false",
-                                "group": true
+                                "Title": "Boolean",
+                                "Text": "有兩個值：true , false",
+                                "Group": true
                             },
                             {
-                                "title": "Undefined",
-                                "text": "變數有宣告，但尚未給值",
-                                "group": true
+                                "Title": "Undefined",
+                                "Text": "變數有宣告，但尚未給值",
+                                "Group": true
                             },
                             {
-                                "title": "Null",
-                                "text": "只有一個null值，表示變數沒有值或沒有物件",
-                                "group": true
+                                "Title": "Null",
+                                "Text": "只有一個null值，表示變數沒有值或沒有物件",
+                                "Group": true
                             }
                         ]
                     },
                     {
-                        "title": "變數宣告",
-                        "data": [
+                        "Title": "變數宣告",
+                        "Data": [
                             {
-                                "text": "宣告一個儲存空間，用來存放可以變動的資料",
-                                "url": null
+                                "Text": "宣告一個儲存空間，用來存放可以變動的資料",
+                                "URL": null
                             },
                             {
-                                "text": "var 變數名稱、let 變數名稱",
-                                "url": null
+                                "Text": "var 變數名稱、let 變數名稱",
+                                "URL": null
                             },
                             {
-                                "text": "需要注意區域與全域變數的宣告",
-                                "url": null
+                                "Text": "需要注意區域與全域變數的宣告",
+                                "URL": null
                             },
                             {
-                                "text": "變數是弱型別的模式，宣告時不需指定變數內的資料型別",
-                                "url": null
+                                "Text": "變數是弱型別的模式，宣告時不需指定變數內的資料型別",
+                                "URL": null
                             },
                             {
-                                "text": "變數中的資料，其資料型別可以動態改變",
-                                "url": null
+                                "Text": "變數中的資料，其資料型別可以動態改變",
+                                "URL": null
                             },
                             {
-                                "text": "變數未經宣告，取值時會引發錯誤",
-                                "url": null
+                                "Text": "變數未經宣告，取值時會引發錯誤",
+                                "URL": null
                             },
                             {
-                                "text": "變數未經宣告，先設定該值可被允許 如：a = 3",
-                                "url": null
+                                "Text": "變數未經宣告，先設定該值可被允許 如：a = 3",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "var",
-                        "data": [
+                        "Title": "var",
+                        "Data": [
                             {
-                                "text": "有 hoist 的現象",
-                                "url": null
+                                "Text": "有 hoist 的現象",
+                                "URL": null
                             },
                             {
-                                "text": "可以重複宣告",
-                                "url": null
+                                "Text": "可以重複宣告",
+                                "URL": null
                             },
                             {
-                                "text": "沒有區域作用域",
-                                "url": null
+                                "Text": "沒有區域作用域",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "let",
-                        "data": [
+                        "Title": "let",
+                        "Data": [
                             {
-                                "text": "沒有 hoist 的現象",
-                                "url": null
+                                "Text": "沒有 hoist 的現象",
+                                "URL": null
                             },
                             {
-                                "text": "不可以重複宣告",
-                                "url": null
+                                "Text": "不可以重複宣告",
+                                "URL": null
                             },
                             {
-                                "text": "有區域作用域",
-                                "url": null
+                                "Text": "有區域作用域",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "常數",
-                        "data": [
+                        "Title": "常數",
+                        "Data": [
                             {
-                                "text": "可以使用 const 來宣告一個常數",
-                                "url": null
+                                "Text": "可以使用 const 來宣告一個常數",
+                                "URL": null
                             },
                             {
-                                "text": "const pi = 3.14;",
-                                "url": null
+                                "Text": "const pi = 3.14;",
+                                "URL": null
                             },
                             {
-                                "text": "常數來宣告時必須給定一個值",
-                                "url": null
+                                "Text": "常數來宣告時必須給定一個值",
+                                "URL": null
                             },
                             {
-                                "text": "常數一經宣告之後就不可再改變其值",
-                                "url": null
+                                "Text": "常數一經宣告之後就不可再改變其值",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "運算式原理",
-                        "data": [
+                        "Title": "運算式原理",
+                        "Data": [
                             {
-                                "text": "『運算式』是由『運算子』和『運算元』組成",
-                                "url": null
+                                "Text": "『運算式』是由『運算子』和『運算元』組成",
+                                "URL": null
                             },
                             {
-                                "text": "22 * 33 + 55",
-                                "url": null
+                                "Text": "22 * 33 + 55",
+                                "URL": null
                             },
                             {
-                                "text": "其中數值 22、33、55 都是算式元",
-                                "url": null
+                                "Text": "其中數值 22、33、55 都是算式元",
+                                "URL": null
                             },
                             {
-                                "text": "『 > 』、『 * 』、『 + 』則是運算子",
-                                "url": null
+                                "Text": "『 > 』、『 * 』、『 + 』則是運算子",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "運算式種類",
-                        "data": [
+                        "Title": "運算式種類",
+                        "Data": [
                             {
-                                "text": "算式運算",
-                                "url": null
+                                "Text": "算式運算",
+                                "URL": null
                             },
                             {
-                                "text": "字串運算",
-                                "url": null
+                                "Text": "字串運算",
+                                "URL": null
                             },
                             {
-                                "text": "比較運算",
-                                "url": null
+                                "Text": "比較運算",
+                                "URL": null
                             },
                             {
-                                "text": "邏輯運算",
-                                "url": null
+                                "Text": "邏輯運算",
+                                "URL": null
                             },
                             {
-                                "text": "位元運算",
-                                "url": null
+                                "Text": "位元運算",
+                                "URL": null
                             },
                             {
-                                "text": "指定運算",
-                                "url": null
+                                "Text": "指定運算",
+                                "URL": null
                             },
                             {
-                                "title": "三元運算",
-                                "text": "avg >= 60 ? \"通過\" : \"再努力\"",
-                                "group": true
+                                "Title": "三元運算",
+                                "Text": "avg >= 60 ? \"通過\" : \"再努力\"",
+                                "Group": true
                             },
                             {
-                                "text": "typeof 運算",
-                                "url": null
+                                "Text": "typeof 運算",
+                                "URL": null
                             },
                             {
-                                "text": "型別運算",
-                                "url": null
+                                "Text": "型別運算",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "遞增 / 遞減",
-                "contnet": [
+                "Title": "遞增 / 遞減",
+                "Contnet": [
                     {
-                        "title": "原理與實例",
-                        "data": [
+                        "Title": "原理與實例",
+                        "Data": [
                             {
-                                "text": "寫在前面先遞增 / 遞減，再取值做其他運算",
-                                "url": null
+                                "Text": "寫在前面先遞增 / 遞減，再取值做其他運算",
+                                "URL": null
                             },
                             {
-                                "text": "寫在後面先取值以執行運算，然後再遞增 / 遞減",
-                                "url": null
+                                "Text": "寫在後面先取值以執行運算，然後再遞增 / 遞減",
+                                "URL": null
                             },
                             {
-                                "title": "範例一：",
-                                "text": "x = 10;\ny = ++x + 5;\nx = 11 , y = 16\n\nx = 10;\ny = x++ + 5;\nx = 11 , y = 15",
-                                "group": true
+                                "Title": "範例一：",
+                                "Text": "x = 10;\ny = ++x + 5;\nx = 11 , y = 16\n\nx = 10;\ny = x++ + 5;\nx = 11 , y = 15",
+                                "Group": true
                             },
                             {
-                                "title": "範例二：",
-                                "text": "a = 10;\nb = ++a + ++a;\nx = 12 , y = 23\n\na = 10;\nb = a++ + a++;\nx = 12 , y = 21",
-                                "group": true
+                                "Title": "範例二：",
+                                "Text": "a = 10;\nb = ++a + ++a;\nx = 12 , y = 23\n\na = 10;\nb = a++ + a++;\nx = 12 , y = 21",
+                                "Group": true
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "流程控制結構",
-                "contnet": [
+                "Title": "流程控制結構",
+                "Contnet": [
                     {
-                        "title": "三種結構",
-                        "data": [
+                        "Title": "三種結構",
+                        "Data": [
                             {
-                                "text": "循環結構：一列接著一列執行",
-                                "url": null
+                                "Text": "循環結構：一列接著一列執行",
+                                "URL": null
                             },
                             {
-                                "text": "選擇結構：根據條件執行",
-                                "url": null
+                                "Text": "選擇結構：根據條件執行",
+                                "URL": null
                             },
                             {
-                                "text": "重複結構：根據條件重複執行，又稱迴圈結構",
-                                "url": null
+                                "Text": "重複結構：根據條件重複執行，又稱迴圈結構",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "選擇結構",
-                        "data": [
+                        "Title": "選擇結構",
+                        "Data": [
                             {
-                                "title": "if",
-                                "text": "if ( 條件式一 ) {\n   敘述區塊一\n}else if( 條件式二 ){\n   敘述區塊二\n}else{\n   敘述區塊N\n}",
-                                "group": true
+                                "Title": "if",
+                                "Text": "if ( 條件式一 ) {\n   敘述區塊一\n}else if( 條件式二 ){\n   敘述區塊二\n}else{\n   敘述區塊N\n}",
+                                "Group": true
                             },
                             {
-                                "title": "switch",
-                                "text": "switch ( 運算式 ) {\n   case 值1:\n      敘述區塊1\n      [break;]\n   [default:\n      敘述區塊n]\n}",
-                                "group": true
+                                "Title": "switch",
+                                "Text": "switch ( 運算式 ) {\n   case 值1:\n      敘述區塊1\n      [break;]\n   [default:\n      敘述區塊n]\n}",
+                                "Group": true
                             }
                         ]
                     },
                     {
-                        "title": "重複結構 - ( 迴圈 )",
-                        "data": [
+                        "Title": "重複結構 - ( 迴圈 )",
+                        "Data": [
                             {
-                                "title": "for",
-                                "text": "句型一：\n\nfor ( 初始設定;執行條件;增或減運算式 ) {\n   敘述區塊\n   [break;]\n   [continue;]\n}\n\n句型二：\n\nfor ( 初始設定;執行條件;增或減運算式 )\n   敘述; //只有一行",
-                                "group": true
+                                "Title": "for",
+                                "Text": "句型一：\n\nfor ( 初始設定;執行條件;增或減運算式 ) {\n   敘述區塊\n   [break;]\n   [continue;]\n}\n\n句型二：\n\nfor ( 初始設定;執行條件;增或減運算式 )\n   敘述; //只有一行",
+                                "Group": true
                             },
                             {
-                                "title": "foreach",
-                                "text": "// 語意上是foreach，但語法上只要寫 for 即可\n\nfor ( 索引變數 in 物件變數 ) {\n   敘述區塊\n}",
-                                "group": true
+                                "Title": "foreach",
+                                "Text": "// 語意上是foreach，但語法上只要寫 for 即可\n\nfor ( 索引變數 in 物件變數 ) {\n   敘述區塊\n}",
+                                "Group": true
                             },
                             {
-                                "title": "while",
-                                "text": "while ( 執行條件 ) {\n   敘述區塊\n   [break;]\n   [continue;]\n}\n\n// 檢查執行條件是否為true，每次執行皆會檢查",
-                                "group": true
+                                "Title": "while",
+                                "Text": "while ( 執行條件 ) {\n   敘述區塊\n   [break;]\n   [continue;]\n}\n\n// 檢查執行條件是否為true，每次執行皆會檢查",
+                                "Group": true
                             },
                             {
-                                "title": "do...while",
-                                "text": "do{\n   敘述區塊\n   [break;]\n   [continue;]\n}while(執行條件);\n\n// 無條件先執行，後判斷",
-                                "group": true
+                                "Title": "do...while",
+                                "Text": "do{\n   敘述區塊\n   [break;]\n   [continue;]\n}while(執行條件);\n\n// 無條件先執行，後判斷",
+                                "Group": true
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "陣列",
-                "contnet": [
+                "Title": "陣列",
+                "Contnet": [
                     {
-                        "title": "陣列原理",
-                        "data": [
+                        "Title": "陣列原理",
+                        "Data": [
                             {
-                                "text": "通過索引來獲取陣列中的資料",
-                                "url": null
+                                "Text": "通過索引來獲取陣列中的資料",
+                                "URL": null
                             },
                             {
-                                "text": "第一項值的索引為 0",
-                                "url": null
+                                "Text": "第一項值的索引為 0",
+                                "URL": null
                             },
                             {
-                                "text": "陣列中的資料，不需要具備相同型態類別",
-                                "url": null
+                                "Text": "陣列中的資料，不需要具備相同型態類別",
+                                "URL": null
                             },
                             {
-                                "text": "Javascript 中的陣列，以物件的型態被建立",
-                                "url": null
+                                "Text": "Javascript 中的陣列，以物件的型態被建立",
+                                "URL": null
                             },
                             {
-                                "text": "陣列可再放入陣列，稱二維陣列",
-                                "url": null
+                                "Text": "陣列可再放入陣列，稱二維陣列",
+                                "URL": null
                             },
                             {
-                                "text": "將陣列 A 指定給 B，參考同一個陣列 B 也會跟著改變",
-                                "url": null
+                                "Text": "將陣列 A 指定給 B，參考同一個陣列 B 也會跟著改變",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "陣列建立",
-                        "data": [
+                        "Title": "陣列建立",
+                        "Data": [
                             {
-                                "text": "var arr = new Array(5);",
-                                "url": null
+                                "Text": "var arr = new Array(5);",
+                                "URL": null
                             },
                             {
-                                "text": "建立五個資料，值均為 undefined",
-                                "url": null
+                                "Text": "建立五個資料，值均為 undefined",
+                                "URL": null
                             },
                             {
-                                "text": "var arr = new Array(11,22,33,44,55);",
-                                "url": null
+                                "Text": "var arr = new Array(11,22,33,44,55);",
+                                "URL": null
                             },
                             {
-                                "text": "建立五個資料，值分別對應11 , 22 , 33...",
-                                "url": null
+                                "Text": "建立五個資料，值分別對應11 , 22 , 33...",
+                                "URL": null
                             }
                         ]
                     },
                     {
-                        "title": "陣列操作",
-                        "data": [
+                        "Title": "陣列操作",
+                        "Data": [
                             {
-                                "text": "var arr = new Array(11,22,33,44,55);",
-                                "url": null
+                                "Text": "var arr = new Array(11,22,33,44,55);",
+                                "URL": null
                             },
                             {
-                                "text": "arr[0] 為 11",
-                                "url": null
+                                "Text": "arr[0] 為 11",
+                                "URL": null
                             }
                         ]
                     }
                 ]
             },
             {
-                "title": "型態比較",
-                "contnet": [
+                "Title": "型態比較",
+                "Contnet": [
                     {
-                        "title": "型態比較",
-                        "data": [
+                        "Title": "型態比較",
+                        "Data": [
                             {
-                                "title": "比較運算",
-                                "text": "比較運算",
-                                "group": true,
-                                "imgs": [
+                                "Title": "比較運算",
+                                "Text": "比較運算",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXxe17uRf8k9Vx-XJavfaVcW8mnFRGugC-7WULmR4CT78o6nCBE9VFXdqZiYkroI6mW6-kkUcRT30Gof23bgv2LllaLHjBjLhMabuYlLxUnO0_uH65GDhQKKVQdGzRWCIUJ9ZFKttYlupAowbaRrSc=w368-h393-no?authuser=0"
                                 ]
                             },
                             {
-                                "title": "邏輯運算 - ( x = 20 , y = 30)",
-                                "text": "邏輯運算",
-                                "group": true,
-                                "imgs": [
+                                "Title": "邏輯運算 - ( x = 20 , y = 30)",
+                                "Text": "邏輯運算",
+                                "Group": true,
+                                "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLV-WwQW3nDWzjvgDWXbd8NEWe2yPoJzuPSTzMLfcghGE1Iy7gJo-h0flkLV5HOspAXN7JLJJmwz2MQjE9Xw2_qzfOWYNPQXqvLfb5PT2yrz5xFjUsvTYqvgweE51FC2zj21vpbLjqScsrPeaFykQW8=w417-h181-no?authuser=0"
                                 ]
                             }
@@ -1223,9 +1224,9 @@
             }
         ]
     },
-    "source": {
-        "text": true,
-        "from": [],
-        "refer": []
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
     }
 }
