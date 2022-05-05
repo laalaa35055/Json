@@ -1,0 +1,42 @@
+{
+    "name": "Google Analytics",
+    "type": 0,
+    "data": [
+        {
+            "name": "Pinterest",
+            "title": "【★★★★】【Unsplash】：提供網站圖片及其他圖片分析",
+            "url": "https://www.pinterest.com/",
+            "group": 0
+        },
+        {
+            "name": "Statcounter",
+            "title": "【★★★★】【Statcounter】：瀏覽器市場分析",
+            "url": "https://gs.statcounter.com/",
+            "group": 0
+        },
+        {
+            "name": "Similarweb",
+            "title": "【★★★★】【Similarweb】：統計各項數據排名",
+            "url": "https://www.similarweb.com/zh/",
+            "group": 0
+        },
+        {
+            "name": "Uiiiuiii",
+            "title": "【★★★★】【Uiiiuiii】：屏幕尺寸大全",
+            "url": "https://uiiiuiii.com/screen/",
+            "group": 0
+        },
+        {
+            "name": "Sexfat",
+            "title": "【★★★】【Sexfat】：提供 RWD 斷點分析",
+            "url": "https://sexfat.github.io/rwd/breakpoint.html",
+            "group": 0
+        },
+        {
+            "name": "Analytics",
+            "title": "【★★】【Analytics】：Google 提供的分析方式",
+            "url": "https://analytics.google.com/",
+            "group": 0
+        }
+    ]
+}

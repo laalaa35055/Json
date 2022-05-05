@@ -1,0 +1,106 @@
+{
+    "name": "Tool Resources",
+    "type": 1,
+    "data": [
+        {
+            "name": "線上工具",
+            "group": 1,
+            "data": [
+                {
+                    "name": "GDB",
+                    "title": "【GDB online Debugger】：前端的程式語言為主，大量前端語言",
+                    "url": "https://www.onlinegdb.com/"
+                },
+                {
+                    "name": "Jsbin",
+                    "title": "【Jsbin】：線上編寫 Html、CSS、Javascript -- 程式感較強",
+                    "url": "https://jsbin.com/?html,css,js,output"
+                },
+                {
+                    "name": "Codepen",
+                    "title": "【Codepen】：線上編寫 Html、CSS、Javascript -- 畫面感較強",
+                    "url": "https://codepen.io/"
+                },
+                {
+                    "name": "Ziti66",
+                    "title": "【ziti66】：線上編譯文字、可存圖片",
+                    "url": "http://www.ziti66.com/zitiinfo/1-7/"
+                }
+            ]
+        },
+        {
+            "name": "常用工具",
+            "group": 1,
+            "data": [
+                {
+                    "name": "CSS Reset",
+                    "title": "【CSS Reset】：Eric Meyer 作者提供的 Reset",
+                    "url": "#"
+                },
+                {
+                    "name": "Normalize",
+                    "title": "【CSS Reset】：Normalize.css",
+                    "url": "https://necolas.github.io/normalize.css/"
+                },
+                {
+                    "name": "Wox",
+                    "title": "【Wox】：搭配 Everything，快速啟動檔案，也可另安其它套件",
+                    "url": "http://www.wox.one/"
+                },
+                {
+                    "name": "假圖",
+                    "title": "【假圖】：提供假圖",
+                    "url": "https://loremflickr.com/"
+                }
+            ]
+        },
+        {
+            "name": "編寫軟體",
+            "group": 1,
+            "data": [
+                {
+                    "name": "VScode",
+                    "title": "【VScode】：提供編寫前端與後端方面語言的軟體",
+                    "url": "https://code.visualstudio.com/"
+                },
+                {
+                    "name": "Sublime Text",
+                    "title": "【Sublime Text】：提供編寫前端與後端方面語言的軟體",
+                    "url": "https://www.sublimetext.com/"
+                }
+            ]
+        },
+        {
+            "name": "作品集",
+            "group": 1,
+            "data": [
+                {
+                    "name": "墨 x 怪",
+                    "title": "個專，初期作品，內容過少、沒用框架，尚可改進",
+                    "url": "https://laalaa35055.github.io/CFD103-19-2/"
+                },
+                {
+                    "name": "CodeMonster",
+                    "title": "團專，初期作品，東西太殘缺、沒用 Vue/Cli",
+                    "url": "https://tibamef2e.com/cfd103/g4/"
+                },
+                {
+                    "name": "履歷",
+                    "title": "初期履歷，工作經歷過少，排版過簡單、太空洞、粗糙，尚可改進",
+                    "url": "https://laalaa35055.github.io/autobiography/"
+                }
+            ]
+        },
+        {
+            "name": "練習工具",
+            "group": 1,
+            "data": [
+                {
+                    "name": "暫無",
+                    "title": "暫無",
+                    "url": "#"
+                }
+            ]
+        }
+    ]
+}

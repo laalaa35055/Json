@@ -1,0 +1,72 @@
+{
+    "name": "常用查詢",
+    "type": 1,
+    "data": [
+        {
+            "name": "快速查詢",
+            "group": 1,
+            "data": [
+                {
+                    "name": "CDNjs",
+                    "title": "【CDNjs】：提供線上 API 引入",
+                    "url": "https://cdnjs.com/"
+                },
+                {
+                    "name": "外網 IP",
+                    "title": "【外網 IP】：快速查詢外網 IP",
+                    "url": "http://ipinfo.io/ip"
+                },
+                {
+                    "name": "Fontawesome",
+                    "title": "【Fontawesome】：提供一些常見圖像，需加入會員導入JS，可免費",
+                    "url": "https://fontawesome.com/"
+                },
+                {
+                    "name": "Keycode",
+                    "title": "【keycode】：快速查詢 keycode",
+                    "url": "/SelfMade/keycode"
+                },
+                {
+                    "name": "HTTP & Code",
+                    "title": "【HTTP & Code】：快速查詢 HTTPCode 與 相關資訊",
+                    "url": "/LearnPage/httpcode"
+                },
+                {
+                    "name": "特殊符號",
+                    "title": "【特殊符號】：提供各式特殊符號",
+                    "url": "https://tw.piliapp.com/symbol/"
+                }
+            ]
+        },
+        {
+            "name": "官方網站",
+            "group": 1,
+            "data": [
+                {
+                    "name": "w3schools",
+                    "title": "【w3schools】：提供前端各類方法查詢",
+                    "url": "https://www.w3schools.com/",
+                    "id": 0
+                },
+                {
+                    "name": "Vue",
+                    "title": "【Vue】：網頁框架",
+                    "url": "https://vuejs.org/",
+                    "id": 0
+                },
+                {
+                    "name": "Bootstrap",
+                    "title": "【Bootstrap】：CSS 延伸框架",
+                    "url": "https://getbootstrap.com/",
+                    "id": 0
+                },
+                {
+                    "name": "Laravel",
+                    "title": "【Laravel】：PHP 延伸框架",
+                    "url": "https://laravel.com/",
+                    "id": 0
+                }
+            ]
+        }
+    ]
+}

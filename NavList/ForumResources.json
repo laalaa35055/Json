@@ -1,0 +1,64 @@
+{
+    "name": "Forum Resources",
+    "type":1,
+    "data": [
+        {
+            "name": "資源論壇",
+            "group":1,
+            "data": [
+                {
+                    "name": "Fastzone",
+                    "title": "【無限討論區】：可下載影片、動畫、遊戲、軟體的資源論壇",
+                    "url": "https://fastzone.org/forum.php"
+                }
+            ]
+        },
+        {
+            "name": "學習網站",
+            "group":1,
+            "data": [
+                {
+                    "name": "CSS 可樂",
+                    "title": "【CSS 可樂】：Aoms老師，css教學網站",
+                    "url": "http://csscoke.com/"
+                }
+            ]
+        },
+        {
+            "name": "學習論壇",
+            "group":1,
+            "data": [
+                {
+                    "name": "Bilbil",
+                    "title": "【Bilbil】：大陸網站，擁有非常多的資源，如：視頻教學",
+                    "url": "https://www.bilibili.com/"
+                },
+                {
+                    "name": "设计师网址导航",
+                    "title": "【设计师网址导航】：大陸網站，提供近乎全能的資源",
+                    "url": "https://hao.uisdc.com/"
+                },
+                {
+                    "name": "Stackoverflow",
+                    "title": "【Stackoverflow】：國外討論 IT 的論壇，有海量資源",
+                    "url": "https://stackoverflow.com/"
+                },
+                {
+                    "name": "吾愛破解",
+                    "title": "【吾愛破解】：大陸網站，學習破解的論壇有海量資源，但須時常簽到回帖",
+                    "url": "https://www.52pojie.cn/"
+                },
+                {
+                    "name": "ITread",
+                    "title": "【ITread】：提供前端及後端 ( 全端 ) 各式語言說明及教程",
+                    "url": "https://www.itread01.com/"
+                },
+                {
+                    "name": "IT邦幫忙",
+                    "title": "【IT邦幫忙】：工程師討論及學習的網站，內有鐵人賽可學習",
+                    "url": "https://ithelp.ithome.com.tw/"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Study Plan",
+    "type": 1,
+    "data": [
+    {
+        "name": "暫無",
+        "group": 1,
+        "data": [
+        {
+            "name": "暫無",
+            "title": "暫無",
+            "url": "暫無"
+        }]
+    },
+    {
+        "name": "無",
+        "group": 1,
+        "data": [
+        {
+            "name": "暫無",
+            "title": "暫無",
+            "url": "暫無"
+        }]
+    }]
+}

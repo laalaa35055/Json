@@ -1,0 +1,145 @@
+{
+    "name": "NoteBook",
+    "type": 1,
+    "data": [
+        {
+            "name": "前端技術",
+            "group": 1,
+            "data": [
+                {
+                    "name": "CSS 選擇器",
+                    "id": "CSS-Select",
+                    "title": "學習程度【 90 %】",
+                    "ajax": "/",
+                    "url": "/LearnPage/CSS-Select"
+                },
+                {
+                    "name": "SASS",
+                    "id": "SASS",
+                    "title": "學習程度【 90 %】",
+                    "ajax": "/",
+                    "url": "/LearnPage/SASS"
+                },
+                {
+                    "name": "Javascript",
+                    "id": "Javascript",
+                    "title": "學習程度【 90 %】",
+                    "url": "/LearnPage/Javascript",
+                    "ajax": "/"
+                },
+                {
+                    "name": "Ajax",
+                    "id": "Ajax",
+                    "title": "學習程度【 90 %】",
+                    "url": "/LearnPage/Ajax",
+                    "ajax": "/"
+                },
+                {
+                    "name": "Vuex",
+                    "id": "Vuex",
+                    "title": "學習程度【 60 %】",
+                    "url": "/LearnPage/Vuex",
+                    "ajax": "/"
+                },
+                {
+                    "name": "JQuery",
+                    "id": "JQuery",
+                    "title": "學習程度【 50 %】",
+                    "url": "/LearnPage/JQuery",
+                    "ajax": "/"
+                },
+                {
+                    "name": "Vue-Router",
+                    "id": "Vue-Router",
+                    "title": "學習程度【 40 %】",
+                    "url": "/LearnPage/Vue-Router",
+                    "ajax": "/"
+                }
+            ]
+        },
+        {
+            "name": "後端技術",
+            "group": 1,
+            "data": [
+                {
+                    "name": "MySQL",
+                    "id": "MySQL",
+                    "title": "學習程度【 50 %】",
+                    "url": "/LearnPage/MySQL",
+                    "ajax": "/"
+                },
+                {
+                    "name": "PHP",
+                    "id": "PHP",
+                    "title": "學習程度【 90 %】",
+                    "url": "/LearnPage/PHP",
+                    "ajax": "/"
+                },
+                {
+                    "name": "Laravel",
+                    "id": "Laravel",
+                    "title": "學習程度【 0 %】",
+                    "url": "/LearnPage/Laravel",
+                    "ajax": "/"
+                }
+            ]
+        },
+        {
+            "name": "版本控制",
+            "group": 1,
+            "data": [
+                {
+                    "name": "Git",
+                    "id": "Git",
+                    "title": "學習程度【 60 %】",
+                    "url": "/LearnPage/Git",
+                    "ajax": "/"
+                }
+            ]
+        },
+        {
+            "name": "網站可靠性工程 ( SRE )",
+            "group": 1,
+            "data": [
+                {
+                    "name": "基礎概念",
+                    "id": "SRE",
+                    "title": "學習程度【 30 %】",
+                    "url": "/LearnPage/SRE",
+                    "ajax": "/"
+                },
+                {
+                    "name": "Linux",
+                    "id": "Linux",
+                    "title": "學習程度【 10 %】",
+                    "url": "/LearnPage/Linux",
+                    "ajax": "/"
+                },
+                {
+                    "name": "Docker",
+                    "id": "Docker",
+                    "title": "學習程度【 50 %】",
+                    "url": "/LearnPage/Docker",
+                    "ajax": "/"
+                }
+            ]
+        },
+        {
+            "name": "英文學習",
+            "group": 1,
+            "data": [
+                {
+                    "name": "English-哥倫布",
+                    "id": "English-哥倫布",
+                    "title": "學習程度【 0 %】",
+                    "url": "https://drive.google.com/drive/folders/1nQeIEBnsR-XS-JqeCa7h1ICy6khmIJaD?usp=sharing",
+                    "ajax": "/"
+                }
+            ]
+        }
+        
+        
+        
+   
+    ]
+}
