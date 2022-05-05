@@ -1,0 +1,151 @@
+{
+    "name": "Vuex",
+    "type": 0,
+    "nav": true,
+    "contents": {
+        "left": [
+            {
+                "title": "基礎應用",
+                "contnet": [
+                    {
+                        "title": "取得資料的方法",
+                        "data": [
+                            {
+                                "title": "computed",
+                                "text": "return this.$store.state.data",
+                                "group": true
+                            }
+                        ]
+                    },
+                    {
+                        "title": "修改 store 中的 state 資料",
+                        "data": [
+                            {
+                                "title": "state",
+                                "text": "action 裡將接收到的資料 commit 至 mutation",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVHjXFhcaow9JW5vPTI-B74jj0B23WBwTl1a0Cz5j1JM2P7Ba-GbHAbx7jJVmBXE4f3Nsgie4oa7BArQaUwVPWfrjxd03DNZlZU0TaLbE1UztuHfMy3_wQJFQVJz7hJ4DW_qtl3oG4vDhl6VzxvPhs=w576-h237-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "dispatch 觸發 action 事件, 並傳遞內容",
+                        "data": [
+                            {
+                                "title": "dispatch",
+                                "text": "this.$store.dispatch('updateTest','balabala')",
+                                "group": true
+                            }
+                        ]
+                    },
+                    {
+                        "title": "modules",
+                        "data": [
+                            {
+                                "title": "modules",
+                                "text": "modules",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXX6rheFbXGH2oOpYlCC0TT3kuYotok8Gr25QHhobGmA6wnRmjofC9eI1RsdQtt3AUfpEA8TmYdJCuHjMf1uF86ixZCLYyCmtb1XJFbgxw_dk-N_RVcRFEgnIG8hummeRtyVR03yN2ZYxmsqRjT3Ew=w292-h567-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "right": [
+            {
+                "title": "基礎知識",
+                "contnet": [
+                    {
+                        "title": "什麼是 Vuex ？",
+                        "data": [
+                            {
+                                "title": "Vuex 管理狀態",
+                                "group": true,
+                                "text": "官網的圖",
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVQ2OeJK1o0SMymv4heWUY69FtxkWvtAWGKoCtFQONGzWHoIMjYCTBn7EoIouahcXMWnCpE7b-Zuu9KDkoq3qiw0wQnwgyJVtpIwO4KkLbP3aiOyIlVO42th7UPhQL6OxHlEnODPeKOs_qbscPlsz8=w701-h551-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "text": "為了處理大型專案像是這樣跨結構的兄弟組件溝通，而非單純父子組件溝通",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "安裝 Vuex 指令",
+                        "data": [
+                            {
+                                "title": "安裝指令",
+                                "group": true,
+                                "text": "npm i -S vuex\nnpm install vuex --save"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "store 倉庫",
+                        "data": [
+                            {
+                                "text": "state（data）",
+                                "url": null
+                            },
+                            {
+                                "text": "響應式的資料狀態儲存, 資料狀態變化時，有用到的 component 都會即時更新",
+                                "url": null
+                            },
+                            {
+                                "text": "action（methods）",
+                                "url": null
+                            },
+                            {
+                                "text": "操作同步或異步事件的處理但不直接修改資料",
+                                "url": null
+                            },
+                            {
+                                "text": "透過commit → 呼叫 mutation 改變 state",
+                                "url": null
+                            },
+                            {
+                                "text": "getter（computed）",
+                                "url": null
+                            },
+                            {
+                                "text": "加工資料呈現",
+                                "url": null
+                            },
+                            {
+                                "text": "同 computed 一樣會被緩存、依賴值變更了才會重新計算",
+                                "url": null
+                            },
+                            {
+                                "text": "mutation",
+                                "url": null
+                            },
+                            {
+                                "text": "改變 state",
+                                "url": null
+                            },
+                            {
+                                "text": "只處理同步函數：不要在這進行非同步的動作",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "source": {
+        "text": true,
+        "from": [
+            "https://medium.com/itsems-frontend/vue-vuex1-state-mutations-364163b3acac",
+            "https://vuex.vuejs.org/zh/guide/modules.html#%E6%A8%A1%E5%9D%97%E5%8A%A8%E6%80%81%E6%B3%A8%E5%86%8C"
+        ],
+        "refer": []
+    }
+}

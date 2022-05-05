@@ -1,0 +1,156 @@
+{
+    "name": "SRE",
+    "type":0,
+    "nav": false,
+    "contents": {
+        "left": [
+            {
+                "title": "test",
+                "contnet": [
+                    {
+                        "title": "",
+                        "data": [
+                            {
+                                "text": "",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "right": [
+            {
+                "title": "基礎知識",
+                "contnet": [
+                    {
+                        "title": "什麼是 SRE ？",
+                        "data": [
+                            {
+                                "text": "SRE，全稱為 Site Reliability Engineering",
+                                "url": null
+                            },
+                            {
+                                "text": " ▲ 臺灣通常譯為 「 網站可靠性工程 」",
+                                "url": null
+                            },
+                            {
+                                "text": "MTBF（平均故障間隔時間，Mean Time Between Failure）",
+                                "url": null
+                            },
+                            {
+                                "text": "MTTR（平均修復時間，Mean Time To Repair）",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "演進歷史",
+                "contnet": [
+                    {
+                        "title": "純物理機",
+                        "data": [
+                            {
+                                "text": "部屬非常慢",
+                                "url": null
+                            },
+                            {
+                                "text": "成本非常高",
+                                "url": null
+                            },
+                            {
+                                "text": "資源浪費",
+                                "url": null
+                            },
+                            {
+                                "text": "難於遷移和擴展",
+                                "url": null
+                            },
+                            {
+                                "text": "可能會被限定硬件廠商",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "虛擬化技術",
+                        "data": [
+                            {
+                                "text": "部屬非常慢",
+                                "url": null
+                            },
+                            {
+                                "text": "成本相較得到控制",
+                                "url": null
+                            },
+                            {
+                                "text": "資源相較得到利用",
+                                "url": null
+                            },
+                            {
+                                "text": "遷移與擴展相較方便一些",
+                                "url": null
+                            },
+                            {
+                                "text": "Ps：VMware 為虛擬機工具",
+                                "url": null
+                            },
+                            {
+                                "text": "虛擬化也是有侷限性，每一個虛擬機都是一個完整的操作系統",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "data": [
+                            {
+                                "text": "",
+                                "url": null
+                            },
+                            {
+                                "text": "",
+                                "url": null
+                            },
+                            {
+                                "text": "",
+                                "url": null
+                            },
+                            {
+                                "text": "",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "補充知識",
+                "contnet": [
+                    {
+                        "title": "補充詞彙",
+                        "data": [
+                            {
+                                "text": "Hypervisor：虛擬化技術",
+                                "url": null
+                            },
+                            {
+                                "text": "",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "source": {
+        "text": true,
+        "from": [],
+        "refer": [
+            "https://cloud.tencent.com/developer/article/1667706"
+        ]
+    }
+}

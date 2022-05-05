@@ -1,0 +1,684 @@
+{
+    "name": "SASS",
+    "type":0,
+    "nav": true,
+    "contents": {
+        "left": [
+            {
+                "title": "Sass 編寫",
+                "contnet": [
+                    {
+                        "title": "變數命名方式",
+                        "data": [
+                            {
+                                "title": "Sass / Scss 變數的宣告主要依靠 $ 關鍵字",
+                                "group": true,
+                                "text": "$a = 10\n$fontsize = 20px"
+                            },
+                            {
+                                "title": "變數型態",
+                                "group": true,
+                                "text": "// 變數型態\n$font_size-h1 : 50px; // 數值\n$font_color: rgb(255,81,0); // 顏色\n$margin:10px 20px 30px 40px; // list\n$null : null; //空值\n$if : true; //判斷式\n$bg-color : (\n    'blue'   : #0059ff,\n    'yellow' : #ffd900,\n    'green'  : #73ff00\n); // map 數值"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "字串轉換",
+                        "data": [
+                            {
+                                "text": "如果你想在一个字串是使用一个變數，簡單來说，就是使用 #{} 来包裹這個變數。",
+                                "url": null
+                            },
+                            {
+                                "text": "只要在 url 路徑 / class 名稱 / 屬性名稱 都需要使用字串轉變數",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "顏色函式",
+                        "data": [
+                            {
+                                "title": "區域變數與全域變數(只要在{} 裡的通常為區域變數)",
+                                "text": "lighten($color, $amount)\ndarken ($color, $amount)",
+                                "group": true
+                            },
+                            {
+                                "text": "顏色函式",
+                                "url": "https://sass-lang.com/documentation/modules/color"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Nesting",
+                "contnet": [
+                    {
+                        "title": "使用 nesting 的黃金規則",
+                        "data": [
+                            {
+                                "text": "nesting永遠不要超過三個層級",
+                                "url": null
+                            },
+                            {
+                                "text": "確保輸出的CSS簡潔、可重用",
+                                "url": null
+                            },
+                            {
+                                "text": "使用nesting是很有意義的，而不是默認選項",
+                                "url": null
+                            },
+                            {
+                                "title": "範例",
+                                "group": true,
+                                "text": "nav {\n  ul {\n    padding: 0;\n    list-style: none;\n    li { \n      display: inline-block; \n    }\n  }\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "輸出",
+                                "text": "nav ul {\n  margin: 0;\n  padding: 0;\n  list-style: none;\n}\nnav ul li {\n  display: inline-block;\n}",
+                                "group": true,
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "偽元素",
+                "contnet": [
+                    {
+                        "title": "偽元素形式",
+                        "data": [
+                            {
+                                "title": "css",
+                                "group": true,
+                                "text": "/*scss如何寫*/\na:hover { color:#333}\np::after {content : ''}",
+                                "url": null
+                            },
+                            {
+                                "title": "sass",
+                                "group": true,
+                                "text": "a {\n  &:hover {color: #333}\n}\n\np {\n  &::after { content : ''}\n}",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "@import 輸入 sass 檔案",
+                "contnet": [
+                    {
+                        "title": "讓 sass 重組檔案",
+                        "data": [
+                            {
+                                "text": "_files.scss 不會編譯成為 css",
+                                "url": null
+                            },
+                            {
+                                "text": "路徑 ： assets/sass/_var.scss;",
+                                "url": null
+                            },
+                            {
+                                "text": "//使用 @import 把檔案連結進來",
+                                "url": null
+                            },
+                            {
+                                "text": "@import 'path/file'",
+                                "url": null
+                            },
+                            {
+                                "text": "@import 'assets/sass/var '",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "@Mixin 函式",
+                "contnet": [
+                    {
+                        "title": "函示使用",
+                        "data": [
+                            {
+                                "text": "@mixin 讓我們定義可重複使用的樣式。",
+                                "url": null
+                            },
+                            {
+                                "text": "@include 可以將呼叫（mixin）到文檔中。",
+                                "url": null
+                            },
+                            {
+                                "title": "@mixin基本寫法",
+                                "group": true,
+                                "text": "@mixin margin-auto() {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.box {\n  @include margin-auto();\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "輸出",
+                                "group": true,
+                                "text": ".box {\n  margin-left: auto;\n  margin-right: auto;\n}",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "變數搭配使用",
+                        "data": [
+                            {
+                                "title": "搭配使用",
+                                "group": true,
+                                "text": "//宣告\n@mixin rect($width , $height: $width) {\n  width: $width;\n  height: $height;\n}\n\n//呼叫\n.box { @include rect(100px)\n\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "輸出",
+                                "group": true,
+                                "text": ".box {\n  width: 100px;\n  height: 100px;\n}",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "在函式裡時，變數 null值 跟 預設值",
+                        "data": [
+                            {
+                                "text": "當變數為null值時，可以不帶值",
+                                "url": null
+                            },
+                            {
+                                "text": "變數為預設值時，不帶值時，會帶預設值進去",
+                                "url": null
+                            },
+                            {
+                                "title": "範例",
+                                "group": true,
+                                "text": "// mixin 帶值  // 預設值 // null值\n@mixin rect($w, $h:$w, $bgc:null) {\n  width: $w;\n  height: $h;\n  background-color: $bgc;\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "輸出",
+                                "group": true,
+                                "text": ".box {\n  @include rect(10px , 20px , #333) // #333 這值可以不帶入\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "@mixin裡在呼叫另一個函式",
+                                "group": true,
+                                "text": "@mixin margin-auto() {\n  margin-left: auto;\n  margin-right: auto;\n}\n\n@mixin rect($width , $height: $width) {\n  width: $width;\n  height: $height;\n  //可以呼叫另一個函式\n  @include  margin-auto()\n}",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "@mixin + @content 擴增屬性",
+                "contnet": [
+                    {
+                        "title": "擴增屬性",
+                        "data": [
+                            {
+                                "title": "@mixin裡在呼叫另一個函式",
+                                "group": true,
+                                "text": "@mixin btn-module($class, $w , $p , $align:center) {\n  #{$class} {\n    width: $w;padding: $p 0;\n     text-align: $align; \n    @content; //擴增屬性\n  }\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "使用方式",
+                                "group": true,
+                                "text": "@include btn-module(.a ,100px , 20px  , center){\n  // 擴增屬性\n  border: 1px soild #333;\n}",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Sass 迴圈介紹",
+                "contnet": [
+                    {
+                        "title": "for/ each / while 迴圈",
+                        "data": [
+                            {
+                                "title": "@for 迴圈",
+                                "group": true,
+                                "text": "// start 起始值->end結束值\n@for $i from Start through End {\n  .box-#{$i} {\n    width : $i * 1px\n  }\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "範例",
+                                "group": true,
+                                "text": "// for 迴圈\n@for $i from 1 through 10 {\n  .box-#{$i} {\n    width: $i * 1px;\n  }\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "輸出結果",
+                                "group": true,
+                                "text": ".box-1 {\n  width: 1px;\n}\n\n.box-2 {\n  width: 2px;\n}\n\n.....",
+                                "url": null
+                            },
+                            {
+                                "text": "練習",
+                                "url": "https://www.sassmeister.com/"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "延伸 - grid system",
+                        "data": [
+                            {
+                                "title": "@for 迴圈",
+                                "group": true,
+                                "text": "@mixin grids($key, $num) {\n  @for $i from 1 through $num {\n    .col-#{$key}-#{$i} {\n      width: floor(($i / $num) * 100%);\n      @content\n    }\n  }\n};\n\n// grid\n@include grids(md , 12);",
+                                "url": null
+                            },
+                            {
+                                "text": "練習",
+                                "url": "https://www.sassmeister.com/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "$map",
+                "contnet": [
+                    {
+                        "title": "$map 數值型態",
+                        "data": [
+                            {
+                                "text": "sass-map 用法出處",
+                                "url": "https://sass-lang.com/documentation/values/maps"
+                            },
+                            {
+                                "text": "管理媒體查詢的斷點、管理z-index的值、管理顏色和管理排版等。",
+                                "url": null
+                            },
+                            {
+                                "title": "$map",
+                                "group": true,
+                                "text": "$map : (\n  key : value,\n  key1: 10px,\n  key2: 20px,\n  key3: 30px,\n  key4: 40px,\n  key5: 50px\n)",
+                                "url": null
+                            },
+                            {
+                                "text": "map-get($map,$key)：根據給定的key值，返回map中相關的值。",
+                                "url": null
+                            },
+                            {
+                                "text": "map-merge($map1,$map2)：將兩個map合併成一個新的map。",
+                                "url": null
+                            },
+                            {
+                                "text": "map-remove($map,$key)：從map中刪除一個key，返回一個新map。",
+                                "url": null
+                            },
+                            {
+                                "text": "map-keys($map)：返回map中所有的key。",
+                                "url": null
+                            },
+                            {
+                                "text": "map-values($map)：返回map中所有的value。",
+                                "url": null
+                            },
+                            {
+                                "text": "map-has-key($map,$key)：根據給定的key值判斷map是否有對應的value值，如果有返回true，否則返回false。",
+                                "url": null
+                            },
+                            {
+                                "text": "keywords($args)：返回一個函數的參數，這個參數可以動態的設置key和value。",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "@each 用法",
+                "contnet": [
+                    {
+                        "title": "@each 用法",
+                        "data": [
+                            {
+                                "title": "each 語法",
+                                "group": true,
+                                "text": "@each $var in $list {\n  .box_#{$var} {\n    // option\n  }\n}\n// $var 內部變數 \n// $list 外部傳遞",
+                                "url": null
+                            },
+                            {
+                                "title": "each 用法",
+                                "group": true,
+                                "text": "@mixin img_module ($list) {\n  @each $man in $list {\n    .photo-#{$man} {\n      background:url('images/#{$man}.jpg');\n      @content;\n    }\n  }\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "使用範例",
+                                "group": true,
+                                "text": ".photo-a1 {\n  background: url(\"images/a1.jpg\");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\n.photo-a2 {\n  background: url(\"images/a2.jpg\");\n  background-repeat: no-repeat;\n  background-size: cover;\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "輸出",
+                                "group": true,
+                                "text": "@include img_module(a1 a2){\n  background-repeat: no-repeat;\n  background-size: cover;\n};",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "right": [
+            {
+                "title": "Sass 環境安裝",
+                "contnet": [
+                    {
+                        "title": "需先安裝 node.js",
+                        "data": [
+                            {
+                                "text": "node.js 官網",
+                                "url": "https://nodejs.org/en/"
+                            },
+                            {
+                                "title": "全域安裝 Sass",
+                                "group": true,
+                                "text": "npm install sass -g"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "變數管理技巧",
+                        "data": [
+                            {
+                                "text": "變數會先宣告，所以要放在檔案最上方",
+                                "url": null
+                            },
+                            {
+                                "title": "把介面共用的參數設定為變數",
+                                "group": true,
+                                "text": "//字體\n$fontSize :  16px;\n$fontWeight: 400;\n//顏色\n$Body_color: #999;\n$body_BgColor : #fff;"
+                            },
+                            {
+                                "text": "變數命名方式通常以屬性的名稱來命名，要有語義化。",
+                                "url": null
+                            },
+                            {
+                                "title": "區域變數與全域變數",
+                                "text": "(只要在 {} 裡的通常為區域變數)\n\n//全域變數\n\n$width: 100px\n\n//區域變數\n\n.box {\n    $width: 100px; //區域變數\n    width: $width;\n}",
+                                "group": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "基本知識",
+                "contnet": [
+                    {
+                        "title": "為何要學 sass",
+                        "data": [
+                            {
+                                "text": "Syntactically Awesome StyleSheets 的簡稱 ， 簡單說就是 css 預處理語言",
+                                "url": null
+                            },
+                            {
+                                "text": "Sass讓編寫可維護的Scss，更簡易方便。 可以用多餘的時間，做更多的事。",
+                                "url": null
+                            },
+                            {
+                                "text": "-- 讓你寫css時不再重複 --",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Sass 資源",
+                "contnet": [
+                    {
+                        "title": "Sass 資源",
+                        "data": [
+                            {
+                                "text": "SASS 中文官網",
+                                "url": "https://sass.bootcss.com/"
+                            },
+                            {
+                                "text": "SASS 英文官網",
+                                "url": "https://sass-lang.com/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Sass 與 Scss 不同處",
+                "contnet": [
+                    {
+                        "title": "檔名",
+                        "data": [
+                            {
+                                "text": "副檔名不同，寫法都不同，兩者不能兼容",
+                                "url": null
+                            },
+                            {
+                                "text": "SCSS 可以兼容 css 的寫法",
+                                "url": null
+                            },
+                            {
+                                "text": "取決於副檔名 .sass 與.scss",
+                                "url": null
+                            },
+                            {
+                                "text": "基礎說明",
+                                "url": "https://sass-lang.com/guide"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "語法",
+                        "data": [
+                            {
+                                "title": "Sass語法 -- 重縮排",
+                                "group": true,
+                                "text": "$width: 200px;\n.box\n   width: $width\n\n=cover\n   $color: red\n   @for $i from 1 through 5\n      &.bg-cover#{$i}\n         background-color: adjust-hue($color, 15deg * $i)\n.wrapper\n   +cover"
+                            },
+                            {
+                                "title": "Scss語法 -- 較彈性",
+                                "group": true,
+                                "text": "$width: 200px;\n.box {\n   width: $width;\n}\n@mixin cover { \n   $color: red\n   @for $i from 1 through 5 { \n      &.bg-cover#{$i} { \n         background-color: adjust-hue($color, 15deg * $i)\n       } \n    }\n}\n.wrapper { @include cover }"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "編譯工具介紹",
+                "contnet": [
+                    {
+                        "title": "檔名",
+                        "data": [
+                            {
+                                "text": "線上編譯工具",
+                                "url": "https://www.sassmeister.com/"
+                            },
+                            {
+                                "text": "VsCode 編譯工具",
+                                "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass"
+                            },
+                            {
+                                "title": "Vscode 設定css 輸出：檔案-喜好設定-設定",
+                                "text": "//css產出設定\n \"liveSassCompile.settings.formats\": [\n  {\n     \"format\": \"expanded\", //壓縮成一行\"compressed\", //壓縮成一行css，正式版本\n     \"extensionName\": \".css\",\n     \"savePath\": \"/css/\" //此為輸出的路徑，可以自行更改\n  }\n]",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUVdQN0gbI8M0unjlwvkKzeP6SAAuOUYjMHtER5axMabupYJz-RciHBzZr3yWYpif6fs48RLv2KANHMDAaOVgvsqzpiMvR55Gczr1I7q18EMfsy8Lw9UVZXRRO4ZlYm_Y1zuaTGKbXpySQBDPzO2Og=w468-h574-no"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "sass 編譯指令",
+                        "data": [
+                            {
+                                "title": "style.scss => style.css",
+                                "group": true,
+                                "text": "sass style.scss style.css"
+                            },
+                            {
+                                "title": "監看檔案變動",
+                                "group": true,
+                                "text": "sass style.scss style.css --watch"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "數值型態",
+                "contnet": [
+                    {
+                        "title": "數值型態",
+                        "data": [
+                            {
+                                "text": "數值 (Number)：12、100px (可能有或沒有單位)",
+                                "url": null
+                            },
+                            {
+                                "text": "字串 (String)：Microsoft JhengHei (可能有或沒有引號)",
+                                "url": null
+                            },
+                            {
+                                "text": "顏色 (Color)：blue、#4cb5fc、hsl(204, 97%, 64%)",
+                                "url": null
+                            },
+                            {
+                                "text": "列表 (List)：1px 2px 3px 1px(中間可空格或是 用 , 區隔)",
+                                "url": null
+                            },
+                            {
+                                "text": "地圖 (Maps)：(primary: blue, danger: red)",
+                                "url": null
+                            },
+                            {
+                                "text": "布林 (Boolean)：true、false",
+                                "url": null
+                            },
+                            {
+                                "text": "空值 (Null)：null",
+                                "url": null
+                            },
+                            {
+                                "text": "官方文檔函式參考 (Function references)",
+                                "url": "https://sass-lang.com/documentation/values"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "運算子與條件判斷",
+                "contnet": [
+                    {
+                        "title": "比較符號",
+                        "data": [
+                            {
+                                "text": "$a == 10",
+                                "url": null
+                            },
+                            {
+                                "text": "$a >= 10",
+                                "url": null
+                            },
+                            {
+                                "text": "$a =< 10",
+                                "url": null
+                            },
+                            {
+                                "text": "$a != 10",
+                                "url": null
+                            },
+                            {
+                                "text": "並沒有 = = =",
+                                "url": null
+                            },
+                            {
+                                "text": "布林 (Boolean)：true、false",
+                                "url": null
+                            },
+                            {
+                                "text": "空值 (Null)：null",
+                                "url": null
+                            },
+                            {
+                                "text": "官方文檔函式參考 (Function references)",
+                                "url": "https://sass-lang.com/documentation/values"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "判斷式",
+                        "data": [
+                            {
+                                "text": "@if $a { 如果是$a 條件成立執行 }",
+                                "url": null
+                            },
+                            {
+                                "text": "@else if $b {如果$a 不成立，執行這段}",
+                                "url": null
+                            },
+                            {
+                                "text": "@else {以上條件都不成立，就執行這段}",
+                                "url": null
+                            },
+                            {
+                                "title": "運算子",
+                                "group": true,
+                                "text": "//注意 “單位” 跟 “除法”\n.box {\n  width: 10px + 5px; //單位相同，可以相加\n  height: 10px - 5;\n  max-width: 10 * 10px; //單位相同不能相乘\n  min-height: (50px / 20); //除式要()\n  font: 12px / 18px; // font-size / line-height\n}",
+                                "url": null
+                            },
+                            {
+                                "title": "運算函式",
+                                "group": true,
+                                "text": "// 14px 無條件捨去\nfloor(14.58px);\n// 15px 四捨五入\nwidth: round(14.58px); \n// 15px 無條件進位\nheight: ceil(14.38px); ",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "條件",
+                        "data": [
+                            {
+                                "text": "and：兩個運算式都是 true 時才會回傳 true",
+                                "url": null
+                            },
+                            {
+                                "text": "not 反轉運算式結果",
+                                "url": null
+                            },
+                            {
+                                "text": "not 反轉運算式結果",
+                                "url": null
+                            },
+                            {
+                                "title": "範例",
+                                "group": true,
+                                "text": "@if $a == #000 and $a == black {}",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "source": {
+        "text": true,
+        "from": [
+            "https://hackmd.io/miq8SCgDTc6KQODD5kqUrw"
+        ],
+        "refer": []
+    }
+}

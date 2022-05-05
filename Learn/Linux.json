@@ -1,0 +1,391 @@
+{
+    "name": "Linux",
+    "type":0,
+    "nav": true,
+    "contents": {
+        "left": [
+            {
+                "title": "目錄操作相關",
+                "contnet": [
+                    {
+                        "title": "pwd",
+                        "data": [
+                            {
+                                "text": "pwd：印出目前路徑",
+                                "url": null
+                            },
+                            {
+                                "text": "pwd",
+                                "url": null
+                            },
+                            {
+                                "text": "===== 參數 =====",
+                                "url": null
+                            },
+                            {
+                                "text": "-P: 顯示實際位置，連結檔(link)會印出實際存在的位置",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "mkdir",
+                        "data": [
+                            {
+                                "text": "mkdir：建立新資料夾",
+                                "url": null
+                            },
+                            {
+                                "text": "mkdir 檔案名稱",
+                                "url": null
+                            },
+                            {
+                                "text": "===== 參數 =====",
+                                "url": null
+                            },
+                            {
+                                "text": "-p: 建立遞迴資料夾，會自動建立不存在的資料夾",
+                                "url": null
+                            },
+                            {
+                                "text": "-m: 自訂資料夾權限",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "rmdir",
+                        "data": [
+                            {
+                                "text": "rmdir：移除空資料夾 ( 資料夾必須為空的 )",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "ls",
+                        "data": [
+                            {
+                                "text": "ls：瀏覽資料夾內容",
+                                "url": null
+                            },
+                            {
+                                "text": "ls",
+                                "url": null
+                            },
+                            {
+                                "text": "ls targetDir/ # 查看特定資料夾",
+                                "url": null
+                            },
+                            {
+                                "text": "===== 參數 =====",
+                                "url": null
+                            },
+                            {
+                                "text": "-a: 連同隱藏檔（開頭為 .）一起列出",
+                                "url": null
+                            },
+                            {
+                                "text": "-A: 連同隱藏檔一起列出，但不包括 ./, ../ 這兩個目錄",
+                                "url": null
+                            },
+                            {
+                                "text": "-F: 根據檔案屬性，增加檔案屬性辨識度",
+                                "url": null
+                            },
+                            {
+                                "text": "▲ *結尾代表可執行檔",
+                                "url": null
+                            },
+                            {
+                                "text": "▲ /結尾代表資料夾",
+                                "url": null
+                            },
+                            {
+                                "text": "-h: 將檔案大小以 KB,GB 等易讀單位顯示",
+                                "url": null
+                            },
+                            {
+                                "text": "-l: 以列表方式顯示檔案內容",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "檔案操作相關",
+                "contnet": [
+                    {
+                        "title": "cp",
+                        "data": [
+                            {
+                                "text": "cp：複製檔案",
+                                "url": null
+                            },
+                            {
+                                "text": "cp 來源檔案 目標目錄",
+                                "url": null
+                            },
+                            {
+                                "text": "===== 參數 =====",
+                                "url": null
+                            },
+                            {
+                                "text": "-d: 若來源檔為連結檔的屬性，則複製連結檔屬性而非檔案本身",
+                                "url": null
+                            },
+                            {
+                                "text": "-r: 用於複製目錄所有檔案（不包括 \".\" 開頭檔案）",
+                                "url": null
+                            },
+                            {
+                                "text": "-l : 實際連結檔案(hardlink)以代替複製",
+                                "url": null
+                            },
+                            {
+                                "text": "-s: 只建立符號連結而不複製檔案",
+                                "url": null
+                            },
+                            {
+                                "text": "-p: 連同檔案的屬性(權限、用戶、時間)一起複製過去",
+                                "url": null
+                            },
+                            {
+                                "text": "-i: 若目標檔已經存在時，會先進行詢問是否覆蓋",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "rm",
+                        "data": [
+                            {
+                                "text": "rm：刪除檔案或目錄",
+                                "url": null
+                            },
+                            {
+                                "text": "rm 檔案或目錄",
+                                "url": null
+                            },
+                            {
+                                "text": "===== 參數 =====",
+                                "url": null
+                            },
+                            {
+                                "text": "-f: 不提示確認強制刪除（use with caution）",
+                                "url": null
+                            },
+                            {
+                                "text": "-r: 遞迴刪除目錄及其內容",
+                                "url": null
+                            },
+                            {
+                                "text": "-i: 每次刪除前提示確認",
+                                "url": null
+                            },
+                            {
+                                "text": "-d: 刪除空目錄",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "mv",
+                        "data": [
+                            {
+                                "text": "mv：移動檔案、重新命名",
+                                "url": null
+                            },
+                            {
+                                "text": "mv 檔案 目標目錄",
+                                "url": null
+                            },
+                            {
+                                "text": "mv 原本檔案名稱 欲改成的檔案名稱",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "磁碟資訊相關",
+                "contnet": [
+                    {
+                        "title": "df",
+                        "data": [
+                            {
+                                "text": "df：顯示所有檔案系統",
+                                "url": null
+                            },
+                            {
+                                "text": "===== 參數 =====",
+                                "url": null
+                            },
+                            {
+                                "text": "-h: 人們較容易閱讀的單位，以 1024 為基底顯示大小（例如：1023M）",
+                                "url": null
+                            },
+                            {
+                                "text": "-l: 只顯示本機的檔案系統",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "lsblk",
+                        "data": [
+                            {
+                                "text": "lsblk：列出系統上的所有磁碟列表",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "parted",
+                        "data": [
+                            {
+                                "text": "parted：列出磁碟的分割表類型與分割資訊",
+                                "url": null
+                            },
+                            {
+                                "text": "sudo parted /dev/sda print",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "right": [
+            {
+                "title": "基礎知識",
+                "contnet": [
+                    {
+                        "title": "什麼是 Linux ？",
+                        "data": [
+                            {
+                                "text": "Linux 是由開放源代碼開發人員社區開發的免費計算機操作系統",
+                                "url": null
+                            },
+                            {
+                                "text": "從技術上講，Linux 是“內核”或操作系統的基本組件",
+                                "url": null
+                            },
+                            {
+                                "text": "作業系統介紹",
+                                "url": "https://progressbar.tw/posts/113"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "伺服器為什麼基本都用Linux系統？",
+                        "data": [
+                            {
+                                "text": "開放性",
+                                "url": null
+                            },
+                            {
+                                "text": "多使用者",
+                                "url": null
+                            },
+                            {
+                                "text": "多工",
+                                "url": null
+                            },
+                            {
+                                "text": "良好的使用者介面",
+                                "url": null
+                            },
+                            {
+                                "text": "裝置獨立性",
+                                "url": null
+                            },
+                            {
+                                "text": "提供了豐富的網路功能",
+                                "url": null
+                            },
+                            {
+                                "text": "可靠的系統安全",
+                                "url": null
+                            },
+                            {
+                                "text": "良好的可移植性",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Linux 常用發行版",
+                        "data": [
+                            {
+                                "title":"查看發行版",
+                                "text": "cat /etc/*-release",
+                                "group":true,
+                                "url": null
+                            },
+                            {
+                                "title":"查看內核",
+                                "text": "uname -r",
+                                "group":true,
+                                "url": null
+                            },
+                            {
+                                "text": "Debian",
+                                "url": null
+                            },
+                            {
+                                "text": "Gentoo",
+                                "url": null
+                            },
+                            {
+                                "text": "Ubuntu",
+                                "url": null
+                            },
+                            {
+                                "text": "Damn Vulnerable Linux",
+                                "url": null
+                            },
+                            {
+                                "text": "紅帽企業級Linux",
+                                "url": null
+                            },
+                            {
+                                "text": "CentOS",
+                                "url": null
+                            },
+                            {
+                                "text": "Fedora",
+                                "url": null
+                            },
+                            {
+                                "text": "Kali Linux",
+                                "url": null
+                            },
+                            {
+                                "text": "Arch Linux",
+                                "url": null
+                            },
+                            {
+                                "text": "OpenSuse",
+                                "url": null
+                            },
+                            {
+                                "text": "來源網址",
+                                "url": "https://kknews.cc/zh-tw/code/n2z889g.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "source": {
+        "text": true,
+        "from": [
+            "https://antonius.cc/docs/Linux/daily-use-linux-command#%E7%9B%AE%E9%8C%84%E6%93%8D%E4%BD%9C%E7%9B%B8%E9%97%9C"
+        ],
+        "refer": []
+    }
+}

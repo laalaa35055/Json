@@ -1,0 +1,199 @@
+{
+    "name": "Git",
+    "type":0,
+    "nav": false,
+    "contents": {
+        "left": [
+            {
+                "title": "Git",
+                "contnet": [
+                    {
+                        "title": "常用",
+                        "data": [
+                            {
+                                "text": "git config --list",
+                                "url":null
+                            },
+                            {
+                                "text": "git init",
+                                "url":null
+                            },
+                            {
+                                "text": "git status",
+                                "url":null
+                            },
+                            {
+                                "text": "git add .",
+                                "url":null
+                            },
+                            {
+                                "text": "git log",
+                                "url":null
+                            },
+                            {
+                                "text": "git push",
+                                "url":null
+                            },	
+                            {
+                                "text": "git commit -m \"message\"",
+                                "url":null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "指令表",
+                        "data": [
+                            {
+                                "title": "config",
+                                "text":"config",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVTj2YUcm86Tg_W1jefM9_uhbvqWOj5a3TevdWoQL5m7Mutpj3Bbd3xWiuHe3yOGGSGfQqvWnUeJMFTCiOx51zIGr3X9quy2IrDohMO0xBkIV3FyMcyOt6ojyso2vNaC53LEL2aTeXL6NOf1crUO9w=w581-h265-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "init / clone",
+                                "text":"init / clone",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXzWOZcRcSvKIPZfnuQP-mtrLCajwvUlYEwkY15K4qBXmuwti0cLRe96S1kR1fcM1R6F6lvoZtTLjMQJUNdSlKr-IppIeBhJz6ShHp3NXCW0ojqWDeuvtQb0q9pr58-3SeEt4Oh9fz5SQl6NZGPT1o=w402-h192-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "remote",
+                                "text":"remote",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXWKwprjiY5r2p8jzzUL-YnTuq2m_qAGMqGfwN58psyujH1DNqMyM0Sarud3CFYvJDr7B4-xt8__IWLZiaZ4TD9sZr1mzy-5h6K1ph0eskqoYSaLEhKV_U6DZfLbPGk7IBmBYWsJQ9fPe5K5fO5YgM=w617-h280-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "基本版更",
+                                "text":"（ pull / push / add / commit / status）",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXjUJWfhnFnaJ-V8AEU7Mizh8Y5N5joY6ilLmf5uIq7HywM-98Ye0LwmksLJ7KauzIH9plQpmLjUcKB2t1ftVXSES7ydU50MbkAAew1J7CEK39o6QlfBClxaq62_cwDRQsWpatJbp6hcsirWuxvU5Y=w592-h451-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "檔案變更版更操作",
+                                "text":"檔案變更版更操作",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLV0EwrdCF3LAWIoGA-H8EtyTiAnHivW-mwmCsmggDFzGP66wFf26VNRUJKT-SZfCBKJB01FPEDHjxu292T15PJ-_WJnG9FgYC6c_H0tZ6zh3qPlkk7OD-H_r7bOoyJzK79XCp1Fq2aIeRtPCnZ_0Mg=w690-h187-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "Branch 分支應用",
+                                "text":"Branch 分支應用",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXu2t8BYp4fu3vDh2A2Acg4_uOnXtIqmOjLK39c22R8VLIel24HAixcMdBUq-aMhTNnSSgj5AbawHypH0sRM9jFi1cWiDE4mU1CVa_TcXYvjZwDfuoqHYRdLD_om7OCoLuhiHVa0Gdc3VP1Fy1ngo0=w694-h448-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "Reset 切到某版本",
+                                "text":"(commit)可以是 branch / commit ID / HEAD",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUP2BNt_Mnq1hpndji7qrhp085ilhEwU6bYM2yOQrZSUA4A0kNeYvONihcd9hC-hSy9fFlpz25Koh2n-2CnaVKoCyXLD4cv1B24iQTN48-3QjwqNgJMRh-HBpTGgG7d4RUhdKwVZohjzu2Nb16PKKI=w609-h327-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "Rebase & Merge 合併應用",
+                                "text":"Rebase & Merge 合併應用",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVwiwkhuvC3721vNrJWyUTPDa-GspXDU0BjeIAhG5ztaMJUbWgG-hHjqMiPitGLEW7gosBcESfB4OgO7_GhQM6sgCvq7pKEf_kd-59fpJXnpCS2eWQZBWIaPUvUEwRJiu5SwscPzUYTSiPupoLaqcQ=w450-h151-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "查詢",
+                                "text":"查詢",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXFH3xRqn_cmkpxQ5rC3W1gsEHRgFK0cP3xTOcWyQZgS_DwMnV9m5-uQxjHyQcZZNJUSK71-hAtcu8m_GHZLYfeQNFWa18fJ9UDDc1RWCorzUE2zEbf9FCzBcTJ7EK0GphuaaPAYgRFGprhwTNNqQ8=w709-h623-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "right": [
+            {
+                "title": "基礎知識",
+                "contnet": [
+                    {
+                        "title": "Git 是什麼？",
+                        "data": [
+                            {
+                                "text": "Git 是眾多版本控制工具中的其中一個工具（版本控制工具不等於 Git ）",
+                                "url": null
+                            },
+                            {
+                                "text": "免費、開源、體積小速度快",
+                                "url": null
+                            },
+                            {
+                                "text": "Git 只能建立不能破壞",
+                                "url": null
+                            },
+                            {
+                                "text": "Git 是透過快照紀錄(類似照片存檔)的概念、而非每一個版本全檔備份",
+                                "url": null
+                            },
+                            {
+                                "text": "共有 100 多個指令（但其中10～20幾個指令就夠日常應用）",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Git ／ GitHub？傻傻分不清楚",
+                        "data": [
+                            {
+                                "title":"[必知基本觀念] 傳送四階段",
+                                "text": "",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVo0XGkvHE7ZhDZv6UaTWkVKdR0hJuq9qs1eee4VOxj_rPqqqjEKUsA3Gx0akO2mC3aFWVIhRiZc7GTs3c1hMu0ML5pLhG4EZUxYm-GSkrmvgIV6yUsmCD-wJ-A8IpPKA0FS0Alas5w4tw1xYQjCXM=w432-h752-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWjHHYebrJZptRoRKTBNCCP9-xT2eJlErRSwitPHrUYX3RKGMdabJ4_T202tsJkHZGH39JJItfAiwlHJM0MtAX-QLgWS2JNb0UTgabBM_oUPoeZSIThR8RZE4Ykf8BR4QljfNmCsKdO9XtNH3niI40=w566-h629-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title":"工作目錄－Working Drectory",
+                                "text": "這一個階段只是記錄檔案變動狀態。(類似貼標籤記錄)",
+                                "group": true
+                            },
+                            {
+                                "title":"暫存區域 　－Staging Area",
+                                "text": "有變動的檔案在使用 git add 指令時才會進入此區",
+                                "group": true
+                            },
+                            {
+                                "title":"儲存庫(本地)　－Local Repository",
+                                "text": "使用 git commit 指令將暫存區的檔案 commit，紀錄於 Local Repo",
+                                "group": true
+                            },
+                            {
+                                "title":"儲存庫(遠端)　－Remote Repository",
+                                "text": "直到使用 git push 指令才推上遠端儲存庫（如 Git Hub / GitLab）",
+                                "group": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "source": {
+        "text": true,
+        "from": [
+            "https://ithelp.ithome.com.tw/articles/10241407"
+        ],
+        "refer": [
+            "https://ithelp.ithome.com.tw/articles/10240965"
+        ]
+    }
+}

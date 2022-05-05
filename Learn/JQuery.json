@@ -1,0 +1,199 @@
+{
+    "name": "JQuery",
+    "type":0,
+    "nav": false,
+    "contents": {
+        "left": [
+            {
+                "title": "JQuery 基礎用法",
+                "contnet": [
+                    {
+                        "title": "基本語法",
+                        "data": [
+                            {
+                                "text": "以 $ 為開頭，$('p')：內容為選擇器", 
+                                "url": null
+                            },
+                            {
+                                "title":"起手式",
+                                "group":true,
+                                "text":"起手式",
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWSix7KEdLMe-_7ff3ZQvq9oHvkmOFUyrV9vztnoKX8_xDWLFEdVTG99kyaXWMBhsTGe9FhqbynU4G0y4iXOxnGHTLlpA52TjkbEywgANVNS-LQmjph2ZfMCPy-aALc2oI5eYnZuXDVlt_mMlxDF9Y=w686-h492-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "常見函式",
+                        "data": [
+                            {
+                                "text": "css：$('p').css('color', 'red');", 
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "處理函式",
+                        "data": [
+                            {
+                                "title":"多種處理函式",
+                                "group":true,
+                                "text":"多種處理函式",
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUawZvPKzW3ofdztUtFcKmGn-_vgEsUUQjxOi-EYpBynsfWqMmi8Y0S9Q0yUgWyfknRHd93V5YsrFsALeKiuvQhRl3sUnQBcQQ1jwiaY45Q0Gd9T4T8XvC8_SBaWkB5nIsJizpFWsNWqZH77_GvGZ0=w1124-h532-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWEE6fs81se-WJccRgbjTSgk8cENfCX6W1yU3BjHfCXDpaJuhTZWoIWofHTiU9kp39iDyo1NbSEv9zDW1DILWvVtlQnaQtgCgF308wvbe94Mn2QS8XqI4QxxmG9rbfF2NsjvEyJo4ePYeAr0gdP1Eo=w1117-h731-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLV_GwYYjut1GCt6ZoDbgcwZVEyRxVr6M4NMEccOgV3dV0MlPqabMfCsiQr5-TGrDNkMiAmW9u4CN1er9sx_6xu02Ej31pIimtaeB2jpI8TsD3fh-dDCXZb6kdKQSJbitziis2pkWlfdzNZ68qhpkTA=w1123-h645-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "處理屬性",
+                        "data": [
+                            {
+                                "title":"多種處理屬性",
+                                "group":true,
+                                "text":"多種處理屬性",
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVkUQybnb3E8keuhCiBgUnTHg8HM4_tNbMMHC8yxZFOc3_Ideny0EbWZ6Kdd6GCf3Jhfpct-SifUrpgqMrANbV5nzRdRvq6zXRIsOJNHc-tG5nCMhHJCnsVwdU5kKtFaVXiSIOuj3olIyF4eNGn6Zg=w1120-h705-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLX7IF7LgNlsMf8CGXHtyMpCLRQadhTnBUGDx-GScXj75E4nL0FimuRXspOChWhHctkTr7czKEDRj-Hudf9Tx0aAzhDmw4adMpQ3XjM2-jp84dip5FWLWUSQBjp4J4TfMpG_SOr23lzSY69fRqx-KGY=w1115-h465-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUKuADsa57sp5UIP6n6P6as97fCRMRcpZnxWt9TdDAUL8fJ28kyZV25kqrieAa-W83L0u4Wjb5xImq029K9YZaAKQEgYVYlNKeyMWEFYW0ch1-imP3T2ivqjAuwjj8OnOv1uZUfWMNH0Nq2YfIq81s=w1122-h263-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "DOM 的操作",
+                        "data": [
+                            {
+                                "title":"元素節點",
+                                "group":true,
+                                "text":"元素節點",
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWGa8s22mb4OVCES5R0l2f1v9TLCTjIccwmhQ5WkCBpqr0h5UPpRRBEJeWVgG0c8Q951HFC17fd6liO0yC7vUrsXp23X6_w_a16Lv3vfl3mPKMq57QOznB_TR5inNnl4BwOZ5qeKAdqRwXa9cpzf3I=w1104-h708-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVJ60ATmhqMhargOeSjT1vZJwoykoaNIp25eAr-cuJgP0nX55GGzvQsHz09u4DNfmvILbyl54xfJOHBaRe2QE_QMFqb_i0kwvEmC4FEtmEWLf8EOf1OlIOwebdulhfHnP3NIGT_fONRzBbDxE01KmE=w1102-h723-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVNgMjj56mBkUfIgl7caawgP1SLL-cZHjVytFzUyO3x7-nNr5hgPMd6azgSguvL7TWByb7S7EHeV71jRhf0Sg4GaTC8Vzv5FLd3IDL4wFvJCLlPR3zArTfC1OYfr6qZJhb1Y9MuHKOZrzlbHRnQMB4=w1110-h535-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "處理方式",
+                        "data": [
+                            {
+                                "title":"處理方式",
+                                "group":true,
+                                "text":"處理方式",
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXySYpDdLhOAJYh5hwfc5klakw2n0lGDGQghupPGIbCsBSs64kg17bqC9Zr7dLf-xAaILRlTT9up5Z5Xuq2H7yopMQXSLHujVJlMU_UKhrl3es4Pkid4s9odNbZrxow6fahiL_1XeA8Ft_3W3lGpgg=w1120-h616-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUbwMpCsa9AuMGL1DkPZUD1DyooPdxRU8JaFxXIOAGOWqsBjSsPO3mWvmJ2pT-Zp4pxDbZGCaiDOJLN-cGiWkqm8gF6UFjeLxnXpIrU6sArDbQqVbbQ4UsSZh7AP67rZYiXcK9PLMeZ4WcvXZcW8nE=w1118-h592-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLW7Hp9PxlhM1SY7w3bVHVXJj-GUON0LQGkw3SKBv6tZ05YlIeRVMhx117m8rMpEOQoveHYVYq-HWtPzERB-8ddZXjBBKQKuA-c3xmCXgbhwHykMaESGWy7eR2uyolEtHdomkMtq6fR8tvUE6T9AZAA=w1131-h569-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWvaU7mxQfcxX67-OnzCgaO8HhAZJux442PppAYFnvdAs4GjDDe7tamtguYA-gDhXA-_seHkaljP7PnqV5pXEnjgDJq5kWhD8rJZxwGcm74c9Jdx0v-DmPEeDfgXLKyMMOa75OvsVo-ty_TZfYR1Wc=w1109-h666-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Js 事件物",
+                        "data": [
+                            {
+                                "title":"Js 事件物",
+                                "group":true,
+                                "text":"Js 事件物",
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWzI82t9ghRtTCbU4nhB5CJ_9822V93PE2X_qUW9TUJ5ilSkCViiKF1F6WucKVCHJk4M__Y2aE3LMmHm5vtitHe3tTR-rgjA0-SIPpMjHz06V5OuLauVP7uIXcAaQnnQ3rQd2bzJ3g5KT1pL9UGroY=w1111-h658-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Ajax 方法",
+                        "data": [
+                            {
+                                "title":"Ajax 方法",
+                                "group":true,
+                                "text":"Ajax 方法",
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWnrTK8de9WcaNIxzdB0YFs4i3T6U0FIteFw-ibHmfC8v8QausrF54ibmgvgevTzPdINU9Wxp_RyvKOVwFFL64845d081UrEDCXlGaf5etxcMz57V5431oUDlFCcXwQpNPWYvvzZFeFca5OB2lU-w4=w1135-h744-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "選取方式",
+                        "data": [
+                            {
+                                "title":"多種選取方式",
+                                "group":true,
+                                "text":"多種選取方式",
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUa0DlOWQgNg5vyxZ6Vl4r-yhl14u_fDL1tsxzqgJUSIQ4W4vT6CK9g02iAtbfeCGaB6JukSpHeqbQTW5EIpRAzcIGKSNkE4a8s4LkPsRMPwWg70JJWBIC9IUOMQRhG64gLmgdRmlxS7-9ZUug3dYE=w1115-h431-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVMNrFFc8Jo6712j3Woc8JSMngmOnlMr_7fHiAo5FjwUhtULvNwIg-RokAOYIyhVO781HVdotaoxY3aRL3ksDvb8uja8I6kI7K6HEgMM_Ki-Pu40tCRIt50fP4nj9AF3jzmYen3rCBfVYZwtrzneqo=w1121-h667-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVFRlSjmrUOm5L0t0Cz0lAnKSj_uDeiqc0pG1j3GO4uvqeWS3YUQp3L7wmLQ28lVNtg7Z1Z2PIUQx0tXBRKI4qXEpXS0HX0ZasuiP0qXpfzh-baXvXbkPSd8_fylJbsr5CRqpHszXe7nXgYKuTLr-w=w1118-h505-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLX33xbVtGYEaoHN83FdtqNgEpyI15FtP1pbCIcpceVtBbZ5eB4GKwcq-BW_L2MBRZzDlL7Q2fHLlclW_29-bEXUJ7g_XWOBGwzVH6ZJ2Ts5RhMj9cEti8EJZs7LsMO9TohL6CGBcqpEhz8KbEG3tzA=w1129-h524-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVzUAAACE4N7KeegcxVNaJL5orfL_SjxSL7mhR5pFSXJ7ERqEEnW6hEU6u_e036SHfOIl3SNzkQUDR_zO0SS0JUI3-wJ62sLaERfLeKVAZvJuBH5l8PQNu55UYI-bINZRPauFrww9of8hoIwCsKGSs=w1118-h357-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUg1TXZdgcVrR5Wk-IaTyLkdbD1CfCWoc-B77ad_yTROyg3JItvjd9_y8UrmEG32LN8rAI5ilmq2DBJ6ewvC-h_JmwvZNtnDT0t_ARYumOV8GOaGlhD1ZMkz1uxli1zYF0CDY3jmOZWH6jydzO5sDg=w1117-h370-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWcaCKMxWqdGYWu97mF72vno0jS-1k2QKbQmp-Rr4Vjn_DprY9BKwlYLl9DBI_JiptvqNDMSiMnmbCSyrGzLpdeMn7KEYp4mDuARW8X0pPJthJSsQs30o5eImY5wkR0ll5_U8e2Zt4Ou23lJq8EN_k=w1110-h703-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWWRB7d-nX-0YprTfYI-AneN5GcJiDK5misgb4BhnoB9AE9E4yVe0SaeKbCWq3DM0FFaZDzcfZVrKHEKmrPFKGo9eHmBKYyPaFnj4-EQbn6vslS6-OVShIYv_DSXNoAECjBlbAFETH4cztrYk56Qls=w1127-h763-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXjza4wVOXpzKFSJ8dqT5jwHXJpIMpLXlNmect3QVDk-HvgwP7SPk0dZrx360syOd98r2AoBgmqONZrWnJzDcumwoorLP-6TMFlTkXZ7HmPu4k1kYTHVps27GucKIeF4TJYDCkcNO7R7r3IOocJALU=w1123-h702-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "right": [
+            {
+                "title": "基礎知識",
+                "contnet": [
+                    {
+                        "title": "什麼是 JQuery ？",
+                        "data": [
+                            {
+                                "text": "將 JS 程式碼寫好，包裝成函數，讓使用者使用",
+                                "url": null
+                            },
+                            {
+                                "text": "解決瀏覽器相容的問題，並簡化了撰寫 JS ",
+                                "url": null
+                            },
+                            {
+                                "text": "跨瀏覽器、相容與擴充性高、能應用 web 端的知識",
+                                "url": null
+                            },
+                            {
+                                "text": "可下載 或 cdn 引用",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "函式庫 (library)",
+                        "data": [
+                            {
+                                "text": "jQuery , Dojo , YUI...",
+                                "url": null
+                            },
+                            {
+                                "text": "擴充函式庫：jQuery UI、jQuery Mobile",
+                                "url": null
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "source": {
+        "text": true,
+        "from": [
+            "https://api.jquery.com/category/events/"
+        ],
+        "refer": [
+            "https://jquery.com/"
+        ]
+    }
+}

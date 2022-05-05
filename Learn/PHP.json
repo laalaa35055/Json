@@ -1,0 +1,1587 @@
+{
+    "name": "PHP",
+    "type":0,
+    "nav": true,
+    "contents": {
+        "left": [
+            {
+                "title": "PDO",
+                "contnet": [
+                    {
+                        "title": "PDO",
+                        "data": [
+                            {
+                                "title": "建立 PDO 物件",
+                                "text": "$pdo = new PDO(dsn,$user,password,$options)\n\n$dsn data source name\n–$user ：使用者帳號\n–$password ：使用者密碼\n–$options: 選項參數 , 提供額外訊息\n\n若建立成功則傳回一個 pdo 物件的參考，失敗則傳回一個 PDO Exception",
+                                "group": true
+                            },
+                            {
+                                "title": "$dsn",
+                                "text": "$dsn=\"mysql:host=localhost;port=3306;dbname=books;charset=utf8\";",
+                                "group": true
+                            },
+                            {
+                                "title": "$options",
+                                "text": "$options = array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION, PDO::ATTR_CASE=>PDO::CASE_NATURAL);",
+                                "group": true
+                            }
+                        ]
+                    },
+                    {
+                        "title": "PDO 物件",
+                        "data": [
+                            {
+                                "text": "$pdo->exec( SQL命令 ):用來執行不會取得 result set 的指令",
+                                "url": null
+                            },
+                            {
+                                "text": "如insert、update、delete",
+                                "url": null
+                            },
+                            {
+                                "text": "$pdo->query( SQL命令 ) :用來執行會取得 result set 的指令，如select",
+                                "url": null
+                            },
+                            {
+                                "text": "$pdo->prepare( SQL命令 )：用來事先編譯好一個SQL敍述",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "PDO 使用",
+                        "data": [
+                            {
+                                "title": "$pdo->exec ( SQL命令 )",
+                                "text": "$sql=\"update products set price=price+10\";\n$affectedRow = $pdo->exec($sql);",
+                                "group": true
+                            },
+                            {
+                                "text": "$pdo->query( SQL命令 )：傳回PDOStatement物件",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "PDOStatement 物件",
+                        "data": [
+                            {
+                                "text": "fetch：回傳的是一維陣列",
+                                "url": null
+                            },
+                            {
+                                "text": "fetchObject：回傳的是一個物件",
+                                "url": null
+                            },
+                            {
+                                "text": "fetchAll：回傳的是二維陣列",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "prepare",
+                        "data": [
+                            {
+                                "text": "SQL 命令中可以使用未知數來表示日後執行時需要被代入的資料",
+                                "url": null
+                            },
+                            {
+                                "text": "未知數可使用 ? 參數 或用 : 綁定",
+                                "url": null
+                            },
+                            {
+                                "text": "成功 : 傳回 PDOStatement 物件",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "prepare 使用",
+                        "data": [
+                            {
+                                "text": "SQL 命令中可以使用未知數來表示日後執行時需要被代入的資料",
+                                "url": null
+                            },
+                            {
+                                "title": "用 : 綁定參數",
+                                "text": "",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLV-dvQUMrRVEUsPLuhIKFh3BZOpoGpvWDs8GyZ_0tbgNVB2TB7mj8bOcn6uKTAFOdeJTOL9bGeeAua_yNvbXkLVVlpoWrpY2YNkolnSP534PBfhcFcT7OO80Cg64MwYJJeRiHhEqpN2GWRMhuMQs8E=w902-h326-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "用 ? 綁定參數：注意 ? 前後空格",
+                                "text": "",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVtWVNMadrfhlflop03wN0lnNE3QW4lEdwja6z2LsvrlkdsWNqTteDL2Tk9DM2ws6FMsgAMpbAygkxv2YWn0mSnHNyu0_D2V0HFrc2BZKEYKevVV543DRms0lobvT61Jw9wV3G4DhZLNidkFsKWrXM=w842-h337-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "PDO 參考",
+                        "data": [
+                            {
+                                "text": "參考連結",
+                                "url": "https://www.php.net/manual/en/book.pdo.php"
+                            },
+                            {
+                                "text": "Predefined Constants",
+                                "url": "https://www.php.net/manual/en/pdo.constants.php"
+                            },
+                            {
+                                "text": "The PDO class",
+                                "url": "https://www.php.net/manual/en/class.pdo.php"
+                            },
+                            {
+                                "text": "The PDOStatement class",
+                                "url": "https://www.php.net/manual/en/class.pdostatement.php"
+                            },
+                            {
+                                "text": "The PDOException class",
+                                "url": "https://www.php.net/manual/en/class.pdoexception.php"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "交易管理",
+                        "data": [
+                            {
+                                "text": "$pdo->beginTransaction()",
+                                "url": null
+                            },
+                            {
+                                "text": "$pdo->rollback()",
+                                "url": null
+                            },
+                            {
+                                "text": "$pdo->commit()",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "cookie",
+                "contnet": [
+                    {
+                        "title": "cookie",
+                        "data": [
+                            {
+                                "text": "瀏覽器可以記錄的 cookie 量是有限制",
+                                "url": null
+                            },
+                            {
+                                "text": "儲存在瀏覽器所在的電腦中，如：個人資訊、客製化網頁、購物車...",
+                                "url": null
+                            },
+                            {
+                                "text": "setcookie( '名稱' , '值' , [日期] )",
+                                "url": null
+                            },
+                            {
+                                "text": "日期：cookie 保留期限，未設定則關閉即刪除",
+                                "url": null
+                            },
+                            {
+                                "text": "$_COOKIE[ '名稱' ]",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "session",
+                "contnet": [
+                    {
+                        "title": "知識",
+                        "data": [
+                            {
+                                "text": "PHP程式可以使用session在伺服端保留一些使用者的資料",
+                                "url": null
+                            },
+                            {
+                                "text": "PHP 程式若有啟動 session 功能，則當使用者第一次進入網站時，就會自動指定一個Session ID 給使用者，直到使用者關掉瀏覽器。",
+                                "url": null
+                            },
+                            {
+                                "text": "session ID是記錄在客戶端的cookie中或由瀏覽器帶回客戶端以辨識連線資料",
+                                "url": null
+                            },
+                            {
+                                "text": "可以註冊不定數量的session變數，這些資料可跨網頁來存取",
+                                "url": null
+                            },
+                            {
+                                "text": "PHP以檔案來儲存這些 session 資料",
+                                "url": null
+                            },
+                            {
+                                "text": "session會寫在哪裡和 php.ini 檔中 session.save_path 的設定有關",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "session",
+                        "data": [
+                            {
+                                "text": "$_SESSION[\"變數名稱\"]來設定或取得Server端的session變數",
+                                "url": null
+                            },
+                            {
+                                "text": "要使用 session 之前一定要先呼叫 session_start()",
+                                "url": null
+                            },
+                            {
+                                "text": "session_start()：開始使用 session ",
+                                "url": null
+                            },
+                            {
+                                "text": "session_unset()：刪除所有 session 變數",
+                                "url": null
+                            },
+                            {
+                                "text": "session_destroy()：刪除該 session 檔",
+                                "url": null
+                            },
+                            {
+                                "text": "session_id()：取得 session ID",
+                                "url": null
+                            },
+                            {
+                                "text": "session_name()：取得 session 名稱",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "檔案上傳",
+                "contnet": [
+                    {
+                        "title": "檔案上傳",
+                        "data": [
+                            {
+                                "title": "運作模式",
+                                "text": "1.Client端從表單上傳檔案至server端\n\n2.Server端將上傳檔暫存至暫存區",
+                                "group":true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWEyExHcVldy54N-CTNOnAiqc7uby2kEWGSdkeC2QB3AXAYwngcIVJcQXH6h-BehpJusNxA68QxGr27PGmBqoPiDUZfyP4irHEXXqZIdwK2DEhbjFUcS0kCWyLalO0kbilknHFFDjrmsVXv69nAXR0=w1287-h398-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "text": "必須使用表單以POST方法將檔案資料上傳到伺服器",
+                                "url": null
+                            },
+                            {
+                                "text": "檔案欄位必須使用<input type= \"file\" … >來選擇檔案",
+                                "url": null
+                            },
+                            {
+                                "text": "<form> 必須提供 enctype 屬性指定編碼方式為 multipart/form-data",
+                                "url": null
+                            },
+                            {
+                                "title": "可以同時上傳多個檔案，欄位名稱以陣列命名",
+                                "text": "上傳多個檔案",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXP7q2hWtz7aUUAqkaFskzlSt009ujNyLCh51mEeyTMvp6jdYaHRMLjzclQV6l-AjC1ez5rNbHzZek6Bk4KhYPKn3Zhp_sA0J-0Z8PzZg4OIuWTzWPgg4J1eOV8EiKcSZcpP9vZ2VqWoQzwvFixbe0=w1069-h313-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "text": "相關設定（php.ini)",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "檔案取得",
+                        "data": [
+                            {
+                                "text": "$_FILES['上傳檔案欄位'] 取得上傳檔案的相關資料",
+                                "url": null
+                            },
+                            {
+                                "text": "$_FILES[\"上傳檔案欄位\"][\"name\"]：檔案名稱",
+                                "url": null
+                            },
+                            {
+                                "text": "$_FILES[\"上傳檔案欄位\"][\"type\"]：檔案種類",
+                                "url": null
+                            },
+                            {
+                                "text": "$_FILES[\"上傳檔案欄位\"][\"tmp_name\"]：暫存檔名和路徑",
+                                "url": null
+                            },
+                            {
+                                "text": "$_FILES[\"上傳檔案欄位\"][\"error\"]：上傳檔案時所發生的錯誤代碼",
+                                "url": null
+                            },
+                            {
+                                "text": "$_FILES[\"上傳檔案欄位\"][\"size\"]：檔案尺寸",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "錯誤代碼",
+                        "data": [
+                            {
+                                "text": "0：上傳成功 UPLOAD_ERR_OK",
+                                "url": null
+                            },
+                            {
+                                "text": "1：超過upload_max_filesize的範圍 UPLOAD_ERR_INI_SIZE",
+                                "url": null
+                            },
+                            {
+                                "text": "2：超過MAX_FILE_SIZE隱藏欄位設定的範圍 UPLOAD_ERR_FORM_SIZE",
+                                "url": null
+                            },
+                            {
+                                "text": "3：檔案上傳不完整 UPLOAD_ERR_PARTIAL",
+                                "url": null
+                            },
+                            {
+                                "text": "4：未指定上傳的檔案 UPLOAD_ERR_NO_FILE",
+                                "url": null
+                            },
+                            {
+                                "text": "6：未定義暫存區所使用的資料夾 UPLOAD_ERR_NO_TMP_DIR",
+                                "url": null
+                            },
+                            {
+                                "text": "7：無法寫入暫存區 UPLOAD_ERR_CANT_WRITE",
+                                "url": null
+                            },
+                            {
+                                "text": "8：php的extension停止了上傳的工作 UPLOAD_ERR_EXTENSION",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "copy",
+                        "data": [
+                            {
+                                "text": "暫存檔在PHP程式執行完畢後會被刪除，可利用copy()函數將暫存檔儲存於伺服端的指定路徑上",
+                                "url": null
+                            },
+                            {
+                                "text": "copy ( \"來源路徑及檔名\" , \"複製之目的路徑及檔名\" )",
+                                "url": null
+                            },
+                            {
+                                "title": "小範例",
+                                "text": "",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUsYogM0IXxaFYG4wl-hXbuCp3ud2_BsLQivHBNnU3itqdsv_wJV4GIUhVfN9HQcCLPIwTx-6V-DEiEG4JcVc-nsMA7EILGGwgC7eAXl9Q_Huj1TjnGi2dfl-6Gx8VI2fdoPzPhWHdj4zleOY5tfNc=w752-h278-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "PHP 日期和时间",
+                "contnet": [
+                    {
+                        "title": "Date",
+                        "data": [
+                            {
+                                "text": "date ( format , [timestamp] )",
+                                "url": null
+                            },
+                            {
+                                "text": "d - 表示月裡的某天（01-31）",
+                                "url": null
+                            },
+                            {
+                                "text": "m - 表示月（01-12）",
+                                "url": null
+                            },
+                            {
+                                "text": "Y - 表示年（四位數）",
+                                "url": null
+                            },
+                            {
+                                "text": "1 - 表示周里的某天",
+                                "url": null
+                            },
+                            {
+                                "text": "h - 帶有首位零的12 小時小時格式",
+                                "url": null
+                            },
+                            {
+                                "text": "i - 帶有首位零的分鐘",
+                                "url": null
+                            },
+                            {
+                                "text": "s - 帶有首位零的秒（00 -59）",
+                                "url": null
+                            },
+                            {
+                                "text": "a - 小寫的午前和午後（ am 或 pm ）",
+                                "url": null
+                            },
+                            {
+                                "text": "其他字符，比如\"/\", \".\" 或\"-\" 也可被插入字符中，以增加其他格式。",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "時間",
+                        "data": [
+                            {
+                                "text": "time： return timestamp",
+                                "url": null
+                            },
+                            {
+                                "text": "mktime(hour,minute,second,month,day,year,is_dst)",
+                                "url": null
+                            },
+                            {
+                                "text": "可指定 特定時間 用以時間驗證",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "PHP 數學函式",
+                "contnet": [
+                    {
+                        "title": "rand",
+                        "data": [
+                            {
+                                "text": "rand ( min , max ) ： 返回隨機整數",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "floor",
+                        "data": [
+                            {
+                                "text": "floor ( $數值 ) ： 無條件捨去到整數位",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "ceil",
+                        "data": [
+                            {
+                                "text": "ceil ( $數值 ) ： 無條件進位到整數位",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "round",
+                        "data": [
+                            {
+                                "text": "round ( $數值 , [位數] ) ： 四捨五入",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "PHP JSON",
+                "contnet": [
+                    {
+                        "title": "Json",
+                        "data": [
+                            {
+                                "title": "json_decode：接受一個JSON 格式的字符串並且把它轉換為PHP 變量",
+                                "text": "<?php\n    $json = '{\"a\":1,\"b\":2,\"c\":3,\"d\":4,\"e\":5}';\n    var_dump(json_decode($json));\n    var_dump(json_decode($json, true));\n\n?>",
+                                "group": true
+                            },
+                            {
+                                "text": "json_encode：對變數進行 JSON 編碼",
+                                "url": null
+                            },
+                            {
+                                "title": "json_last_error：返回最後發生的錯誤",
+                                "text": "返回最後發生的錯誤",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLV9txt722d7TwWWUyUmncO8c-s-luuQJYkLpU0xUNKTzXrGehDlKyca9BRjFQ3xXoM8uqWMXSyO2w6GVaaxVz4YM8-MgwV8XlRQwG0p2lA4SwvOLpuEyxVVp-Fifkkcorn7NL1EnYePCIzzjkdwZZM=w841-h380-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "陣列",
+                "contnet": [
+                    {
+                        "title": "陣列類型-array",
+                        "data": [
+                            {
+                                "text": "索引陣列：以索引值來存取陣列中某元素的資料，索引值從 0 開始編起",
+                                "url": null
+                            },
+                            {
+                                "text": "關聯陣列：以使用者自訂的鍵值(key)來存取陣列中某元素的資料，鍵值可為數值或字串",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "存取一維索引陣列的方法",
+                        "data": [
+                            {
+                                "title": "使用 for 句型",
+                                "text": "for($i=0;$i <3; $i++){\n   echo $ch[ $i ] \"<br>\";\n}",
+                                "group": true
+                            },
+                            {
+                                "title": "foreach(陣列名稱 as [索引變數=>]資料變數)",
+                                "text": "foreach($ch as $index => $data){\n   echo $data \"<br>\";\n}",
+                                "group": true
+                            }
+                        ]
+                    },
+                    {
+                        "title": "建立一維關聯陣列的方法",
+                        "data": [
+                            {
+                                "title": "直接指定",
+                                "text": "$zip[\"台北市\"]=\"001\";",
+                                "group": true
+                            },
+                            {
+                                "title": "使用array(鍵值1=>資料1，鍵值1=>資料2，…)",
+                                "text": "$zip = array(\"台北市\"=>\"001\",\"中壢市\"=>\"320\",\"楊梅鎮\"=>\"326\");",
+                                "group": true
+                            }
+                        ]
+                    },
+                    {
+                        "title": "取用一維關聯陣列的方法",
+                        "data": [
+                            {
+                                "title": "使用foreach句型",
+                                "text": "foreach($zip as $key => $data){\n  echo \"鍵值 : $key --> 資料: $data<br>\";\n}",
+                                "group": true
+                            }
+                        ]
+                    },
+                    {
+                        "title": "陣列的相關函數",
+                        "data": [
+                            {
+                                "title": "陣列的相關函數",
+                                "text": "陣列的相關函數",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWeShkgR1P8MDRP4fwA33NbxL354-1elYckRnh1zwSLhXknWBWY-F7tD48bdSkl8XuRiI3LAuHIrx8bSDX79tkqp0sQ8v9xtoY-KTJMW89CcIPkCvzCtJAAZi-1c3xx4Zbzk9ZgJ-ZFwRlbOtAUzhU=w1204-h510-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "in_array",
+                        "data": [
+                            {
+                                "text": "in_array(data, array) : 資料有在陣列中嗎",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "array_search",
+                        "data": [
+                            {
+                                "text": "array_search( 索引值 , array ) : 資料在陣列中的哪一個位置",
+                                "url": null
+                            },
+                            {
+                                "text": "// JS 找不到時會傳回 -1, PHP找不到時會傳回 false",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "shuffle",
+                        "data": [
+                            {
+                                "text": "shuffle ( $arr )：打亂陣列",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "array_sum",
+                        "data": [
+                            {
+                                "text": "array_sum ( $arr )：陣列總和",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "count",
+                        "data": [
+                            {
+                                "text": "count ( $arr )：陣列長度",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "implode",
+                        "data": [
+                            {
+                                "text": "implode ( [放置內容] , array )：轉成字串",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "資料型態檢查",
+                "contnet": [
+                    {
+                        "title": "資料型態檢查",
+                        "data": [
+                            {
+                                "text": "gettype ( 資料 ) -- 傳回 string、integer、double、array、object...",
+                                "url": null
+                            },
+                            {
+                                "text": "is_...：回傳布林值，如：is_integer、is_float...",
+                                "url": null
+                            },
+                            {
+                                "text": "var_dump ( 資料 )：顯示資料的型別與值",
+                                "url": null
+                            },
+                            {
+                                "text": "isset ( 資料 )：指定資料存在且不為 NULL 回傳 true",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "流程控制",
+                "contnet": [
+                    {
+                        "title": "結構化設計",
+                        "data": [
+                            {
+                                "text": "循序結構：指令一列接著一列循序的被執行",
+                                "url": null
+                            },
+                            {
+                                "text": "選擇結構：根據某些條件的判斷以決定執行哪一個區塊的程式碼",
+                                "url": null
+                            },
+                            {
+                                "text": "重覆結構：根據某些條件以決定是否要重複執行某一區塊的程式碼，又稱為迴圈結構",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "循序結構",
+                "contnet": [
+                    {
+                        "title": "if",
+                        "data": [
+                            {
+                                "text": "if (條件式一){}",
+                                "url": null
+                            },
+                            {
+                                "text": " elseif (條件式二){}",
+                                "url": null
+                            },
+                            {
+                                "text": " else {}",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "switch",
+                        "data": [
+                            {
+                                "title": "switch 架構",
+                                "text": "switch(運算式){\n    case 值1：\n        敘述區塊1\n        break;\n    case 值n：\n        敘述區塊n\n        break;\n    [default:\n        敘述區塊n+1]\n}",
+                                "group": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "重複結構",
+                "contnet": [
+                    {
+                        "title": "for",
+                        "data": [
+                            {
+                                "text": "for(初始設定;執行條件; 遞增或遞減運算式){敘述區塊}",
+                                "url": null
+                            },
+                            {
+                                "text": "若敘述區塊只有一列敘述，可以省略{}",
+                                "url": null
+                            },
+                            {
+                                "text": "break：可用來強制終止迴圈的執行",
+                                "url": null
+                            },
+                            {
+                                "text": "continue：迴圈內continue指令後的敍述不執行，直接執行下一迴圈",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "while",
+                        "data": [
+                            {
+                                "text": "while (執行條件){}",
+                                "url": null
+                            },
+                            {
+                                "text": "若敘述區塊只有一列敘述，可以省略{}",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "do…while",
+                        "data": [
+                            {
+                                "title": "do…while 架構",
+                                "text": "do{\n\n    敍述區塊\n\n} while (執行條件);",
+                                "group": true
+                            },
+                            {
+                                "text": "無條件先執行一次迴圈內的敍述",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "資料型別轉換",
+                "contnet": [
+                    {
+                        "title": "資料型別轉換",
+                        "data": [
+                            {
+                                "text": "PHP 會自動轉型，不需要額外的程式碼",
+                                "url": null
+                            },
+                            {
+                                "text": "強制轉型，需要額外的程式碼",
+                                "url": null
+                            },
+                            {
+                                "text": "(int)(integer)(float)(double)(array)",
+                                "url": null
+                            },
+                            {
+                                "text": "數值為 0 轉 布林 為 false",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "$_SERVER",
+                "contnet": [
+                    {
+                        "title": "$_SERVER 取得相關資訊",
+                        "data": [
+                            {
+                                "text": "$_SERVER [ ' REMOTE_ADDR ' ]：客戶端 IP",
+                                "url": null
+                            },
+                            {
+                                "text": "$_SERVER [ ' PHP_SELF ' ]：目前檔案路徑及名稱",
+                                "url": null
+                            },
+                            {
+                                "text": "$_SERVER [ ' SERVER_NAME ' ]：伺服器名稱",
+                                "url": null
+                            },
+                            {
+                                "text": "phpinfo()：函式查詢各環境變數的相關資訊",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "表單介紹",
+                "contnet": [
+                    {
+                        "title": "Form-表單介紹",
+                        "data": [
+                            {
+                                "text": "<form method='提交方式' action='伺服器程式' >",
+                                "url": null
+                            },
+                            {
+                                "text": "伺服器程式：檔案路徑",
+                                "url": null
+                            },
+                            {
+                                "text": "提交方式：GET、POST",
+                                "url": null
+                            },
+                            {
+                                "text": "使用 GET -- $_GET['欄位名稱'] 陣列接收",
+                                "url": null
+                            },
+                            {
+                                "text": "使用 POST -- $_POST['欄位名稱'] 陣列接收",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "表單上的陣列型資料",
+                        "data": [
+                            {
+                                "title": "checkBox、select",
+                                "text": "checkBox、select",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXZ1XUogverpfyNNsN8PnRkW_QzpPRqlY9X-dYGDrm3VRhZJWLZAc0OPch_5qDdcHY16o_oZnq76I_i8o2ESpZMVnofqYaETu6yKD7cHn-MiEC1KeSeZBQPESG8H4nNquuHHJcM-2nGjO93Jqx91Wk=w1226-h652-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLX59GftzIJ0wjdQ_3NW8RXKiUZwioBqM5O5ZFwkvTXBFkQG4c1MTf6-KnbCBl0U_0DECQzmqEejWCksf21nttSuL-S7gtqJtL1BaPiHPa9PNms8aOg-Q1BtDtVhWTSLAEx8q0nVbQ3GyvSMNX7JiuI=w1037-h601-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "textarea 欄位",
+                        "data": [
+                            {
+                                "text": "textarea 傳送資料，PHP 會自動 strip",
+                                "url": null
+                            },
+                            {
+                                "text": "nl2br($_GET [ ' 欄位名稱 ' ] )",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "right": [
+            {
+                "title": "特殊知識點",
+                "contnet": [
+                    {
+                        "title": "變數 & 引用",
+                        "data": [
+                            {
+                                "title": "引用檔案函數",
+                                "group": true,
+                                "text": "// 附檔名可以是 php or ini ( 通常 )\ninclude_once('路徑');\nrequire_once('路徑');"
+                            },
+                            {
+                                "title": "& 在 PHP 中引用的意思，不同的名字訪問同一个变量内容。",
+                                "group": true,
+                                "text": "function foo($a) { $a++; }\nfunction bar(&$a) { $a++; }\n\n$x = 1;\n\nfoo($x);\necho \"$x\";\n\nbar($x);\necho \"$x\";\n\n輸出：1 2"
+                            },
+                            {
+                                "text": "函式參數可設預設值，並可不提供傳值",
+                                "url": null
+                            },
+                            {
+                                "title": "全域變數",
+                                "group": true,
+                                "text": "$GLOBALS['key'] = 999;\n\nglobal $key;\n$key = 999;"
+                            },
+                            {
+                                "title": "靜態變數",
+                                "group": true,
+                                "text": "// 類似區域變數，但結束後變數空間不會收回\n\nstatic $i = 0;"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "基礎知識",
+                "contnet": [
+                    {
+                        "title": "Server 端程式",
+                        "data": [
+                            {
+                                "text": "透過伺服器端的網頁程式，可以對資料庫的資料做互動 ",
+                                "url": null
+                            },
+                            {
+                                "text": "PHP",
+                                "url": null
+                            },
+                            {
+                                "text": "Asp.net",
+                                "url": null
+                            },
+                            {
+                                "text": "Jsp，Java Servlet",
+                                "url": null
+                            },
+                            {
+                                "text": "Python",
+                                "url": null
+                            },
+                            {
+                                "text": "Node.js",
+                                "url": null
+                            },
+                            {
+                                "text": "More...",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "PHP 的特色",
+                        "data": [
+                            {
+                                "text": "一種跨平台的腳本語言，同時支援 Linux / UNIX 、Windows 和 Mac OS 等作業系統",
+                                "url": null
+                            },
+                            {
+                                "text": "支援多種網站伺服器：Apache、IIS...",
+                                "url": null
+                            },
+                            {
+                                "text": "支援多種資料庫系統：MySQL、MS-SQL、ORACLE、IBM DB2、Sybase、Informix、ODBC...",
+                                "url": null
+                            },
+                            {
+                                "text": "支援多種通訊協定：HTTP、LDAP、IMAP...",
+                                "url": null
+                            },
+                            {
+                                "text": "支援 session 及 cookie 的機制",
+                                "url": null
+                            },
+                            {
+                                "text": "提供許多的函式庫",
+                                "url": null
+                            },
+                            {
+                                "text": "屬於開放原始碼",
+                                "url": null
+                            },
+                            {
+                                "text": "可以内嵌在 HTML 文件中，也可以獨立存檔",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "常搭配的環境",
+                        "data": [
+                            {
+                                "text": "Windows + IIS/Apache + MySQL/ODBC",
+                                "url": null
+                            },
+                            {
+                                "text": "Linux + Apache + MySQL",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "安裝與設定",
+                "contnet": [
+                    {
+                        "title": "安裝 IIS 及 PHP",
+                        "data": [
+                            {
+                                "text": "控制台 > 程式集 > 開啟或關閉 Windows 功能",
+                                "url": null
+                            },
+                            {
+                                "title": "安裝步驟 ( 勾選 CGI )",
+                                "text": "確認可以開啟 IIS",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLW8ZULrpCZAM3gPHeBHDgMnTF3qaU02x1a1zv1gUmrwPUY55bvmPWFm-HgrV9md6SbrZznSw0rQh5X20mI57Ia5xDgVmazicuwZm5PnoRYaUmbQVaeZR7tkVK6ZNA_mfGsKzQoJsojdrxQ_0L7yT2o=w1405-h791-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLV0MIPdlye4NUUCptgytqUwjeQohuoqGWIEJeS7pa4h7Kl4AMEU-COfm4VmKG2jM8V1cxaAdkLopzBNe6d2VfQN4K7L2YB2ZvPL3C5oR8rvy7IC2oTsk78eYet3lEmuP2_BqV4rs6lbi3VKoBiscjs=w630-h183-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWbUFoC3fzLERdUP4C9orOwWVnhvvJ19Kd-CZdUVALiOBNoQgok5bQcWrJJEAnf6E0Xdxg1ZJD5i-2su-rOmn7MbaL0j4j1JhNl2bC6h4DLgRdEynkhE33hFkT1ClbLcWMkDgIoqT1O5U82sEMUrq0=w425-h444-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "text": "PHP 官網",
+                                "url": "https://www.php.net/"
+                            },
+                            {
+                                "title": "下載及安裝 PHP",
+                                "text": "下載 Non Thread Safe\n解壓縮放置 c:\\",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLW-OsCf9KrujlIMgv2vOpqVf2_dNZfCfda7L4YbYhufvFqBoF2UJElyRUd1LMvil2Mj4NPQ4nHVvlNDdc8o0zzkt_iMLb_yV593uuS2qz25auip8_WU3Q_ZmRVl96XokdJYVg05YBS6g5LKJ8G8H6Q=w1884-h844-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "設定 IIS",
+                        "data": [
+                            {
+                                "title": "步驟",
+                                "group": true,
+                                "text": "開啟 IIS > 新增模組對應... > 編輯模組對應 > 查看是否新增 ( 啟用 ) 成功\n\n要求路徑：*.php\n模組：FastCgiModule\n執行檔案：( PHP 資料夾中 ) php-cgi.exe 檔案",
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLX2aFGwvj0ItQyBfu3393q5uxBSS2-5LcILIFj2RFhZFJrafPB8kHaZkjHFrEqUJHPm6BCg2W_1yQPRL1zO09N9TX1FoHX6H25jlVd6BE2ptTi57vILHFJDJWP4ZZHsLEcz5rZeNJOwkSINtxp_Fwo=w1331-h898-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUKLJ2WrNe4lnFLJa7HwO5xCyxZL39umNthvbBkGCc-Eqmfx7VuG2xJOzO0Tlp8uiOmQLvjm1R4tNiJoFdAZ0v_4Gkdo0FwFlQurE35_-DYoa6yBCc2hvR4NkUKqFWWD9-3NzP5EPzb8t0OekMMQec=w1321-h807-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWaYsmYMWNwsPtGAhDAndM321EATE2cgX9W758RT05npK3KRWjmtJOqNQQtyOXbxS2JIG6_jjKF3rL8FvXGERF7hylM75BTZtwWqwiXzSMsFWh5EScEO_Q0-NH3UJSjvWY-LGojrjipyknCH41kD_I=w567-h492-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXcKst9FmY3AwMkfetSfrNOZWsaa9RvQwAYAqZv9Jt9Gcp4ms1DbgCzUhosft80NrtwDGHEBQ8V5brgtdbvdOV2ekrMjqRkVDBWOVFZ-gUGObR4fLn0h776KDtDah9lrtq5LobKMmv3FSlH9cRw_Y8=w858-h188-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "PHP 組態檔案",
+                "contnet": [
+                    {
+                        "title": "PHP 組態檔案 ( php.ini)",
+                        "data": [
+                            {
+                                "text": "php.ini：PHP 執行環境組態檔",
+                                "url": null
+                            },
+                            {
+                                "text": "PHP 允許開發者在此檔中設定自己所要的執行環境",
+                                "url": null
+                            },
+                            {
+                                "text": "PHP 啟用時，會尋找是否有 php.ini 檔",
+                                "url": null
+                            },
+                            {
+                                "text": "若找不到時，會採用 PHP 預設值",
+                                "url": null
+                            },
+                            {
+                                "text": "php.ini-development 更名為 php.ini",
+                                "url": null
+                            },
+                            {
+                                "text": "若在 PHP 啟用後，在修改此檔案設定，需重啟伺服器才能讀到",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "php.ini 設定檔",
+                        "data": [
+                            {
+                                "text": "short_open_tag = On // 精簡版使用",
+                                "url": null
+                            },
+                            {
+                                "text": "extension=pdo_mysql // 使用 PDO API",
+                                "url": null
+                            },
+                            {
+                                "text": "extension=mysqli // phpmyadmin 會使用到 mysqli ",
+                                "url": null
+                            },
+                            {
+                                "text": "extension=openssl // phpmyadmin、php8 會用到",
+                                "url": null
+                            },
+                            {
+                                "text": "session.save_path='設置位置' // session 使用",
+                                "url": null
+                            },
+                            {
+                                "title": "Server端允許客戶端上傳檔案的相關設定",
+                                "text": "file_uploads = On \n\nupload_tmp_dir = C:\\PHP.x.x.x\\tmp;\n\nupload_max_filesize = 2M",
+                                "group": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "資料型別",
+                "contnet": [
+                    {
+                        "title": "定義資料空間",
+                        "data": [
+                            {
+                                "text": "強型別 ( strong type )：使用前需先宣告",
+                                "url": null
+                            },
+                            {
+                                "text": "弱型別 ( weak type )：使用前無需先宣告",
+                                "url": null
+                            },
+                            {
+                                "text": "必須以分號作為結束",
+                                "url": null
+                            },
+                            {
+                                "text": "必須以分號作為結束",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "整數-integer",
+                        "data": [
+                            {
+                                "text": "十進位：如 123、-32",
+                                "url": null
+                            },
+                            {
+                                "text": "八進位：以 0 開頭，每位數值 0~7 之間，如：025 => 21",
+                                "url": null
+                            },
+                            {
+                                "text": "十六進位：以 0x 開頭，每位數值 0~9 和 A~F 之間，如：0x25 => 37",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "浮點數-float double",
+                        "data": [
+                            {
+                                "text": "可以帶有小數點，含有 10 的幾次方以 E 或 e 表示：如1.23E24",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "布林值-Boolean",
+                        "data": [
+                            {
+                                "text": "只有 true , false",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "字串-String",
+                        "data": [
+                            {
+                                "text": "提供 跳脫字元 \\ 和 \" ",
+                                "url": null
+                            },
+                            {
+                                "title": "雙引號可以套用變數替換，單引號則不行",
+                                "text": "$name = \"Sara\";\n\n// 可以\necho \"我的名字是$name\";\n\n//不可\necho '我的名字是$name';",
+                                "group": true
+                            },
+                            {
+                                "text": "strlen ( $str )：字串長度",
+                                "url": null
+                            },
+                            {
+                                "text": "strpos ( $str, '子字串' )：尋找子字串，回傳 index",
+                                "url": null
+                            },
+                            {
+                                "text": "substr ( $str, 2 , 5 )：取出部分的字串",
+                                "url": null
+                            },
+                            {
+                                "text": "explode ( '分割字元' , $str , [limit] )：字符串分割為陣列",
+                                "url": null
+                            },
+                            {
+                                "text": "nl2br( $str )：strip",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "null",
+                        "data": [
+                            {
+                                "text": "表示變數沒有值，也可以寫成 null",
+                                "url": null
+                            },
+                            {
+                                "text": "變數被指定為null",
+                                "url": null
+                            },
+                            {
+                                "text": "變數呼叫 unset ( )",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "常數",
+                        "data": [
+                            {
+                                "text": "宣告後不可更改",
+                                "url": null
+                            },
+                            {
+                                "text": "const 常數名稱 = 值 ;",
+                                "url": null
+                            },
+                            {
+                                "text": "內建常數：PHP_SERVER、PHP_OS、M_PI",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "PHP 基礎程式",
+                "contnet": [
+                    {
+                        "title": "PHP 架構",
+                        "data": [
+                            {
+                                "title": "PHP 基礎架構",
+                                "text": "<body>\n   <?php\n\n   變數宣告;\n\n   函式宣告;\n\n   敘述;\n\n   >?\n</body>",
+                                "group": true
+                            },
+                            {
+                                "title": "PHP 輸出方式",
+                                "text": "echo 'test';\n\necho '<br>';",
+                                "group": true
+                            },
+                            {
+                                "title": "標籤格式",
+                                "text": "// 格式一 ( 建議使用 )\n\n<?php\n\n?>\n\n// 格式二\n\n<?\n\n?>",
+                                "group": true
+                            },
+                            {
+                                "title": "必須以分號作為結束",
+                                "text": "<?php\n\n  echo '9413';\n\n?>",
+                                "group": true
+                            }
+                        ]
+                    },
+                    {
+                        "title": "PHP 註解",
+                        "data": [
+                            {
+                                "text": "// 單行註解",
+                                "url": null
+                            },
+                            {
+                                "text": "/* */ 多行註解",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "PHP 資料型別 和 變數",
+                        "data": [
+                            {
+                                "text": "變數",
+                                "url": null
+                            },
+                            {
+                                "text": "資料型別",
+                                "url": null
+                            },
+                            {
+                                "text": "變數有效範圍",
+                                "url": null
+                            },
+                            {
+                                "text": "套外、內建與環境變數",
+                                "url": null
+                            },
+                            {
+                                "text": "表單欄位變數",
+                                "url": null
+                            },
+                            {
+                                "text": "常數",
+                                "url": null
+                            },
+                            {
+                                "text": "資料型別的檢查",
+                                "url": null
+                            },
+                            {
+                                "text": "型別的轉換",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "變數",
+                "contnet": [
+                    {
+                        "title": "變數概念",
+                        "data": [
+                            {
+                                "text": "宣告一個儲存空間，用來存放會變動的資料",
+                                "url": null
+                            },
+                            {
+                                "text": "須以 $ 開頭",
+                                "url": null
+                            },
+                            {
+                                "text": "語法：$ 變數名稱 = 值",
+                                "url": null
+                            },
+                            {
+                                "text": "變數名稱大小寫，視為不同",
+                                "url": null
+                            },
+                            {
+                                "text": "屬於弱型別，不需事先宣告，指定給變數時及決定變數的資料型別，如： $name = 'Sara'; ",
+                                "url": null
+                            },
+                            {
+                                "title": "變數值之簡化版",
+                                "text": "// 需開啟 short_open_tag 才能使用\n\n<?php\n\n  $name = 'Sara'\n  echo '姓名：',$name,'<br>';\n\n?>\n\n等同\n姓名：<?= $name ?> <br>",
+                                "group": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "運算式",
+                "contnet": [
+                    {
+                        "title": "運算式簡介",
+                        "data": [
+                            {
+                                "title": "運算式",
+                                "text": "運算式",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUO8XVJIraBRSVKUP4l_NQ4k1zBFGrCCoD9_Stgm8-qcCXnsjh7m1wSSb_o5i7A6ytliRI2H3YZ5EFlBshNvJ2flusdKzF62a8L-TC8d16Qa0Ad2Hjj2On8o1oWKcoEYFXCM5Nuv3sVmMULZaWffIg=w1222-h598-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "算數運算式",
+                                "text": "算數運算式",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWpHelPAphKjxRbGSe-hFY1541CtzMtKHPl3JypjaNm98bFUnhsLWSIgQ12RJ5CRe5Q_4IYZxVpSU4r6zPnxYZzMOA729yWMSW4WlTp65FEo7nk6c-2O_7tkRF02c0Qzkf1WqhbgxVcrFiRl6Q2pPc=w1098-h601-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "比較運算式",
+                                "text": "比較運算式",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVQybBzll2XlQJlmQZLiVc8_ACLv08Hd9U-RUsUkFIJvEKhB6P6N3vPMxqBiHJZK0YiPxhjxUdxFX3eYeI83Zf1wfRRKWoLgqLyIYPqcJcX7ZytQNQ_CHoxrCkMc_0-kcjYVoG-TMaor9WWpIzFZ8g=w1300-h606-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "邏輯運算式",
+                                "text": "邏輯運算式",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUn23tZCYUUKPWyNq1L5jJmv_OPMkIR0kkQndykLcmS-9_tjvIkBByTyaVsWsSQFDe0qXlEBGwMlhtz5zgDjgVmPluIEkd7JuGP3mlr0mBAjehL_tBLRPai6NwpL128d2a9lljmWgglyDWvkaOchFs=w1254-h495-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "位元運算式",
+                                "text": "位元運算式",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLU0XTDCk-ICQKrJWaj3sHj9EtzdQVB5JBVsHY1LtZ7l9IVyMi3dg3IGK7XhHi-Huvp12lW6GqyvW0QwOHzlQLvw-a_TqsC1_HDIzcLBWGk5mN3jY5sdjg72pt4rnH8ziGgZCF9O-E9RQ90ewqmrtag=w1282-h573-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "字串結合運算式",
+                                "text": "字串結合運算式",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWGBnOKx8EtodE96fYUPrMdyemewwLnrOYtu408_0cERVUIHC3BdHnH-DP5wz9tVOkdq3ZHzLoGHbWK6mpB1oW6tiif--2-CNQijwJ-cDIcPTs0FiGi20P3LQr3cQfZlWD18PW0L4BOs42S_DldWHs=w1079-h190-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "三元運算式",
+                                "text": "三元運算式",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVbfXiSgdufqJxnzK5XTMj7DAQqxlJuXnLWSgf03bQ2GCNU1wNS6bVpvZB3KNPJ12ah81NwXCFcQLWWVjdaGvp2_eJUkb0dGXMknLe-cr3jaMhZTC4aamqO6nzn40r-ZBSO6UvSUDw0IehDe7ryp-o=w1190-h306-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "指定運算式",
+                                "text": "指定運算式",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLViSGYHno3YEGsxj1-ze4NxHrwx8p3BmmHONhHED-KsFyhMLA2EMoxsQ8OXlq_QCaL42zr7zIiGCjhzqiygPwonTI18_NNKKKinUH2gmvgXq2Trx_fttOlKh5c7OCr8dxOBqKV3wIhdiU8yh0IimJk=w1008-h599-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "PHP 函式介紹",
+                "contnet": [
+                    {
+                        "title": "函式簡介",
+                        "data": [
+                            {
+                                "text": "主要功能：將一段重複程式碼包裝成一獨立的函示，增加再用性及可讀性，使之更好維護",
+                                "url": null
+                            },
+                            {
+                                "text": "內建函式",
+                                "url": null
+                            },
+                            {
+                                "text": "自訂函式",
+                                "url": null
+                            },
+                            {
+                                "text": "傳值呼叫與傳址呼叫",
+                                "url": null
+                            },
+                            {
+                                "text": "陣列型參數",
+                                "url": null
+                            },
+                            {
+                                "text": "設定參數的預設值",
+                                "url": null
+                            },
+                            {
+                                "text": "變數的有效範圍",
+                                "url": null
+                            },
+                            {
+                                "text": "『引用檔案』函式",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "data": [
+                            {
+                                "text": "內建函式",
+                                "url": null
+                            },
+                            {
+                                "text": "自訂函式",
+                                "url": null
+                            },
+                            {
+                                "text": "傳值呼叫與傳址呼叫",
+                                "url": null
+                            },
+                            {
+                                "text": "陣列型參數",
+                                "url": null
+                            },
+                            {
+                                "text": "設定參數的預設值",
+                                "url": null
+                            },
+                            {
+                                "text": "變數的有效範圍",
+                                "url": null
+                            },
+                            {
+                                "text": "『引用檔案』函式",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "資料庫",
+                "contnet": [
+                    {
+                        "title": "資料庫簡介",
+                        "data": [
+                            {
+                                "text": "連線 MySQL 伺服器",
+                                "url": null
+                            },
+                            {
+                                "text": "開啟資料庫",
+                                "url": null
+                            },
+                            {
+                                "text": "執行 SQL 命令",
+                                "url": null
+                            },
+                            {
+                                "text": "關閉連線",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "存取方法",
+                        "data": [
+                            {
+                                "text": "Mysql API",
+                                "url": null
+                            },
+                            {
+                                "text": "Mysqli API",
+                                "url": null
+                            },
+                            {
+                                "text": "PDO API",
+                                "url": null
+                            },
+                            {
+                                "text": "可以連接到更多種類的資料庫，可以避免 SQL注入，安全佳",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "source": {
+        "text": true,
+        "from": [],
+        "refer": []
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "name": "Router",
+    "type":0,
+    "nav": true,
+    "contents": {
+        "left": [
+            {
+                "title": "Vue-Router",
+                "contnet": [
+                    {
+                        "title": "Routes",
+                        "data": [
+                            {
+                                "title": "Routes",
+                                "text": "",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVeAtslx2kzYjGIA32N-58_2nJr2AhymKcgZBnrVMJpCrLH8ahVX4fNsoNKBHrJHiGyc9TjoTmPm6tN9VsBQOWnK1_3nFPoeztmOFnSIQV6fTlLfI4RNBvJWEKbcF7ek3Kr6RtCJ17kzH6yBBF4HSs=w622-h171-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "404 Not found 路由",
+                        "data": [
+                            {
+                                "title": "基本使用",
+                                "text": "",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLVeAtslx2kzYjGIA32N-58_2nJr2AhymKcgZBnrVMJpCrLH8ahVX4fNsoNKBHrJHiGyc9TjoTmPm6tN9VsBQOWnK1_3nFPoeztmOFnSIQV6fTlLfI4RNBvJWEKbcF7ek3Kr6RtCJ17kzH6yBBF4HSs=w622-h171-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "可选参数",
+                        "data": [
+                            {
+                                "text": "path: '/products/:sn?' 加『?』代表 products 後面的路徑可有可無",
+                                "url": null
+                            },
+                            {
+                                "text": "this.$route.query.sn; // ?sn=123",
+                                "url": null
+                            },
+                            {
+                                "text": "this.$route.params.sn; // /123",
+                                "url": null
+                            },
+                            {
+                                "text": "router-link",
+                                "url": null
+                            },
+                            {
+                                "text": "router-view",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "right": [
+            {
+                "title": "基礎知識",
+                "contnet": [
+                    {
+                        "title": "什麼是 Vue Router ？",
+                        "data": [
+                            {
+                                "text":"用 Vue + Vue Router 创建单页应用",
+                                "url":null
+                            },
+                            {
+                                "title": "安裝指令",
+                                "text": "npm install vue-router@4",
+                                "group": true
+                            },
+                            {
+                                "title": "开发版本构建",
+                                "text": "开发版本构建",
+                                "group": true,
+                                "imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUShSrMbz0lqRwxjyZsouCB3bQAMer0NdyuENRviyKoKbL-ttacgCjHbnkQ014NjC5SqAWzzFWZU71xIez_iPgpFPv3MXj-G0z64n8myGVb3il4X-S4hdytHsG47_OEdAzaAraenc1kRu7Fh58L93g=w771-h269-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "source": {
+        "text": true,
+        "from": [
+            "https://router.vuejs.org/zh/guide/#html"
+        ],
+        "refer": []
+    }
+}

@@ -1,0 +1,828 @@
+{
+    "name": "Ajax",
+    "type":0,
+    "nav": true,
+    "contents": {
+        "left": [
+            {
+                "title": "$.ajax",
+                "contnet": [
+                    {
+                        "title": "$.ajax 使用",
+                        "data": [
+                            {
+                                "text": "需先有 JQuery",
+                                "url":null
+                            },
+                            {
+                                "title": "基本使用",
+                                "text": "$.ajax({\n url:,\n method:,\n dataType:,\n data\n success:function(res){console.log(res)},\n error:function(err){console.log(err)},\n});",
+                                "group": true
+                            },
+                            {
+                                "text": "data: 如果需要傳送資料時，則將資料設定在這裡",
+                                "url": null
+                            },
+                            {
+                                "text": "method: 請求資料的方式(Ex:POST / GET / PUT...等)",
+                                "url": null
+                            },
+                            {
+                                "text": "dataType: 請求資料的類型(Ex:xml, json, script, or html...等)",
+                                "url": null
+                            },
+                            {
+                                "text": "success: 當成功接收到資料時，success 會執行並顯示結果。",
+                                "url": null
+                            },
+                            {
+                                "text": "error : 當接收資料失敗時，error 會執行並顯示結果。",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Axios",
+                "contnet": [
+                    {
+                        "title": "Axios 使用",
+                        "data": [
+                            {
+                                "title": "基本使用",
+                                "text": "axios.get( ' url ' )\n.then( (res)=> {\n  console.log(response.data);\n})\n.catch(function (error) {\n  console.log(error);\n});",
+                                "group": true
+                            },
+                            {
+                                "title": "加入參數",
+                                "text": "axios.post('url',{\n\temail: 'javascriptBasics@gmail.com',\n\tpassword: '1234'\n}})\n.then((res) =>{})\n...\ncatch((err)=>{})",
+                                "group": true
+                            },
+                            {
+                                "text": "data：撈回來的資料都會放在這裡",
+                                "url": null
+                            },
+                            {
+                                "text": "status：HTTP 狀態碼",
+                                "url": null
+                            },
+                            {
+                                "text": "statusText：HTTP 狀態碼的訊息",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Fetch ",
+                "contnet": [
+                    {
+                        "title": "Fetch 使用",
+                        "data": [
+                            {
+                                "title": "基本使用",
+                                "text": "fetch( ' url ' )\n.then((response) => {\n  // 回傳 ReadableStream 物件，可使用 .json() 等等方法，取得對應資料。\n  return response.json()\n})\n.then((data) => {\n  console.log(data)\n}).catch((err) => {\n  console.log('錯誤:', err)\n})",
+                                "group": true
+                            },
+                            {
+                                "title": "加入參數",
+                                "text": "fetch( ' url ' , {\n   method: 'POST',\n   headers: {\n        'Content-Type': 'application/json'\n   },\n   body: JSON.stringify(data)\n   })\n   .then((res) =>{})\n...\n.catch((err)=>{})",
+                                "group": true
+                            },
+                            {
+                                "title": "搭配 async/await",
+                                "text": "需等 Ajax1 完成後，才執行 Ajax2",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUMCjT8hAWHOzGmPYnc5JcmDi6MFxUngHFK1-zYlxzgd0Tm4Legy493OLatj7-h_IiFlgkGzDT0AtSG0yxkHDJ0vBR6a7j-DDaaDjluCyH0FVoWp3ciBi03jbxSkasqe1UpqTLTAM7Pw9pyEGIJGOk=w676-h302-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "XMLHttpRequest",
+                "contnet": [
+                    {
+                        "title": "XMLHttpRequest 使用",
+                        "data": [
+                            {
+                                "title": "GET-範例",
+                                "text": "var xhr = new XMLHttpRequest();\nxhr.open('get','test.json',true);\nxhr.onload(()=>{\n   ...內容...\n})\nxhr.send(null);\n\n\n圖為舊式--自行修改",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLULhSvPIBMys-o3nEqd0OzmTH7ibOGiEfHG5hdAhRM2HjFyndYJelsyu2raheT3bpTFKIF_uHYwj7_7xcb4Wel99OrUleLnEoJNTahctK6I07isvjnakV9EMs14ixcSrHgijUb11x-6PMj3iwbfTME=w1146-h423-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "title": "POST-範例",
+                                "text": "var xhr = new XMLHttpRequest();\nxhr.open('post','test.json',true);\nxhr.setRequestHeader(\"Content-type\",\"application/x-www-form-urlencoded\");\nxhr.onload(()=>{\n   ...內容...\n})\nxhr.send('email=abc@gmail.com&password=1234');\n\n//JSON 類型\nxhr.setRequestHeader('Content-type','application/json');\n//將 JSON 轉為 文字\nvar data = JSON.stringify(account);\nxhr.send(data);\n\n圖為舊式--自行修改",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWvURI7APs60G1EResRMrjBUsYo7x43O4AG6h2nsaStJDSEnlbOPe1TFDzmkYnirRNP9or7BAC633jYexFa6_BuJ5H2VNsHg4S704-5l9-FDo56xiEc8hDxg1Wa6ngHkuQS6JG4gw1E5j-WtuzTD8I=w1144-h473-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "XMLHttpRequest 屬性介紹",
+                "contnet": [
+                    {
+                        "title": "XMLHttpRequest 屬性",
+                        "data": [
+                            {
+                                "text": "readyState",
+                                "url": null
+                            },
+                            {
+                                "text": "請求處理的狀態",
+                                "url": null
+                            },
+                            {
+                                "text": "onreadystatechange",
+                                "url": null
+                            },
+                            {
+                                "text": "請求處理的狀態改變時應執行的事件處理器",
+                                "url": null
+                            },
+                            {
+                                "text": "status",
+                                "url": null
+                            },
+                            {
+                                "text": "伺服器傳回的 Http 狀態碼",
+                                "url": null
+                            },
+                            {
+                                "text": "statusText",
+                                "url": null
+                            },
+                            {
+                                "text": "伺服器傳回的 Http 狀態文字訊息",
+                                "url": null
+                            },
+                            {
+                                "text": "responseText",
+                                "url": null
+                            },
+                            {
+                                "text": "伺服器的回應資料，回應的內容為一個字串",
+                                "url": null
+                            },
+                            {
+                                "text": "responseXML",
+                                "url": null
+                            },
+                            {
+                                "text": "伺服器的回應資料，回應的內容為 XML Document",
+                                "url": null
+                            },
+                            {
+                                "text": "timeout、response、responseType、onload、ontimeout、onloadstart、onloadend...",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "readyState 介紹",
+                        "data": [
+                            {
+                                "title": "紀錄 Server 端目前針對請求的處理狀態",
+                                "group": true,
+                                "text": "紀錄 Server 端目前針對請求的處理狀態",
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWXswyBuDjDRsSTdTam5r81yrg_KKAqcAAnh88_DGZ5H1_7F6wSCl5lbsRHLkoU6r5tXSX1M3YCgPvqShHNI_XxCdBU5Q6H3gqd5eQf7yY2Hv2JS9nizpHEP0CVwJsJT9dLLgRV_6gTmwtX9pE1gZE=w776-h270-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "status 介紹",
+                        "data": [
+                            {
+                                "text": "Server 端回應的 Http 狀態碼",
+                                "url": null
+                            },
+                            {
+                                "text": "主要三個層級，分別用三個數字表示",
+                                "url": null
+                            },
+                            {
+                                "text": "1xx - 參考資訊 ( information)",
+                                "url": null
+                            },
+                            {
+                                "text": "2xx - 成功 ( ok)",
+                                "url": null
+                            },
+                            {
+                                "text": "3xx - 重新導向 ( Redirection)",
+                                "url": null
+                            },
+                            {
+                                "text": "4xx - 用戶端錯誤 ( Client Error)",
+                                "url": null
+                            },
+                            {
+                                "text": "5xx - 伺服器端錯誤 ( Server Error)",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "responseText 介紹",
+                        "data": [
+                            {
+                                "text": "使用 GET 請求方式取得回應字串",
+                                "url": null
+                            },
+                            {
+                                "text": "使用 POST 請求方式取得回應字串",
+                                "url": null
+                            },
+                            {
+                                "title": "获取请求返回的数据",
+                                "group": true,
+                                "text": "获取请求返回的数据",
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLXd68jzX5vcOWxwgpo-i58O6grKMo5TXiJCDTqoSYGLVUH522j3VoF14AvbgDBZqSHBYU8zBts42YRkXCwBCcuw6HtChqc39II1qqRabeqFHpMoN_hZ9pJTNAs1IfZOnptTbA5XB6QMCDYhlSZ5g_s=w1108-h237-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "responseXML 介紹",
+                        "data": [
+                            {
+                                "text": "當伺服器要回應的資料眾多，可以使用 XML 回傳給客戶端",
+                                "url": null
+                            },
+                            {
+                                "text": "客戶端可透過 XHR 物件的 responseXML屬性，取得回傳 XML 文件",
+                                "url": null
+                            },
+                            {
+                                "text": "透過 W3C 的 DOM api 可以操作文件物件",
+                                "url": null
+                            },
+                            {
+                                "text": "須完成的任務有--",
+                                "url": null
+                            },
+                            {
+                                "text": "取出 XML 文件中的資料",
+                                "url": null
+                            },
+                            {
+                                "text": "填入我們的 HTML 文件中",
+                                "url": null
+                            },
+                            {
+                                "title": "获取请求返回的数据",
+                                "group": true,
+                                "text": "获取请求返回的数据",
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUwJbUSN4MWLWwrP9PXk2b5CveFqbwM5wqLvuFWnfu13irCcc_TKX-47-hTbcaBPAnpbCCoNvoisH_cMUcRzLLjTBDT_VRt_NHwYd1FiDcgoH3fn7jLw_sUVjLuXFaNRNdIQY2mSi1fQ_ESIiK2tBg=w1100-h249-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "XMLHttpRequest 方法介紹",
+                "contnet": [
+                    {
+                        "title": "XMLHttpRequest 方法",
+                        "data": [
+                            {
+                                "text": "abort()",
+                                "url": null
+                            },
+                            {
+                                "text": "停止當前請求",
+                                "url": null
+                            },
+                            {
+                                "text": "getAllResponseHeaders()",
+                                "url": null
+                            },
+                            {
+                                "text": "取得HTTP的所有回應標頭",
+                                "url": null
+                            },
+                            {
+                                "text": "getResponseHeader('header')",
+                                "url": null
+                            },
+                            {
+                                "text": "取得某特定的HTTP的回應之標頭 / 字串值",
+                                "url": null
+                            },
+                            {
+                                "text": " open( ' method ' , ' url ' , async) ",
+                                "url": null
+                            },
+                            {
+                                "text": "開啟對伺服端的連結",
+                                "url": null
+                            },
+                            {
+                                "text": "send ( ' content ' ) ",
+                                "url": null
+                            },
+                            {
+                                "text": "向伺服器發送請求，並將資料送到伺服器端",
+                                "url": null
+                            },
+                            {
+                                "text": "setRequestHeader ( ' head ' , ' value ' ) ",
+                                "url": null
+                            },
+                            {
+                                "text": "設定 HTTP 請求的請求標頭",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "open 介紹",
+                        "data": [
+                            {
+                                "text": "open ( ' method ' , ' url ' , async )",
+                                "url": null
+                            },
+                            {
+                                "text": "開啟對伺服器連結",
+                                "url": null
+                            },
+                            {
+                                "text": "method參數：如 ( GET、POST )",
+                                "url": null
+                            },
+                            {
+                                "text": "url參數：指定所要採取檔案的位置",
+                                "url": null
+                            },
+                            {
+                                "text": "async 參數：決定採用非同步傳輸或不採用 ( True、False )",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "POST 使用時機",
+                        "data": [
+                            {
+                                "text": "不想用到 cashe 中的檔案",
+                                "url": null
+                            },
+                            {
+                                "text": "要傳送的資料太大",
+                                "url": null
+                            },
+                            {
+                                "text": "安全性的考量",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "send 介紹",
+                        "data": [
+                            {
+                                "text": "send ( data_info )",
+                                "url": null
+                            },
+                            {
+                                "text": "向伺服器發送請求，並將資料送到伺服器端",
+                                "url": null
+                            },
+                            {
+                                "text": "send ( null )：若 open ( ) 的 method 為 POST",
+                                "url": null
+                            },
+                            {
+                                "text": "data_info 為字串",
+                                "url": null
+                            },
+                            {
+                                "text": "格式：欄名1：值 & 欄名2：值 & ...",
+                                "url": null
+                            },
+                            {
+                                "title": "send ( data ) 型態：",
+                                "group": true,
+                                "text": "send ( data ) 型態：",
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLUPyXbnhGaXQ0sw7aga0RQ0PpQZDN3c8BOTG87zxtKxIft4qdChZBCL6adPNwx-eVpjUJIYc5Rzdt_DBQcL9T5BLo5VlpSyWiBgvYDHjwwd2iy3I7Zbp_k2IHRm7yfue4iecWMvEK_VsTxLUkR6GlQ=w536-h307-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "setRequestHeader 介紹",
+                        "data": [
+                            {
+                                "text": "setRequestHeader ( header , value )",
+                                "url": null
+                            },
+                            {
+                                "title": "設定 HTTP 請求的請求標頭",
+                                "text": "content-type、connection、cookie、accept-xxx",
+                                "group": true
+                            },
+                            {
+                                "text": "header：Http 的標頭名稱",
+                                "url": null
+                            },
+                            {
+                                "text": "value：標頭名稱的值",
+                                "url": null
+                            },
+                            {
+                                "text": "value：標頭名稱的值",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "getAllResponseHeaders() 介紹",
+                        "data": [
+                            {
+                                "text": "setRequestHeader ( header , value )",
+                                "url": null
+                            },
+                            {
+                                "text": "取得 Http 所有的回應標頭",
+                                "url": null
+                            },
+                            {
+                                "text": "回傳字串，字串格式",
+                                "url": null
+                            },
+                            {
+                                "text": "『標頭名稱：標頭值』『換行符號』『標頭名稱：標頭值』『換行符號』...",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "right": [
+            {
+                "title": "基礎知識",
+                "contnet": [
+                    {
+                        "title": "什麼是 Ajax ？",
+                        "data": [
+                            {
+                                "title": "Asynchronous Javascript And XML",
+                                "text": "Ajax 流程",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWjkArIL5I2a2qmkwAs4Ruq7I0FTPUnafTSFfIGuT-ia_0GnvsSNNq0VPhfwSaXV_bDFRhTTaiiQlEtBb4NavELzUW4EVutVJAmWHyn1Dedo9Nlth3URAqtKZEbH4COaXJm8p-33njl1NxKNpqUX84=w800-h534-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "text": "不是一種程式語言，以新的方法重新整合現有各種網頁技術",
+                                "url": null
+                            },
+                            {
+                                "text": "使用非同步的 HTTP 通訊協定 ( HyperText Transfer Protocal )",
+                                "url": null
+                            },
+                            {
+                                "text": "以提供更好、更快、更友善的 Web 應用程式",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "傳統 Web 應用程式架構",
+                        "data": [
+                            {
+                                "text": "客戶端要存取 Server 端資料庫或檔案，需等待回應",
+                                "url": null
+                            },
+                            {
+                                "text": "每一次客戶端需要，就要重新連結 Server 端並重新下載整個網頁內容",
+                                "url": null
+                            },
+                            {
+                                "title": "傳統 Web 應用程式架構",
+                                "group": true,
+                                "text": "傳統 Web 應用程式架構",
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLWtetXp4VLQGnDMM-mY0Gjc21DU5nNfc3eJTL4QEerFvcssX5pZ2IYbceGoQifpvDF0iNlk5wHWEwToWFhgOnn8dXxMn8D1jOzAJgFOxc-c1JIBr_om6ScJnCqWsliLJ1mlSownOBXuYIsxmZOctm4=w353-h511-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Ajax 主要架構 Web 技術上",
+                        "data": [
+                            {
+                                "text": "HTML",
+                                "url": null
+                            },
+                            {
+                                "text": "CSS",
+                                "url": null
+                            },
+                            {
+                                "text": "Javascript",
+                                "url": null
+                            },
+                            {
+                                "text": "伺服端程式設計",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Ajax 歷史",
+                        "data": [
+                            {
+                                "text": "最早 IE5 中以 ActiveX 組件的方式被使用 ( 1999 年春天發布)",
+                                "url": null
+                            },
+                            {
+                                "text": "Mozilla 1.0 和 Safari 1.2 也開始採用之後被重視",
+                                "url": null
+                            },
+                            {
+                                "text": "Google發布並提供 Google Maps 和 Google Suggest 之後，開始廣泛使用",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Js 提供的 Ajax 核心物件",
+                "contnet": [
+                    {
+                        "title": "借助 XMLHttpRequest 物件",
+                        "data": [
+                            {
+                                "text": "透過 XMLHttpRequest 物件，提出 Http 的服務請求",
+                                "url": null
+                            },
+                            {
+                                "text": "Ajax 引擎會密切偵聽 Server 端的處理狀態",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "不同瀏覽器 XMLHttpRequest",
+                        "data": [
+                            {
+                                "text": "IE 瀏覽器 7.0 以前版本使用 ActiveX 的方式實作 XMLHttpRequest",
+                                "url": null
+                            },
+                            {
+                                "text": "Firefox、Safira、IE7+ 和 Opra 則以 XMLHttpRequest 來實作",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "解決瀏覽器相容性問題",
+                        "data": [
+                            {
+                                "title": "瀏覽器相容性",
+                                "group": true,
+                                "text": "function createXHR(){\n  var xhr = null;\n  if(window.XMLHttpRequest){\n    //For IE7,Firefox,Chrome,Opera,Safari\n    xhr = new XMLHttpRequest();\n  }else if(window.ActiveXObject){\n    //For IE6,IE7\n    xhr = new ActiveXObject('Microsoft.XMLHTTP');\n  }\n  return xhr;\n}",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "XML 與 HTML 有何不同？",
+                "contnet": [
+                    {
+                        "title": "HTML 的特性",
+                        "data": [
+                            {
+                                "text": "主要用於呈現網頁",
+                                "url": null
+                            },
+                            {
+                                "text": "可使用的標籤是有限的",
+                                "url": null
+                            },
+                            {
+                                "text": "無法對文件上的資料做結構與特性說明",
+                                "url": null
+                            },
+                            {
+                                "text": "無法當做資料交換的標準",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "XML 的特性",
+                        "data": [
+                            {
+                                "text": "可用來標示電子文件使其具有結構特性",
+                                "url": null
+                            },
+                            {
+                                "text": "可做為資料交換的一種標準",
+                                "url": null
+                            },
+                            {
+                                "text": "XML 是一種、規範、沒有特定的標籤",
+                                "url": null
+                            },
+                            {
+                                "text": "具擴展性，不像 HTML 有固定的標籤格式",
+                                "url": null
+                            },
+                            {
+                                "text": "XML 可用來描敘資料，其重點在於資料本身的涵義與組織",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "XML 文件",
+                        "data": [
+                            {
+                                "text": " * 必須結構良好 * ",
+                                "url": null
+                            },
+                            {
+                                "text": "文件的第一列必須是 xml 的宣告",
+                                "url": null
+                            },
+                            {
+                                "text": "起始的標籤與結束的標籤必須成對的出現",
+                                "url": null
+                            },
+                            {
+                                "text": "空標籤必須要有 / 符號",
+                                "url": null
+                            },
+                            {
+                                "text": "只有一個根元素",
+                                "url": null
+                            },
+                            {
+                                "text": "元素不可以交錯",
+                                "url": null
+                            },
+                            {
+                                "text": "屬性值必加引號 ' 或 \"",
+                                "url": null
+                            },
+                            {
+                                "text": "標籤名稱可以重複",
+                                "url": null
+                            },
+                            {
+                                "text": "一個元素不可以有兩個同名的屬性",
+                                "url": null
+                            },
+                            {
+                                "text": "註解和其它指令不可以有兩個同名的屬性",
+                                "url": null
+                            },
+                            {
+                                "text": "沒有跳脫的特殊符號，如 < 、 > 等不可以出現在元素或屬性的字元資料裡",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Json 介紹",
+                "contnet": [
+                    {
+                        "title": "Json",
+                        "data": [
+                            {
+                                "text": "Json 字串可做為電子資料交換的格式",
+                                "url": null
+                            },
+                            {
+                                "text": "Javascript 中 要產生或解讀 必須透過 JSON 物件",
+                                "url": null
+                            },
+                            {
+                                "text": "舊式瀏覽器未內建 JSON 物件，需透過 script 引用 json.js",
+                                "url": null
+                            },
+                            {
+                                "text": "JSON 物件提供 2 個常用方法",
+                                "url": null
+                            },
+                            {
+                                "text": "JSON.stringify ( js物件 ) ：傳回 json 字串",
+                                "url": null
+                            },
+                            {
+                                "text": "JSON.parse ( json字串 ) ：傳回 js 物件",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "同源政策",
+                "contnet": [
+                    {
+                        "title": "同源政策",
+                        "data": [
+                            {
+                                "text": "同源策略指瀏覽器中，某個網頁的腳本程式要去取另一個網頁的資料時，必須具有相同來源",
+                                "url": null
+                            },
+                            {
+                                "text": "需有相同的：協定、網域、port number",
+                                "url": null
+                            },
+                            {
+                                "text": "目的為防止惡意程式取得另一個私密性資料",
+                                "url": null
+                            },
+                            {
+                                "text": "有些標籤項目是可以跨源取用的：script、css、img、video、audio",
+                                "url": null
+                            },
+                            {
+                                "text": "若是串 api ，瀏覽器一樣會發送請求，但會把 api 回應資料擋下來，並回傳錯誤訊息",
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "CORS",
+                        "data": [
+                            {
+                                "text": "Cross-Origin-Resource-Sharing",
+                                "url": null
+                            },
+                            {
+                                "text": "意指可以跨來源資源共享",
+                                "url": null
+                            },
+                            {
+                                "text": "如果想開啟跨來源 HTTP 請求，Server 必須在回應的 Response Header 裡 加上 Access-Content-Allow-Orgin ",
+                                "url": null
+                            },
+                            {
+                                "title": "如果 Server 沒有提供此項設定",
+                                "text": "瀏覽器會將其回應攔下，並出現類似的訊息",
+                                "group": true,
+                                "imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AM-JKLV4lVGLRP7ccbIy4xzdTPnfZwz_sg4U2aPSzKcGD19g9GwGdNJOgUhZt_u9LtDB0SI7H7dRfHPOD3UZ1z-FsHyLa88SRidhX9KdEELoPh0sspOWT9KT-n2q1x6QC7a1_W1qV6X3KQ-7l1JbpANaPhM=w1400-h929-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "title": "JSONP",
+                        "data": [
+                            {
+                                "text": "利用 script 標籤可透過 src 屬性，下載非同源 .js 檔案 來解決 CORS 問題",
+                                "url": null
+                            },
+                            {
+                                "text": "先決條件是伺服端必需有提供可接受 callback = handler 的請求參數",
+                                "url": null
+                            },
+                            {
+                                "text": "只能使用 GET 的請求方式",
+                                "url": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "source": {
+        "text": true,
+        "from": [],
+        "refer": [
+            "https://tw511.com/a/01/2783.html",
+            "https://segmentfault.com/a/1190000004322487",
+            "https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/setRequestHeader"
+        ]
+    }
+}
