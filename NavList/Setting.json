@@ -1,10 +1,11 @@
 {
-    "name": "Backend Setting",
-    "type": 0,
-    "data": [
+    "Name": "Backend Setting",
+    "ID":"Setting",
+    "Type": 0,
+    "Data": [
         {
-            "name": "暫無",
-            "group": 0
+            "Name": "暫無",
+            "Group": 0
         }
     ]
 }

@@ -1,205 +1,206 @@
 {
-    "name": "Art & Animation",
-    "type":1,
-    "data": [
+    "Name": "Art & Animation",
+    "ID":"Animation",
+    "Type":1,
+    "Data": [
         {
-            "name": "線上工具",
-            "group":1,
-            "data": [
+            "Name": "線上工具",
+            "Group":1,
+            "Data": [
                 {
-                    "name": "Hama",
-                    "title": "【Hama】：線上去背，輸出像素有限制",
-                    "url": "https://www.hama.app/en"
+                    "Name": "Hama",
+                    "Title": "【Hama】：線上去背，輸出像素有限制",
+                    "URL": "https://www.hama.app/en"
                 }
             ]
         },
         {
-            "name": "美術參考",
-            "group":1,
+            "Name": "美術參考",
+            "Group":1,
             "data": [
                 {
-                    "name": "Web Design Clip",
-                    "title": "【Web Design Clip】：提供別人的網站給您參考",
-                    "url": "https://www.webdesignclip.com/"
+                    "Name": "Web Design Clip",
+                    "Title": "【Web Design Clip】：提供別人的網站給您參考",
+                    "URL": "https://www.webdesignclip.com/"
                 },
                 {
-                    "name": "Awwwards",
-                    "title": "【Awwwards】：提供別人的網站給您參考",
-                    "url": "https://www.awwwards.com/"
+                    "Name": "Awwwards",
+                    "Title": "【Awwwards】：提供別人的網站給您參考",
+                    "URL": "https://www.awwwards.com/"
                 },
                 {
-                    "name": "Coolors",
-                    "title": "【Coolors】：用以參考顏色搭配",
-                    "url": "https://coolors.co/"
+                    "Name": "Coolors",
+                    "Title": "【Coolors】：用以參考顏色搭配",
+                    "URL": "https://coolors.co/"
                 },
                 {
-                    "name": "color-adobe",
-                    "title": "【color-adobe】：提供各類顏色搭配",
-                    "url": "https://color.adobe.com/zh/explore"
+                    "Name": "color-adobe",
+                    "Title": "【color-adobe】：提供各類顏色搭配",
+                    "URL": "https://color.adobe.com/zh/explore"
                 },
                 {
-                    "name": "Animated Icons",
-                    "title": "【Animated Icons】：提供別人的網站給您參考",
-                    "url": "https://www.cssdesignawards.com/"
+                    "Name": "Animated Icons",
+                    "Title": "【Animated Icons】：提供別人的網站給您參考",
+                    "URL": "https://www.cssdesignawards.com/"
                 },
                 {
-                    "name": "Themeforest",
-                    "title": "【Themeforest】：提供別人的網站給您參考",
-                    "url": "https://themeforest.net/"
+                    "Name": "Themeforest",
+                    "Title": "【Themeforest】：提供別人的網站給您參考",
+                    "URL": "https://themeforest.net/"
                 }
             ]
         },
         {
-            "name": "動畫參考",
-            "group":1,
+            "Name": "動畫參考",
+            "Group":1,
             "data": [
                 {
-                    "name": "Animista",
-                    "title": "【Animista】：動畫參考，提供 CSS 代碼",
-                    "url": "https://animista.net/"
+                    "Name": "Animista",
+                    "Title": "【Animista】：動畫參考，提供 CSS 代碼",
+                    "URL": "https://animista.net/"
                 },
                 {
-                    "name": "Easings",
-                    "title": "【Easings】：動畫參考",
-                    "url": "https://easings.net/"
+                    "Name": "Easings",
+                    "Title": "【Easings】：動畫參考",
+                    "URL": "https://easings.net/"
                 },
                 {
-                    "name": "Velocityjs",
-                    "title": "【velocityjs】：動畫參考，需引入，用以加強 animate",
-                    "url": "http://velocityjs.org/"
+                    "Name": "Velocityjs",
+                    "Title": "【velocityjs】：動畫參考，需引入，用以加強 animate",
+                    "URL": "http://velocityjs.org/"
                 },
                 {
-                    "name": "Greensock",
-                    "title": "【Greensock】：動畫參考",
-                    "url": "https://greensock.com/cheatsheet/"
+                    "Name": "Greensock",
+                    "Title": "【Greensock】：動畫參考",
+                    "URL": "https://greensock.com/cheatsheet/"
                 },
                 {
-                    "name": "Load Awesome",
-                    "title": "【Load Awesome】：許多讀取動畫",
-                    "url": "https://labs.danielcardoso.net/load-awesome/animations.html"
+                    "Name": "Load Awesome",
+                    "Title": "【Load Awesome】：許多讀取動畫",
+                    "URL": "https://labs.danielcardoso.net/load-awesome/animations.html"
                 }
             ]
         },
         {
-            "name": "文字資源",
-            "group":1,
+            "Name": "文字資源",
+            "Group":1,
             "data": [
                 {
-                    "name": "Google Fonts",
-                    "title": "【Google Fonts】：Google 提供大量文字免費資源",
-                    "url": "https://fonts.google.com/"
+                    "Name": "Google Fonts",
+                    "Title": "【Google Fonts】：Google 提供大量文字免費資源",
+                    "URL": "https://fonts.google.com/"
                 },
                 {
-                    "name": "Fonts",
-                    "title": "【Fonts】：可下載文字字體的網站",
-                    "url": "http://fonts.top/"
+                    "Name": "Fonts",
+                    "Title": "【Fonts】：可下載文字字體的網站",
+                    "URL": "http://fonts.top/"
                 }
             ]
         },
         {
-            "name": "圖片資源",
-            "group":1,
+            "Name": "圖片資源",
+            "Group":1,
             "data": [
                 {
-                    "name": "Pinterest",
-                    "title": "【Unsplash】：提供網站圖片及其他圖片分析",
-                    "url": "https://www.pinterest.com/"
+                    "Name": "Pinterest",
+                    "Title": "【Unsplash】：提供網站圖片及其他圖片分析",
+                    "URL": "https://www.pinterest.com/"
                 },
                 {
-                    "name": "Unsplash",
-                    "title": "【Unsplash】：提供下載各類圖片",
-                    "url": "https://unsplash.com/"
+                    "Name": "Unsplash",
+                    "Title": "【Unsplash】：提供下載各類圖片",
+                    "URL": "https://unsplash.com/"
                 },
                 {
-                    "name": "Flaticon",
-                    "title": "【Flaticon】：提供下載 icon 的網站",
-                    "url": "https://www.flaticon.com/"
+                    "Name": "Flaticon",
+                    "Title": "【Flaticon】：提供下載 icon 的網站",
+                    "URL": "https://www.flaticon.com/"
                 },
                 {
-                    "name": "Kaboompics",
-                    "title": "【Kaboompics】：提供下載各類圖片",
-                    "url": "http://kaboompics.com/"
+                    "Name": "Kaboompics",
+                    "Title": "【Kaboompics】：提供下載各類圖片",
+                    "URL": "http://kaboompics.com/"
                 },
                 {
-                    "name": "VisualHunt",
-                    "title": "【VisualHunt】：提供下載各類圖片，含家電、家具等類別",
-                    "url": "https://visualhunt.com/"
+                    "Name": "VisualHunt",
+                    "Title": "【VisualHunt】：提供下載各類圖片，含家電、家具等類別",
+                    "URL": "https://visualhunt.com/"
                 },
                 {
-                    "name": "Pngegg",
-                    "title": "【Pngegg】：提供下載 png 的網站",
-                    "url": "https://www.pngegg.com/"
+                    "Name": "Pngegg",
+                    "Title": "【Pngegg】：提供下載 png 的網站",
+                    "URL": "https://www.pngegg.com/"
                 },
                 {
-                    "name": "Photock",
-                    "title": "【Photock】：日本網站，提供生活照片為主",
-                    "url": "https://www.photock.jp/"
+                    "Name": "Photock",
+                    "Title": "【Photock】：日本網站，提供生活照片為主",
+                    "URL": "https://www.photock.jp/"
                 },
                 {
-                    "name": "Pexels",
-                    "title": "【Pexels】：可下載各類圖片",
-                    "url": "https://www.pexels.com/zh-tw/"
+                    "Name": "Pexels",
+                    "Title": "【Pexels】：可下載各類圖片",
+                    "URL": "https://www.pexels.com/zh-tw/"
                 },
                 {
-                    "name": "StockSnap",
-                    "title": "【StockSnap】：可下載各類圖片",
-                    "url": "https://stocksnap.io/"
+                    "Name": "StockSnap",
+                    "Title": "【StockSnap】：可下載各類圖片",
+                    "URL": "https://stocksnap.io/"
                 },
                 {
-                    "name": "Pngimg",
-                    "title": "【Pngimg】：提供下載各類圖片",
-                    "url": "http://pngimg.com/"
+                    "Name": "Pngimg",
+                    "Title": "【Pngimg】：提供下載各類圖片",
+                    "URL": "http://pngimg.com/"
                 },
                 {
-                    "name": "Pngtree",
-                    "title": "【Pngtree】：每日可免費下載兩次",
-                    "url": "https://zh.pngtree.com/"
+                    "Name": "Pngtree",
+                    "Title": "【Pngtree】：每日可免費下載兩次",
+                    "URL": "https://zh.pngtree.com/"
                 },
                 {
-                    "name": "Iconfinder",
-                    "title": "【Iconfinder】：提供下載可愛圖示",
-                    "url": "https://www.iconfinder.com/"
+                    "Name": "Iconfinder",
+                    "Title": "【Iconfinder】：提供下載可愛圖示",
+                    "URL": "https://www.iconfinder.com/"
                 },
                 {
-                    "name": "Pngimg",
-                    "title": "【Pngimg】：提供下載各類圖片",
-                    "url": "http://pngimg.com/"
+                    "Name": "Pngimg",
+                    "Title": "【Pngimg】：提供下載各類圖片",
+                    "URL": "http://pngimg.com/"
                 },
                 {
-                    "name": "Pixabay",
-                    "title": "【Pixabay】：可下載各類圖片",
-                    "url": "https://pixabay.com/"
+                    "Name": "Pixabay",
+                    "Title": "【Pixabay】：可下載各類圖片",
+                    "URL": "https://pixabay.com/"
                 },
                 {
-                    "name": "Freepik",
-                    "title": "【Freepik】：提供下載各類圖片",
-                    "url": "https://www.freepik.com/"
+                    "Name": "Freepik",
+                    "Title": "【Freepik】：提供下載各類圖片",
+                    "URL": "https://www.freepik.com/"
                 }
             ]
         },
         {
-            "name": "背景圖片",
-            "group":1,
+            "Name": "背景圖片",
+            "Group":1,
             "data": [
                 {
-                    "name": "Thepatternlibrary",
-                    "title": "【Thepatternlibrary】：提供下載背景重複圖片的網站",
-                    "url": "http://thepatternlibrary.com/"
+                    "Name": "Thepatternlibrary",
+                    "Title": "【Thepatternlibrary】：提供下載背景重複圖片的網站",
+                    "URL": "http://thepatternlibrary.com/"
                 },
                 {
-                    "name": "Toptal",
-                    "title": "【Toptal】：提供下載背景重複圖片的網站",
-                    "url": "https://www.toptal.com/designers/subtlepatterns/"
+                    "Name": "Toptal",
+                    "Title": "【Toptal】：提供下載背景重複圖片的網站",
+                    "URL": "https://www.toptal.com/designers/subtlepatterns/"
                 },
                 {
-                    "name": "Patterncooler",
-                    "title": "【Patterncooler】：提供下載背景重複圖片的網站",
-                    "url": "https://www.patterncooler.com/"
+                    "Name": "Patterncooler",
+                    "Title": "【Patterncooler】：提供下載背景重複圖片的網站",
+                    "URL": "https://www.patterncooler.com/"
                 },
                 {
-                    "name": "Patternizer",
-                    "title": "【Patternizer】：提供自製環境的網站",
-                    "url": "https://patternizer.com/Civn"
+                    "Name": "Patternizer",
+                    "Title": "【Patternizer】：提供自製環境的網站",
+                    "URL": "https://patternizer.com/Civn"
                 }
             ]
         }

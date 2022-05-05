@@ -1,15 +1,16 @@
 {
-    "name": "問題導讀",
-    "type":3,
-    "data": [
+    "Name": "Problem",
+    "ID":"Problem",
+    "Type":3,
+    "Data": [
         {
-            "name": "Web 基礎知識", 
-            "group":1,
-            "data": [
+            "Name": "Web 基礎知識", 
+            "Group":1,
+            "Data": [
                 { 
-                    "name": "暫無", 
-                    "title": "【★】【暫無】：Hello world", 
-                    "url": "#"
+                    "Name": "暫無", 
+                    "Title": "【★】【暫無】：Hello world", 
+                    "URL": "#"
                 }
             ]
         }

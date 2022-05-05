@@ -1,21 +1,22 @@
 {
-    "name": "API",
-    "type": 0,
-    "data": [
+    "Name": "API",
+    "ID":"API",
+    "Type": 0,
+    "Data": [
         {
-            "name": "Github",
-            "title": "【Github】：Github-API 可查看專案相關資訊",
-            "url": "https://docs.github.com/en/rest/reference"
+            "Name": "Github",
+            "Title": "【Github】：Github-API 可查看專案相關資訊",
+            "URL": "https://docs.github.com/en/rest/reference"
         },
         {
-            "name": "政府資料開放平臺",
-            "title": "【政府資料開放平臺】：提供各項資訊 API",
-            "url": "https://data.gov.tw/"
+            "Name": "政府資料開放平臺",
+            "Title": "【政府資料開放平臺】：提供各項資訊 API",
+            "URL": "https://data.gov.tw/"
         },
         {
-            "name": "Test",
-            "title": "【Test】：YouBike2.0臺北市公共自行車即時資訊",
-            "url": "https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json"
+            "Name": "Test",
+            "Title": "【Test】：YouBike2.0臺北市公共自行車即時資訊",
+            "URL": "https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json"
         }
     ]
 }

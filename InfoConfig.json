@@ -1,63 +1,63 @@
 {
     "Infomation": {
-        "writer": "盜才生",
-        "version": "0.2.0"
+        "Writer": "盜才生",
+        "Rersion": "0.2.0"
     },
     "NavList": [
         {
-            "name": "API",
-            "id": "API",
-            "url":"https://laalaa35055.github.io/Json/NavList/API.json"
+            "Name": "API",
+            "ID": "API",
+            "URL":"https://laalaa35055.github.io/Json/NavList/API.json"
         },
         {
-            "name": "Search",
-            "id": "Search",
-            "url":"https://laalaa35055.github.io/Json/NavList/Search.json"
+            "Name": "Search",
+            "ID": "Search",
+            "URL":"https://laalaa35055.github.io/Json/NavList/Search.json"
         },
         {
-            "name": "NoteBook",
-            "id": "NoteBook",
-            "url":"https://laalaa35055.github.io/Json/NavList/Learn.json"
+            "Name": "NoteBook",
+            "ID": "NoteBook",
+            "URL":"https://laalaa35055.github.io/Json/NavList/Learn.json"
         },
         {
-            "name": "Tool Resources",
-            "id": "ToolResources",
-            "url":"https://laalaa35055.github.io/Json/NavList/Tool.json"
+            "Name": "Tool Resources",
+            "ID": "ToolResources",
+            "URL":"https://laalaa35055.github.io/Json/NavList/Tool.json"
         },
         {
-            "name": "Art & Animation",
-            "id": "Animation",
-            "url":"https://laalaa35055.github.io/Json/NavList/Art.json"
+            "Name": "Art & Animation",
+            "ID": "Animation",
+            "URL":"https://laalaa35055.github.io/Json/NavList/Art.json"
         },
         {
-            "name": "Google Analytics",
-            "id": "GoogleAnalytics",
-            "url":"https://laalaa35055.github.io/Json/NavList/GA.json"
+            "Name": "Google Analytics",
+            "ID": "GoogleAnalytics",
+            "URL":"https://laalaa35055.github.io/Json/NavList/GA.json"
         },
         {
-            "name": "Forum Resources",
-            "id": "ForumResources",
-            "url":"https://laalaa35055.github.io/Json/NavList/Dis.json"
+            "Name": "Forum Resources",
+            "ID": "ForumResources",
+            "URL":"https://laalaa35055.github.io/Json/NavList/Dis.json"
         },
         {
-            "name": "Extension Tool",
-            "id": "ExtensionTool",
-            "url":"https://laalaa35055.github.io/Json/NavList/Pack.json"
+            "Name": "Extension Tool",
+            "ID": "ExtensionTool",
+            "URL":"https://laalaa35055.github.io/Json/NavList/Pack.json"
         },
         {
-            "name": "Study Plan",
-            "id": "StudyPlan",
-            "url":"https://laalaa35055.github.io/Json/NavList/Plan.json"
+            "Name": "Study Plan",
+            "ID": "StudyPlan",
+            "URL":"https://laalaa35055.github.io/Json/NavList/Plan.json"
         },
         {
-            "name": "Problem",
-            "id": "Problem",
-            "url":"https://laalaa35055.github.io/Json/NavList/Problem.json"
+            "Name": "Problem",
+            "ID": "Problem",
+            "URL":"https://laalaa35055.github.io/Json/NavList/Problem.json"
         },
         {
-            "name": "Backend Setting",
-            "id": "Setting",
-            "url":"https://laalaa35055.github.io/Json/NavList/Backend.json"
+            "Name": "Backend Setting",
+            "ID": "Setting",
+            "URL":"https://laalaa35055.github.io/Json/NavList/Backend.json"
         }
     ]
 }

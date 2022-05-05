@@ -1,25 +1,26 @@
 {
-    "name": "Study Plan",
-    "type": 1,
-    "data": [
+    "Name": "Study Plan",
+    "ID":"StudyPlan",
+    "Type": 1,
+    "Data": [
     {
-        "name": "暫無",
+        "Name": "暫無",
         "group": 1,
-        "data": [
+        "Data": [
         {
-            "name": "暫無",
-            "title": "暫無",
-            "url": "暫無"
+            "Name": "暫無",
+            "Title": "暫無",
+            "URL": "暫無"
         }]
     },
     {
-        "name": "無",
+        "Name": "無",
         "group": 1,
-        "data": [
+        "Data": [
         {
-            "name": "暫無",
-            "title": "暫無",
-            "url": "暫無"
+            "Name": "暫無",
+            "Title": "暫無",
+            "URL": "暫無"
         }]
     }]
 }

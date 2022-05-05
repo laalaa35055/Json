@@ -1,118 +1,119 @@
 {
-    "name": "Extension Tool",
-    "type":1,
-    "data": [
+    "Name": "Extension Tool",
+    "ID":"ExtensionTool",
+    "Type":1,
+    "Data": [
         {
-            "name": "VScode 套件 - 常用",
-            "group":1,
-            "data": [
+            "Name": "VScode 套件 - 常用",
+            "Group":1,
+            "Data": [
                 {
-                    "name": "Live Server",
-                    "title": "【★★★★】【Live Server】：建立伺服器連接，即時更新",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
+                    "Name": "Live Server",
+                    "Title": "【★★★★】【Live Server】：建立伺服器連接，即時更新",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
                 },
                 {
-                    "name": "cdnjs",
-                    "title": "很常使用 CDN 的做法來快速開發",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=JakeWilson.vscode-cdnjs"
+                    "Name": "cdnjs",
+                    "Title": "很常使用 CDN 的做法來快速開發",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=JakeWilson.vscode-cdnjs"
                 },
                 {
-                    "name": "Vetur",
-                    "title": "vue 程式碼整理、emmet 等功能",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=octref.vetur"
+                    "Name": "Vetur",
+                    "Title": "vue 程式碼整理、emmet 等功能",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=octref.vetur"
                 },
                 {
-                    "name": "Vue 3 Snippets",
-                    "title": "【Vue 3 Snippets】：Vue 幫忙選字",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets"
+                    "Name": "Vue 3 Snippets",
+                    "Title": "【Vue 3 Snippets】：Vue 幫忙選字",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets"
                 },
                 {
-                    "name": "JavaScript (ES6)",
-                    "title": "【JavaScript (ES6) code snippets】：JavaScript 幫忙選字",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets"
+                    "Name": "JavaScript (ES6)",
+                    "Title": "【JavaScript (ES6) code snippets】：JavaScript 幫忙選字",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets"
                 }
             ]
         },
         {
-            "name": "VScode 套件 - 其他",
-            "group":1,
-            "data": [
+            "Name": "VScode 套件 - 其他",
+            "Group":1,
+            "Data": [
                 {
-                    "name": "Sass",
-                    "title": "【★★★★】【Sass】：Sass 幫忙查看語法正確性",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented"
+                    "Name": "Sass",
+                    "Title": "【★★★★】【Sass】：Sass 幫忙查看語法正確性",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented"
                 },
                 {
-                    "name": "Live Sass",
-                    "title": "【Live Sass Compiler】：Sass 設定完後，可幫忙自動監看",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass"
+                    "Name": "Live Sass",
+                    "Title": "【Live Sass Compiler】：Sass 設定完後，可幫忙自動監看",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass"
                 },
                 {
-                    "name": "Python",
-                    "title": "【Python】：Python 幫忙選字",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=ms-python.python"
+                    "Name": "Python",
+                    "Title": "【Python】：Python 幫忙選字",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=ms-python.python"
                 },
                 
                 {
-                    "name": "Beautify",
-                    "title": "【Beautify css/sass/scss/less】：Beautify 幫忙排版",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=michelemelluso.code-beautifier"
+                    "Name": "Beautify",
+                    "Title": "【Beautify css/sass/scss/less】：Beautify 幫忙排版",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=michelemelluso.code-beautifier"
                 },
                 {
-                    "name": "canvas-snippets",
-                    "title": "【canvas-snippets】：Canvas 幫忙選字",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=hollowtree.canvas-snippets"
+                    "Name": "canvas-snippets",
+                    "Title": "【canvas-snippets】：Canvas 幫忙選字",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=hollowtree.canvas-snippets"
                 },
                 {
-                    "name": "Fake Image",
-                    "title": "【Fake Image Snippet Collection】：假圖",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=yoyoys.fake-img-snippet-collection"
+                    "Name": "Fake Image",
+                    "Title": "【Fake Image Snippet Collection】：假圖",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=yoyoys.fake-img-snippet-collection"
                 },
                 {
-                    "name": "Chinese Lorem",
-                    "title": "【Chinese Lorem】：中文假文",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=KevinYang.ctlorem"
+                    "Name": "Chinese Lorem",
+                    "Title": "【Chinese Lorem】：中文假文",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=KevinYang.ctlorem"
                 },
                 {
-                    "name": "vscode-icons",
-                    "title": "vscode 小圖示",
-                    "url": "https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons"
+                    "Name": "vscode-icons",
+                    "Title": "vscode 小圖示",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons"
                 },
                 {
-                    "name": "FiraCode",
-                    "title": "改變字型，先下載字型安裝再到 vscode 中設定即可",
-                    "url": "https://github.com/tonsky/FiraCode"
+                    "Name": "FiraCode",
+                    "Title": "改變字型，先下載字型安裝再到 vscode 中設定即可",
+                    "URL": "https://github.com/tonsky/FiraCode"
                 }
             ]
         },
         {
-            "name": "Goole chorem 套件",
-            "group":1,
-            "data": [
+            "Name": "Goole chorem 套件",
+            "Group":1,
+            "Data": [
                 {
-                    "name": "HTML5 Outliner",
-                    "title": "查看網頁架構",
-                    "url": "https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo"
+                    "Name": "HTML5 Outliner",
+                    "Title": "查看網頁架構",
+                    "URL": "https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo"
                 },
                 {
-                    "name": "Page Ruler Redux",
-                    "title": "快速量尺寸",
-                    "url": "https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal"
+                    "Name": "Page Ruler Redux",
+                    "Title": "快速量尺寸",
+                    "URL": "https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal"
                 },
                 {
-                    "name": "JSONVue",
-                    "title": "整理 Json",
-                    "url": "https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc"
+                    "Name": "JSONVue",
+                    "Title": "整理 Json",
+                    "URL": "https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc"
                 },
                 {
-                    "name": "Vue.js devtools",
-                    "title": "Vue 工具列",
-                    "url": "https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd"
+                    "Name": "Vue.js devtools",
+                    "Title": "Vue 工具列",
+                    "URL": "https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd"
                 },
                 {
-                    "name": "Shazam",
-                    "title": "音樂查詢",
-                    "url": "https://chrome.google.com/webstore/detail/shazam/mmioliijnhnoblpgimnlajmefafdfilb"
+                    "Name": "Shazam",
+                    "Title": "音樂查詢",
+                    "URL": "https://chrome.google.com/webstore/detail/shazam/mmioliijnhnoblpgimnlajmefafdfilb"
                 }
             ]
         }

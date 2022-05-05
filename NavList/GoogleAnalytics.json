@@ -1,42 +1,43 @@
 {
-    "name": "Google Analytics",
-    "type": 0,
-    "data": [
+    "Name": "Google Analytics",
+    "ID":"GoogleAnalytics",
+    "Type": 0,
+    "Data": [
         {
-            "name": "Pinterest",
-            "title": "【★★★★】【Unsplash】：提供網站圖片及其他圖片分析",
-            "url": "https://www.pinterest.com/",
-            "group": 0
+            "Name": "Pinterest",
+            "Title": "【★★★★】【Unsplash】：提供網站圖片及其他圖片分析",
+            "URL": "https://www.pinterest.com/",
+            "Group": 0
         },
         {
-            "name": "Statcounter",
-            "title": "【★★★★】【Statcounter】：瀏覽器市場分析",
-            "url": "https://gs.statcounter.com/",
-            "group": 0
+            "Name": "Statcounter",
+            "Title": "【★★★★】【Statcounter】：瀏覽器市場分析",
+            "URL": "https://gs.statcounter.com/",
+            "Group": 0
         },
         {
-            "name": "Similarweb",
-            "title": "【★★★★】【Similarweb】：統計各項數據排名",
-            "url": "https://www.similarweb.com/zh/",
-            "group": 0
+            "Name": "Similarweb",
+            "Title": "【★★★★】【Similarweb】：統計各項數據排名",
+            "URL": "https://www.similarweb.com/zh/",
+            "Group": 0
         },
         {
-            "name": "Uiiiuiii",
-            "title": "【★★★★】【Uiiiuiii】：屏幕尺寸大全",
-            "url": "https://uiiiuiii.com/screen/",
-            "group": 0
+            "Name": "Uiiiuiii",
+            "Title": "【★★★★】【Uiiiuiii】：屏幕尺寸大全",
+            "URL": "https://uiiiuiii.com/screen/",
+            "Group": 0
         },
         {
-            "name": "Sexfat",
-            "title": "【★★★】【Sexfat】：提供 RWD 斷點分析",
-            "url": "https://sexfat.github.io/rwd/breakpoint.html",
-            "group": 0
+            "Name": "Sexfat",
+            "Title": "【★★★】【Sexfat】：提供 RWD 斷點分析",
+            "URL": "https://sexfat.github.io/rwd/breakpoint.html",
+            "Group": 0
         },
         {
-            "name": "Analytics",
-            "title": "【★★】【Analytics】：Google 提供的分析方式",
-            "url": "https://analytics.google.com/",
-            "group": 0
+            "Name": "Analytics",
+            "Title": "【★★】【Analytics】：Google 提供的分析方式",
+            "URL": "https://analytics.google.com/",
+            "Group": 0
         }
     ]
 }
