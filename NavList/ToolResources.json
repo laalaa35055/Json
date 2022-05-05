@@ -1,7 +1,7 @@
 {
     "Name": "Tool Resources",
     "ID":"ToolResources",
-    "type": 1,
+    "Type": 1,
     "Data": [
         {
             "Name": "線上工具",
