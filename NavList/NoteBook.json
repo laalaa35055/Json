@@ -1,141 +1,140 @@
 {
     "Name": "NoteBook",
-    "ID":"NoteBook",
+    "ID": "NoteBook",
     "Type": 1,
     "Data": [
+    {
+        "Name": "前端技術",
+        "ID": "FrontEnd",
+        "Group": 1,
+        "Data": [
         {
-            "Name": "前端技術",
-            "ID":"FrontEnd",
-            "Group": 1,
-            "Data": [
-            {
-                "Name": "CSS 選擇器",
-                "ID": "CSS-Select",
-                "Title": "學習程度【 90 %】",
-                "Ajax": "/",
-                "URL": "/LearnPage/CSS-Select"
-            },
-            {
-                "Name": "SASS",
-                "ID": "SASS",
-                "Title": "學習程度【 90 %】",
-                "Ajax": "/",
-                "URL": "/LearnPage/SASS"
-            },
-            {
-                "Name": "Javascript",
-                "ID": "Javascript",
-                "Title": "學習程度【 90 %】",
-                "URL": "/LearnPage/Javascript",
-                "Ajax": "/"
-            },
-            {
-                "Name": "Ajax",
-                "ID": "Ajax",
-                "Title": "學習程度【 90 %】",
-                "URL": "/LearnPage/Ajax",
-                "Ajax": "/"
-            },
-            {
-                "Name": "Vuex",
-                "ID": "Vuex",
-                "Title": "學習程度【 60 %】",
-                "URL": "/LearnPage/Vuex",
-                "Ajax": "/"
-            },
-            {
-                "Name": "JQuery",
-                "ID": "JQuery",
-                "Title": "學習程度【 50 %】",
-                "URL": "/LearnPage/JQuery",
-                "Ajax": "/"
-            },
-            {
-                "Name": "Vue-Router",
-                "ID": "Vue-Router",
-                "Title": "學習程度【 40 %】",
-                "URL": "/LearnPage/Vue-Router",
-                "Ajax": "/"
-            }]
+            "Name": "CSS 選擇器",
+            "ID": "CSS-Select",
+            "Title": "學習程度【 90 %】",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/CSS-Select.json",
+            "URL": "/LearnPage/CSS-Select"
         },
         {
-            "Name": "後端技術",
-            "ID":"BackEnd",
-            "Group": 1,
-            "Data": [
-            {
-                "Name": "MySQL",
-                "ID": "MySQL",
-                "Title": "學習程度【 50 %】",
-                "URL": "/LearnPage/MySQL",
-                "Ajax": "/"
-            },
-            {
-                "Name": "PHP",
-                "ID": "PHP",
-                "Title": "學習程度【 90 %】",
-                "URL": "/LearnPage/PHP",
-                "Ajax": "/"
-            },
-            {
-                "Name": "Laravel",
-                "ID": "Laravel",
-                "Title": "學習程度【 0 %】",
-                "URL": "/LearnPage/Laravel",
-                "Ajax": "/"
-            }]
+            "Name": "SASS",
+            "ID": "SASS",
+            "Title": "學習程度【 90 %】",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/SASS.json",
+            "URL": "/LearnPage/SASS"
         },
         {
-            "Name": "版本控制",
-            "Group": 1,
-            "Data": [
-            {
-                "Name": "Git",
-                "ID": "Git",
-                "Title": "學習程度【 60 %】",
-                "URL": "/LearnPage/Git",
-                "Ajax": "/"
-            }]
+            "Name": "Javascript",
+            "ID": "Javascript",
+            "Title": "學習程度【 90 %】",
+            "URL": "/LearnPage/Javascript",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Javascript.json"
         },
         {
-            "Name": "網站可靠性工程 ( SRE )",
-            "ID":"SRE",
-            "Group": 1,
-            "Data": [
-            {
-                "Name": "基礎概念",
-                "ID": "SRE",
-                "Title": "學習程度【 30 %】",
-                "URL": "/LearnPage/SRE",
-                "Ajax": "/"
-            },
-            {
-                "Name": "Linux",
-                "ID": "Linux",
-                "Title": "學習程度【 10 %】",
-                "URL": "/LearnPage/Linux",
-                "Ajax": "/"
-            },
-            {
-                "Name": "Docker",
-                "ID": "Docker",
-                "Title": "學習程度【 50 %】",
-                "URL": "/LearnPage/Docker",
-                "Ajax": "/"
-            }]
+            "Name": "Ajax",
+            "ID": "Ajax",
+            "Title": "學習程度【 90 %】",
+            "URL": "/LearnPage/Ajax",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Ajax.json"
         },
         {
-            "Name": "英文學習",
-            "ID":"English",
-            "Group": 1,
-            "Data": [
-            {
-                "Name": "English-哥倫布",
-                "ID": "English-哥倫布",
-                "Title": "學習程度【 0 %】",
-                "URL": "https://drive.google.com/drive/folders/1nQeIEBnsR-XS-JqeCa7h1ICy6khmIJaD?usp=sharing",
-                "Ajax": "/"
-            }]
-        }
-    ]
+            "Name": "Vuex",
+            "ID": "Vuex",
+            "Title": "學習程度【 60 %】",
+            "URL": "/LearnPage/Vuex",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Vuex.json"
+        },
+        {
+            "Name": "JQuery",
+            "ID": "JQuery",
+            "Title": "學習程度【 50 %】",
+            "URL": "/LearnPage/JQuery",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/JQuery.json"
+        },
+        {
+            "Name": "Vue-Router",
+            "ID": "Vue-Router",
+            "Title": "學習程度【 40 %】",
+            "URL": "/LearnPage/Vue-Router",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Vue-Router.json"
+        }]
+    },
+    {
+        "Name": "後端技術",
+        "ID": "BackEnd",
+        "Group": 1,
+        "Data": [
+        {
+            "Name": "MySQL",
+            "ID": "MySQL",
+            "Title": "學習程度【 50 %】",
+            "URL": "/LearnPage/MySQL",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/MySQL.json"
+        },
+        {
+            "Name": "PHP",
+            "ID": "PHP",
+            "Title": "學習程度【 90 %】",
+            "URL": "/LearnPage/PHP",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/PHP.json"
+        },
+        {
+            "Name": "Laravel",
+            "ID": "Laravel",
+            "Title": "學習程度【 0 %】",
+            "URL": "/LearnPage/Laravel",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Laravel.json"
+        }]
+    },
+    {
+        "Name": "版本控制",
+        "Group": 1,
+        "Data": [
+        {
+            "Name": "Git",
+            "ID": "Git",
+            "Title": "學習程度【 60 %】",
+            "URL": "/LearnPage/Git",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Git.json"
+        }]
+    },
+    {
+        "Name": "網站可靠性工程 ( SRE )",
+        "ID": "SRE",
+        "Group": 1,
+        "Data": [
+        {
+            "Name": "基礎概念",
+            "ID": "SRE",
+            "Title": "學習程度【 30 %】",
+            "URL": "/LearnPage/SRE",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/SRE.json"
+        },
+        {
+            "Name": "Linux",
+            "ID": "Linux",
+            "Title": "學習程度【 10 %】",
+            "URL": "/LearnPage/Linux",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Linux.json"
+        },
+        {
+            "Name": "Docker",
+            "ID": "Docker",
+            "Title": "學習程度【 50 %】",
+            "URL": "/LearnPage/Docker",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Docker.json"
+        }]
+    },
+    {
+        "Name": "英文學習",
+        "ID": "English",
+        "Group": 1,
+        "Data": [
+        {
+            "Name": "English-哥倫布",
+            "ID": "English",
+            "Title": "學習程度【 0 %】",
+            "URL": "https://drive.google.com/drive/folders/1nQeIEBnsR-XS-JqeCa7h1ICy6khmIJaD?usp=sharing",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/English.json"
+        }]
+    }]
 }
