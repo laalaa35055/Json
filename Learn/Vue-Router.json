@@ -39,23 +39,23 @@
                         "Data": [
                             {
                                 "Text": "path: '/products/:sn?' 加『?』代表 products 後面的路徑可有可無",
-                                "url": null
+                                "URL": null
                             },
                             {
                                 "Text": "this.$route.query.sn; // ?sn=123",
-                                "url": null
+                                "URL": null
                             },
                             {
                                 "Text": "this.$route.params.sn; // /123",
-                                "url": null
+                                "URL": null
                             },
                             {
                                 "Text": "router-link",
-                                "url": null
+                                "URL": null
                             },
                             {
                                 "Text": "router-view",
-                                "url": null
+                                "URL": null
                             }
                         ]
                     }
@@ -71,7 +71,7 @@
                         "Data": [
                             {
                                 "Text":"用 Vue + Vue Router 创建单页应用",
-                                "url":null
+                                "URL":null
                             },
                             {
                                 "Title": "安裝指令",
