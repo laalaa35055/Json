@@ -16,48 +16,66 @@
         body {
             background-color: rgba(11, 11, 11, .9);
         }
-        header{
+
+        header {
             text-align: center;
             margin: 100px auto auto;
         }
-        header h1{
+
+        header h1 {
             color: #ccc;
             font-style: italic;
         }
-        main{
+
+        main {
             display: flex;
             color: #ccc;
         }
-        .item{
+
+        .item {
             margin: 100px auto;
             width: 300px;
             text-align: center;
         }
-        .item h3{
+
+        .item h3 {
             margin: auto auto 20px;
         }
-        .item h3::after{
+
+        .item h3::after {
             content: '';
             display: block;
             background-color: #ccc;
             width: 200px;
             height: 1px;
-            margin:10px auto 50px;
+            margin: 10px auto 50px;
         }
-        .item ul{
+
+        .item ul {
             margin: auto;
         }
-        .item li{
+
+        .item li {
             text-align: left;
-            margin: 20px auto ;
+            margin: 20px auto;
         }
-        .item ul a{
+
+        a {
             color: #33ccff;
             text-decoration: none;
             transition: .5s;
         }
-        .item ul a:hover{
+
+        a:hover {
             color: red;
+        }
+
+        footer {
+            text-align: center;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
         }
     </style>
 </head>
@@ -83,12 +101,25 @@
                 </ul>
             </div>
             <div class="item">
-                <h3>內容查找</h3>
+                <h3>Bug</h3>
                 <ul>
-                    <li><a href="./InfoConfig.json">InfoConfig</a></li>
+                    <li>修正下拉動畫，有違和感</li>
+                    <li>NoteBook，下方的參考來源有 Bug</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>修改目標</h3>
+                <ul>
+                    <li>創建 Problem 板塊</li>
+                    <li>創建 Study Plan 板塊</li>
+                    <li>創建 Backend Setting 板塊</li>
+                    <li>新增 文字顏色標誌的部分</li>
                 </ul>
             </div>
         </main>
+        <footer>
+            <a target="_blank" href="./InfoConfig.json">內容查找</a>
+        </footer>
     </div>
 
 
