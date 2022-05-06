@@ -72,7 +72,7 @@
         },
         {
             "Title": "Migrations",
-            "contnet": [
+            "Contnet": [
             {
                 "Title": "Migrations 知識點",
                 "Data": [
@@ -296,7 +296,7 @@
         "Right": [
         {
             "Title": "基礎知識",
-            "contnet": [
+            "Contnet": [
             {
                 "Title": "什麼是 Laravel  ？",
                 "Data": [
@@ -334,7 +334,7 @@
     },
     "Source":
     {
-        "Text": true,
+        "Text": false,
         "From": [],
         "Refer": []
     }

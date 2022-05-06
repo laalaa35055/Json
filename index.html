@@ -5,19 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roydon</title>
+    <title>Roydon 使用說明</title>
     <style>
         * {
             padding: 0;
             margin: 0;
+            user-select: none;
         }
+
         body {
             background-color: rgba(11, 11, 11, .9);
+        }
+        header{
+            text-align: center;
+            margin: 100px auto auto;
+        }
+        header h1{
+            color: #ccc;
+            font-style: italic;
+        }
+        main{
+            display: flex;
+            color: #ccc;
+        }
+        .item{
+            margin: 100px auto;
+            width: 300px;
+            text-align: center;
+        }
+        .item h3{
+            margin: auto auto 20px;
+        }
+        .item h3::after{
+            content: '';
+            display: block;
+            background-color: #ccc;
+            width: 200px;
+            height: 1px;
+            margin:10px auto 50px;
+        }
+        .item ul{
+            margin: auto;
+        }
+        .item li{
+            text-align: left;
+            margin: 20px auto ;
+        }
+        .item ul a{
+            color: #33ccff;
+            text-decoration: none;
+            transition: .5s;
+        }
+        .item ul a:hover{
+            color: red;
         }
     </style>
 </head>
 
 <body>
+
+    <div>
+        <header>
+            <h1>使用說明</h1>
+        </header>
+        <main>
+            <div class="item">
+                <h3>新增 NoteBook 內容</h3>
+                <ul>
+                    <li>需添加於 NoteBook.json 檔案之中</li>
+                    <li>需在 Learn 資料夾內，添加 ID 相同的 JSON 檔案</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>新增 NavList 內容</h3>
+                <ul>
+                    <li>只需在對應的 Json 檔案中添加即可</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>內容查找</h3>
+                <ul>
+                    <li><a href="./InfoConfig.json">InfoConfig</a></li>
+                    <li><a href="./Learn/">Learn</a></li>
+                    <li><a href="./NavList/">NavList</a></li>
+                    <li><a href="./Self/">Self</a></li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
 
 </body>
 
