@@ -1,22 +1,15 @@
 {
     "Name": "Study Plan",
-    "ID":"StudyPlan",
+    "ID": "StudyPlan",
     "Type": 3,
     "Data": [
     {
-        "Name": "暫無",
-        "group": 1,
-        "Data": [
-        {
-            "Name": "暫無",
-            "Title": "暫無",
-            "URL": "暫無"
-        }]
-    },
-    {
-        "Name": "無",
-        "group": 1,
-        "Data": [
+        "ID":1,
+        "Name": "Vue",
+        "Date": "2022-05-07",
+        "Describe":"vue-cli",
+        "Tag":["Vue"],
+        "Text": [
         {
             "Name": "暫無",
             "Title": "暫無",
