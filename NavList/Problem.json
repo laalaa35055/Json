@@ -1,7 +1,7 @@
 {
     "Name": "Problem",
     "ID":"Problem",
-    "Type":3,
+    "Type":1,
     "Data": [
         {
             "Name": "Web 基礎知識", 
