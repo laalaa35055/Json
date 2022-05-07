@@ -23,14 +23,14 @@
                     "URL": "https://fontawesome.com/"
                 },
                 {
-                    "Name": "Keycode",
-                    "Title": "【keycode】：快速查詢 keycode",
-                    "URL": "/SelfMade/keycode"
+                    "Name": "KeyCode",
+                    "Title": "【KeyCode】：快速查詢 KeyCode",
+                    "URL": "/SelfMade/KeyCode"
                 },
                 {
                     "Name": "HTTP & Code",
                     "Title": "【HTTP & Code】：快速查詢 HTTPCode 與 相關資訊",
-                    "URL": "/LearnPage/httpcode"
+                    "URL": "/LearnPage/HTTPCode"
                 },
                 {
                     "Name": "特殊符號",

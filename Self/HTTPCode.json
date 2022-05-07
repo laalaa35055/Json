@@ -1,0 +1,448 @@
+{
+    "Name": "HTTP & Code",
+    "ID": "HTTPCode",
+    "Type": 0,
+    "Nav": false,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "狀態碼",
+                "Contnet": [
+                    {
+                        "Title": "常見的狀態碼",
+                        "Data": [
+                            {
+                                "Text": "HTTP 狀態碼200 - OK",
+                                "URL": null
+                            },
+                            {
+                                "Text": "HTTP 狀態碼301 - 永久重定向",
+                                "URL": null
+                            },
+                            {
+                                "Text": "HTTP 狀態碼302 - 臨時重定向",
+                                "URL": null
+                            },
+                            {
+                                "Text": "HTTP 狀態碼404 - 找不到網頁",
+                                "URL": null
+                            },
+                            {
+                                "Text": "HTTP 狀態碼410 - 過時網頁",
+                                "URL": null
+                            },
+                            {
+                                "Text": "HTTP 狀態碼500 - 內部伺服器錯誤",
+                                "URL": null
+                            },
+                            {
+                                "Text": "HTTP 狀態碼503 - 暫停服務",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Contnet": [
+                    {
+                        "Title": "1xx 代碼",
+                        "Data": [
+                            {
+                                "Text": "1xx Informational 參考資訊",
+                                "URL": null
+                            },
+                            {
+                                "Text": "100 Continue - 繼續執行所發出的請求。下方",
+                                "URL": null
+                            },
+                            {
+                                "Text": "根據 RFC 2616 Sec8.2.3 描述，當 POST 的資料大於 1024 時，請求會分兩步，第一步發送 Expect:100-continue 詢問伺服器是否接受此資料，確認接受後，第二步才 POST 資料給伺服器。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "101 Switching Protocols - 切換通訊協定。",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Contnet": [
+                    {
+                        "Title": "2xx 代碼",
+                        "Data": [
+                            {
+                                "Text": "2xx Successful 成功",
+                                "URL": null
+                            },
+                            {
+                                "Text": "200 OK - 確定。用戶端要求成功。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "201 Created - 已建立。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "202 Accepted - 已接受。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "203 Non-Authoritative Information - 非授權資訊。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "204 No Content - 無內容。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "205 Reset Content - 重設內容。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "206 Partial Content - 部分內容。",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Contnet": [
+                    {
+                        "Title": "3xx 代碼",
+                        "Data": [
+                            {
+                                "Text": "3xx Redirection 重新導向",
+                                "URL": null
+                            },
+                            {
+                                "Text": "300 Multiple Choices",
+                                "URL": null
+                            },
+                            {
+                                "Text": "301 Moved Permanently - 要求的網頁已經永久改變網址。此狀態要求用戶端未來在連結此網址時應該導向至指定的 URI。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "302 Found - 物件已移動，並告知移動過去的網址。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "303 See Other - 通知用戶端使用 GET 連到另一個 URI 去查看。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "304 Not Modified - 未修改。用戶端要求該網頁時，其內容並沒有變更。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "305 Use Proxy - 要求的網頁必須透過 Server 指定的 proxy 才能查看(需透過 Location 標頭)。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "306 (Unused)- (未使用) 此代碼僅用來為了向前相容而已。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "307 Temporary Redirect - 暫時重新導向。要求的網頁只是「暫時」改變網址而已。",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Contnet": [
+                    {
+                        "Title": "4xx 代碼",
+                        "Data": [
+                            {
+                                "Text": "4xx Client Error 用戶端錯誤",
+                                "URL": null
+                            },
+                            {
+                                "Text": "400 Bad Request - 錯誤的要求。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "401 Unauthorized - 拒絕存取。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "402 Payment Required",
+                                "URL": null
+                            },
+                            {
+                                "Text": "403 Forbidden - 禁止使用。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "404 Not Found - 找不到。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "405 Method Not Allowed - 用來存取這個頁面的 HTTP 動詞不受允許 (方法不受允許)。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "406 Not Acceptable - 用戶端瀏覽器不接受要求頁面的 MIME 類型。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "407 Proxy Authentication Required - 需要 Proxy 驗證。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "408 Request Timeout - 請求逾時。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "409 Conflict - 資源狀態衝突。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "410 Gone - 資源已不存在且無轉址資訊。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "411 Length Required - 要求的 Content-Length 沒有定義。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "412 Precondition Failed - 指定條件失敗。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "413 Request Entity Too Large - 要求的實體太大。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "414 Request-URI Too Long - 要求 URI 太長。會因伺服器或瀏覽器而異，建議 2048 字元以下比較保險。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "415 Unsupported Media Type - 不支援的媒體類型。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "416 Requested Range Not Satisfiable - 無法滿足要求的範圍。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "417 Expectation Failed - 執行失敗。",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Contnet": [
+                    {
+                        "Title": "5xx 代碼",
+                        "Data": [
+                            {
+                                "Text": "5xx Server Error 伺服器錯誤",
+                                "URL": null
+                            },
+                            {
+                                "Text": "500 Internal Server Error - 內部伺服器錯誤。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "501 Not Implemented – 標頭值指定未實作的設定。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "502 Bad Gateway - Web 伺服器在作為閘道或 Proxy 時收到無效的回應。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "503 Service Unavailable - 服務無法使用。",
+                                "URL": null
+                            },
+                            {
+                                "Text": " ▲ 這是 IIS 6.0 專用的錯誤碼。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "504 Gateway Timeout - 閘道逾時。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "505 HTTP Version Not Supported",
+                                "URL": null
+                            },
+                            {
+                                "Text": " ▲ 不支援的 HTTP 版本。",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 HTTP 狀態碼？",
+                        "Data": [
+                            {
+                                "Text": "HTTP 狀態碼是伺服器對瀏覽器請求的回應",
+                                "URL": null
+                            },
+                            {
+                                "Text": "如何使用它們將有助於快速診斷網站錯誤，從而最大限度地減少網站的停機時間",
+                                "URL": null
+                            },
+                            {
+                                "Text": "HTTP狀態碼的正確性，也關係到 SEO 的友善程度。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "400s –請求已經發出，但頁面無效 - 這是網站一方的錯誤，通常在頁面不存在的情況下出現。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "500s – 客戶端的請求是有效的，但伺服器未能完成請求。",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "SEO 最重要的狀態代碼",
+                        "Data": [
+                            {
+                                "Text": "100s – 連接正在進行中。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "200s – 請求成功完成，伺服器給了瀏覽器預期的響應。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "300s – 這個請求被收到了，但是需要重新定向。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "400s – 請求已經發出，但頁面無效 - 這是網站一方的錯誤，通常在頁面不存在的情況下出現。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "500s – 客戶端的請求是有效的，但伺服器未能完成請求。",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "何謂 HTTP 傳輸協定？",
+                "Contnet": [
+                    {
+                        "Title": "何謂傳輸協定？",
+                        "Data": [
+                            {
+                                "Text": "機器之間既定的格式和語法",
+                                "URL": null
+                            },
+                            {
+                                "Text": "日常收發電子郵件，如 Gmail，則是使用簡易郵件傳輸協定。",
+                                "URL": null
+                            },
+                            {
+                                "Text": " ▲ (Simple Mail Transfer Protocol)，簡稱 SMTP",
+                                "URL": null
+                            },
+                            {
+                                "Text": "網路文件交流，如同每天連線到 Facebook 瀏覽社群資料。",
+                                "URL": null
+                            },
+                            {
+                                "Text": " ▲ 超文本傳輸安全協定 (Hypertext Transfer Protocol Secure)，簡稱 HTTPS",
+                                "URL": null
+                            },
+                            {
+                                "Text": " ▲ 建立在 HTTP 的基礎上，不過多了更安全的 SSL/TLS 來加密封包資料。",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "HTTP 的組成結構",
+                        "Data": [
+                            {
+                                "Title": "組成結構",
+                                "Text": "",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/Nb86YP3kHj-pgHlcVptuZ3H82fEuu2kNNXymEFEtJWKohlYQ0XE7E_FR7YO3wvUxN9ITC5ladqBQ7jHpA5Q4XUXaB74o_zD425xOT5pxytJn_LkpmS-oXnpEVHaJehNu8LmvRiL8JatUhw13ZfCvwBBxd9w9r4Usltv2LXXIHznHbL1tFMVPYN22SSOuFXpxS3w8831lrKfrVltMTUv7D3yPfhDLe5Zb3lU8HRrcL6c7ioFTZXfTyDifH4IZGlc0XUgdfLAs3qMl283zMCKdugCYKhyspJv5FacMP0cLpdbdGv6xA88JgY-__6PJ6Pjuzr9q-LGsWwPXXrmnB68ApJt-ZuxJevVwhUxNDDjdQweG0ISTMZB-srtCfE07m4lz_SVkS3kp1KRhzHQnxmoDOHpybC6hPwOKTD6VjdhFqj1F7V0X5LdGxxsKH969-U7cJuDM5UBJYwyXb0toB_qK5IM6PmrV8fDecxBZgMUenraOyJy7yujCv-ypFNm7ShjrwpmOs_FIpa15dUwdFHfqqeJvc_UjnJtpbvuMr3aIrmh7dglmm_WFu-G7QyaqTcyk3jn7iWLBkKzF101OmxKzUzuQF79gYS27pFfjXyFqa1dPLKdXk851M7HbLIA-pIDw8lMGBCsp95ulWzpBXPaM7jdJ-TvmgwCJ5p26KGTw9WEV3AihHvGTqK59zWeyQmJkFfihMPcyeyVHEse4NXqhyJEv9B1jUO_iETyu_CMHpHK5abRgIUAn54z_EN1cXPkKh1NFdmMzFnaQaqVjW7kuidh4JMs=w875-h560-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/etPjcbAQ2a-uH8yDTTgWaiftPpzM4a2QbxQWb5DUELEfCwqDD1eweOSOGLpT7RBxyKHURgqZC_rqli4VXQbLfH8pXWEK5AepspenSUHKZCeHyMmMqyQfvVB1P-1CfbMJs8AIZw06x48-TaYgZHuXVNqWv7NBtdbTRlVLkLeFQr5ZCskUrBizL-7i7hpMakbjaxnCgrKQO-B1zkTr4yQbNHrq4b8fTkzLPYuvzj4Vyu5pc6nvTshZbkrahIFoNF-xryFB4Jn5FuuLnW27tnaGBygMuvhtt7R_yMx-Ui8-VnPKCTvlf0s2eqrlBNYmUq0Zb-5nM5aXBhQWpuMhX7OmvAjsrC9EZAMVEQ_zauzt0Zh9tBrCnCHi4DrryxQXFWQ-dsN8GvfXhSy7ccwXK5rqZAjIYXOuLfGUccJ6BJS3Z_b10P43HAS6GJ0GT2QbGO4TjnG3dLezoXzktqpScsvRyU6IIUfbYq8fiCp9uaa37KnmzIGEBok3Ae5aTEK2QSvr6pwNKX9ZZ2lcLae_pvdA8HOkAFh2B8xQg0E8lmygN1ZpOfCLbHgD59QLbZpeYVxOiHdTqO2Yaf6gmog798GySHA-566YgVZMvwC90NFKGihORH_rpSUOqTG8fyITgNHoPLLsihFVogw3Dag5kFBVSYPcuaSM_yV6Egia06k-N1aty4n9DsbloquFQqS_qcL9qe-NLeSGAEgQP6k59WoRhyyGzpo9Y_bujj-1joBgciQXMY9Ly7AIwN2R-6la9eNQhrFBtDd98CgesUOtV7eFNVLonGE=w875-h274-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "Request",
+                                "Text": "",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/gmRH2eYhPc0aeMjyTOYmucAPcNnVJbPtZEqmFY2Sv7jv1k63UOmbs4rWC5xD_EsUwZJSYlvPlfONVygQHtb6zELVQClf0z2-9gvmr8SLysuRnVC4UiXXxwzBQhrUqz8U9zUSEgeYX5sCKcNhmUN6Hf3UEqGMBF-1i2h7ngFhRAzCKYNM1hEOxlmU7rV837G6vtGZEvphpdLKCoDe0SiM90xZxe8X2Xlof5wpGcsCUXS1c5nOE0PhzrK_FiD4CZYXgKg2j-3bCgoIhv_ewShak2bBbyJXRL8aAAAkGz5nfWiAmz8aMpA9miDH8G5tiaJEoyj7MALM9X_i8_jRwa7Uu3QuRPzg2e-U3SElwHVeTbVNDxqZQ4wh0NVrSnA0xdKCXe9bifHj-iu2b6hugbGNwTt0eGznQP4odB4I6JW9O0wSJoPGyVOzN8RnAOp_iPrrvgkjchadvKQKaRPpvmQexurUZWxGQRgG-VF4daEYzBqfPfbwun5VbNVAlSIMAhGMvq2qLHnC-dNQYDesF-XDASi3LEV1FBb5NZrc9-roRc157SDRsYWRIcEPEXAZBu1p2ZRDmE-wOVrCOth0EZUQAT_GUBQFRpZXCEJ4hIY-4Syi56Se83sVRaPecaNYyd_KpdfSZt87_0iprF2CVY55Gvf5nU148B5dxjjf4GcTlcqcuCZuWJWXKuPmhk41AF45waAAJ6hTrHFKbSFNMwL3GIuzXifpR_ZzeO4U0KQ7ReIlji2ZXwQWpral4cKxDWIYA93-dSkB0LIuhy-qJIw_-qdzOZw=w875-h379-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "Response",
+                                "Text": "",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/sSsAlz8TVFr_rX1TsM2S1kAGL9n0zKtL7oFAXBGf9UgO86kKCxZsJR0OLqkkqo0v02kBdjqccAbtQH60Gvmu8DMmroY3-DumQxDREW69Bc7mBobx8X-aIrqPuzHdM184pgFV8mEqpcD9EZkTt-QAwgntD3zWt7c2BuK8glrcm6Vq4xR-bkoZ4x1kgg3AxOmRL6vsZ-xuQUnA7Wkijz7ts8BHOO8mMGFZImtxNs2L2dux6_ovufLJGFZFfizfki-R6hQyrj_4iLh1df4g8pS0j9zaRwvIclD8Pm8lIJDa-8Zha3QiyJvzLU9w_Jxzc5rC-bhoUMdrToU3KIBLvRqKXDcWa_WgL539qeEbncTnkgCXBAPxhCq4zfX7Hvvf4pqxH3Aoek-9vy6gmzgl4Vj98TCsdFnuXm7u16RQa3wvb61RQ6vsupxMWwTOS9_jWVf0Cuk3-ydsXsm-H093Aif6cS92B9bMt1LTM5ySTkoxMGuqtFxTOeIPh1uIlaLHBVHHui_1a0TRRutJ_5Yvu-kzrNzkYgALdXaKUldrvyUeaPVRvfwcT_fxho7W5v4HSATKnCH2uLp8g_L29QFYCgzJxvahWVRaoomRLu9Zh5z-K_pSx5VyahA6AlBlR5ABowdOX3CiOSYavJmuRRbNX6euQCfqznXhiNaGgQQKR_bFEm3-Kxr8aVOrmpA3ek7e1jrTjkdtvbHlJw82gpNM4vMMWWb_uBxC5Lopa21fTxm7CNkOdXyF8gx2Ykw1aat-hX2pt9Y3f5TbX4IB6LhmBb8QvdqLg5g=w875-h370-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Headers Method",
+                        "Data": [
+                            {
+                                "Text": "GET：讀取資料",
+                                "URL": null
+                            },
+                            {
+                                "Text": "POST：新增資料（常搭配 form 標籤使用）",
+                                "URL": null
+                            },
+                            {
+                                "Text": "PATCH：修改資料",
+                                "URL": null
+                            },
+                            {
+                                "Text": "PUT：修改資料",
+                                "URL": null
+                            },
+                            {
+                                "Text": "（ ▲ 若該筆資料不存在，則自動新增資料）",
+                                "URL": null
+                            },
+                            {
+                                "Text": "DELETE：刪除資料",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [
+            "https://medium.com/pierceshih/%E7%AD%86%E8%A8%98-%E4%BD%95%E8%AC%82-http-%E5%82%B3%E8%BC%B8%E5%8D%94%E5%AE%9A-1d9b5be3fd24"
+        ],
+        "Refer": [
+            "https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status"
+        ]
+    }
+}
