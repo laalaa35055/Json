@@ -4,27 +4,97 @@
     "Type":4,
     "Data": [
         {
-            "Name": "Web 基礎知識", 
+            "Name": "前端", 
             "Data": [
                 { 
-                    "Name": "暫無", 
-                    "Title": "【★】【暫無】：Hello world", 
-                    "URL": "#"
+                    "Name": "https://iter01.com/597825.html", 
+                    "Title": "live2d", 
+                    "URL": "https://iter01.com/597825.html"
                 },
                 { 
-                    "Name": "暫無", 
-                    "Title": "【★】【暫無】：Hello world", 
-                    "URL": "#"
+                    "Name": "https://www.codetool.top/article/%E7%94%A8hexo%E7%9A%84live2d%E6%8F%92%E4%BB%B6%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8F%AF%E4%BB%A5%E8%81%8A%E5%A4%A9%E7%9A%84%E5%B0%8F%E5%AE%A0%E7%89%A9/", 
+                    "Title": "live2d 聊天的小宠物", 
+                    "URL": "https://www.codetool.top/article/%E7%94%A8hexo%E7%9A%84live2d%E6%8F%92%E4%BB%B6%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8F%AF%E4%BB%A5%E8%81%8A%E5%A4%A9%E7%9A%84%E5%B0%8F%E5%AE%A0%E7%89%A9/"
+                },
+                { 
+                    "Name": "https://hsuchihting.github.io/css/20200410/3203726250/", 
+                    "Title": "捲軸與自訂顏色", 
+                    "URL": "https://hsuchihting.github.io/css/20200410/3203726250/"
+                },
+                { 
+                    "Name": "https://blog.huli.tw/2021/02/19/cors-guide-2/", 
+                    "Title": "如何解決 CORS 問題？", 
+                    "URL": "https://blog.huli.tw/2021/02/19/cors-guide-2/"
+                },
+                { 
+                    "Name": "https://www.gushiciku.cn/pl/pwH3/zh-tw", 
+                    "Title": "解決vue打包專案後點擊dist資料夾中的index.html網頁顯示一片空白的問題", 
+                    "URL": "https://www.gushiciku.cn/pl/pwH3/zh-tw"
+                },
+                { 
+                    "Name": "https://www.cnblogs.com/nuonuo-D/p/10516394.html", 
+                    "Title": "vue项目npm run build后如何在本地查看效果", 
+                    "URL": "https://www.cnblogs.com/nuonuo-D/p/10516394.html"
+                },
+                { 
+                    "Name": "https://forum.vuejs.org/t/vue-cli-service-build/83951", 
+                    "Title": "Vue-cli-service-build报错", 
+                    "URL": "https://forum.vuejs.org/t/vue-cli-service-build/83951"
+                },
+                { 
+                    "Name": "https://www.itread01.com/content/1558083494.html", 
+                    "Title": "router", 
+                    "URL": "https://www.itread01.com/content/1558083494.html"
+                },
+                { 
+                    "Name": "https://ithelp.ithome.com.tw/questions/10198053", 
+                    "Title": "Chrome 不處理 Set-Cookie header", 
+                    "URL": "https://ithelp.ithome.com.tw/questions/10198053"
                 }
             ]
         },
         {
-            "Name": "Web 基礎知識", 
+            "Name": "後端", 
             "Data": [
                 { 
-                    "Name": "暫無", 
-                    "Title": "【★】【暫無】：Hello world", 
-                    "URL": "#"
+                    "Name": "https://ithelp.ithome.com.tw/users/20107758/ironman/1656", 
+                    "Title": "菜鳥後端工程師", 
+                    "URL": "https://ithelp.ithome.com.tw/users/20107758/ironman/1656"
+                },
+                { 
+                    "Name": "https://ithelp.ithome.com.tw/articles/10157431", 
+                    "Title": "REST/RESTful", 
+                    "URL": "https://ithelp.ithome.com.tw/articles/10157431"
+                },
+                { 
+                    "Name": "https://ithelp.ithome.com.tw/articles/10222003", 
+                    "Title": "Laravel新手基礎", 
+                    "URL": "https://ithelp.ithome.com.tw/articles/10222003"
+                },
+                { 
+                    "Name": "https://laravel.tw/docs/5.2/blade", 
+                    "Title": "Blade 模板", 
+                    "URL": "https://laravel.tw/docs/5.2/blade"
+                },
+                { 
+                    "Name": "https://sites.google.com/site/phplearnmark/php/xiang-guan-zhi-shi/-php-guan-nian-self-he-this-de-cha-yi", 
+                    "Title": "[PHP觀念]self和$this的差異", 
+                    "URL": "https://sites.google.com/site/phplearnmark/php/xiang-guan-zhi-shi/-php-guan-nian-self-he-this-de-cha-yi"
+                }
+            ]
+        },
+        {
+            "Name": "SRE", 
+            "Data": [
+                { 
+                    "Name": "https://israynotarray.com/other/20200510/1067127387/", 
+                    "Title": "權限", 
+                    "URL": "https://israynotarray.com/other/20200510/1067127387/"
+                },
+                { 
+                    "Name": "https://ithelp.ithome.com.tw/articles/10157431", 
+                    "Title": "REST/RESTful", 
+                    "URL": "https://ithelp.ithome.com.tw/articles/10157431"
                 }
             ]
         }
