@@ -1,13 +1,40 @@
 {
     "Name": "MySQL",
-    "ID":"MySQL",
-    "Type":0,
+    "ID": "MySQL",
+    "Type": 0,
     "Nav": true,
     "Contents": {
         "Left": [
             {
-                "Title": "SQL 基礎指令",
+                "Title": "SQL 常用指令",
                 "Contnet": [
+                    {
+                        "Title": "主從架構",
+                        "Data": [
+                            {
+                                "Title": "新增帳戶",
+                                "Text": "CREATE USER 'repl'@'%' IDENTIFIED BY 'password';",
+                                "Group":true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "權限設置",
+                                "Text": "GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%';",
+                                "Group":true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "部署例子",
+                                "URL": "https://chanjarster.github.io/post/mysql-master-slave-docker-example/"
+                            },
+                            {
+                                "Text": "部署例子 GitHub",
+                                "URL": "https://github.com/chanjarster/mysql-master-slave-docker-example/blob/master/docker-compose.yaml"
+                            }
+
+
+                        ]
+                    },
                     {
                         "Title": "SQL",
                         "Data": [
@@ -59,7 +86,7 @@
                             {
                                 "Title": "DISTINCT：排除重複資料列",
                                 "Text": "",
-                                "group": true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUVit0UsXZ1iIiuNEsHlHGBegOcMOzw-9M3v9_BowOAS_oJuiRO12VIBr-8mUxpfusS2KDe7UJDFfpqcEWMqN6zV6z-8EE0mKHAGGivw0unZxFUoWvDDABrD27RVQxvBKb0CiMTDNi7thQdstiU0tY=w1428-h702-no?authuser=0"
                                 ]
@@ -67,7 +94,7 @@
                             {
                                 "Text": "",
                                 "Title": "SELECT 敘述",
-                                "group": true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLW3KhNNyRi30v5h5tgw9l8eHqe13yUwqegLwKgAO-Bv8DR5oFSQ4FQzyK3iFHrvU9mp-_6Pcux-F_4yHetFW2oLeRdi33YBWaAgeBy1e_W7fOwBn1tqoZ-riYLnFpWk1pORmxZSnd4B-2MIsCTbGpQ=w1082-h611-no?authuser=0"
                                 ]
@@ -80,7 +107,7 @@
                             {
                                 "Title": "INSERT",
                                 "Text": "INSERT INTO table [(column,...)] VALUES(value,...);",
-                                "group": true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXAzD2pOPomKNsoKJXM6zvnTUGUiYAZj-n6joEZ8pIN-28MuMv-A_Ztipf5ciEVevwSkrwvDoy7iaJz9PIdM570ZXAV_ImynOsQ30zBd82Ho4ZwjJEjFS4xScni_z3TQtHqdAqtofmbPJ89EX0ocRA=w892-h589-no?authuser=0"
                                 ]
@@ -93,7 +120,7 @@
                             {
                                 "Text": "UPDATE table SET column=value,[column=value,]... WHERE conditions;",
                                 "Title": "UPDATE",
-                                "group": true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVdQy5RDR8Uuz2Bx21vKS5UpSPAzqgSIzcYsDdt17MJqPzzxY7DcQ3mEJK0mdMXIscDbIpAbIpOpdmkvJ2FXM3GkrWRrALJwINJTWqTb_3emnIhaJVfw3MRKWYoSdOFX9TAEAVLUtrMm-6lZrYyELI=w1288-h437-no?authuser=0"
                                 ]
@@ -106,7 +133,7 @@
                             {
                                 "Title": "DELETE",
                                 "Text": "DELETE FROM table WHERE deptno= 50;",
-                                "group": true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUdAZGoOUr49RFHPGfeGeCRsb6g09tywxVEhHa-QtPGSEhZI7AdHKmKs2yQ928x4M7SFmcZsI6RfLdSJGRenid1l8FbteX58NVmTy9JL9ftxczia38L-JnHGt8Sn4k6tiOKjkP7ASJjuVArS6h4I-o=w1157-h697-no?authuser=0"
                                 ]
@@ -119,7 +146,7 @@
                             {
                                 "Text": "CREATE TABLE TableName ( ColumnNametype,...);",
                                 "Title": "CREATE",
-                                "group": true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLUSVmsVo27yc2fOfWiFWXtd_D17FLbFrO1W5Pxcq4iL81rKhGEFEdtTn15vVRXfR0uNNV_EEDqoweOswdCgtdCvMipVOWexVKwRVchSg3F2P_h1EStWyDuI4v4UivZ_n4t0oXOgDk1qseEwZ3cVAwI=w791-h585-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXLq1O37SJ1f38o2OPwLJMNaR9QLdCFp8GNuIKTFof6mluIOIeJvAsE5j3-Cw_b44eOb14mJAkCcPUYK_arjck6w8OE8t35HOKIvDwPbpun3orqyRb2nO7yZ1KI-3v8tN9YF3L7jgxaKNH-0EF5Eko=w1127-h629-no?authuser=0",
@@ -144,7 +171,7 @@
                             },
                             {
                                 "Text": "",
-                                "group": true,
+                                "Group": true,
                                 "Title": "使用者帳號由兩部分組成",
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLW5uGGNT4qRYwAvmFvMyhylRyKJAKUQv8MPg7WGFGrlul9BReZgFQ7HcavGv5mFmEzqxwRqTuINWQSM0KorhALeKMTa2enWAvTxpNYjwNefBd3LyQ18WZwFFePOn3t4QNXrizOO1r5YymOKy95POD4=w1386-h530-no?authuser=0",
@@ -160,7 +187,7 @@
                             {
                                 "Title": "權限授權",
                                 "Text": "授權命令",
-                                "group": true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLX4V26kIFAUo1oSe1it69jVykU5egZFrdE3w2Eypz7WQlhy1CwG3wt1Vx36ZHjd1eCfjmX_B7ryzmDjNMRCIVB2SdW6ZvIcq432PJU_cLC3hnyILHjA6rYMBrEQkGeL8oPa_ZTkHqURUVb2CEzJl0E=w903-h535-no?authuser=0",
                                     "https://lh3.googleusercontent.com/pw/AM-JKLVolzIw6vLq3JR0YzZ1SzB_W8HT6E7YfTbkc8DyasU5ZEKXFSSyprU-tOhEm4phDg8KtAxzaRQLo0VZPy0mJVZW9OBzojGo08RsOQA3yYQaPmFGV1HDnl2qujtlB324Yob9Yfg17vj4JLn95kvNwpQ=w1430-h611-no?authuser=0",
@@ -179,7 +206,7 @@
                             {
                                 "Title": "DROP USER UserAccount;",
                                 "Text": "移除使用者帳號",
-                                "group": true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXIiFfFQlTnFZVdL2q1hsUXlPa3tZfwXMaEmHWHsDJ5Wnj1sw0bgVU76Gr7G9maos41Twujw7WIxrkiEsjqjqEJ7TkmrMfPzMdJNNYMTxDxmPtCnldbPXIrop8S3FURU2iaB8OlLNubnNwB1mRiqNE=w1038-h690-no?authuser=0"
                                 ]
@@ -192,7 +219,7 @@
                             {
                                 "Title": "連線到 MySQL 資料庫;",
                                 "Text": "連線到 MySQL 資料庫",
-                                "group": true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLXIiFfFQlTnFZVdL2q1hsUXlPa3tZfwXMaEmHWHsDJ5Wnj1sw0bgVU76Gr7G9maos41Twujw7WIxrkiEsjqjqEJ7TkmrMfPzMdJNNYMTxDxmPtCnldbPXIrop8S3FURU2iaB8OlLNubnNwB1mRiqNE=w1038-h690-no?authuser=0"
                                 ]
@@ -205,7 +232,7 @@
                             {
                                 "Title": "DROP USER UserAccount;",
                                 "Text": "移除使用者帳號",
-                                "group": true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/pw/AM-JKLU6KYo2qRj_ZVIM8d2biXwTh8m73VsV4PjI5DpOk-F3jnReKFTkx0un1ctkZqIRc8drcXN6gH09NLSWhcjC9hbaTNnekc8Iot9haSQwYAhb44GfYBDpBjPTv1W6vNSQ0aM_4-D8xgUmuitypq-eMl8=w834-h505-no?authuser=0"
                                 ]
@@ -244,6 +271,20 @@
                             },
                             {
                                 "Text": "Workbench 工具",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Problem",
+                "Contnet": [
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Text": "mysql -h 127.0.0.1 -u root -p",
                                 "URL": null
                             }
                         ]
