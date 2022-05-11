@@ -1,13 +1,13 @@
 {
     "Name": "Linux",
-    "ID":"Linux",
-    "Type":0,
+    "ID": "Linux",
+    "Type": 0,
     "Nav": true,
     "Contents": {
         "Left": [
             {
                 "Title": "目錄操作相關",
-                "contnet": [
+                "Contnet": [
                     {
                         "Title": "pwd",
                         "Data": [
@@ -116,7 +116,7 @@
             },
             {
                 "Title": "檔案操作相關",
-                "contnet": [
+                "Contnet": [
                     {
                         "Title": "cp",
                         "Data": [
@@ -212,7 +212,7 @@
             },
             {
                 "Title": "磁碟資訊相關",
-                "contnet": [
+                "Contnet": [
                     {
                         "Title": "df",
                         "Data": [
@@ -262,7 +262,7 @@
         "Right": [
             {
                 "Title": "基礎知識",
-                "contnet": [
+                "Contnet": [
                     {
                         "Title": "什麼是 Linux ？",
                         "Data": [
@@ -321,15 +321,15 @@
                         "Title": "Linux 常用發行版",
                         "Data": [
                             {
-                                "Title":"查看發行版",
+                                "Title": "查看發行版",
                                 "Text": "cat /etc/*-release",
-                                "group":true,
+                                "group": true,
                                 "URL": null
                             },
                             {
-                                "Title":"查看內核",
+                                "Title": "查看內核",
                                 "Text": "uname -r",
-                                "group":true,
+                                "group": true,
                                 "URL": null
                             },
                             {

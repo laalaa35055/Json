@@ -288,6 +288,19 @@
                                 "URL": null
                             }
                         ]
+                    },
+                    {
+                        "Title": "題目",
+                        "Data": [
+                            {
+                                "Text": "MySQL Master Slave",
+                                "URL": "https://chanjarster.github.io/post/mysql-master-slave-docker-example/#%E5%90%AF%E5%8A%A8master"
+                            },
+                            {
+                                "Text": "Redis 主從複製、哨兵與叢集模式",
+                                "URL": "https://blog.tienyulin.com/redis-master-slave-replication-sentinel-cluster/"
+                            }
+                        ]
                     }
                 ]
             }

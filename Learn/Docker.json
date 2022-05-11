@@ -468,27 +468,6 @@
                                 ]
                             }
                         ]
-                    },
-                    {
-                        "Title": "",
-                        "Data": [
-                            {
-                                "Text": "",
-                                "URL": null
-                            },
-                            {
-                                "Text": "",
-                                "URL": null
-                            },
-                            {
-                                "Text": "",
-                                "URL": null
-                            },
-                            {
-                                "Text": "",
-                                "URL": null
-                            }
-                        ]
                     }
                 ]
             },
@@ -597,7 +576,7 @@
                             {
                                 "Title": "建立 docker 群組",
                                 "Group": true,
-                                "Text": "sudo Groupadd docker",
+                                "Text": "sudo groupadd docker",
                                 "URL": null
                             },
                             {
@@ -627,6 +606,10 @@
                                 "Group": true,
                                 "Text": "sudo systemctl restart docker",
                                 "URL": null
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://ephrain.net/docker-%E4%BD%BF%E7%94%A8%E9%9D%9E-root-%E6%AC%8A%E9%99%90%E4%BE%86%E5%9F%B7%E8%A1%8C-docker-client/"
                             }
                         ]
                     }
