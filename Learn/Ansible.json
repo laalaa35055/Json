@@ -1,0 +1,141 @@
+{
+    "Name": "Ansible",
+    "ID": "Ansible",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "",
+                "Contnet": [
+                    {
+                        "Title": "",
+                        "Data": [
+                            {
+                                "Text": "",
+                                "URL": null
+                            },
+                            {
+                                "Title": "",
+                                "Text": "",
+                                "Group": true
+                            },
+                            {
+                                "Text": "",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Ansible ？",
+                        "Data": [
+                            {
+                                "Title": "Ansible 原理",
+                                "Text": "Ansible 流程",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/SK1fEmj2-llfykJ9t086ZWLs9eLqEbXE4JSEnh8K7wkrMc3Orj0fNWP5LC89PEqs0QFAqC9aiD8qyu4PtWAAyfXsjj8tNF7OM3fJjPWplGEls_sOSZW4FKfxsicc8d9gkokCvozzKb8kuWqkaXGSIcHjxv-FL_D_Z-L9QTj1sQ2_hc_0DwcBixpRbqFGny5rJmGnnMBM3FbTahcIE1heDbDrcvI1cBesejB6vUiI472i4R_gaFWsgmPEB7wVBsSoX_Ql-oAzxw6P09w_4cxtXrkj2D6IuQrZU_Y78nJFAF5jzD06mNvOZYBPnX8RtB1tkS9mCsOExaq_N6MgN7gJ_QqTvBcXYvNWKBoeKf2V6JRlMIvDw-hkmgOzrcf8Qs9JOg7NxrvkeTv6KlZBQfMaEVeN2R9lhDebJK7mO0n6k3EZ_ZFLw5SEdzcOHX-duffW2jjy1X_v2zIHdXoYvFQ2VwViWWhoduwjdXbqKUn_nQXj7Cc7i7ygheznlZbfQue92NuvgUbFy6dei4yYyVYdei2GZtxW8iDaFDg75_7DCqNhJw-QSdnDr4FnNT3tq-b-U9pFAhBMl5jLkGHhrFo9ALct2KT0tlusMSEF6zjp4HmfFWzThamY4uKV9_NeXhUbuZUnVIURAVwvPB8xj9IjPjVq1ZBaBRxFxfp551Evae4O_yW3jMkLwB-1uJVlBpMTzol7e2VaQCEspbfIFUXk_h9JsMH2SKcXj-GC55NUukJAzazuEOk9hsyLL-JYXkjB2qweVR-ZtSGgFYmeReXo-gjsT9U=w1024-h768-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Text": "使用 ssh 遠端連線至 server",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Python 2.7 解決版本問題",
+                                "URL": null
+                            },
+                            {
+                                "Text": "來源參考",
+                                "URL": "https://chusiang.gitbooks.io/automate-with-ansible/content/02.what-is-the-ansible.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "怎麼安裝 Ansible ？",
+                        "Data": [
+                            {
+                                "Title": "CentOS (Yum)",
+                                "Text": "// 新增 epel-release 第三方套件來源\n\nsudo yum install -y epel-release\n\n// 安裝 Ansible\n\nsudo yum install -y ansible",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://chusiang.gitbooks.io/automate-with-ansible/content/03.how-to-deploy-the-ansible.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Docker 建立 Ansible 環境 ？",
+                        "Data": [
+                            {
+                                "Title": "Docker 建立 Ansible 環境",
+                                "Text": "docker pull chusiang/ansible-managed-node:centos-7",
+                                "Group": true,
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Ansible 建立 ssh-key",
+                        "Data": [
+                            {
+                                "Title": "建立 ssh-key",
+                                "Text": "可修改名稱\n\nssh-keygen\n\n▲ 會產生 公鑰 與 私鑰\n\n放置在/home/{Username}/.ssh/{自訂名稱}",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "將密鑰放入節點",
+                                "Text": "可修改名稱\n\nssh-copy-id -i .ssh/{自訂名稱} node1(root@192.168.1.xxx)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "以 ssh 方式登入",
+                                "Text": "ssh -i .ssh/{自訂名稱} node1(root@192.168.1.xxx)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "以 Ansible 運行",
+                                "Text": "ansible all -m ping -i hosts \\ \n--private-key='/home/{Username}/.ssh/{自訂名稱}'",
+                                "Group": true,
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "相關資源",
+                "Contnet": [
+                    {
+                        "Title": "VScode 套件",
+                        "Data": [
+                            {
+                                "Text": "SFTP",
+                                "URL": "https://marketplace.visualstudio.com/items?itemName=liximomo.sftp"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [
+            "https://www.youtube.com/channel/UCmjdhwMGSut8mZ1CqnRjjUw"
+        ],
+        "Refer": []
+    }
+}
