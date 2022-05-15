@@ -112,7 +112,7 @@
         {
             "Name": "Linux",
             "ID": "Linux",
-            "Title": "學習程度【 30 %】",
+            "Title": "學習程度【 40 %】",
             "URL": "/LearnPage/Linux",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Linux.json"
         },
@@ -126,7 +126,7 @@
         {
             "Name": "Ansible",
             "ID": "Ansible",
-            "Title": "學習程度【 20 %】",
+            "Title": "學習程度【 70 %】",
             "URL": "/LearnPage/Ansible",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Ansible.json"
         }]

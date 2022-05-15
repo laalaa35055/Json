@@ -6,23 +6,50 @@
     "Contents": {
         "Left": [
             {
-                "Title": "",
+                "Title": "常用方法",
                 "Contnet": [
                     {
-                        "Title": "",
+                        "Title": "用的 Ansible Module",
                         "Data": [
                             {
-                                "Text": "",
+                                "Text": "Index of all Modules",
+                                "URL": "https://docs.ansible.com/ansible/latest/collections/index_module.html"
+                            },
+                            {
+                                "Text": "apt：管理 apt 套件",
                                 "URL": null
                             },
                             {
-                                "Title": "",
-                                "Text": "",
-                                "Group": true
+                                "Text": "command：遠端上執行指令的指令模組，不支援變數",
+                                "URL": null
                             },
                             {
-                                "Text": "",
+                                "Text": "copy：從本地複製檔案到遠端的檔案模組",
                                 "URL": null
+                            },
+                            {
+                                "Text": "file：遠端建立和刪除檔案、目錄、軟連結",
+                                "URL": null
+                            },
+                            {
+                                "Text": "lineinfile：可用正規表示式對檔案進行插入或取代文字的檔案模組",
+                                "URL": null
+                            },
+                            {
+                                "Text": "service：管理遠端系統服務的系統模組",
+                                "URL": null
+                            },
+                            {
+                                "Text": "shell：遠端用 /bin/sh 執行指令的指令模組，支援變數",
+                                "URL": null
+                            },
+                            {
+                                "Text": "stat：檢查檔案狀態的檔案模",
+                                "URL": null
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://ithelp.ithome.com.tw/articles/10185790"
                             }
                         ]
                     }
@@ -116,7 +143,7 @@
                 ]
             },
             {
-                "Title": "相關資源",
+                "Title": "相關套件",
                 "Contnet": [
                     {
                         "Title": "VScode 套件",
@@ -128,7 +155,34 @@
                         ]
                     }
                 ]
+            },
+            {
+                "Title": "Study",
+                "Contnet": [
+                    {
+                        "Title": "學習心得",
+                        "Data": [
+                            {
+                                "Text": "初始須設定與節點間的關係，通過 ssh-keygen 建立連結",
+                                "URL": null
+                            },
+                            {
+                                "Text": "再來可以通過 ansible 語法建立腳本，控制節點",
+                                "URL": null
+                            },
+                            {
+                                "Text": "也可以通過 ansible-playbook 建立 .yml 檔案來控制節點",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Ansible 的 Template",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
             }
+
         ]
     },
     "Source": {
@@ -136,6 +190,8 @@
         "From": [
             "https://www.youtube.com/channel/UCmjdhwMGSut8mZ1CqnRjjUw"
         ],
-        "Refer": []
+        "Refer": [
+            "https://ithelp.ithome.com.tw/articles/10185693"
+        ]
     }
 }
