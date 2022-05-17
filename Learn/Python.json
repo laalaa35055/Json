@@ -1,6 +1,6 @@
 {
-    "Name": "Test",
-    "ID":"Test",
+    "Name": "Python",
+    "ID":"Python",
     "Type":0,
     "Nav": true,
     "Contents": {
@@ -30,7 +30,7 @@
                 "Title": "基礎知識",
                 "Contnet": [
                     {
-                        "Title": "什麼是 Test ？",
+                        "Title": "什麼是 Python ？",
                         "Data": [
                             {
                                 "Title": "Test",
@@ -43,6 +43,26 @@
                             {
                                 "Text": "Test",
                                 "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "相關套件",
+                "Contnet": [
+                    {
+                        "Title": "MySQL 資料庫",
+                        "Data": [
+                            {
+                                "Title": "pymysql",
+                                "Text": "db_settings = { \n\t'host': '127.0.0.1',\n\t'port': 3306,\n\t'user': 'root',\n\t'password': '94139413',\n\t'db': 'userinformation',\n\t'charset': 'utf8'\n}\n\nconn = pymysql.connect(**db_settings)\n\nwith conn.cursor() as cursor:\n\tcommand = 'INSERT INTO user(Password, UserName, Email)VALUES(1,2,3)'\n\tcursor.execute(command)\nconn.commit()",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://www.learncodewithmike.com/2020/02/python-mysql.html"
                             }
                         ]
                     }

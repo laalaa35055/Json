@@ -480,7 +480,7 @@
                             {
                                 "Title": "官方安裝指令碼自動安裝",
                                 "Group": true,
-                                "Text": "cURL -fsSL https://get.docker.com | bash -s docker --mirror aliyun",
+                                "Text": "curl -fsSL https://get.docker.com | bash -s docker --mirror aliyun",
                                 "URL": null
                             },
                             {
@@ -562,6 +562,26 @@
                                 "Group": true,
                                 "Text": "rm -rf /var/lib/docker",
                                 "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": " 安裝 Docker-Compose",
+                "Contnet": [
+                    {
+                        "Title": "CentOS Docker-Compose 安裝",
+                        "Data": [
+                            {
+                                "Title": "Docker-Compose 安裝",
+                                "Group": true,
+                                "Text": "sudo curl -L \"https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-$(uname -s)-$(uname -m)\" -o /usr/local/bin/docker-compose\n\nchmod +x /usr/local/bin/docker-compose",
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://www.796t.com/content/1555398180.html"
                             }
                         ]
                     }

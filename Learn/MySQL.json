@@ -286,6 +286,20 @@
                             {
                                 "Text": "mysql -h 127.0.0.1 -u root -p",
                                 "URL": null
+                            },
+                            {
+                                "Title":"Createtime & Updatetime",
+                                "Text": "CURRENT_TIMESTAMP",
+                                "Group":true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "▲ 參考網址",
+                                "URL": "https://www.twblogs.net/a/5c4582b2bd9eee35b21ee129"
+                            },
+                            {
+                                "Text": "Linux 安裝 MySQL",
+                                "URL": "https://www.cnblogs.com/FengZeng666/p/16228535.html"
                             }
                         ]
                     },

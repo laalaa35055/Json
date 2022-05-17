@@ -71,6 +71,13 @@
             "Ajax": "https://laalaa35055.github.io/Json/Learn/MySQL.json"
         },
         {
+            "Name": "Python",
+            "ID": "Python",
+            "Title": "學習程度【 0 %】",
+            "URL": "/LearnPage/Python",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Python.json"
+        },
+        {
             "Name": "PHP",
             "ID": "PHP",
             "Title": "學習程度【 90 %】",
