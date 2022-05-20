@@ -136,6 +136,13 @@
             "Title": "學習程度【 70 %】",
             "URL": "/LearnPage/Ansible",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Ansible.json"
+        },
+        {
+            "Name": "Openresty",
+            "ID": "Openresty",
+            "Title": "學習程度【 30 %】",
+            "URL": "/LearnPage/Openresty",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Openresty.json"
         }]
     },
     {

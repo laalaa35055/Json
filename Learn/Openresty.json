@@ -1,0 +1,82 @@
+{
+    "Name": "Openresty",
+    "ID": "Openresty",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "Openresty",
+                "Contnet": [
+                    {
+                        "Title": "Openresty 使用",
+                        "Data": [
+                            {
+                                "Text": "參考網址",
+                                "URL": "http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_set_header"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Openresty ？",
+                        "Data": [
+                            {
+                                "Text": "基於 Nginx 與 Lua 的高效能 Web 平臺",
+                                "URL": null
+                            },
+                            {
+                                "Text": "整合了大量精良的 Lua 庫、第三方模組",
+                                "URL": null
+                            },
+                            {
+                                "Text": "方便地搭建能夠處理超高併發、擴充套件性極高的動態 Web 應用、Web 服務和動態閘道器",
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://iter01.com/539641.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "OpenResty 安装 & 启动",
+                        "Data": [
+                            {
+                                "Title": "OpenResty 安装",
+                                "Text": "# CentOS为例\n\n# 添加 openresty 仓库\nsudo yum install yum-utils\nsudo yum-config-manager --add-repo https://openresty.org/package/centos/openresty.repo\n\n# 安装OpenResty\nsudo yum install openresty\n\n# 安装命令行工具 resty\nsudo yum install openresty-resty",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "/usr/local/openresty/nginx/sbin/nginx",
+                                "URL": null
+                            },
+                            {
+                                "Title": "启动 OpenResty",
+                                "Text": "# 启动\nsudo /usr/local/openresty/nginx/sbin/nginx\n\n#关闭\nsudo /usr/local/openresty/nginx/sbin/nginx -s stop",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.csdn.net/xinhuashudiao/article/details/114575888"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}
