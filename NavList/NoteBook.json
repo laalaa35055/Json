@@ -117,6 +117,13 @@
             "Ajax": "https://laalaa35055.github.io/Json/Learn/SRE.json"
         },
         {
+            "Name": "Window",
+            "ID": "Window",
+            "Title": "學習程度【 10 %】",
+            "URL": "/LearnPage/Window",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Window.json"
+        },
+        {
             "Name": "Linux",
             "ID": "Linux",
             "Title": "學習程度【 40 %】",

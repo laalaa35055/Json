@@ -1,0 +1,69 @@
+{
+    "Name": "Window",
+    "ID":"Window",
+    "Type":0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "Window 10",
+                "Contnet": [
+                    {
+                        "Title": "Crack",
+                        "Data": [
+                            {
+                                "Title":"Windows 10 家用版",
+                                "Text": "cscript slmgr.vbs /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99\n\ncscript slmgr.vbs /skms kms.lotro.cc\n\ncscript slmgr.vbs /ato",
+                                "Group":true,
+                                "URL": null
+                            },
+                            {
+                                "Title":"Windows 10 專業版",
+                                "Text": "cscript slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX\n\ncscript slmgr.vbs /skms kms.lotro.cc\n\ncscript slmgr.vbs /ato",
+                                "Group":true,
+                                "URL": null
+                            },
+                            {
+                                "Title":"Windows 10 企業版",
+                                "Text": "cscript slmgr.vbs /ipk nppr9-fwdcx-d2c8j-h872k-2yt43\n\ncscript slmgr.vbs /skms kms.lotro.cc\n\ncscript slmgr.vbs /ato",
+                                "Group":true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://www.youtube.com/watch?v=fVh7B3ihTkY"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Test ？",
+                        "Data": [
+                            {
+                                "Title": "Test",
+                                "Text": "Test",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}
