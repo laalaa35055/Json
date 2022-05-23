@@ -1,0 +1,170 @@
+{
+    "Name": "Prometheus",
+    "ID": "Prometheus",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "實例",
+                "Contnet": [
+                    {
+                        "Title": "Grafana",
+                        "Data": [
+                            {
+                                "Title": "CentOS Downloads",
+                                "Text": "wget https://dl.grafana.com/enterprise/release/grafana-enterprise-7.5.16-1.x86_64.rpm\n\nsudo yum install grafana-enterprise-7.5.16-1.x86_64.rpm",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "Download URL",
+                                "URL": "https://github.com/grafana/grafana/releases"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "监控 MySQL",
+                        "Data": [
+                            {
+                                "Text": "Port：9104",
+                                "URL": null
+                            },
+                            {
+                                "Title": "创建监控用户",
+                                "Text": "#在 MySQL 上创建监控用户\n\ncreate user 'exporter'@'localhost'  IDENTIFIED BY 'eXpIHB666QWE!';\n\nGRANT SELECT, PROCESS, SUPER, REPLICATION CLIENT, RELOAD ON *.* TO 'exporter'@'localhost';",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "新建一个配置文件",
+                                "Text": "#新建一个配置文件\n\nvim /opt/mysqld_exporter/mysqld_exporter.cnf\n\n[client]\nuser=exporter\npassword=eXpIHB666QWE!",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "啟動 mysqld_exporter",
+                                "Text": "nohup opt/mysqld_exporter/mysqld_exporter  --config.my-cnf=(my.cnf路徑) &",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "Download URL",
+                                "URL": "https://github.com/prometheus/mysqld_exporter/releases"
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://www.modb.pro/db/48255"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "监控 redis",
+                        "Data": [
+                            {
+                                "Text": "763",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Port：9121、6379",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Download URL",
+                                "URL": "https://github.com/oliver006/redis_exporter/releases"
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://developer.aliyun.com/article/251478"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "监控 node_exporter ",
+                        "Data": [
+                            {
+                                "Text": "Port：9100/metrics",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Download URL",
+                                "URL": "https://github.com/prometheus/node_exporter"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Prometheus ？",
+                        "Data": [
+                            {
+                                "Text": "通过从监控目标上采集 HTTP 数据收集指标数据的监控平台。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://hulining.gitbook.io/prometheus/introduction/first_steps"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "安裝 & 配置",
+                "Contnet": [
+                    {
+                        "Title": "下載 Prometheus",
+                        "Data": [
+                            {
+                                "Title": "Download",
+                                "Text": "#下載流程\n\nwget 網址\n\ntar xvfz 壓縮檔",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "Download URL",
+                                "URL": "https://prometheus.io/download/"
+                            },
+                            {
+                                "Title": "修改配置",
+                                "Text": "基本配置",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/biB9vtF1-TcKs9V78WeBTaVHy7cjzeSIbroKD0UnI9KsxSGlRyFdw7piuaDDyV0gwQ4E5TetkdJ3CtD-8Kg1ZipTsnG5ty7FhrJYyIkrfeWD5IwCKJ1Kg_5X4iTD0FGCX2ZGpfGYn_JIqWDNJolD4jkADhABHATIARJ7F8CJ4rzbKl4anHgavNfgILA3QbVMxOVI7oo_0qKlBxYNDv5E7PphGzlhfuvSATCWAShtrKUerJPecjttDfc8w0JYYmwcrIGSkF7JTLVfwFwFoT5GwjsjxY_FeRkqMflDd66xp6Jb4lZvMIFxU-rbGyJL0HdwHpw6_nF1BVY1jDljURmUMBIqBtH715orqznJyVcOe2VtzovW05UeWZWlXK2Fu9b0hKtAhh9HPLLzNNPwHNTceiHjCOlpvMTCRuyrbD7qv0zxIVQqVHyMD-kMPJNZi7TZXPcfVyMwQMhM59s_OKmRQfAdDLafICLHhIaOF-KAp1VMUw6dZYR8LHlXCZSicGcgRd5zf6Rkk_RtQH3V9DF9r_8PY8vI87ig-4BQ9K7stRbGaUHoTWhtOXShWjVfZtXjD8KFmgj8Qbrw5A4rksnJBW85NFj6JBdKB1raF92PL6ignrOE6cGz4nIZmncwCYbEFjYBjCE4VsnwJRtzuXRRb9q39xTegTkvkaBzBzBGrSF2FqtMCtASbFreGIhHziqprKeiWxMXLR64zNbm8VCxe5ubQBKyAFaRPYjjU63y4ibQFzYnPYg49fJzaTohk67X11sQ0QSoVRlMbL6j1I-Tgz73Lws=w789-h321-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "Download",
+                                "Text": "#下載流程\n\nwget 網址\n\ntar xvfz 壓縮檔",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "創建 service",
+                                "Text": "service 配置",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/GozkNCFQSj0gS7LAhO9iSJFVvF7g5zGhyTo3AINilpiZftAoknhhXd_QsWwIZ8VWoUGJuqTVk9ZTH2KRqHV3N43l-U0yzr15FfCLyTsDm-epb3AyaJWAajJBYbRPaKbvMH0WjaNNtCX_GIP7ss4MtfRZPT4cVQcRG-B3KIkZl8xCYKjkFTKTkkGFXpXyoJqpd8eOWH51WBcD4sznVXdaQLYCHglr4AQbsIudhaoFIfy9bqyUJrapZhq5Co7AuGqHdexQ230SN1IRlYtzgB8TF00qGdbiSAYRXEUiiWeDjA_obpnDo-pUY3Nah2yKCNDnxxn-L2KzgzXT4sFmg2BXp7Jqz4BKPKLVZL5BE_QBI7R1yDRE1AfaF0hQEDDFY7lo5Wmau0Khy660iP6AkKRxqY3iFwbWgfp2YaKl-rxCf1NdtSxGZO3ZLX5fXPmmElWw-TuT6aLLjXd-o-zzuJMK5S0nXHd5ARNy61LyZM7XS77v7HsuA88dmP8uOvYlbEw6gwP_eaYK45MI2T9genUbMR8toTUWA_e8RzkOLCiEqewwBmvVITPIbJrvxcMKN7uhQaUv5fFZjR1BPnAWvY2Law1A_1M9rjbihEefV38q0pj3aCeLkVSfU0rwnTZ99ZY-h3JKFMACm36ZvEcJwv88NU-Lu7TsSZLzdpNLd2pZsOj8_DJWygtLGHdkMQuhbELsxrRKswINO--vVoUCML72JxUM0CBnom4TTQqsSju58rJzrW0OE6Be0XJLitKx_GxCvdHpq1Yk_vDRoOHXx6o1tf24WGs=w777-h581-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://blog.51cto.com/cuiyingfeng/4371510"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}

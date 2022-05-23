@@ -112,44 +112,51 @@
         {
             "Name": "基礎概念",
             "ID": "SRE",
-            "Title": "學習程度【 50 %】",
+            "Title": "學習程度【 70 %】",
             "URL": "/LearnPage/SRE",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/SRE.json"
         },
         {
             "Name": "Window",
             "ID": "Window",
-            "Title": "學習程度【 10 %】",
+            "Title": "學習程度【 50 %】",
             "URL": "/LearnPage/Window",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Window.json"
         },
         {
             "Name": "Linux",
             "ID": "Linux",
-            "Title": "學習程度【 40 %】",
+            "Title": "學習程度【 50 %】",
             "URL": "/LearnPage/Linux",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Linux.json"
         },
         {
             "Name": "Docker",
             "ID": "Docker",
-            "Title": "學習程度【 70 %】",
+            "Title": "學習程度【 75 %】",
             "URL": "/LearnPage/Docker",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Docker.json"
         },
         {
             "Name": "Ansible",
             "ID": "Ansible",
-            "Title": "學習程度【 70 %】",
+            "Title": "學習程度【 75 %】",
             "URL": "/LearnPage/Ansible",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Ansible.json"
         },
         {
             "Name": "Openresty",
             "ID": "Openresty",
-            "Title": "學習程度【 30 %】",
+            "Title": "學習程度【 20 %】",
             "URL": "/LearnPage/Openresty",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Openresty.json"
+        },
+        {
+            "Name": "Prometheus",
+            "ID": "Prometheus",
+            "Title": "學習程度【 10 %】",
+            "URL": "/LearnPage/Prometheus",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Prometheus.json"
         }]
     },
     {
