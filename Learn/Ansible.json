@@ -194,6 +194,15 @@
                                 "URL": "https://marketplace.visualstudio.com/items?itemName=liximomo.sftp"
                             }
                         ]
+                    },
+                    {
+                        "Title": "Chrome 擴充套件",
+                        "Data": [
+                            {
+                                "Text": "Octotree - GitHub code tree",
+                                "URL": "https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc/related?hl=zh-TW&gl=TW"
+                            }
+                        ]
                     }
                 ]
             },

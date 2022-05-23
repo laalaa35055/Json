@@ -431,6 +431,33 @@
                                 "URL": "https://magiclen.org/linux-network/"
                             }
                         ]
+                    },
+                    {
+                        "Title": "CentOS 7 設定防火牆",
+                        "Data": [
+                            {
+                                "Title": "確認防火牆是否開啟",
+                                "Text": "firewall-cmd --zone=public --list-all",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "對外開放 6379 port",
+                                "Text": "firewall-cmd --zone=public --add-port=6379/tcp --permanent",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "重新讀取 firewall 設定",
+                                "Text": "firewall-cmd --reload",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://blog.yowko.com/centos7-firewall/"
+                            }
+                        ]
                     }
                 ]
             }
