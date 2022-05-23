@@ -12,6 +12,29 @@
                         "Title": "Grafana",
                         "Data": [
                             {
+                                "Text": "Port：3000",
+                                "URL": null
+                            },
+                            {
+                                "Title": "CentOS Downloads",
+                                "Text": "wget https://dl.grafana.com/enterprise/release/grafana-enterprise-7.5.16-1.x86_64.rpm\n\nsudo yum install grafana-enterprise-7.5.16-1.x86_64.rpm",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.51cto.com/u_15329153/3376523"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Grafana",
+                        "Data": [
+                            {
+                                "Text": "Port：3000",
+                                "URL": null
+                            },
+                            {
                                 "Title": "CentOS Downloads",
                                 "Text": "wget https://dl.grafana.com/enterprise/release/grafana-enterprise-7.5.16-1.x86_64.rpm\n\nsudo yum install grafana-enterprise-7.5.16-1.x86_64.rpm",
                                 "Group": true,
@@ -155,6 +178,28 @@
                             {
                                 "Text": "來源網址",
                                 "URL": "https://blog.51cto.com/cuiyingfeng/4371510"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "操作紀錄",
+                "Contnet": [
+                    {
+                        "Title": "基礎操作",
+                        "Data": [
+                            {
+                                "Title": "节点分发",
+                                "Text": "xsync node_exporter-1.2.2",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/GLklmOObRQ3uK83QAxaoZXUbgQKo44aiOzdP474dzQTU0ASEIUelRCj_vTv-CFiKoLPLy7s3iovXDM7ix6JoZBYJ8kvSCzJvbtkVlChfwS5rokVE7xqzhr-A4wom0jPp86jKIcbUW3cjKaX4llD4H9gOIT9IFENlUM6P7Lncnaok_krKWNtZz8dGn-wi3ZqbXm5lo6rW5n1ucFFpiwBWgGGF5YTYLxubeJz7l265lLdXdjfNRv76XK_FfCdux_jKk6fU9w7DH3fGCsNpOqnDmiH5-nkYC-KYc05zuzBYsk4eWnASwuGo4L46ibujVlQ3pyas_2Pn3YP1F71BF4GPG_1TnEHh9dyyYY39LUDuOPyG19Dztzy4vb9vd5Y_jQ-rAKiQcas9mFYzdpzsFNnD2kHBQWdStg_N9DQ0b0_c71XRKbW1LiH324X8ilSBKtX31ygJWMtmJlxWJmxh3p9trrC_0IHGXM5zMCEGlTFtFv7TLwoSQ7F1QCHmJ5byUFNIuYc_PgiZrrZwGEBpA28TwQHdWcuRHA9PUjtnuYVRL93kQXVwqyMEO2p5FQXoojW-7xCLRbmxpjJRzXvx42f8XY0FPJfCUoSWQxkymu8YVolcceQMmb1oChJgyO8qB9PRFJR0wxPfqOLTrpVkm1eBI5VKOsd3NFf9OEJ-C4q_EsAjA2uHNQ0Knedtr8vrGJPo842jY6GhN8Go0NGy4fRBzFtvYEwVbUh7OjTaNzKf6QheF6ToFNQ9qMwfE048kcSqSMOTSpeHov_yYzXjqGViB9-4BCc=w1149-h801-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.csdn.net/hancoder/article/details/121703904"
                             }
                         ]
                     }
