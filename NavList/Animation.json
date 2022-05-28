@@ -17,7 +17,7 @@
         {
             "Name": "美術參考",
             "Group":1,
-            "data": [
+            "Data": [
                 {
                     "Name": "Web Design Clip",
                     "Title": "【Web Design Clip】：提供別人的網站給您參考",
@@ -53,7 +53,7 @@
         {
             "Name": "動畫參考",
             "Group":1,
-            "data": [
+            "Data": [
                 {
                     "Name": "Animista",
                     "Title": "【Animista】：動畫參考，提供 CSS 代碼",
@@ -84,7 +84,7 @@
         {
             "Name": "文字資源",
             "Group":1,
-            "data": [
+            "Data": [
                 {
                     "Name": "Google Fonts",
                     "Title": "【Google Fonts】：Google 提供大量文字免費資源",
@@ -100,7 +100,7 @@
         {
             "Name": "圖片資源",
             "Group":1,
-            "data": [
+            "Data": [
                 {
                     "Name": "Pinterest",
                     "Title": "【Unsplash】：提供網站圖片及其他圖片分析",
@@ -181,7 +181,7 @@
         {
             "Name": "背景圖片",
             "Group":1,
-            "data": [
+            "Data": [
                 {
                     "Name": "Thepatternlibrary",
                     "Title": "【Thepatternlibrary】：提供下載背景重複圖片的網站",
