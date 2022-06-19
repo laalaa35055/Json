@@ -12,8 +12,40 @@
                         "Title": "Openresty 使用",
                         "Data": [
                             {
+                                "Text": "/usr/local/openresty/nginx/sbin/nginx",
+                                "URL": null
+                            },
+                            {
+                                "Title": "启动 OpenResty",
+                                "Text": "#启动\nopenresty\nsudo /usr/local/openresty/nginx/sbin/nginx\n\n#关闭\nsudo /usr/local/openresty/nginx/sbin/nginx -s stop\n\nopenresty -sreload",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "OpenResty最佳实践",
+                                "URL": "https://moonbingbing.gitbooks.io/openresty-best-practices/content/base/intro.html"
+                            },
+                            {
                                 "Text": "參考網址",
                                 "URL": "http://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_set_header"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "upstream ",
+                "Contnet": [
+                    {
+                        "Title": "upstream  使用",
+                        "Data": [
+                            {
+                                "Text": "",
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://hoohoo.top/blog/nignx-module-upstream-simple-load-balancing/"
                             }
                         ]
                     }
@@ -46,21 +78,11 @@
                         ]
                     },
                     {
-                        "Title": "OpenResty 安装 & 启动",
+                        "Title": "OpenResty 安装",
                         "Data": [
                             {
                                 "Title": "OpenResty 安装",
-                                "Text": "# CentOS为例\n\n# 添加 openresty 仓库\nsudo yum install yum-utils\nsudo yum-config-manager --add-repo https://openresty.org/package/centos/openresty.repo\n\n# 安装OpenResty\nsudo yum install openresty\n\n# 安装命令行工具 resty\nsudo yum install openresty-resty",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
-                                "Text": "/usr/local/openresty/nginx/sbin/nginx",
-                                "URL": null
-                            },
-                            {
-                                "Title": "启动 OpenResty",
-                                "Text": "# 启动\nsudo /usr/local/openresty/nginx/sbin/nginx\n\n#关闭\nsudo /usr/local/openresty/nginx/sbin/nginx -s stop",
+                                "Text": "# CentOS为例\n\n# 添加 openresty 仓库\nsudo yum -y install yum-utils\nsudo yum-config-manager --add-repo https://openresty.org/package/centos/openresty.repo\n\n# 安装OpenResty\nsudo yum -y install openresty\n\n# 安装命令行工具 resty\nsudo yum -y install openresty-resty",
                                 "Group": true,
                                 "URL": null
                             },

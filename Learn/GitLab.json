@@ -1,0 +1,77 @@
+{
+    "Name": "GitLab",
+    "ID":"GitLab",
+    "Type":0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "GitLab",
+                "Contnet": [
+                    {
+                        "Title": "Test  使用",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            },
+                            {
+                                "Title": "Test",
+                                "Text": "Test",
+                                "Group": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 GitLab ？",
+                        "Data": [
+                            {
+                                "Title": "Test",
+                                "Text": "Test",
+                                "Group": true,
+                                "Imgs": [
+                                    "Test"
+                                ]
+                            },
+                            {
+                                "Text": "官網",
+                                "URL": "https://about.gitlab.com/install/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "安裝 GitLab",
+                "Contnet": [
+                    {
+                        "Title": "CentOS 7 安裝 GitLab",
+                        "Data": [
+                            {
+                                "Title": "安裝 GitLab",
+                                "Text": "#安装GitLab\ncurl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash\n\nsudo yum install gitlab-ce\n\n#调整防火墙规则，需要打开端口80和443\n\n#设置GitLab URL\nsudo nano /etc/gitlab/gitlab.rb\n\nexternal_url 'https://gitlab.example.com'\n\nsudo gitlab-ctl reconfigure",
+                                "Group": true
+                            },
+                            {
+                                "Text": "參考網址 - 推薦",
+                                "URL": "https://www.myfreax.com/how-to-install-and-configure-gitlab-on-centos-7/#google_vignette"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "Name": "NodeJs",
+    "ID":"NodeJs",
+    "Type":0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "使用方式",
+                "Contnet": [
+                    {
+                        "Title": "NPM 使用",
+                        "Data": [
+                            {
+                                "Text": "npm install",
+                                "URL": null
+                            },
+                            {
+                                "Text": "npm run build",
+                                "URL": null
+                            },
+                            {
+                                "Text": "npm run serve",
+                                "URL": null
+                            },
+                            {
+                                "Text": "npm -v",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 NodeJs ？",
+                        "Data": [
+                            {
+                                "Text": "從 Javascript 演進而來，所以是相當純粹的事件驅動的方式在運作",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "直接安裝 NodeJs",
+                        "Data": [
+                            {
+                                "Text": "從 Javascript 演進而來，所以是相當純粹的事件驅動的方式在運作",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "NPM",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 NPM ？",
+                        "Data": [
+                            {
+                                "Text": "是一個 NodeJS 的套件管理系統。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "需要什麼套件，用他來安裝、移除、更新就可以了。",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "NVM",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 NVM ？",
+                        "Data": [
+                            {
+                                "Text": "nvm 是 Node.js 的多版本管理器",
+                                "URL": null
+                            },
+                            {
+                                "Text": "由於 nvm 只支援 macOS 與 Linux，在 Windows 下，改用 NVS 是更好的選擇。",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "安裝 NVM",
+                        "Data": [
+                            {
+                                "Title": "安裝 NVM",
+                                "Text": "#這個安裝腳本會自行判斷是新裝還是更新\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash\n\n#更新 npm\nnvm install-latest-npm\n\n#列出系統內各 Node.js 版本\nnvm ls\n\n#列出可安裝的 Node.js LTS 版本\nnvm ls-remote --lts\n\n#安裝 Node.js，並且設為預設版次\nnvm install 16.13.1 --default\n\n#指定 Node.js 版本\nnvm use 16.13.1",
+                                "Group": true,
+                                "URL":null
+                            },
+                            {
+                                "Text": "GitHub",
+                                "URL": "https://github.com/nvm-sh/nvm/releases"
+                            },
+                            {
+                                "Text": "參考網址-推薦",
+                                "URL": "https://editor.leonh.space/2021/nvm/"
+                            },
+                            {
+                                "Text": "參考網址-非推薦",
+                                "URL": "https://blog.csdn.net/aa390481978/article/details/106684313"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "問題集",
+                "Contnet": [
+                    {
+                        "Title": "node-sass 依赖",
+                        "Data": [
+                            {
+                                "Text": "心得：最後採用降低 node 版本才成功：12",
+                                "URL": null
+                            },
+                            {
+                                "Title": "版本對照",
+                                "Text": "",
+                                "Group": true,
+                                "URL":null,
+                                "Imgs":[
+                                    "https://lh3.googleusercontent.com/lcoBNa4jcZZH4gJvHwwGFiDjWxXWlViaMWyZlcb15e4k20dhK29fN8kXWjbBqmVOGMS8OILh_gl55mtM_KBWFCt_ICl8Z0hLG7iR4bt3V81BsCg3fgr8arnfFUIkVIZ5zAPO0OQJsngLjFlvpk8dHvxT5U6IAV2PV4IPbN0zcDrC6VFs6_NmvxoX5FBtGrHr94w0on9nKaiS326w-_Z-knp8vphLAlGpeWE-Rr4bLgKlymnL9O6KZnD-LEyAPd7hRcwBydY-q9KeWWIy92-S6U95IyUGdT0B4hkiDaM80R1bUpO4w2wXjEkXlU82DazbxglxUvFW3wBRksswwA28d3qZ6dTZRRRFO2C6_Es0uB8VCRhsbSyTQUBFDEtlOZzUxWLVuSWWb6346uIW_1wyKxrLpSnVjCG3oeaRk4OePwfd2iumDiz_Lkt791vzJKIzAwakrfctb6jrRe1dOrodkcF2VPcBHhG6bT9Gatnw0KqPdbnFmK7eeSjbCwkiUe67-CSUg41u_wdiRsllls-TSWhT2ErCEQa6vzxRwYjWludT7cZPp5WkGgYpHIu6SB8Vi1wVpUtHg2vB5Y0uzrgKYcEVMZ6sy-TyCgUPXpAbBtkeMUH3X2bIzjumbEo1oWPeMCkmWoQdVcyU3x7jOin1KD0vU9E66aqMRqkK-giByVOTf06R7JUXdMWyYNbnwF3JB2fFpM0Jo1nNEpF_ZxMQHmrrMGTNH0xAnaaLx40D7moeKAh_CanKYa3TNMWYhG5fQHSHJctUSpsVemIKBAo_R2wRlb4=w474-h438-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "找不到node-sass/vendor",
+                                "Text": "#重建node-sass依赖\nnpm rebuild node-sass -g",
+                                "Group": true,
+                                "URL":null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tree.moe/deal-with-gyp-err-caused-by-node-sass/"
+                            },
+                            {
+                                "Text": "npm node-sass",
+                                "URL": "https://www.npmjs.com/package/node-sass"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "安裝 cnpm",
+                        "Data": [
+                            {
+                                "Title": "安裝 cnpm",
+                                "Text": "#安裝\nnpm install -g cnpm --registry=https://registry.npm.taobao.org\n\ncnpm install",
+                                "Group": true,
+                                "URL":null
+                            },
+                            {
+                                "Text": "腳本中有寫到，但後面似乎使用有問題，故不用",
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://www.jianshu.com/p/ad58bbcede05"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}

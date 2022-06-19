@@ -393,12 +393,7 @@
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/FOtEkEgJd2vME4l86LXtVA-FgxMO9bV1GNBw6iyb4y5M6hMIwWrpn3nIOSUMe3mk7fN0Spa2dRP4M2IvL6_EyWAiDq6xWPW7leEJm_S4krC5Fk60URiXhLml2lwsQ8khDvEfkykFFWt26zhpQkpYafJzpC7LkWpovc6zCaK3Ey8I8BnklobYYQq28Uwm1gD7LYKW81DzdUqjyFOfXjtd4bsXEhmYM9zFjLNASK1EtzLGTJA-mAy4tqHkYDJreJfUyOl81UqyHPRoww_XI0cXLem340-hoWXdEGjoht4ZDedd97l5OX902_3fCvgoKdlPcUeN0We1LE30FVpZrccxqfinbl8ip4EQ8xAWPRGSxLI16n_5Zm1_9ypHcMzerMYKn8uHLyHFoFYWDf2muTrw1-y5IwgKv07W7l5j-NDNsAEcgRKCnImjkKqkheR5GUYrMVRKUB32-HInndIE0V6xs7Omb7wtOYAEp74Dv-7OmZ-UJxwCEdZt8huIaOYagLaQbbWTa14VbLZizpwOjzC0Tvg2fUbezhpZduyAKbjF0NnjP27AnbPTnFHT8Fy5gMuLnZXGFUVB4FSem-HZyFB-mCfgiu_Lc-7hTOwn4riRgUnq1CcLt4-ovbShGW9Fppzo83OFnR0nCpdewpJI7jykMZHArGSgNUjBeFF9DZqaZDpEVLBv87kLLQE2sKQdijLTkUNEppm5jQOa4hoOlLtnA43FlrLWxTFH7iu3G-9W7eeXAqyC9KZZZZJGlggSn8cwR4JfdbPEkLLdVPG_LKXMCXqZ8no=w1338-h822-no?authuser=0"
                                 ]
-                            }
-                        ]
-                    },
-                    {
-                        "Title": "epel-release",
-                        "Data": [
+                            },
                             {
                                 "Title": "epel-release",
                                 "Text": "yum search epel-release\n\nyum info epel-release\n\nyum install epel-release",
@@ -442,8 +437,20 @@
                                 "URL": null
                             },
                             {
-                                "Title": "對外開放 6379 port",
-                                "Text": "firewall-cmd --zone=public --add-port=6379/tcp --permanent",
+                                "Title": "將 http 服務新增至 public 區域中",
+                                "Text": "sudo firewall-cmd --zone=public --add-service=http",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "對外開放 8080 port",
+                                "Text": "firewall-cmd --zone=public --add-port=8080/tcp --permanent",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "將 http 服務從 public 區域中移除",
+                                "Text": "sudo firewall-cmd --zone=public --remove-service=http",
                                 "Group": true,
                                 "URL": null
                             },
@@ -456,6 +463,10 @@
                             {
                                 "Text": "來源網址",
                                 "URL": "https://blog.yowko.com/centos7-firewall/"
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://blog.gtwang.org/linux/centos-7-firewalld-command-setup-tutorial/2/"
                             }
                         ]
                     }

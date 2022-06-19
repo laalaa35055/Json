@@ -90,6 +90,13 @@
             "Title": "學習程度【 0 %】",
             "URL": "/LearnPage/Laravel",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Laravel.json"
+        },
+        {
+            "Name": "NodeJs",
+            "ID": "NodeJs",
+            "Title": "學習程度【 10 %】",
+            "URL": "/LearnPage/NodeJs",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/NodeJs.json"
         }]
     },
     {
@@ -102,6 +109,13 @@
             "Title": "學習程度【 60 %】",
             "URL": "/LearnPage/Git",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Git.json"
+        },
+        {
+            "Name": "GitLab",
+            "ID": "GitLab",
+            "Title": "學習程度【 40 %】",
+            "URL": "/LearnPage/GitLab",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/GitLab.json"
         }]
     },
     {

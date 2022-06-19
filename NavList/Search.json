@@ -18,6 +18,11 @@
                     "URL": "http://ipinfo.io/ip"
                 },
                 {
+                    "Name": "外網 IP-2",
+                    "Title": "【外網 IP】：快速查詢外網 IP-2",
+                    "URL": "https://ipecho.net/plain"
+                },
+                {
                     "Name": "Fontawesome",
                     "Title": "【Fontawesome】：提供一些常見圖像，需加入會員導入JS，可免費",
                     "URL": "https://fontawesome.com/"
