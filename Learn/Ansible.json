@@ -99,6 +99,32 @@
         ],
         "Right": [
             {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "初始須設定與節點間的關係，通過 ssh-keygen 建立連結",
+                                "URL": null
+                            },
+                            {
+                                "Text": "再來可以通過 ansible 語法建立腳本，控制節點",
+                                "URL": null
+                            },
+                            {
+                                "Text": "也可以通過 ansible-playbook 建立 .yml 檔案來控制節點",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Ansible 的 Template，在本地建立模板通過 .yml檔的變數，生成檔案至節點",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "Title": "基礎知識",
                 "Contnet": [
                     {
@@ -201,32 +227,6 @@
                             {
                                 "Text": "Octotree - GitHub code tree",
                                 "URL": "https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc/related?hl=zh-TW&gl=TW"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Title": "Study",
-                "Contnet": [
-                    {
-                        "Title": "學習心得",
-                        "Data": [
-                            {
-                                "Text": "初始須設定與節點間的關係，通過 ssh-keygen 建立連結",
-                                "URL": null
-                            },
-                            {
-                                "Text": "再來可以通過 ansible 語法建立腳本，控制節點",
-                                "URL": null
-                            },
-                            {
-                                "Text": "也可以通過 ansible-playbook 建立 .yml 檔案來控制節點",
-                                "URL": null
-                            },
-                            {
-                                "Text": "Ansible 的 Template，在本地建立模板通過 .yml檔的變數，生成檔案至節點",
-                                "URL": null
                             }
                         ]
                     }

@@ -6,7 +6,7 @@
     "Contents": {
         "Left": [
             {
-                "Title": "Test",
+                "Title": "使用說明",
                 "Contnet": [
                     {
                         "Title": "Test  使用",
@@ -26,6 +26,20 @@
             }
         ],
         "Right": [
+            {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "Title": "基礎知識",
                 "Contnet": [

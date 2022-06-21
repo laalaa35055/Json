@@ -6,19 +6,42 @@
     "Contents": {
         "Left": [
             {
-                "Title": "GitLab",
+                "Title": "使用說明",
                 "Contnet": [
                     {
-                        "Title": "Test  使用",
+                        "Title": "GitLab 使用",
                         "Data": [
                             {
-                                "Text": "Test",
+                                "Text": "更新GitLab服務設定",
                                 "URL": null
                             },
                             {
-                                "Title": "Test",
-                                "Text": "Test",
-                                "Group": true
+                                "Text": "gitlab-ctl reconfigure",
+                                "URL": null
+                            },
+                            {
+                                "Text": "啟動GitLab",
+                                "URL": null
+                            },
+                            {
+                                "Text": "gitlab-ctl start",
+                                "URL": null
+                            },
+                            {
+                                "Text": "重新啟動GitLab",
+                                "URL": null
+                            },
+                            {
+                                "Text": "gitlab-ctl restart",
+                                "URL": null
+                            },
+                            {
+                                "Text": "檢視GitLab服務狀態",
+                                "URL": null
+                            },
+                            {
+                                "Text": "gitlab-ctl status",
+                                "URL": null
                             }
                         ]
                     }
@@ -26,6 +49,38 @@
             }
         ],
         "Right": [
+            {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "GitLab 設定檔：/etc/gitlab/gitlab.rb",
+                                "URL": null
+                            },
+                            {
+                                "Text": "external_url 'http://192.168.1.xx'",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "問題集",
+                "Contnet": [
+                    {
+                        "Title": "暫無",
+                        "Data": [
+                            {
+                                "Text": "暫無",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "Title": "基礎知識",
                 "Contnet": [
@@ -62,6 +117,10 @@
                             {
                                 "Text": "參考網址 - 推薦",
                                 "URL": "https://www.myfreax.com/how-to-install-and-configure-gitlab-on-centos-7/#google_vignette"
+                            },
+                            {
+                                "Text": "參考網址 - 搭配",
+                                "URL": "https://xyz.cinc.biz/2020/08/centos-7-gitlab-install-ssl.html"
                             }
                         ]
                     }

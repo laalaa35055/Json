@@ -1,0 +1,161 @@
+{
+    "Name": "Harbor",
+    "ID":"Harbor",
+    "Type":0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "使用說明",
+                "Contnet": [
+                    {
+                        "Title": "推送 Image 至 Harbor",
+                        "Data": [
+                            {
+                                "Title":"Build Images 至 Harbor 的流程圖",
+                                "Text": "流程圖",
+                                "Group":true,
+                                "Imgs":[
+                                    "https://lh3.googleusercontent.com/NcsbqGeL0gpj8IECnyVtPQwqnYMaoFage09BWfXZFPC1-MQQCBuzvgRbeXxSUzjlIobegsHfPP3jtRHBNwquXB49M-in8ThZq75s5ITZ5OgwhJj-xRplN5_l0614HjVMAO8v3cjdCzWJ80mCQa7fXMMPwXxPiibLQPVYAWOTUuNlN4BmOhnIHPqyTzkG0hIdZt57bEVFnpDMBnwbNrln-JJhfbaRz9OLpOMzU43_FDacbKUOT7sfz2MamR82ZXpiNMlitxXfEvmFmJk3-zh0jkHLAovrvg7k94WMc5J7N-1M-Ch5WAiyShxucErReuLvTgvCyQbgiqe9J65tRMDZkRAWICPddjVKYqg0ARD9wnndKaG0DmpBVQt8BBTB6B8-DK_uQwcltHHsVoQpbPPg0CGgxm5e_xo4HJiw8ZGYgJnQucnWj5aH0sFhaIcIKIgi6jB7nvHIY90hnfurGoBH_wBS7ykg7srqHU0VkK2WVS-pCuGpBbAEu5modVvrB1GRQgCTk2X7saVlK9DUfny6X2UCPLeRyFyKDnqLVp1JJzI7e7hhKBi81t_eMd2H9BY_zLt0q5_loRhgvWj2CmhYTMnNRogB4qqHVPEANxQFClcJPI6naZOZL5y0852jap6jEGlvB1qQ_j6dqOKIdol1rU81q1qzEhEX0Q2Mj9McdJgmH9JG8NdEg520qeWpbJ4htlQ-6LHU7m0VRtxjOScfIbKLn0RDH4ayDtJeSD1TOqPte4g_M2WIZuoRKf9Ao0S9az7SgLDklZIjs2LkxIgIed86XqY=w751-h641-no?authuser=0"
+                                ],
+                                "URL": null
+                            },
+                            {
+                                "Text": "重 DockerHub 拉取鏡像",
+                                "URL": null
+                            },
+                            {
+                                "Text": "docker pull nginx:1.12.1",
+                                "URL": null
+                            },
+                            {
+                                "Text": "替 image 建立一個版號",
+                                "URL": null
+                            },
+                            {
+                                "Text": "docker tag <Your Harbor Domain> or <IP>/nginx/nginx:1.12.1 nginx:1.12.1",
+                                "URL": null
+                            },
+                            {
+                                "Text": "推至私有庫",
+                                "URL": null
+                            },
+                            {
+                                "Text": "docker push <Your Harbor Domain> or <IP>/nginx/nginx:1.12.1",
+                                "URL": null
+                            },
+                            {
+                                "Text": "從私有庫取image",
+                                "URL": null
+                            },
+                            {
+                                "Text": "docker pull <Your Harbor Domain> or <IP>/nginx/nginx:1.12.1",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "所有的服務都是透過 Docker Container 來服務",
+                                "URL": null
+                            },
+                            {
+                                "Text": "權限訪問介紹：Guest => pull、Developer => pull and push、Admin => ALL",
+                                "URL": null
+                            },
+                            {
+                                "Text": "預設帳戶：admin、預設密碼：Harbor12345",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Title": "無法將 image 推至 Harbor",
+                                "Text": "# 新增 /etc/docker/daemon.json\n\n{\n  \"insecure-registries\": [\"<Your Harbor Domain> or <IP>\"]\n}\n\n#重新啟動 docker & systemctl\nsudo systemctl daemon-reload && sudo systemctl restart docker",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://www.796t.com/article.php?id=385013"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Harbor ？",
+                        "Data": [
+                            {
+                                "Text": "Harbor 是由 VMWare 公司用 Go 語言所開發的開源軟體",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Harbor 提供了簡易的 UI 介面，包含權限控管，及跨機器的自動同步功能",
+                                "URL": null
+                            },
+                            {
+                                "Text": "官網",
+                                "URL": "https://goharbor.io/"
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://ithelp.ithome.com.tw/articles/10218046"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "如何安裝 Harbor ？",
+                        "Data": [
+                            {
+                                "Title": "安裝 Harbor",
+                                "Text": "#下載安裝包\nwget {url}\n\n#解壓縮\ntar xvf {.tgz}\n\n#複製一份 harbor.yml.tmpl 做為修改\n\n#修改完畢後\n./install.sh",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "Ps：必須修改的地方，hostname、https 相關 ( 若沒用到需註解 )",
+                                "URL": null
+                            },
+                            {
+                                "Text": "GitHub 版本",
+                                "URL": "https://github.com/goharbor/harbor/releases"
+                            },
+                            {
+                                "Text": "參考網址 - 推薦",
+                                "URL": "https://www.cnblogs.com/leffss/p/15621165.html"
+                            },
+                            {
+                                "Text": "參考網址 - 搭配",
+                                "URL": "https://www.hwchiu.com/ithome-20202-cicd-21.html"
+                            }
+                        ]
+                    }
+                    
+                    
+                ]
+            }
+            
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}

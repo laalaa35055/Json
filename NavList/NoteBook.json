@@ -152,6 +152,13 @@
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Docker.json"
         },
         {
+            "Name": "Harbor",
+            "ID": "Harbor",
+            "Title": "學習程度【 10 %】",
+            "URL": "/LearnPage/Harbor",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Harbor.json"
+        },
+        {
             "Name": "Ansible",
             "ID": "Ansible",
             "Title": "學習程度【 75 %】",
