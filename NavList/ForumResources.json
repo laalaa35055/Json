@@ -20,8 +20,18 @@
             "Data": [
                 {
                     "Name": "CSS 可樂",
-                    "Title": "【CSS 可樂】：Aoms老師，css教學網站",
+                    "Title": "【CSS 可樂】：Aoms 老師，css教學網站",
                     "URL": "http://csscoke.com/"
+                },
+                {
+                    "Name": "在线手册",
+                    "Title": "【在线手册】：Simon 給的在线手册",
+                    "URL": "http://shouce.jb51.net/"
+                },
+                {
+                    "Name": "devops-exercises",
+                    "Title": "【devops-exercises】：Simon 給的各技術問題及練習",
+                    "URL": "https://github.com/bregman-arie/devops-exercises"
                 }
             ]
         },

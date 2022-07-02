@@ -72,6 +72,47 @@
         ],
         "Right": [
             {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "基本上以轉發為概念，可以加以限制 ip 訪問次數等...，可搭配 Lua 語言",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "問題集",
+                
+                "Contnet": [
+                    {
+                        "Title": "nginx 服务无法停止 （ Windows ）",
+                        "Data": [
+                            {
+                                "Text": "查看端口 PID：netstat -ano",
+                                "URL": null
+                            },
+                            {
+                                "Text": "查找端口 tasklist|findstr {PID}",
+                                "URL": null
+                            },
+                            {
+                                "Text": "结束进程 taskkill /f /t /im nginx.exe",
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.csdn.net/qq_36133698/article/details/88582539"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "Title": "基礎知識",
                 "Contnet": [
                     {
@@ -96,7 +137,7 @@
                         ]
                     },
                     {
-                        "Title": "OpenResty 安装",
+                        "Title": "OpenResty 安装 ( Linux )",
                         "Data": [
                             {
                                 "Title": "OpenResty 安装",
@@ -109,6 +150,25 @@
                                 "URL": "https://blog.csdn.net/xinhuashudiao/article/details/114575888"
                             }
                         ]
+                    },
+                    {
+                        "Title": "Nginx 安装 ( Windows )",
+                        "Data": [
+                            {
+                                "Title": "Nginx 安装",
+                                "Text": "# 下載至本地端並解壓縮\n# 切換到 nginx 解壓目錄下\n\n# 執行命令\n./nginx.exe\nstart nginx\n\n# 關閉命令\n./nginx -s stop\n./nginx -s quit",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "下載連結",
+                                "URL": "https://nginx.org/en/download.html"
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://www.796t.com/article.php?id=229244"
+                            }
+                        ]
                     }
                 ]
             }
@@ -116,7 +176,11 @@
     },
     "Source": {
         "Text": true,
-        "From": [],
-        "Refer": []
+        "From": [
+            "https://moonbingbing.gitbooks.io/openresty-best-practices/content/"
+        ],
+        "Refer": [
+            "https://ithelp.ithome.com.tw/articles/10221704"
+        ]
     }
 }

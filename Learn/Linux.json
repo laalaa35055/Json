@@ -71,10 +71,6 @@
                                 "URL": null
                             },
                             {
-                                "Text": "ls",
-                                "URL": null
-                            },
-                            {
                                 "Text": "ls targetDir/ # 查看特定資料夾",
                                 "URL": null
                             },
@@ -396,7 +392,7 @@
                             },
                             {
                                 "Title": "epel-release",
-                                "Text": "yum search epel-release\n\nyum info epel-release\n\nyum install epel-release",
+                                "Text": "yum search epel-release\n\nyum info epel-release\n\nyum -y install epel-release",
                                 "Group": true,
                                 "URL": null
                             },

@@ -9,101 +9,6 @@
                 "Title": "SQL 常用指令",
                 "Contnet": [
                     {
-                        "Title": "主從設定",
-                        "Data": [
-                            {
-                                "Title": "新增帳戶",
-                                "Text": "CREATE USER 'repl'@'%' IDENTIFIED BY 'password';",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
-                                "Title": "權限設置",
-                                "Text": "GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%';",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
-                                "Title": "重設密碼",
-                                "Text": "my.cnf 添加 skip-grant-tables 可不用輸入密碼\n\nUPDATE mysql.user SET authentication_string=null WHERE User='root';\n\nFLUSH PRIVILEGES;ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'yourpasswd';",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
-                                "Text": "▲ 參考網址",
-                                "URL": "https://stackoverflow.com/questions/50691977/how-to-reset-the-root-password-in-mysql-8-0-11"
-                            },
-                            {
-                                "Title": "開啟 / 關閉執行緒",
-                                "Text": "start SLAVE IO_THREAD;\n\nSTOP SLAVE IO_THREAD;",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
-                                "Title": "change master to",
-                                "Text": "change master to master_host='10.128.0.4',master_user='replicate',master_password='1234',master_log_file='mysql-bin.000004',master_log_pos=154;",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
-                                "Text": "▲ 參考網址",
-                                "URL": "https://tw511.com/a/01/13059.html"
-                            },
-                            {
-                                "Title": "mysqld 打不開",
-                                "Text": "查看日誌\n\nmy.cnf 中的 log-error=路徑\n\n實在沒辦法刪除全部檔案 rm -rf /var/lib/mysql/*",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
-                                "Text": "▲ 參考網址",
-                                "URL": "https://www.cxybb.com/article/qq_41359051/89815921"
-                            }
-                        ]
-                    },
-                    {
-                        "Title": "主從架構",
-                        "Data": [
-                            {
-                                "Title": "主從架構",
-                                "Text": "compose 可參考主主架構\n\n主要修改 cnf ：\n\nserver-id、log-bin、secure_file_priv",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
-                                "Text": "▲ 主從參考網址",
-                                "URL": "https://www.gushiciku.cn/pl/pXz7/zh-tw"
-                            },
-                            {
-                                "Title": "主主架構",
-                                "Text": "docker-Compose.yml 主要修改，映射資料的位置、port、my.cnf\n\n修改 my.cnf：server-id、log-bin、log-slave-updates、secure_file_priv",
-                                "Group": true,
-                                "URL": null,
-                                "Imgs": [
-                                    "https://lh3.googleusercontent.com/sbB2nF9H0b0DmOuNphnAkufVVspDWnqWJTIf1UZ3Ss8LWGg5hadSHB0o0FLMc1OuWi8_MjxuJMph-XQ8vUpawMstVdwaKlWbwfmgn_W3HXfLIkSNuKIbNsCARPSsqq3Bh4R8E64TUyBEsP-jnadfA3zt8q5nApEp6KxfFvq4M4G3Rce3EZtHcsxXcFNwjdY0Hrjbd5PSmEdvERi18uTUFTB3T0m32EnHD4RFn2uAF8Jug5_ErB5AeX8dDhUBcZ52JYM1tfG15I9QGx68w50J65emYYUzZdLsc9dCGyVmiVBicvmjr6dnz4D1sdYnwRsXLhQn-4Vjo1xvjDDNzaWzkgrrRE_t2Ab38PW1e3KKJ9PSNSvfoy-xE9begjtnYhozGr7d6stCQ4ZZLk3ndFl6LA_-EbLkJaXpTIsG4pZXZ_KemCIERXekNCZBiK51K7RXjjns_u4aGbYa4eGenwDUgFPGIQfAM5PUC7Bfb4jQqvlQOGiIpOSQ4mQ0zGIJY1uhOgesMNhmPgQuG7n-_KMwhJ09vG_GaeJiio1STj9CkGqkfT-JTQL5pzn_XoVxj61YBN-l5ftTkLuRwekIZN1j-g4AtAvsliR57GkHUq7y3j5TwC5ng3yJK098QCc9VSR3kawE4yOX8RD-2dyYZoiPa1YhBGFqczaRguWoUKjO3a4ClTZ0cYqCQoWWpa51HKMTIEC8vxg_3XVUXG-GUDKchhBoEbfqKBVDfYvSQ0YZdJuDVbdgRDKR7RvPc90zTXKaJ2lo4bh-lECNjnEU8jyOQuhiU_o=w542-h232-no?authuser=0",
-                                    "https://lh3.googleusercontent.com/FKiKK3hr4nwY7Ym6XvJjb3HBhkYxPqOfD_ATysTWFd4MbOQKL4WJNGIbUAfteFKFLnjniVhgpQjeSlSY4iBguyqlCbhpsRJNCy6TIwot7nU3Dt1_ZzaZH_b0tWLpDh4DLApWKyfRGG3zhaecqtQxQDxhKh9Rl7EAswGl_62f_Lobdg0kNB7TGyIK9YaqgUfKcJkX48Sb8uf0nSVhu6SL4dF5lsT_kavev2ddUf1Bf3VKE-R2VhgTDOwMB4cTS46sHSRG4izXgG0Uxz9SaumdeBSc2UTpb63RkBabZ08g9JAqTzjFr4TKlb3XgGtdpEVbwYLQU7uAp_Gb8tC7OeAPD-nkIKzaSVOzdftrVJXz5bFWGUqYQv6IluzJQbm45EmokVZxA4AM8kgba16Mp1_EH2VjBiVGtvhy90GzazxEPDFBeqm8zlVwA2En29zTdtIkSvywbGR9U-ysxfgkEDh6byXH60iYFssqdniUmD1VzeTZRM8_YJI1QjXrzHck16hUWoSzYgkqrd1CZwaTLVdnMaMzg7IX_CqcEen5tF9mlgTptWu3FxMLQzqfq8RF2mPilfVwNI4-5RjJl7P9owjY6qwyG9lUhYOHy61s4DxIuvaaP86qINgNMe3z6VUBlHbeiJqU58rsfywylj9lkbnXvsAV9rtOfPNkuAFCtGnY9jqbf0wbyHVEx4a3xsIrVlwbkAzTQEYeL_udBKCdbZ6xrBQA3XBT-Iw8pOjJgpsopnvq2gCzTqpmz-J1M4bpb8cFLLpC_SRlYCe2oobmOB32B4IRV58=w405-h244-no?authuser=0"
-                                ]
-                            },
-                            {
-                                "Text": "▲ 主主架構參考網址",
-                                "URL": "https://www.it145.com/9/92020.html"
-                            }
-                        ]
-                    },
-                    {
-                        "Title": "redis 主從架構",
-                        "Data": [
-                            {
-                                "Text": "redis 部署例子",
-                                "URL": "https://chanjarster.github.io/post/mysql-master-slave-docker-example/"
-                            },
-                            {
-                                "Text": "redis 部署例子 GitHub",
-                                "URL": "https://github.com/chanjarster/mysql-master-slave-docker-example/blob/master/docker-compose.yaml"
-                            }
-                        ]
-                    },
-                    {
                         "Title": "SQL",
                         "Data": [
                             {
@@ -312,10 +217,160 @@
         ],
         "Right": [
             {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "MySQL 是一個關聯式資料庫管理系統",
+                                "URL": null
+                            },
+                            {
+                                "Text": "mysql -h 127.0.0.1 -u[root] -p[密碼] [-P{port}]",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "主從設定",
+                        "Data": [
+                            {
+                                "Title": "新增帳戶",
+                                "Text": "CREATE USER 'repl'@'%' IDENTIFIED BY 'password';",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "權限設置",
+                                "Text": "GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%';",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "重設密碼",
+                                "Text": "my.cnf 添加 skip-grant-tables 可不用輸入密碼\n\nUPDATE mysql.user SET authentication_string=null WHERE User='root';\n\nFLUSH PRIVILEGES;ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'yourpasswd';",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "▲ 參考網址",
+                                "URL": "https://stackoverflow.com/questions/50691977/how-to-reset-the-root-password-in-mysql-8-0-11"
+                            },
+                            {
+                                "Title": "change master to",
+                                "Text": "change master to master_host='10.128.0.4',master_user='replicate',master_password='1234',master_log_file='mysql-bin.000004',master_log_pos=154;",
+                                "Group": true,
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "主從架構",
+                        "Data": [
+                            {
+                                "Title": "主從架構",
+                                "Text": "compose 可參考主主架構\n\n主要修改 cnf ：\n\nserver-id、log-bin、secure_file_priv",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "▲ 主從參考網址 - 推薦",
+                                "URL": "https://iter01.com/598829.html"
+                            },
+                            {
+                                "Text": "▲ 主從參考網址 - 搭配",
+                                "URL": "https://www.gushiciku.cn/pl/pXz7/zh-tw"
+                            },
+                            {
+                                "Title": "主主架構 - docker",
+                                "Text": "docker-Compose.yml 主要修改，映射資料的位置、port、my.cnf\n\n修改 my.cnf：server-id、log-bin、log-slave-updates、secure_file_priv",
+                                "Group": true,
+                                "URL": null,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/sbB2nF9H0b0DmOuNphnAkufVVspDWnqWJTIf1UZ3Ss8LWGg5hadSHB0o0FLMc1OuWi8_MjxuJMph-XQ8vUpawMstVdwaKlWbwfmgn_W3HXfLIkSNuKIbNsCARPSsqq3Bh4R8E64TUyBEsP-jnadfA3zt8q5nApEp6KxfFvq4M4G3Rce3EZtHcsxXcFNwjdY0Hrjbd5PSmEdvERi18uTUFTB3T0m32EnHD4RFn2uAF8Jug5_ErB5AeX8dDhUBcZ52JYM1tfG15I9QGx68w50J65emYYUzZdLsc9dCGyVmiVBicvmjr6dnz4D1sdYnwRsXLhQn-4Vjo1xvjDDNzaWzkgrrRE_t2Ab38PW1e3KKJ9PSNSvfoy-xE9begjtnYhozGr7d6stCQ4ZZLk3ndFl6LA_-EbLkJaXpTIsG4pZXZ_KemCIERXekNCZBiK51K7RXjjns_u4aGbYa4eGenwDUgFPGIQfAM5PUC7Bfb4jQqvlQOGiIpOSQ4mQ0zGIJY1uhOgesMNhmPgQuG7n-_KMwhJ09vG_GaeJiio1STj9CkGqkfT-JTQL5pzn_XoVxj61YBN-l5ftTkLuRwekIZN1j-g4AtAvsliR57GkHUq7y3j5TwC5ng3yJK098QCc9VSR3kawE4yOX8RD-2dyYZoiPa1YhBGFqczaRguWoUKjO3a4ClTZ0cYqCQoWWpa51HKMTIEC8vxg_3XVUXG-GUDKchhBoEbfqKBVDfYvSQ0YZdJuDVbdgRDKR7RvPc90zTXKaJ2lo4bh-lECNjnEU8jyOQuhiU_o=w542-h232-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/FKiKK3hr4nwY7Ym6XvJjb3HBhkYxPqOfD_ATysTWFd4MbOQKL4WJNGIbUAfteFKFLnjniVhgpQjeSlSY4iBguyqlCbhpsRJNCy6TIwot7nU3Dt1_ZzaZH_b0tWLpDh4DLApWKyfRGG3zhaecqtQxQDxhKh9Rl7EAswGl_62f_Lobdg0kNB7TGyIK9YaqgUfKcJkX48Sb8uf0nSVhu6SL4dF5lsT_kavev2ddUf1Bf3VKE-R2VhgTDOwMB4cTS46sHSRG4izXgG0Uxz9SaumdeBSc2UTpb63RkBabZ08g9JAqTzjFr4TKlb3XgGtdpEVbwYLQU7uAp_Gb8tC7OeAPD-nkIKzaSVOzdftrVJXz5bFWGUqYQv6IluzJQbm45EmokVZxA4AM8kgba16Mp1_EH2VjBiVGtvhy90GzazxEPDFBeqm8zlVwA2En29zTdtIkSvywbGR9U-ysxfgkEDh6byXH60iYFssqdniUmD1VzeTZRM8_YJI1QjXrzHck16hUWoSzYgkqrd1CZwaTLVdnMaMzg7IX_CqcEen5tF9mlgTptWu3FxMLQzqfq8RF2mPilfVwNI4-5RjJl7P9owjY6qwyG9lUhYOHy61s4DxIuvaaP86qINgNMe3z6VUBlHbeiJqU58rsfywylj9lkbnXvsAV9rtOfPNkuAFCtGnY9jqbf0wbyHVEx4a3xsIrVlwbkAzTQEYeL_udBKCdbZ6xrBQA3XBT-Iw8pOjJgpsopnvq2gCzTqpmz-J1M4bpb8cFLLpC_SRlYCe2oobmOB32B4IRV58=w405-h244-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Text": "▲ 主主架構參考網址",
+                                "URL": "https://www.it145.com/9/92020.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "redis 主從架構",
+                        "Data": [
+                            {
+                                "Text": "redis 部署例子",
+                                "URL": "https://chanjarster.github.io/post/mysql-master-slave-docker-example/"
+                            },
+                            {
+                                "Text": "redis 部署例子 GitHub",
+                                "URL": "https://github.com/chanjarster/mysql-master-slave-docker-example/blob/master/docker-compose.yaml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "問題集",
+                "Contnet": [
+                    {
+                        "Title": "TIMESTAMP 自動增加",
+                        "Data": [
+                            {
+                                "Title": "Createtime & Updatetime",
+                                "Text": "CURRENT_TIMESTAMP",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "▲ 參考網址",
+                                "URL": "https://www.twblogs.net/a/5c4582b2bd9eee35b21ee129"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "mysqld 打不開",
+                        "Data": [
+                            {
+                                "Title": "解決方法",
+                                "Text": "#查看日誌，找出問題\n\nmy.cnf 中的 log-error=路徑\n\n實在沒辦法刪除全部檔案 rm -rf /var/lib/mysql/*",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "▲ 參考網址",
+                                "URL": "https://www.cxybb.com/article/qq_41359051/89815921"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "練習題目",
+                "Contnet": [
+                    {
+                        "Title": "MySQL 主從架構",
+                        "Data": [
+                            {
+                                "Text": "MySQL Master Slave",
+                                "URL": "https://chanjarster.github.io/post/mysql-master-slave-docker-example/#%E5%90%AF%E5%8A%A8master"
+                            },
+                            {
+                                "Text": "Redis 主從複製、哨兵與叢集模式",
+                                "URL": "https://blog.tienyulin.com/redis-master-slave-replication-sentinel-cluster/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "Title": "基礎知識",
                 "Contnet": [
                     {
-                        "Title": "SQL 是什麼？",
+                        "Title": "MySQL 是什麼？",
                         "Data": [
                             {
                                 "Text": "MySQL 是一個關聯式資料庫管理系統",
@@ -342,31 +397,18 @@
                                 "URL": null
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "Title": "Problem",
-                "Contnet": [
+                    },
                     {
-                        "Title": "問題集",
+                        "Title": "如何安裝 MySQL？",
                         "Data": [
                             {
-                                "Text": "mysql -h 127.0.0.1 -u root -p",
-                                "URL": null
-                            },
-                            {
-                                "Title": "Createtime & Updatetime",
-                                "Text": "CURRENT_TIMESTAMP",
+                                "Title": "Centos 安裝 MySQL",
+                                "Text": "#下載官方 rpm 檔案\n\nyum install -y { rpm 包 }\n\ncd\n\nyum list mysql*\n\n#复制mysql-community-server.x86_64后使用yum执行安装\n\n#执行yum install -y mysql-community-server.x86_64即可正常安装成功。\n\n#如果出現 GPG 錯誤，加上--nogpgcheck\n\nyum install -y mysql-community-server.x86_64 --nogpgcheck\n\nsystemctl start mysqld\n\n#獲取密碼 /var/log/mysqld.log\n\n#修改密碼新密码必须有大小字符，数字，特殊字符；\n\nalter user username@localhost identified by 'new password';",
                                 "Group": true,
                                 "URL": null
                             },
                             {
-                                "Text": "▲ 參考網址",
-                                "URL": "https://www.twblogs.net/a/5c4582b2bd9eee35b21ee129"
-                            },
-                            {
-                                "Text": "Linux 安裝 MySQL",
+                                "Text": "參考網址",
                                 "URL": "https://www.cnblogs.com/FengZeng666/p/16228535.html"
                             },
                             {
@@ -376,15 +418,17 @@
                         ]
                     },
                     {
-                        "Title": "題目",
+                        "Title": "io 執行緒",
                         "Data": [
                             {
-                                "Text": "MySQL Master Slave",
-                                "URL": "https://chanjarster.github.io/post/mysql-master-slave-docker-example/#%E5%90%AF%E5%8A%A8master"
+                                "Title": "開啟 / 關閉執行緒",
+                                "Text": "start SLAVE IO_THREAD;\n\nSTOP SLAVE IO_THREAD;\n\n#重新更新 change master 參考前面內容",
+                                "Group": true,
+                                "URL": null
                             },
                             {
-                                "Text": "Redis 主從複製、哨兵與叢集模式",
-                                "URL": "https://blog.tienyulin.com/redis-master-slave-replication-sentinel-cluster/"
+                                "Text": "▲ 參考網址",
+                                "URL": "https://tw511.com/a/01/13059.html"
                             }
                         ]
                     }

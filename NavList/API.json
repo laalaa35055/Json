@@ -14,9 +14,39 @@
             "URL": "https://data.gov.tw/"
         },
         {
-            "Name": "Test",
-            "Title": "【Test】：YouBike2.0臺北市公共自行車即時資訊",
+            "Name": "茉莉机器人",
+            "Title": "【茉莉机器人】：机器人API服务",
+            "URL": "https://mlyai.com/docs"
+        },
+        {
+            "Name": "青雲客網絡",
+            "Title": "【青雲客網絡】：人工智能聊天",
+            "URL": "http://api.qingyunke.com/"
+        },
+        {
+            "Name": "openapihub",
+            "Title": "【openapihub】：管理 API ，尚未研究",
+            "URL": "https://learn.openapihub.com/en-us/"
+        },
+        {
+            "Name": "Json - 無同源",
+            "Title": "【Json - 無同源】：YouBike2.0臺北市公共自行車即時資訊",
             "URL": "https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json"
+        },
+        {
+            "Name": "Json - 同源",
+            "Title": "【Json - 同源】：有時會讀不到",
+            "URL": "https://m.maoyan.com/ajax/moreComingList?ci=209&token=&limit=10&movieIds=1208919%2C1301774%2C1241385%2C1233290%2C1197077%2C1222268%2C1218142%2C1218188%2C1250661%2C1277751&optimus_uuid=9E2131905C8611EA918CEB3F73C50396C646A00022474FE6B0E7E55F3CF3B523&optimus_risk_level=71&optimus_code=10"
+        },
+        {
+            "Name": "外網 IP",
+            "Title": "【外網 IP】：快速查詢外網 IP",
+            "URL": "http://ipinfo.io/ip"
+        },
+        {
+            "Name": "外網 IP-2",
+            "Title": "【外網 IP】：快速查詢外網 IP-2",
+            "URL": "https://ipecho.net/plain"
         }
     ]
 }
