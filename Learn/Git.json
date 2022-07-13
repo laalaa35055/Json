@@ -147,7 +147,7 @@
                         "Data": [
                             {
                                 "Title":"Github 無法 Push",
-                                "Text": "# 不希望你再透過 HTTP 的密碼驗證方式\n# 改使用 ssh，建立 ssh\n\nssh-keygen -t rsa -b 4096 -C 'your_email@example.com'\n\nEnter 至建立密碼\n\n# Github 的 Setting > SHH and GPG keys > 建立 SHH Keys 貼上",
+                                "Text": "# 不希望你再透過 HTTP 的密碼驗證方式\n# 改使用 ssh，建立 ssh\n\nssh-keygen -t rsa -b 4096 -C 'your_email@example.com'\n\nEnter 至建立密碼\n\n# Github 的 Setting > SHH and GPG keys > 建立 SHH Keys 貼上\n\n#確認是否成功\nssh -T git@github.com",
                                 "Group": true
                             },
                             {
