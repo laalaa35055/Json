@@ -123,6 +123,42 @@
         ],
         "Right": [
             {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "Git 是眾多版本控制工具中的其中一個工具（版本控制工具不等於 Git ）",
+                                "URL": null
+                            },
+                            {
+                                "Text": "免費、開源、體積小速度快",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Git 只能建立不能破壞",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Title":"Github 無法 Push",
+                                "Text": "# 不希望你再透過 HTTP 的密碼驗證方式\n# 改使用 ssh，建立 ssh\n\nssh-keygen -t rsa -b 4096 -C 'your_email@example.com'\n\nEnter 至建立密碼\n\n# Github 的 Setting > SHH and GPG keys > 建立 SHH Keys 貼上",
+                                "Group": true
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://123davidbill.medium.com/%E8%A7%A3%E6%B1%BAgithub%E7%84%A1%E6%B3%95push-requested-url-returned-error-403%E5%95%8F%E9%A1%8C-213b08866a38"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "Title": "基礎知識",
                 "Contnet": [
                     {
