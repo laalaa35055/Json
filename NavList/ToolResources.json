@@ -107,6 +107,22 @@
                     "URL": "#"
                 }
             ]
+        },
+        {
+            "Name": "CTF",
+            "Group": 1,
+            "Data": [
+                {
+                    "Name": "picoCTF",
+                    "Title": "【picoCTF】：免費的計算機安全教學",
+                    "URL": "https://picoctf.org/"
+                },
+                {
+                    "Name": "Wargames",
+                    "Title": "【Wargames】：CTF 小遊戲",
+                    "URL": "https://overthewire.org/wargames/"
+                }
+            ]
         }
     ]
 }

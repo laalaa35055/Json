@@ -40,6 +40,39 @@
         ],
         "Right": [
             {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "問題集",
+                "Contnet": [
+                    {
+                        "Title": "Windows 找占用 Port 的程式？",
+                        "Data": [
+                            {
+                                "Title": "解決方法",
+                                "Text": "# 舉例:要查出 443 Port 占用的程式\nnetstat -ano | findstr 0.0:443\n\n# 其中 5772 就是佔用 port 的程式 PID\ntasklist | findstr 5772",
+                                "Group": true
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://cp83611.pixnet.net/blog/post/118544103-windows-%e5%a6%82%e4%bd%95%e6%89%be%e5%88%b0%e6%89%be%e5%88%b0%e5%8d%a0%e7%94%a8port%e7%9a%84%e7%a8%8b%e5%bc%8f%ef%bc%9f"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "Title": "基礎知識",
                 "Contnet": [
                     {
@@ -49,7 +82,9 @@
                                 "Title": "Test",
                                 "Text": "Test",
                                 "Group": true,
-                                "URL": null
+                                "Imgs": [
+                                    "Test"
+                                ]
                             },
                             {
                                 "Text": "Test",

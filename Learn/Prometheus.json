@@ -22,25 +22,6 @@
                                 "URL": null
                             },
                             {
-                                "Text": "參考網址",
-                                "URL": "https://blog.51cto.com/u_15329153/3376523"
-                            }
-                        ]
-                    },
-                    {
-                        "Title": "Grafana",
-                        "Data": [
-                            {
-                                "Text": "Port：3000",
-                                "URL": null
-                            },
-                            {
-                                "Title": "CentOS Downloads",
-                                "Text": "wget https://dl.grafana.com/enterprise/release/grafana-enterprise-7.5.16-1.x86_64.rpm\n\nsudo yum install grafana-enterprise-7.5.16-1.x86_64.rpm",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
                                 "Text": "Download URL",
                                 "URL": "https://github.com/grafana/grafana/releases"
                             }
@@ -130,8 +111,16 @@
                                 "URL": null
                             },
                             {
-                                "Text": "來源網址",
+                                "Text": "官網",
+                                "URL": "https://prometheus.io/docs/alerting/latest/configuration/#receiver"
+                            },
+                            {
+                                "Text": "參考網址",
                                 "URL": "https://hulining.gitbook.io/prometheus/introduction/first_steps"
+                            },
+                            {
+                                "Text": "路由樹編輯器",
+                                "URL": "https://www.prometheus.io/webtools/alerting/routing-tree-editor/"
                             }
                         ]
                     }

@@ -12,6 +12,14 @@
                         "Title": "SQL",
                         "Data": [
                             {
+                                "Text": "SELECT User,Host FROM mysql.user;",
+                                "URL": null
+                            },
+                            {
+                                "Text": "drop user {username}",
+                                "URL": null
+                            },
+                            {
                                 "Text": "show Databases;",
                                 "URL": null
                             },
@@ -20,15 +28,15 @@
                                 "URL": null
                             },
                             {
+                                "Text": "show tables;",
+                                "URL": null
+                            },
+                            {
                                 "Text": "create Database {name};",
                                 "URL": null
                             },
                             {
                                 "Text": "執行 sql 檔：source {URL};",
-                                "URL": null
-                            },
-                            {
-                                "Text": "先使用 Database：show tables;",
                                 "URL": null
                             },
                             {
@@ -231,9 +239,14 @@
                                 "URL": null
                             }
                         ]
-                    },
+                    }
+                ]
+            },
+            {
+                "Title": "主從架構",
+                "Contnet": [
                     {
-                        "Title": "主從設定",
+                        "Title": "主從架構設定",
                         "Data": [
                             {
                                 "Title": "新增帳戶",
@@ -249,7 +262,7 @@
                             },
                             {
                                 "Title": "重設密碼",
-                                "Text": "my.cnf 添加 skip-grant-tables 可不用輸入密碼\n\nUPDATE mysql.user SET authentication_string=null WHERE User='root';\n\nFLUSH PRIVILEGES;ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'yourpasswd';",
+                                "Text": "# my.cnf 添加 skip-grant-tables 可不用輸入密碼\n\nUPDATE mysql.user SET authentication_string=null WHERE User='root';\n\nFLUSH PRIVILEGES;\n\nALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'yourpasswd';",
                                 "Group": true,
                                 "URL": null
                             },
@@ -259,22 +272,61 @@
                             },
                             {
                                 "Title": "change master to",
-                                "Text": "change master to master_host='10.128.0.4',master_user='replicate',master_password='1234',master_log_file='mysql-bin.000004',master_log_pos=154;",
+                                "Text": "change master to master_host='10.128.0.4',\nmaster_user='replicate',\nmaster_password='1234',\nmaster_port=3306\nmaster_log_file='mysql-bin.000004',\nmaster_log_pos=154,\nmaster_connect_retry=30;",
                                 "Group": true,
                                 "URL": null
                             },
                             {
-                                "Text": "影片參考",
+                                "Text": "影片參考 - 主",
                                 "URL": "https://www.youtube.com/watch?v=5NEhLDVMw38"
+                            },
+                            {
+                                "Text": "影片參考 - 搭配",
+                                "URL": "https://www.youtube.com/watch?v=sFUZqVmu4og"
                             }
                         ]
                     },
                     {
-                        "Title": "主從架構",
+                        "Title": "主從架構 - Docker",
+                        "Data": [
+                            {
+                                "Text": "log：/var/log/mysql",
+                                "URL": null
+                            },
+                            {
+                                "Text": "data：/var/lib/mysql",
+                                "URL": null
+                            },
+                            {
+                                "Text": "conf：/etc/mysql/conf.d",
+                                "URL": null
+                            },
+                            {
+                                "Title": "主從架構",
+                                "Text": "docker run -p 3308:3306 --name mysql-slave-1 \\\n-v /home/mysql/mysql-slave-1/log:/var/log/mysql \\\n-v /home/mysql/mysql-slave-1/data:/var/lib/mysql \\\n-v /home/mysql/mysql-slave-1/conf:/etc/mysql/conf.d \\\n-e MYSQL_ROOT_PASSWORD=1234 \\\n-d  --privileged=true mysql:8.0",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "網址參考 - 主",
+                                "URL": "https://blog.toright.com/posts/5062/mysql-replication-%E4%B8%BB%E5%BE%9E%E5%BC%8F%E6%9E%B6%E6%A7%8B%E8%A8%AD%E5%AE%9A%E6%95%99%E5%AD%B8.html"
+                            },
+                            {
+                                "Text": "網址參考 - 搭配",
+                                "URL": "https://chanjarster.github.io/post/mysql-master-slave-docker-example/"
+                            },
+                            {
+                                "Text": "影片參考",
+                                "URL": "https://www.youtube.com/watch?v=05NOFUV4E5k"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "主從架構知識點",
                         "Data": [
                             {
                                 "Title": "主從架構",
-                                "Text": "compose 可參考主主架構\n\n主要修改 cnf ：\n\nserver-id、log-bin、secure_file_priv",
+                                "Text": "主要修改 cnf ：\n\nserver-id、log-bin\n\ncompose 可參考主主架構",
                                 "Group": true,
                                 "URL": null
                             },
@@ -287,7 +339,23 @@
                                 "URL": "https://www.gushiciku.cn/pl/pXz7/zh-tw"
                             },
                             {
-                                "Title": "主主架構 - docker",
+                                "Title": "相關設定",
+                                "Text": "## 设置server_id，同一局域网中需要唯一\nserver_id=101\n\n## 指定不需要同步的数据库名称\nbinlog-ignore-db=mysql\n\n## 开启二进制日志功能\nlog-bin=mysql-bin\n\n## 设置二进制日志使用内存大小（事务）\nbinlog_cache_size=1M\n\n## 设置使用的二进制日志格式（mixed,statement,row）\nbinlog_format=mixed\n\n## 二进制日志过期清理时间。默认值为0，表示不自动清理。\nexpire_logs_days=7\n\n## 跳过主从复制中遇到的所有错误或指定类型的错误，避免slave端复制中断。\n## 如：1062错误是指一些主键重复，1032错误是因为主从数据库数据不一致\nslave_skip_errors=1062",
+                                "Group": true,
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "主主架構",
+                "Contnet": [
+                    {
+                        "Title": "主主架構",
+                        "Data": [
+                            {
+                                "Title": "主主架構 - Dockerfile",
                                 "Text": "docker-Compose.yml 主要修改，映射資料的位置、port、my.cnf\n\n修改 my.cnf：server-id、log-bin、log-slave-updates、secure_file_priv",
                                 "Group": true,
                                 "URL": null,
@@ -299,19 +367,6 @@
                             {
                                 "Text": "▲ 主主架構參考網址",
                                 "URL": "https://www.it145.com/9/92020.html"
-                            }
-                        ]
-                    },
-                    {
-                        "Title": "redis 主從架構",
-                        "Data": [
-                            {
-                                "Text": "redis 部署例子",
-                                "URL": "https://chanjarster.github.io/post/mysql-master-slave-docker-example/"
-                            },
-                            {
-                                "Text": "redis 部署例子 GitHub",
-                                "URL": "https://github.com/chanjarster/mysql-master-slave-docker-example/blob/master/docker-compose.yaml"
                             }
                         ]
                     }
@@ -347,6 +402,25 @@
                             {
                                 "Text": "▲ 參考網址",
                                 "URL": "https://www.cxybb.com/article/qq_41359051/89815921"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "MySQL Slave_SQL_Running NO",
+                        "Data": [
+                            {
+                                "Title": "解決方法",
+                                "Text": "# 直接跳過一行造成停止的SQL指令 \nstop slave;\nset GLOBAL SQL_SLAVE_SKIP_COUNTER=1;\nstart slave;\n\n# 直接指定Master記錄的File及Position到Slave\nstop slave;\nchange master to ...\nstart slave;",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "▲ 參考網址",
+                                "URL": "https://www.cnblogs.com/l-hh/p/9922548.html"
+                            },
+                            {
+                                "Text": "▲ 參考網址 - 搭配",
+                                "URL": "https://thievesshare.com/?p=448"
                             }
                         ]
                     }
@@ -443,6 +517,8 @@
     "Source": {
         "Text": true,
         "From": [],
-        "Refer": []
+        "Refer": [
+            "http://note.drx.tw/2012/12/mysql-syntax.html"
+        ]
     }
 }
