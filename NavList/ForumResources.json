@@ -32,6 +32,11 @@
                     "Name": "devops-exercises",
                     "Title": "【devops-exercises】：Simon 給的各技術問題及練習",
                     "URL": "https://github.com/bregman-arie/devops-exercises"
+                },
+                {
+                    "Name": "SRE",
+                    "Title": "【SRE】：Simon 給的 SRE 教學",
+                    "URL": "https://linkedin.github.io/school-of-sre/"
                 }
             ]
         },

@@ -34,10 +34,10 @@
                 ]
             },
             {
-                "Title": "rewrite ",
+                "Title": "rewrite",
                 "Contnet": [
                     {
-                        "Title": "rewrite  使用",
+                        "Title": "rewrite 使用",
                         "Data": [
                             {
                                 "Text": "",
@@ -55,10 +55,30 @@
                 "Title": "upstream ",
                 "Contnet": [
                     {
-                        "Title": "upstream  使用",
+                        "Title": "upstream 使用",
                         "Data": [
                             {
-                                "Text": "",
+                                "Title": "設定 upstream 節點",
+                                "Text": "upstream mynote {\n\tserver 10.0.3.25:3080;\n\tserver 10.0.0.87:8299;\n}",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "設定 location 配置 proxy",
+                                "Text": "location / {\n\troot html;\n\tindex index.html index.htm index.php;\n\tproxy_pass http://mynote;\n}",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "進階設定",
+                                "Text": "# 依照server回應的速度（時間）來分配，回應速度快的優先\nfair\n\n# 指定server，暫時不提供服務\ndown\n\n# 權重，當後端 server 設定優先分派的 server ，權重高的訪問率會越高\nweight\n\n# 請求失敗次數\nmax_fails\n\n# 請求失敗達到最大次數後，需要暫停的時間\nfail_timeout\n\n# 備援機器（通常會較輕便簡潔）\nbackup\n\n# 會記住來源 ip ，當下次請求時，會轉導向之前訪問過的 server\nip_hash\n\n# 依照 hash 算法，按照 url 的 hash 結果分配請求（後端做緩存時才會比較有效）\nhash_method\n\n# 如果設定 hash_method 時，不能使用 weight 以及其他參數\n\nupstream mynote {\n\tserver 10.0.3.25:3080;\n\tserver 10.0.0.87:8299;\n\thash $request_uri;\n\thash_method crc32;\n}",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "例如",
+                                "Text": "upstream mynote{\n\tip_hash;\n\tserver 10.0.3.25:3080 down;\n\tserver 10.0.0.87:8299 weight=10;\n\tserver 10.0.0.12:3462 weight=20;\n\tserver 10.0.0.33:2452 backup;\n\tfair;\n}",
+                                "Group": true,
                                 "URL": null
                             },
                             {
@@ -144,6 +164,10 @@
                                 "Text": "# CentOS为例\n\n# 添加 openresty 仓库\nsudo yum -y install yum-utils\nsudo yum-config-manager --add-repo https://openresty.org/package/centos/openresty.repo\n\n# 安装OpenResty\nsudo yum -y install openresty\n\n# 安装命令行工具 resty\nsudo yum -y install openresty-resty",
                                 "Group": true,
                                 "URL": null
+                            },
+                            {
+                                "Text": "下載連結",
+                                "URL": "https://openresty.org/cn/linux-packages.html#debian"
                             },
                             {
                                 "Text": "參考網址",

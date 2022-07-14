@@ -1,6 +1,6 @@
 {
     "Name": "Docker",
-    "ID":"Docker",
+    "ID": "Docker",
     "Type": 0,
     "Nav": true,
     "Contents": {
@@ -222,13 +222,13 @@
                                 "Title": "-p ： 端口映射",
                                 "Text": "宿主機端口：容器內端口\n\n-p 80:80\n\n-P 隨機端口映射",
                                 "Group": true,
-                                "URL": null 
+                                "URL": null
                             },
                             {
                                 "Title": "-it ： 開啟交互式終端",
                                 "Text": "-i ： 交互式命令操作\n\n-t ： 開啟終端",
                                 "Group": true,
-                                "URL": null 
+                                "URL": null
                             },
                             {
                                 "Text": "--rm ： 退出時刪除容器",
@@ -251,7 +251,7 @@
                 ]
             },
             {
-                "Title": "Container", 
+                "Title": "Container",
                 "Contnet": [
                     {
                         "Title": "查看 Container",
@@ -314,7 +314,7 @@
                 ]
             },
             {
-                "Title": "Dockerfile", 
+                "Title": "Dockerfile",
                 "Contnet": [
                     {
                         "Title": "主要組成",
@@ -365,26 +365,26 @@
                                 "URL": null
                             },
                             {
-                                "Title":"VOLUME ： 目錄映射",
-                                "Group":true,
+                                "Title": "VOLUME ： 目錄映射",
+                                "Group": true,
                                 "Text": "VOLUME ['Data']\n\ndocker run -v 參數",
                                 "URL": null
                             },
                             {
-                                "Title":"EXPOSE ： 打開端口",
-                                "Group":true,
+                                "Title": "EXPOSE ： 打開端口",
+                                "Group": true,
                                 "Text": "VOLUME ['Data']\n\ndocker run -v 參數",
                                 "URL": null
                             },
                             {
-                                "Title":"ENV ： 設置環境變數",
-                                "Group":true,
+                                "Title": "ENV ： 設置環境變數",
+                                "Group": true,
                                 "Text": "ENV NAME='Roydon'\n\nENV MYSQL_VERSION=5.6\n\n通過 $NAME 調用",
                                 "URL": null
                             },
                             {
-                                "Title":"ARG ： 設置環境變數",
-                                "Group":true,
+                                "Title": "ARG ： 設置環境變數",
+                                "Group": true,
                                 "Text": "與 ENV 相同，但只在建構鏡像時存在",
                                 "URL": null
                             },
@@ -423,6 +423,46 @@
             }
         ],
         "Right": [
+            {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Docker權限：--privileged=true",
+                                "URL": null
+                            },
+                            {
+                                "Text": "▲ 參考網址",
+                                "URL": "https://blog.csdn.net/wangxuelei036/article/details/107457712"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "問題集",
+                "Contnet": [
+                    {
+                        "Title": "題目",
+                        "Data": [
+                            {
+                                "Text": "Go Gin Example",
+                                "URL": "https://github.com/eddycjy/go-gin-example"
+                            },
+                            {
+                                "Text": "▲ 參考網址",
+                                "URL": "https://eddycjy.gitbook.io/golang/di-3-ke-gin/golang-docker"
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "Title": "基礎知識",
                 "Contnet": [
@@ -630,24 +670,6 @@
                             {
                                 "Text": "來源網址",
                                 "URL": "https://ephrain.net/docker-%E4%BD%BF%E7%94%A8%E9%9D%9E-root-%E6%AC%8A%E9%99%90%E4%BE%86%E5%9F%B7%E8%A1%8C-docker-client/"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Title": "Problem",
-                "Contnet": [
-                    {
-                        "Title": "題目",
-                        "Data": [
-                            {
-                                "Text": "Go Gin Example",
-                                "URL": "https://github.com/eddycjy/go-gin-example"
-                            },
-                            {
-                                "Text": "▲ 參考網址",
-                                "URL":"https://eddycjy.gitbook.io/golang/di-3-ke-gin/golang-docker"
                             }
                         ]
                     }

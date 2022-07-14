@@ -6,6 +6,66 @@
     "Contents": {
         "Left": [
             {
+                "Title": "Curl",
+                "Contnet": [
+                    {
+                        "Title": "curl",
+                        "Data": [
+                            {
+                                "Title": "-X { request method }",
+                                "Text": "curl -X POST https://reqbin.com/echo/post/json",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "-H { request header }",
+                                "Text": "-H 'Content-Type: application/json'",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "-d { 向服務器POST表單數據 }",
+                                "Text": "-d '{\"login\":\"my_login\",\"password\":\"my_password\"}'",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "教學網址",
+                                "URL": "https://reqbin.com/req/c-dwjszac0/curl-post-json-example"
+                            },
+                            {
+                                "Text": "參數網址",
+                                "URL": "https://www.twblogs.net/a/5b99567d2b717757338f3b12"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "排程工作",
+                "Contnet": [
+                    {
+                        "Title": "crontab",
+                        "Data": [
+                            {
+                                "Title": "分鐘 小時 日 月 星期幾",
+                                "Text": "# 每天早上 8 點 30 分執行\n30 08 * * *\n\n# 每週日下午 6 點 30 分執行\n30 18 * * 0\n\n# 每週日下午 6 點 30 分執行\n30 18 * * Sun\n\n# 每年 6 月 10 日早上 8 點 30 分執行\n30 08 10 06 *\n\n# 每月 1 日、15 日、29 日晚上 9 點 30 分各執行一次\n30 21 1,15,29 * *\n\n# 每隔 10 分鐘執行一次\n*/10 * * * *\n\n# 從早上 9 點到下午 6 點，凡遇到整點就執行\n00 09-18 * * *",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.gtwang.org/linux/linux-crontab-cron-job-tutorial-and-examples/"
+                            },
+                            {
+                                "Text": "台北時間與UTC時間換算",
+                                "URL": "https://datetime360.com/tw/taipei-utc-time/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "Title": "目錄操作相關",
                 "Contnet": [
                     {
@@ -257,135 +317,15 @@
         ],
         "Right": [
             {
-                "Title": "基礎知識",
-                "Contnet": [
-                    {
-                        "Title": "什麼是 Linux ？",
-                        "Data": [
-                            {
-                                "Text": "Linux 是由開放源代碼開發人員社區開發的免費計算機操作系統",
-                                "URL": null
-                            },
-                            {
-                                "Text": "從技術上講，Linux 是“內核”或操作系統的基本組件",
-                                "URL": null
-                            },
-                            {
-                                "Text": "作業系統介紹",
-                                "URL": "https://progressbar.tw/posts/113"
-                            }
-                        ]
-                    },
-                    {
-                        "Title": "伺服器為什麼基本都用Linux系統？",
-                        "Data": [
-                            {
-                                "Text": "開放性",
-                                "URL": null
-                            },
-                            {
-                                "Text": "多使用者",
-                                "URL": null
-                            },
-                            {
-                                "Text": "多工",
-                                "URL": null
-                            },
-                            {
-                                "Text": "良好的使用者介面",
-                                "URL": null
-                            },
-                            {
-                                "Text": "裝置獨立性",
-                                "URL": null
-                            },
-                            {
-                                "Text": "提供了豐富的網路功能",
-                                "URL": null
-                            },
-                            {
-                                "Text": "可靠的系統安全",
-                                "URL": null
-                            },
-                            {
-                                "Text": "良好的可移植性",
-                                "URL": null
-                            }
-                        ]
-                    },
-                    {
-                        "Title": "Linux 常用發行版",
-                        "Data": [
-                            {
-                                "Title": "查看發行版",
-                                "Text": "cat /etc/*-release",
-                                "group": true,
-                                "URL": null
-                            },
-                            {
-                                "Title": "查看內核",
-                                "Text": "uname -r",
-                                "group": true,
-                                "URL": null
-                            },
-                            {
-                                "Text": "Debian",
-                                "URL": null
-                            },
-                            {
-                                "Text": "Gentoo",
-                                "URL": null
-                            },
-                            {
-                                "Text": "Ubuntu",
-                                "URL": null
-                            },
-                            {
-                                "Text": "Damn Vulnerable Linux",
-                                "URL": null
-                            },
-                            {
-                                "Text": "紅帽企業級Linux",
-                                "URL": null
-                            },
-                            {
-                                "Text": "CentOS",
-                                "URL": null
-                            },
-                            {
-                                "Text": "Fedora",
-                                "URL": null
-                            },
-                            {
-                                "Text": "Kali Linux",
-                                "URL": null
-                            },
-                            {
-                                "Text": "Arch Linux",
-                                "URL": null
-                            },
-                            {
-                                "Text": "OpenSuse",
-                                "URL": null
-                            },
-                            {
-                                "Text": "來源網址",
-                                "URL": "https://kknews.cc/zh-tw/code/n2z889g.html"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "Title": "問題集",
                 "Contnet": [
                     {
                         "Title": "Linux 更換 repo",
                         "Data": [
                             {
-                                "Title":"更換方法",
+                                "Title": "更換方法",
                                 "Text": "更換方法",
-                                "Group":true,
+                                "Group": true,
                                 "Imgs": [
                                     "https://lh3.googleusercontent.com/FOtEkEgJd2vME4l86LXtVA-FgxMO9bV1GNBw6iyb4y5M6hMIwWrpn3nIOSUMe3mk7fN0Spa2dRP4M2IvL6_EyWAiDq6xWPW7leEJm_S4krC5Fk60URiXhLml2lwsQ8khDvEfkykFFWt26zhpQkpYafJzpC7LkWpovc6zCaK3Ey8I8BnklobYYQq28Uwm1gD7LYKW81DzdUqjyFOfXjtd4bsXEhmYM9zFjLNASK1EtzLGTJA-mAy4tqHkYDJreJfUyOl81UqyHPRoww_XI0cXLem340-hoWXdEGjoht4ZDedd97l5OX902_3fCvgoKdlPcUeN0We1LE30FVpZrccxqfinbl8ip4EQ8xAWPRGSxLI16n_5Zm1_9ypHcMzerMYKn8uHLyHFoFYWDf2muTrw1-y5IwgKv07W7l5j-NDNsAEcgRKCnImjkKqkheR5GUYrMVRKUB32-HInndIE0V6xs7Omb7wtOYAEp74Dv-7OmZ-UJxwCEdZt8huIaOYagLaQbbWTa14VbLZizpwOjzC0Tvg2fUbezhpZduyAKbjF0NnjP27AnbPTnFHT8Fy5gMuLnZXGFUVB4FSem-HZyFB-mCfgiu_Lc-7hTOwn4riRgUnq1CcLt4-ovbShGW9Fppzo83OFnR0nCpdewpJI7jykMZHArGSgNUjBeFF9DZqaZDpEVLBv87kLLQE2sKQdijLTkUNEppm5jQOa4hoOlLtnA43FlrLWxTFH7iu3G-9W7eeXAqyC9KZZZZJGlggSn8cwR4JfdbPEkLLdVPG_LKXMCXqZ8no=w1338-h822-no?authuser=0"
                                 ]
@@ -463,6 +403,135 @@
                             {
                                 "Text": "來源網址",
                                 "URL": "https://blog.gtwang.org/linux/centos-7-firewalld-command-setup-tutorial/2/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Linux ？",
+                        "Data": [
+                            {
+                                "Text": "Linux 是由開放源代碼開發人員社區開發的免費計算機操作系統",
+                                "URL": null
+                            },
+                            {
+                                "Text": "從技術上講，Linux 是“內核”或操作系統的基本組件",
+                                "URL": null
+                            },
+                            {
+                                "Text": "作業系統介紹",
+                                "URL": "https://progressbar.tw/posts/113"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "伺服器為什麼基本都用Linux系統？",
+                        "Data": [
+                            {
+                                "Text": "開放性",
+                                "URL": null
+                            },
+                            {
+                                "Text": "多使用者",
+                                "URL": null
+                            },
+                            {
+                                "Text": "多工",
+                                "URL": null
+                            },
+                            {
+                                "Text": "良好的使用者介面",
+                                "URL": null
+                            },
+                            {
+                                "Text": "裝置獨立性",
+                                "URL": null
+                            },
+                            {
+                                "Text": "提供了豐富的網路功能",
+                                "URL": null
+                            },
+                            {
+                                "Text": "可靠的系統安全",
+                                "URL": null
+                            },
+                            {
+                                "Text": "良好的可移植性",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Linux 常用發行版",
+                        "Data": [
+                            {
+                                "Title": "查看發行版",
+                                "Text": "cat /etc/*-release",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "查看內核",
+                                "Text": "uname -r",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "Debian",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Gentoo",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Ubuntu",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Damn Vulnerable Linux",
+                                "URL": null
+                            },
+                            {
+                                "Text": "紅帽企業級Linux",
+                                "URL": null
+                            },
+                            {
+                                "Text": "CentOS",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Fedora",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Kali Linux",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Arch Linux",
+                                "URL": null
+                            },
+                            {
+                                "Text": "OpenSuse",
+                                "URL": null
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://kknews.cc/zh-tw/code/n2z889g.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "CentOS 7",
+                        "Data": [
+                            {
+                                "Text": "yum 基本介紹和參數說明",
+                                "URL": "https://ithelp.ithome.com.tw/articles/10077313"
                             }
                         ]
                     }

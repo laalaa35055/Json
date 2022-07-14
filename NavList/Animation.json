@@ -11,6 +11,16 @@
                     "Name": "Hama",
                     "Title": "【Hama】：線上去背，輸出像素有限制",
                     "URL": "https://www.hama.app/en"
+                },
+                {
+                    "Name": "Figma",
+                    "Title": "【Figma】：線上建構圖",
+                    "URL": "https://www.figma.com/"
+                },
+                {
+                    "Name": "Figma介紹",
+                    "Title": "【Figma介紹】：老師給的",
+                    "URL": "https://hackmd.io/z7dRA3ZFSP2I5VyYoyKhoA?view"
                 }
             ]
         },
@@ -47,6 +57,11 @@
                     "Name": "Themeforest",
                     "Title": "【Themeforest】：提供別人的網站給您參考",
                     "URL": "https://themeforest.net/"
+                },
+                {
+                    "Name": "配色網站",
+                    "Title": "【配色網站】：整理配色網站",
+                    "URL": "https://junlearning.com/color-website/#%E4%BB%A5%E4%B8%BB%E9%A1%8C%E6%90%9C%E5%B0%8B%E9%A1%8F%E8%89%B2"
                 }
             ]
         },
@@ -78,6 +93,11 @@
                     "Name": "Load Awesome",
                     "Title": "【Load Awesome】：許多讀取動畫",
                     "URL": "https://labs.danielcardoso.net/load-awesome/animations.html"
+                },
+                {
+                    "Name": "Mixamo",
+                    "Title": "【Mixamo】：可下載 3D 模組",
+                    "URL": "https://www.mixamo.com/#/?page=1&type=Character"
                 }
             ]
         },

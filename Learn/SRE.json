@@ -6,14 +6,14 @@
     "Contents": {
         "Left": [
             {
-                "Title": "test",
+                "Title": "Application",
                 "Contnet": [
                     {
-                        "Title": "",
+                        "Title": "知識點",
                         "Data": [
                             {
-                                "Text": "",
-                                "URL": null
+                                "Text": "Cloudflare 系統狀態",
+                                "URL": "https://www.cloudflarestatus.com/"
                             }
                         ]
                     }

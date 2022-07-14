@@ -16,6 +16,10 @@
                                 "URL": null
                             },
                             {
+                                "Text": "mysqldump -utest -p123 > xxx.sql",
+                                "URL": null
+                            },
+                            {
                                 "Text": "drop user {username}",
                                 "URL": null
                             },
@@ -237,6 +241,10 @@
                             {
                                 "Text": "mysql -h 127.0.0.1 -u[root] -p[密碼] [-P{port}]",
                                 "URL": null
+                            },
+                            {
+                                "Text": "MySQL 資料庫經典錯誤",
+                                "URL": "https://kknews.cc/zh-tw/code/r3qvzv4.html"
                             }
                         ]
                     }
@@ -277,6 +285,10 @@
                                 "URL": null
                             },
                             {
+                                "Text": "參考參考",
+                                "URL": "https://iter01.com/543643.html"
+                            },
+                            {
                                 "Text": "影片參考 - 主",
                                 "URL": "https://www.youtube.com/watch?v=5NEhLDVMw38"
                             },
@@ -313,7 +325,7 @@
                             },
                             {
                                 "Text": "網址參考 - 搭配",
-                                "URL": "https://chanjarster.github.io/post/mysql-master-slave-docker-example/"
+                                "URL": "https://chanjarster.github.io/post/mysql-master-slave-docker-example"
                             },
                             {
                                 "Text": "影片參考",
@@ -423,6 +435,21 @@
                                 "URL": "https://thievesshare.com/?p=448"
                             }
                         ]
+                    },
+                    {
+                        "Title": "备份 MySQL 数据库",
+                        "Data": [
+                            {
+                                "Title": "解決方法",
+                                "Text": "# 备份 MySQL 数据库核心就是使用 mysqldump 命令\n mysqldump -h127.0.0.1 -P3306 -utest -p1234 student > xxx.sql\n\n# 腳本自動化備份",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.csdn.net/qq_41538097/article/details/119143001?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~BlogCommendFromBaidu~Rate-1-119143001-blog-100806786.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~BlogCommendFromBaidu~Rate-1-119143001-blog-100806786.pc_relevant_antiscanv2&utm_relevant_index=1"
+                            }
+                        ]
                     }
                 ]
             },
@@ -516,7 +543,9 @@
     },
     "Source": {
         "Text": true,
-        "From": [],
+        "From": [
+            "https://ithelp.ithome.com.tw/articles/10212134"
+        ],
         "Refer": [
             "http://note.drx.tw/2012/12/mysql-syntax.html"
         ]

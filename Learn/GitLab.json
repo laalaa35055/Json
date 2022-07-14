@@ -100,6 +100,23 @@
                                 "URL": "https://about.gitlab.com/install/"
                             }
                         ]
+                    },
+                    {
+                        "Title": "什麼是 CICD ？",
+                        "Data": [
+                            {
+                                "Text": "CI：持續整合，將低人為疏失風險，減少人工手動的反覆步驟",
+                                "URL": null
+                            },
+                            {
+                                "Text": "CD：持續佈署，保持每次更新程式都可順暢完成，確保服務存活",
+                                "URL": null
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://ithelp.ithome.com.tw/articles/10219083"
+                            }
+                        ]
                     }
                 ]
             },

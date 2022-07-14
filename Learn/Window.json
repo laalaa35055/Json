@@ -57,7 +57,7 @@
                 "Title": "問題集",
                 "Contnet": [
                     {
-                        "Title": "Windows 找占用 Port 的程式？",
+                        "Title": "Windows 找占用 Port 的程式",
                         "Data": [
                             {
                                 "Title": "解決方法",
@@ -67,6 +67,24 @@
                             {
                                 "Text": "參考網址",
                                 "URL": "https://cp83611.pixnet.net/blog/post/118544103-windows-%e5%a6%82%e4%bd%95%e6%89%be%e5%88%b0%e6%89%be%e5%88%b0%e5%8d%a0%e7%94%a8port%e7%9a%84%e7%a8%8b%e5%bc%8f%ef%bc%9f"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Windows PowerShell 權限問題",
+                        "Data": [
+                            {
+                                "Text": "避免執行了一些不安全的指令來源：限制原則",
+                                "URL": null
+                            },
+                            {
+                                "Title": "解決方法",
+                                "Text": "# 系統管理員身份\n\nGet-ExecutionPolicy -List\n\nSet-ExecutionPolicy RemoteSigned\n\n選擇 「A」",
+                                "Group": true
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://israynotarray.com/other/20200510/1067127387/"
                             }
                         ]
                     }

@@ -1,0 +1,88 @@
+{
+    "Name": "GitHub",
+    "ID":"GitHub",
+    "Type":0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "Application",
+                "Contnet": [
+                    {
+                        "Title": "GitHub Action workflow",
+                        "Data": [
+                            {
+                                "Text": ".github/workflows => main.yml",
+                                "URL": null
+                            },
+                            {
+                                "Title": "GitHub Action workflow",
+                                "Text": "GitHub Action workflow",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/T2PzLlqbc8HtsGQq8EPOSqb6SOzIFSl4B3cH_gi4ZydKVutMnCBfHHrLmCPNAwNAeibNI1ue4LvL1cmHvbhOwgjYsZ39yMS0FmPkzw03Q0P54Zmeh7bVuB-t_8DUvv8uCEwM4CueQEza1Ak6YX7PbUkUEC5KrDNzgiwW7ocnCFJ4Zlz46uFEkCroG0ygCVZTeIHu-Kmbw1A8bb7rGFAYWCAV4urilvlzxcWLJwAxsz2tT776lx9zVICaWdG-IX6QuvpBdTs7JUmqKg6EBpcmBmpXkkCezw21AhaMYAiBAYkk_TCaRxdYMUv6VkNJYyvP9mIaHbABEIp0TV5AVyKYjFuj_6x8E9VIJQSRGXKDXYIkLEZheWx7KQekFg_EnJAQXM5D97WrRb4BbvClc_5uKLl4d1RgDsIpsPFG0T900HQesQMSIfnSTr0uDgUI_sZ0aTxMp052WNRK6GQXRKn9lUiJHaouwbZP1gQHzQB6ycd3bcspKZwgWepkaIN9xAaR9vo09RDe_S3LpbTMnfWLM-JaOhlSf1ZUpuzYO1XYKBXrlMtubAGX29sC5X_MCk0WHK3MYPxFMlaCH-4akUN3vl76LbhZe4YdGpJmAxc7sQxksBex1rwrF5_F-2TJYeDuJ-USTlMmlgNSuV5ccrqrBNmvhYDIC5jaF8SovbaJbwn5jm-IC6Rk6O05dtebde9-acvvyWCdlGObTCSNM2KlFi6SpAjs_iyBegFShcZvZSRbQmVMyVLbIQ=w764-h1039-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://ithelp.ithome.com.tw/articles/10262942"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Test ？",
+                        "Data": [
+                            {
+                                "Title": "Test",
+                                "Text": "Test",
+                                "Group": true,
+                                "Imgs": [
+                                    "Test"
+                                ]
+                            },
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}

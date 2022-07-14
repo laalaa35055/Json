@@ -73,6 +73,8 @@
     "Source": {
         "Text": true,
         "From": [],
-        "Refer": []
+        "Refer": [
+            "https://icoding.com.tw/articles/python-tutorial-random-module-2.php"
+        ]
     }
 }

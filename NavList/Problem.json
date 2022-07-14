@@ -50,6 +50,21 @@
                     "Name": "https://ithelp.ithome.com.tw/questions/10198053", 
                     "Title": "Chrome 不處理 Set-Cookie header", 
                     "URL": "https://ithelp.ithome.com.tw/questions/10198053"
+                },
+                { 
+                    "Name": "Vue.js笔记(三) axios与proxy反向代理配置", 
+                    "Title": "Vue.js笔记(三) axios与proxy反向代理配置", 
+                    "URL": "https://www.cnblogs.com/cpaulyz/p/12401726.html"
+                },
+                { 
+                    "Name": "同上", 
+                    "Title": "同上", 
+                    "URL": "https://cli.vuejs.org/zh/config/#css-loaderoptions"
+                },
+                { 
+                    "Name": "vuexy", 
+                    "Title": "同上", 
+                    "URL": "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/landing/"
                 }
             ]
         },
@@ -80,6 +95,11 @@
                     "Name": "https://sites.google.com/site/phplearnmark/php/xiang-guan-zhi-shi/-php-guan-nian-self-he-this-de-cha-yi", 
                     "Title": "[PHP觀念]self和$this的差異", 
                     "URL": "https://sites.google.com/site/phplearnmark/php/xiang-guan-zhi-shi/-php-guan-nian-self-he-this-de-cha-yi"
+                },
+                { 
+                    "Name": "404 Not Found -nginx", 
+                    "Title": "404 Not Found -nginx", 
+                    "URL": "https://stackoverflow.com/questions/45598779/react-router-browserrouter-leads-to-404-not-found-nginx-error-when-going-to"
                 }
             ]
         },
@@ -87,14 +107,19 @@
             "Name": "SRE", 
             "Data": [
                 { 
-                    "Name": "https://israynotarray.com/other/20200510/1067127387/", 
-                    "Title": "權限", 
-                    "URL": "https://israynotarray.com/other/20200510/1067127387/"
+                    "Name": "proxy_ssl_server_name", 
+                    "Title": "不知名", 
+                    "URL": "https://stackoverflow.com/questions/53245818/nginx-upstream-to-https-host-ssl3-get-recordwrong-version-number"
                 },
                 { 
-                    "Name": "https://ithelp.ithome.com.tw/articles/10157431", 
-                    "Title": "REST/RESTful", 
-                    "URL": "https://ithelp.ithome.com.tw/articles/10157431"
+                    "Name": "g++: command not found的解决", 
+                    "Title": "不知名", 
+                    "URL": "https://blog.csdn.net/h378588270/article/details/7729268"
+                },
+                { 
+                    "Name": "docker-compose.yml 启动容器秒停 ", 
+                    "Title": "不知名", 
+                    "URL": "https://blog.csdn.net/lsqtzj/article/details/120368100"
                 }
             ]
         }

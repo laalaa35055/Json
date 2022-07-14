@@ -111,6 +111,13 @@
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Git.json"
         },
         {
+            "Name": "GitHub",
+            "ID": "GitHub",
+            "Title": "學習程度【 50 %】",
+            "URL": "/LearnPage/GitHub",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/GitHub.json"
+        },
+        {
             "Name": "GitLab",
             "ID": "GitLab",
             "Title": "學習程度【 40 %】",
