@@ -30,6 +30,36 @@
                         ]
                     }
                 ]
+            },
+            {
+                "Title": "套件",
+                "Contnet": [
+                    {
+                        "Title": "json-server",
+                        "Data": [
+                            {
+                                "Text": "npm install -g json-server",
+                                "URL": null
+                            },
+                            {
+                                "Text": "新增一個 db.json",
+                                "URL": "null"
+                            },
+                            {
+                                "Text": "json-server --watch db.json",
+                                "URL": null
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://quip.com/C6t2ALm9L6G8"
+                            },
+                            {
+                                "Text": "來源影片",
+                                "URL": "https://www.youtube.com/watch?v=9TAanXxNvEI"
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "Right": [

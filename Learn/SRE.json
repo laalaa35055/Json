@@ -103,27 +103,6 @@
                                 "URL": null
                             }
                         ]
-                    },
-                    {
-                        "Title": "",
-                        "Data": [
-                            {
-                                "Text": "",
-                                "URL": null
-                            },
-                            {
-                                "Text": "",
-                                "URL": null
-                            },
-                            {
-                                "Text": "",
-                                "URL": null
-                            },
-                            {
-                                "Text": "",
-                                "URL": null
-                            }
-                        ]
                     }
                 ]
             },
@@ -138,8 +117,12 @@
                                 "URL": null
                             },
                             {
-                                "Text": "",
-                                "URL": null
+                                "Title":"虛擬化技術概念",
+                                "Text": "虛擬化技術概念",
+                                "Group": true,
+                                "Imgs":[
+                                    "https://lh3.googleusercontent.com/Jh_7futBLMYHtoe_a7GVp31-K_qkahFc9_ISBRDRRqJF5wf-i-abzkX8H-SDNMkaicUewvk3Gt0cE9pXo0eKd0duJ6KR_5BBzTUhj_gLNeDBLZIS_QdSOI7opGhzWIBOrDEE0ABV2Wz8n95sqYMfLgvhhJdRnnD6RjOnNsbVDImMM1EPOyA5CxlgcnJoWVabSU3Srb8QkxTOZEYgZamFEwAMz-M-NqNBRjYIxYVM0vjD3nnYRFGswnXtinZakm4S8MQBDfxEu8jr2Q8sJvu8t095JkVp4sjWv5qef-QUq7ll8ACnHTl_Vg6GKxvmCp9B1rQDLal6wpOxjy9YH24KtB7Kcuw9CgexrQGRisU_mA5UJmMKWn5GwCfnTfNdUIxaY3VltvhyU6PL0Mh-FCKiZYfFtc-nBbF1D1hvCTbOJjbY5FCwqFUyGOXH7Lq_fcg4cuxs446N_2Wrs0OZedAggGIbjdB9kI6tKS9yN4PWHnhi9wda9MrezHTT0M95G0unHZYZuYje48oD-cn3vamVO2yctLlXtH3dGrAwACEaBZ1icklTwNQ0RurKRrLwGtOQ3HtPUtNNPEbI_cjbvvFu5zeZY26oFYqlP_ToGBGeyCX33fY2vpPk0K_fnqo7aa-dgxigU6u_0qnFHNGAuOARZisZUfzFEYkoTDwYYOK7ylWK6EQJZeoI0YyiUrO3YFUqOl7RYc2KzAb2bQpzQXZ1JzBYdmcNGCwEmMtzRDDI3JE08a5FYChwMg=w869-h1124-no?authuser=0"
+                                ]
                             }
                         ]
                     }

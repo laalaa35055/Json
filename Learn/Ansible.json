@@ -119,6 +119,10 @@
                             {
                                 "Text": "Ansible 的 Template，在本地建立模板通過 .yml檔的變數，生成檔案至節點",
                                 "URL": null
+                            },
+                            {
+                                "Text": "Ansible 筆記",
+                                "URL": "https://www.lawrencelin.info/2017/04/ansible-notes/"
                             }
                         ]
                     }
