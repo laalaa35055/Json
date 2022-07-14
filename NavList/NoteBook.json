@@ -97,6 +97,13 @@
             "Title": "學習程度【 10 %】",
             "URL": "/LearnPage/NodeJs",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/NodeJs.json"
+        },
+        {
+            "Name": "Websocket",
+            "ID": "Websocket",
+            "Title": "學習程度【 10 %】",
+            "URL": "/LearnPage/Websocket",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Websocket.json"
         }]
     },
     {

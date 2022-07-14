@@ -6,13 +6,17 @@
     "Contents": {
         "Left": [
             {
-                "Title": "Test",
+                "Title": "Application",
                 "Contnet": [
                     {
-                        "Title": "Test  使用",
+                        "Title": "匯出專案所需模組清單",
                         "Data": [
                             {
-                                "Text": "Test",
+                                "Text": "pip freeze > requirements.txt",
+                                "URL": null
+                            },
+                            {
+                                "Text": "pip -r requirements.txt",
                                 "URL": null
                             },
                             {

@@ -430,10 +430,6 @@
                         "Title": "知識點",
                         "Data": [
                             {
-                                "Text": "",
-                                "URL": null
-                            },
-                            {
                                 "Text": "Docker權限：--privileged=true",
                                 "URL": null
                             },
@@ -472,6 +468,14 @@
                             {
                                 "Text": "Docker 是容器的作業系統",
                                 "URL": null
+                            },
+                            {
+                                "Title":"部屬演進史",
+                                "Text": "部屬演進史",
+                                "Group": true,
+                                "Imgs":[
+                                    "https://lh3.googleusercontent.com/YDLHJKP3fHMh14Or3Qyy6J3UMS2LzzycmJBqnRUNMba5LQoJOBwQ5201k4eH9_vwPuEba05ByTx41wIIrqaqpBXmpNFlNlmo2kmpmIJq9VHspMFNC6qeYIwAY1BdOqk-wkZ0EtMq6yGa9d3BrqqvpUSk7-UG51k2ylVScNSqLrzcIWwcK4SLxNnSJqjpL2VUgmatrkAU8xOvRiWH8fU7E3HNM2LXPdHXVwG9YD3m-0-4kQ6iPcKcqfaIgj1FlBEHUaWOoWSS8H1rw7iFPKNhazZx84h-uCZ8thuPHeGgRYWFcox-oa571HK1Wlzt-MszIjCal-tqxOBYXGZYjGZ6c2w3zlPfixwYjNQ6CFXG9Knp4MP0hLm2uoCRCKQ8OO0bPOqAisZYxhzxTAIkigGAlN_3ENx1QaaUROZZCf5a0myCzRhH3T1zVMpchL9ICk_m9UXrhq7I1tm3iLiugHYHn7M8R0pO1MYcg4wbp7Zw3bF-ZeU4q582xd8VNPu79eHzMEuURrDdUz7CrADHKbXq0sMre9jeLUGJGwFCMjbYker205dju1QNk5jGGpqZXEv1_3Qe7TLUd9eKSezSnsvWS69R04Y-pST357ApmS9Autil2baYiqaNN2n2A3IMsusEyjaLF9wtLQ2AK-SG4mZ9z2nxnpLaNOmo2MhI_CKbwryGo8_lS_ykcPBxckxtd-YfazFAFaOZNYd5ZbzjG_84yAMpI4FIlsrXXFOZ-OjVx_7emZyD0PFa_g=w2228-h1253-no?authuser=0"
+                                ]
                             },
                             {
                                 "Text": "能快速地建立、測試和部署應用程式",

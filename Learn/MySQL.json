@@ -245,6 +245,10 @@
                             {
                                 "Text": "MySQL 資料庫經典錯誤",
                                 "URL": "https://kknews.cc/zh-tw/code/r3qvzv4.html"
+                            },
+                            {
+                                "Text": "管理員日常使用的 SQL",
+                                "URL": "https://docs.google.com/document/d/1tD--jl5cvL_m3ymjS6i0-rEFCzVZ2Bg7/edit?usp=sharing&ouid=110283714007130957792&rtpof=true&sd=true"
                             }
                         ]
                     }
@@ -399,6 +403,7 @@
                             {
                                 "Text": "▲ 參考網址",
                                 "URL": "https://www.twblogs.net/a/5c4582b2bd9eee35b21ee129"
+                            
                             }
                         ]
                     },
