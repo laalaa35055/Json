@@ -38,6 +38,14 @@
                             {
                                 "Text": "git commit -m \"message\"",
                                 "URL":null
+                            },	
+                            {
+                                "Text": "git branch {name}",
+                                "URL":null
+                            },	
+                            {
+                                "Text": "git checkout {tag or sha1 or branch}",
+                                "URL":null
                             }
                         ]
                     },
@@ -139,6 +147,10 @@
                             {
                                 "Text": "Git 只能建立不能破壞",
                                 "URL": null
+                            },
+                            {
+                                "Text": "補充篇",
+                                "URL": "https://li-bai-yi.gitbook.io/git/"
                             }
                         ]
                     },
@@ -146,13 +158,9 @@
                         "Title": "問題集",
                         "Data": [
                             {
-                                "Title":"Github 無法 Push",
-                                "Text": "# 不希望你再透過 HTTP 的密碼驗證方式\n# 改使用 ssh，建立 ssh\n\nssh-keygen -t rsa -b 4096 -C 'your_email@example.com'\n\nEnter 至建立密碼\n\n# Github 的 Setting > SHH and GPG keys > 建立 SHH Keys 貼上\n\n#確認是否成功\nssh -T git@github.com",
+                                "Title":"Authentication failed",
+                                "Text": "git config --system --unset credential.helper",
                                 "Group": true
-                            },
-                            {
-                                "Text": "參考網址",
-                                "URL": "https://123davidbill.medium.com/%E8%A7%A3%E6%B1%BAgithub%E7%84%A1%E6%B3%95push-requested-url-returned-error-403%E5%95%8F%E9%A1%8C-213b08866a38"
                             }
                         ]
                     }

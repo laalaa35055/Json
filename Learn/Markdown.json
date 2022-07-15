@@ -1,0 +1,155 @@
+{
+    "Name": "Markdown",
+    "ID": "Markdown",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "Application",
+                "Contnet": [
+                    {
+                        "Title": "標題",
+                        "Data": [
+                            {
+                                "Text": "Markdown 支援兩種寫法：Setext 和 atx。",
+                                "URL": null
+                            },
+                            {
+                                "Title": "Setext 是用底線的形式",
+                                "Text": "# 利用 =（最高階標題）和 -（第二階標題）\n\nThis is an H1\n===\n\nThis is an H2\n---",
+                                "Group": true
+                            },
+                            {
+                                "Title": "Atx 則是在行首插入 1 到 6 個 #",
+                                "Text": "# 各對應到標題 1 到 6 階\n\n# This is an H1\n\n## This is an H2\n\n###### This is an H6",
+                                "Group": true
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "粗體、斜體、刪除符號",
+                        "Data": [
+                            {
+                                "Text": "粗體：**2021 iThome 鐵人賽**",
+                                "URL": null
+                            },
+                            {
+                                "Text": "斜體：*2021 iThome 鐵人賽*",
+                                "URL": null
+                            },
+                            {
+                                "Text": "刪除符號：~~2021 iThome 鐵人賽~~",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "插入程式碼區塊",
+                        "Data": [
+                            {
+                                "Title": "只要使用 ``` 將文字的上下括起來",
+                                "Text": "```\nhi\n```",
+                                "Group": true
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "清單",
+                        "Data": [
+                            {
+                                "Title": "沒有順序的清單可以使用 +、*、- 來達成",
+                                "Text": "* 2021 iThome 鐵人賽\n+ 2021 iThome 鐵人賽\n- 2021 iThome 鐵人賽",
+                                "Group": true
+                            },
+                            {
+                                "Title": "有序清單",
+                                "Text": "1. 2021 iThome 鐵人賽\n2. 2021 iThome 鐵人賽\n3. 2021 iThome 鐵人賽",
+                                "Group": true
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "引言",
+                        "Data": [
+                            {
+                                "Title": "在要輸入的文字前加上 > 就可以",
+                                "Text": "> 2021 iThome 鐵人賽",
+                                "Group": true
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Todo list",
+                        "Data": [
+                            {
+                                "Title": "Todo list 可以透過以下方式建立",
+                                "Text": "- [x] Day 26 鐵人文章\n- [ ] Day 27 鐵人文章",
+                                "Group": true
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "超連結",
+                        "Data": [
+                            {
+                                "Text": "[這裡可以放一些文字](網址)",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "暫無",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Text": "暫無",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Markdown 語法？",
+                        "Data": [
+                            {
+                                "Text": "輕量級的標記式語言",
+                                "URL": null
+                            },
+                            {
+                                "Text": "使用易讀易寫的純文字格式來編寫文件",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [
+            "https://ithelp.ithome.com.tw/articles/10281134"
+        ],
+        "Refer": []
+    }
+}

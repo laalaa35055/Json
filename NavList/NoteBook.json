@@ -56,6 +56,13 @@
             "Title": "學習程度【 40 %】",
             "URL": "/LearnPage/Vue-Router",
             "Ajax": "https://laalaa35055.github.io/Json/Learn/Vue-Router.json"
+        },
+        {
+            "Name": "Markdown",
+            "ID": "Markdown",
+            "Title": "學習程度【 10 %】",
+            "URL": "/LearnPage/Markdown",
+            "Ajax": "https://laalaa35055.github.io/Json/Learn/Markdown.json"
         }]
     },
     {

@@ -1,7 +1,7 @@
 {
     "Name": "Window",
-    "ID":"Window",
-    "Type":0,
+    "ID": "Window",
+    "Type": 0,
     "Nav": true,
     "Contents": {
         "Left": [
@@ -12,21 +12,21 @@
                         "Title": "Crack",
                         "Data": [
                             {
-                                "Title":"Windows 10 家用版",
+                                "Title": "Windows 10 家用版",
                                 "Text": "cscript slmgr.vbs /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99\n\ncscript slmgr.vbs /skms kms.lotro.cc\n\ncscript slmgr.vbs /ato",
-                                "Group":true,
+                                "Group": true,
                                 "URL": null
                             },
                             {
-                                "Title":"Windows 10 專業版",
+                                "Title": "Windows 10 專業版",
                                 "Text": "cscript slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX\n\ncscript slmgr.vbs /skms kms.lotro.cc\n\ncscript slmgr.vbs /ato",
-                                "Group":true,
+                                "Group": true,
                                 "URL": null
                             },
                             {
-                                "Title":"Windows 10 企業版",
+                                "Title": "Windows 10 企業版",
                                 "Text": "cscript slmgr.vbs /ipk nppr9-fwdcx-d2c8j-h872k-2yt43\n\ncscript slmgr.vbs /skms kms.lotro.cc\n\ncscript slmgr.vbs /ato",
-                                "Group":true,
+                                "Group": true,
                                 "URL": null
                             },
                             {
@@ -46,8 +46,8 @@
                         "Title": "知識點",
                         "Data": [
                             {
-                                "Text": "Test",
-                                "URL": null
+                                "Text": "補充篇",
+                                "URL": "https://li-bai-yi.gitbook.io/window/"
                             }
                         ]
                     }
@@ -94,19 +94,40 @@
                 "Title": "基礎知識",
                 "Contnet": [
                     {
-                        "Title": "什麼是 Test ？",
+                        "Title": "什麼是 Window ？",
                         "Data": [
                             {
-                                "Title": "Test",
-                                "Text": "Test",
-                                "Group": true,
-                                "Imgs": [
-                                    "Test"
-                                ]
+                                "Text": "Windows 作業系統是 Microsoft ( 微軟 ) 發展",
+                                "URL": null
                             },
                             {
-                                "Text": "Test",
+                                "Text": "取代傳統的 DOS 系統",
                                 "URL": null
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "http://www.chwa.com.tw/TResource/VS/book1/ch3/3-3.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Windows hosts",
+                        "Data": [
+                            {
+                                "Text": "C:\\WINDOWS\\system32\\drivers\\etc\\hosts",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Linux：/etc/hosts",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Mac：/etc/hosts",
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.gtwang.org/windows/windows-linux-hosts-file-configuration/"
                             }
                         ]
                     }
