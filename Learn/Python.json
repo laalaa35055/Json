@@ -56,6 +56,21 @@
                 "Title": "相關套件",
                 "Contnet": [
                     {
+                        "Title": "Virtualenv 虛擬環境安裝",
+                        "Data": [
+                            {
+                                "Title": "虛擬環境安裝",
+                                "Text": "# 更新 pip 版本\npip install — upgrade pip\n\n# 安裝 virtualenv 套件\npip install virtualenv\n\n# 建立虛擬環境\nvirtualenv {name}\n\n# 啟動虛擬環境\n執行 Scripts 中 activate\n\n# 離開虛擬環境\ndeactivate",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://medium.com/python4u/python-virtualenv%E8%99%9B%E6%93%AC%E7%92%B0%E5%A2%83%E5%AE%89%E8%A3%9D-9d6be2d45db9"
+                            }
+                        ]
+                    },
+                    {
                         "Title": "MySQL 資料庫",
                         "Data": [
                             {
