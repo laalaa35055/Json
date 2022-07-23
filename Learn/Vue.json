@@ -1,0 +1,81 @@
+{
+    "Name": "Vue",
+    "ID": "Vue",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "使用說明",
+                "Contnet": [
+                    {
+                        "Title": "Vue  使用",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            },
+                            {
+                                "Title": "Test",
+                                "Text": "Test",
+                                "Group": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Vue ？",
+                        "Data": [
+                            {
+                                "Title": "Test",
+                                "Text": "Test",
+                                "Group": true,
+                                "Imgs": [
+                                    "Test"
+                                ]
+                            },
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}

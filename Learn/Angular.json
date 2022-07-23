@@ -1,0 +1,139 @@
+{
+    "Name": "Angular",
+    "ID": "Angular",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "使用說明",
+                "Contnet": [
+                    {
+                        "Title": "Angular  template",
+                        "Data": [
+                            {
+                                "Text": "建立組件：ng g c {name}",
+                                "URL": null
+                            },
+                            {
+                                "Title": "屬性綁定",
+                                "Text": "# 範例\n<div [屬性]=\"'{name}'\"></div>\n\n[id]=\"'{name}'\"\n\n[class]=\"'{name}'\"\n\n[class.h3-dom]=\"'true'\"\n\n# 多重\n[class] = \"'t1 t2'\"\n\n[class] = \"{'t1':true,'t2':flase}\"\n\n[class] = \"['t1,'t2']\"\n\n[ngclass] = \"{'active':isActive}\"",
+                                "Group": true
+                            },
+                            {
+                                "Title": "樣式綁定",
+                                "Text": "# 範例\n<div [屬性]=\"'{name}'\"></div>\n\n[style.width]=\"'300px'\"\n\n# 多重\n[style]=\"'color:#fff;...'\"\n\n[style]=\"{'color':'#fff';...}\"\n\n[ngstyle]=\"{'color':'#fff';...}\"",
+                                "Group": true
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Angular  Method",
+                        "Data": [
+                            {
+                                "Text": "：ng g c {name}",
+                                "URL": null
+                            },
+                            {
+                                "Title": "條件判斷",
+                                "Text": "# 範例\n\n*ngIf=\"true\"\n\n<ng-container *ngIf=\"true; else elseTemplate\">\n\t<p>show</p>\n</ng-container>\n<ng-template #elseTemplate>\n\t<p>hide</p>\n</ng-template>",
+                                "Group": true
+                            },
+                            {
+                                "Title": "循環迴圈",
+                                "Text": "# 範例\n",
+                                "Group": true
+                            },
+                            {
+                                "Title": "樣式綁定",
+                                "Text": "# 範例\n<div [屬性]=\"'{name}'\"></div>\n\n[style.width]=\"'300px'\"\n\n# 多重\n[style]=\"'color:#fff;...'\"\n\n[style]=\"{'color':'#fff';...}\"\n\n[ngstyle]=\"{'color':'#fff';...}\"",
+                                "Group": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "如何安裝",
+                "Contnet": [
+                    {
+                        "Title": "Angular CLI",
+                        "Data": [
+                            {
+                                "Title": "Angular CLI 安裝",
+                                "Text": "# 依賴於 NodeJs 和 npm\n\n# 安裝框架\nnpm install -g @angular/cli\n\n# 創建專案\nng new project_name\n\n# 啟動專案\ncd project_name\nng serve --open",
+                                "Group": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "基礎知識",
+                "Contnet": [
+                    {
+                        "Title": "什麼是 Angular ？",
+                        "Data": [
+                            {
+                                "Title": "Test",
+                                "Text": "Test",
+                                "Group": true,
+                                "Imgs": [
+                                    "Test"
+                                ]
+                            },
+                            {
+                                "Text": "官網",
+                                "URL": "https://angular.tw/start"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "相關套件",
+                "Contnet": [
+                    {
+                        "Title": "Angular",
+                        "Data": [
+                            {
+                                "Text": "Angular 10 Snippets",
+                                "URL": "https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}

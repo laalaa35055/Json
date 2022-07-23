@@ -13,19 +13,9 @@
                     "URL": "https://cdnjs.com/"
                 },
                 {
-                    "Name": "JQuery CDN",
-                    "Title": "【JQuery CDN】：提供線上 JQuery 引入",
-                    "URL": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-                },
-                {
                     "Name": "JQuery 插件",
                     "Title": "【JQuery 插件】：提供線上 JQuery 各式插件",
                     "URL": "https://www.jq22.com/"
-                },
-                {
-                    "Name": "axios CDN",
-                    "Title": "【axios CDN】：提供線上 axios 引入",
-                    "URL": "https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
                 },
                 {
                     "Name": "個人用套件",
@@ -55,6 +45,22 @@
             ]
         },
         {
+            "Name": "快速引用",
+            "Group": 1,
+            "Data": [
+                {
+                    "Name": "JQuery CDN",
+                    "Title": "【JQuery CDN】：提供線上 JQuery 引入",
+                    "URL": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+                },
+                {
+                    "Name": "axios CDN",
+                    "Title": "【axios CDN】：提供線上 axios 引入",
+                    "URL": "https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+                }
+            ]
+        },
+        {
             "Name": "官方網站",
             "Group": 1,
             "Data": [
@@ -77,6 +83,11 @@
                     "Name": "Laravel",
                     "Title": "【Laravel】：PHP 延伸框架",
                     "URL": "https://laravel.com/"
+                },
+                {
+                    "Name": "Angular",
+                    "Title": "【Angular】：Angular 框架",
+                    "URL": "https://angular.tw/start"
                 }
             ]
         }

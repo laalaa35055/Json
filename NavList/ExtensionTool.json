@@ -1,11 +1,11 @@
 {
     "Name": "Extension Tool",
-    "ID":"ExtensionTool",
-    "Type":1,
+    "ID": "ExtensionTool",
+    "Type": 1,
     "Data": [
         {
             "Name": "VScode 套件 - 常用",
-            "Group":1,
+            "Group": 1,
             "Data": [
                 {
                     "Name": "Live Server",
@@ -36,7 +36,7 @@
         },
         {
             "Name": "VScode 套件 - 其他",
-            "Group":1,
+            "Group": 1,
             "Data": [
                 {
                     "Name": "Sass",
@@ -53,7 +53,6 @@
                     "Title": "【Python】：Python 幫忙選字",
                     "URL": "https://marketplace.visualstudio.com/items?itemName=ms-python.python"
                 },
-                
                 {
                     "Name": "Beautify",
                     "Title": "【Beautify css/sass/scss/less】：Beautify 幫忙排版",
@@ -88,7 +87,7 @@
         },
         {
             "Name": "Goole chorem 套件",
-            "Group":1,
+            "Group": 1,
             "Data": [
                 {
                     "Name": "HTML5 Outliner",
