@@ -53,37 +53,36 @@
             {
                 "Title": "Angular 事件綁定",
                 "Data": [
-                    {
-                        "Title": "(事件名)=\"function名(參數)\"",
-                        "Text": "# 範例 If\n(click)=\"func($event)\"\nfunc(e: Event) (變數名：變數型態) ",
-                        "Group": true
-                    },
-                    {
-                        "Title": "模板變量",
-                        "Text": "加入 # 可引用該標籤",
-                        "Group": true
-                    },
-                    {
-                        "Title": "數據雙向綁定：只對表單元素有效",
-                        "Text": "# 需在 app.module 加入\nimport {FormsModule} from '@angular/forms';\n\n# imports 加入 FormsModule\n# 申請組件需要用到的類別\n\n[(ngModel)]=\"{變數名稱}\"",
-                        "Group": true
-                    },
-                    {
-                        "Title": "動態表單綁定",
-                        "Text": "# 需在 app.module 加入\nimport {ReactiveFormsModule} from '@angular/forms';\n\n# imports 加入 ReactiveFormsModule\n# 申請組件需要用到的類別\n\n# 在組件中導入\nimport {FormControl} from '@angular/forms';\nages = new FormControl();\nages.value",
-                        "Group": true
-                    },
-                    {
-                        "Title": "動態表單控件組",
-                        "Text": "動態表單控件組",
-                        "Group": true,
-                        "Imgs":[
-                            "https://lh3.googleusercontent.com/8bU5GJpcbSi6jgGo2sxMvNuz9cVOp0nlD7Le0nKBJZYSYaXIL7l6VuXlIcQ6I95I6bT-y_G3epzWhQv0rSkL2okEpvI9nhQd06sJHGTmHcI5B_R_OEvqpueqoEh5m326HqQ4P8dO-iGf0M2eu1oNUyZkzH2LflFtonavyo1H5_liL7XLt-WgfmRA2yNnh0BQ_P_kEUb1eav7YOq2H9iTfpRjGTM-z7KTL_l9hhGiE6u8EQhHyrV0KDjOJ_JmxVk3PP6CQXkMa5Pqch0ZgHmZz9pRmhH9ysbC01FuAsyBpwqhgkRBM_QEKVXBtfow-CyhFkgS2Mz-77Plr5OoCVYfWTXsct8aLeeqU_HPFTzobGNcU4QvQBvGFf_224sKjYjAPtHvlJVVKKpzdOpc4LWIy3GA6JimgwIjAcmwF4Y-Nul80JqtqjlBK9qqHC1imZZeAIw6EegeiQnk-HKJE6eNWukISuS1GfrruFA38AoOfKSpeY3C2jLhkpNd6W6ghJuDea7Lqjjv-x2b_z0VSNhFtQ1JV1l-2sVRJER5aW_tnXMAq8g-jmF8pL5yrnKvbVXNGUIH15TqyT_UCvhzST6BiCM5yaQpoGFehEpmpNLwzive25CERk01lYxa374U03OAGSMmYpB77E5eFKXe-fuZS0Ot7X5cRQw3E30xtQyuipxjs5MbMuTIrS95E9pxg1Dw45km7SZOMUUO0BG8E_JX80NE2uit1FiNniVeQNfIuD5Mt8V_tLKY5w=w722-h34-no?authuser=0",
-                            "https://lh3.googleusercontent.com/3dPHZ0nf8e-Y6eeCsBtgsge-QIIYIv33c5Hh3MeC_oZLvfj-hgT_azPrHGHCyWiGffos_nJSR-CYaxAeO9rXK_NpDmSrMXlJKQJhf4fQR8KdxyZ8X34xQ7aLoFha_U0kbXXX5XAaG4qNlHQydsHkY1tjSb4DJrhEhvCzbotwYbAT1TXYuGlo3rNUir9llFylyLYCHxhHX7ljpLal8rN7MpIWguem6ssOU7OYNlnLhxudMnsNqcjr5GbvpQltR86RWnWCkB3tyqkAWjexA_Vgd1GjVsu-Ne_a1PCki-GUB3AFCxVS2EY7_mvJqD9gqr_0To8FlNqX7dUfgNUQT8NOwR4Hzi5QTnieNuWMHJafDa_JjPykytU5ttsUJhISCkfG3HUT0Lnr4u4WsdwvZj9kdnqavR4vjwxeMMcR2vFq1QA__sTitSo5jljk-kQ41YOSjzdX6YIRtby6g02ZiZTIKJIN0VXVAv7AGVvMUmRc3_p3ZTBrCXiZVnuUvExPe55B3FSM8q4upj1LOuCJRw2WMSyw52Pjng54xBiIC8FkIrLEkNE0aL96L-hiQWL04ab8CMzQa48x2UGFxoNSbmyhbJNP_20Yw4SK5G3_IbtSSstx9CSFIUP-5_byyShBfTQ-1AkIyD152MkYoh8YVM0jTlrgYmX-GGJFutBy7e-JYapIapbGyealLgIV2moS03bZ7CYtb_MP_Cc6wQuJ6qFe0S37rEA9ilpORdNVoAWYxQza7wCPLc-V8g=w533-h219-no?authuser=0",
-                            "https://lh3.googleusercontent.com/2m5kEv8Wp7qEGf5UUxOiTb9hKElD2qDcx5pArG1hCj5LtC5vAvjZl15XS1499m0pgCGeptg35-On4KW47OO1WhijPqV88RVinqSsRNQpkp4oBbOIhEuelbkdnVwL0mzdDBd5BQV9HzhE7RFfbGpT_W8qwhKew48U1Z4_vgoGCUcgZRsnEku-GaXi9AqJW9rYt8H5DhDZpHvkb9Tb6iM65zLfYUdjBcaueLaPiabnWLlrkldWLT_oDsPLlDHOysAEydxpYxkYmDf0rTXLSSI1O-KzX33QaZ5hBkVfkFJwVNEAudpgfiwoba5CBPTUNJmtdrANAFOkAD8DlC2R5bFhGwUrKdBDoeXcdyzR8fEbcYnfCyaNLEBdmvGbgdwXm7zOG5FmKS42M62tYejrhmg98cbuangC-UYB1VQJ5EItQoooRZCfIoIfZGHZxYk6wmszwBlJzZgTwUTtPvmv3l8eHP4mm0o7B9LVlHV0DQUw8y41zWUgovhS_RZcw5257_reWZIn1hW5BjDjHE4bN9L138J7F37kP7cC0Ca837Una5AVJYONQZm_g01QiGgH1d6G8MMqIWJ4IhowIel6NiKExAyc-EWX9fB1fYhwDQW1LMPab7HthToSHUis7znGxHyLci0PkR23021wI_w07A_qdKYT1jwQExBGCj__vb-j3nLbsBk6FFyHaVLLH5kQymQ9C5eUnYRgK8SvzlXYR_iZYnU552Ujatan9oP2pg4DLUM9poShe1ns_g=w674-h386-no?authuser=0"
-                        ]
-                    }
-                ]
+                {
+                    "Title": "(事件名)=\"function名(參數)\"",
+                    "Text": "# 範例 If\n(click)=\"func($event)\"\nfunc(e: Event) (變數名：變數型態) ",
+                    "Group": true
+                },
+                {
+                    "Title": "模板變量",
+                    "Text": "加入 # 可引用該標籤",
+                    "Group": true
+                },
+                {
+                    "Title": "數據雙向綁定：只對表單元素有效",
+                    "Text": "# 需在 app.module 加入\nimport {FormsModule} from '@angular/forms';\n\n# imports 加入 FormsModule\n# 申請組件需要用到的類別\n\n[(ngModel)]=\"{變數名稱}\"",
+                    "Group": true
+                },
+                {
+                    "Title": "動態表單綁定",
+                    "Text": "# 需在 app.module 加入\nimport {ReactiveFormsModule} from '@angular/forms';\n\n# imports 加入 ReactiveFormsModule\n# 申請組件需要用到的類別\n\n# 在組件中導入\nimport {FormControl} from '@angular/forms';\nages = new FormControl();\nages.value",
+                    "Group": true
+                },
+                {
+                    "Title": "動態表單控件組",
+                    "Text": "動態表單控件組",
+                    "Group": true,
+                    "Imgs": [
+                        "https://lh3.googleusercontent.com/8bU5GJpcbSi6jgGo2sxMvNuz9cVOp0nlD7Le0nKBJZYSYaXIL7l6VuXlIcQ6I95I6bT-y_G3epzWhQv0rSkL2okEpvI9nhQd06sJHGTmHcI5B_R_OEvqpueqoEh5m326HqQ4P8dO-iGf0M2eu1oNUyZkzH2LflFtonavyo1H5_liL7XLt-WgfmRA2yNnh0BQ_P_kEUb1eav7YOq2H9iTfpRjGTM-z7KTL_l9hhGiE6u8EQhHyrV0KDjOJ_JmxVk3PP6CQXkMa5Pqch0ZgHmZz9pRmhH9ysbC01FuAsyBpwqhgkRBM_QEKVXBtfow-CyhFkgS2Mz-77Plr5OoCVYfWTXsct8aLeeqU_HPFTzobGNcU4QvQBvGFf_224sKjYjAPtHvlJVVKKpzdOpc4LWIy3GA6JimgwIjAcmwF4Y-Nul80JqtqjlBK9qqHC1imZZeAIw6EegeiQnk-HKJE6eNWukISuS1GfrruFA38AoOfKSpeY3C2jLhkpNd6W6ghJuDea7Lqjjv-x2b_z0VSNhFtQ1JV1l-2sVRJER5aW_tnXMAq8g-jmF8pL5yrnKvbVXNGUIH15TqyT_UCvhzST6BiCM5yaQpoGFehEpmpNLwzive25CERk01lYxa374U03OAGSMmYpB77E5eFKXe-fuZS0Ot7X5cRQw3E30xtQyuipxjs5MbMuTIrS95E9pxg1Dw45km7SZOMUUO0BG8E_JX80NE2uit1FiNniVeQNfIuD5Mt8V_tLKY5w=w722-h34-no?authuser=0",
+                        "https://lh3.googleusercontent.com/3dPHZ0nf8e-Y6eeCsBtgsge-QIIYIv33c5Hh3MeC_oZLvfj-hgT_azPrHGHCyWiGffos_nJSR-CYaxAeO9rXK_NpDmSrMXlJKQJhf4fQR8KdxyZ8X34xQ7aLoFha_U0kbXXX5XAaG4qNlHQydsHkY1tjSb4DJrhEhvCzbotwYbAT1TXYuGlo3rNUir9llFylyLYCHxhHX7ljpLal8rN7MpIWguem6ssOU7OYNlnLhxudMnsNqcjr5GbvpQltR86RWnWCkB3tyqkAWjexA_Vgd1GjVsu-Ne_a1PCki-GUB3AFCxVS2EY7_mvJqD9gqr_0To8FlNqX7dUfgNUQT8NOwR4Hzi5QTnieNuWMHJafDa_JjPykytU5ttsUJhISCkfG3HUT0Lnr4u4WsdwvZj9kdnqavR4vjwxeMMcR2vFq1QA__sTitSo5jljk-kQ41YOSjzdX6YIRtby6g02ZiZTIKJIN0VXVAv7AGVvMUmRc3_p3ZTBrCXiZVnuUvExPe55B3FSM8q4upj1LOuCJRw2WMSyw52Pjng54xBiIC8FkIrLEkNE0aL96L-hiQWL04ab8CMzQa48x2UGFxoNSbmyhbJNP_20Yw4SK5G3_IbtSSstx9CSFIUP-5_byyShBfTQ-1AkIyD152MkYoh8YVM0jTlrgYmX-GGJFutBy7e-JYapIapbGyealLgIV2moS03bZ7CYtb_MP_Cc6wQuJ6qFe0S37rEA9ilpORdNVoAWYxQza7wCPLc-V8g=w533-h219-no?authuser=0",
+                        "https://lh3.googleusercontent.com/2m5kEv8Wp7qEGf5UUxOiTb9hKElD2qDcx5pArG1hCj5LtC5vAvjZl15XS1499m0pgCGeptg35-On4KW47OO1WhijPqV88RVinqSsRNQpkp4oBbOIhEuelbkdnVwL0mzdDBd5BQV9HzhE7RFfbGpT_W8qwhKew48U1Z4_vgoGCUcgZRsnEku-GaXi9AqJW9rYt8H5DhDZpHvkb9Tb6iM65zLfYUdjBcaueLaPiabnWLlrkldWLT_oDsPLlDHOysAEydxpYxkYmDf0rTXLSSI1O-KzX33QaZ5hBkVfkFJwVNEAudpgfiwoba5CBPTUNJmtdrANAFOkAD8DlC2R5bFhGwUrKdBDoeXcdyzR8fEbcYnfCyaNLEBdmvGbgdwXm7zOG5FmKS42M62tYejrhmg98cbuangC-UYB1VQJ5EItQoooRZCfIoIfZGHZxYk6wmszwBlJzZgTwUTtPvmv3l8eHP4mm0o7B9LVlHV0DQUw8y41zWUgovhS_RZcw5257_reWZIn1hW5BjDjHE4bN9L138J7F37kP7cC0Ca837Una5AVJYONQZm_g01QiGgH1d6G8MMqIWJ4IhowIel6NiKExAyc-EWX9fB1fYhwDQW1LMPab7HthToSHUis7znGxHyLci0PkR23021wI_w07A_qdKYT1jwQExBGCj__vb-j3nLbsBk6FFyHaVLLH5kQymQ9C5eUnYRgK8SvzlXYR_iZYnU552Ujatan9oP2pg4DLUM9poShe1ns_g=w674-h386-no?authuser=0"
+                    ]
+                }]
             },
             {
                 "Title": "Angular 表單驗證",
@@ -92,15 +91,22 @@
                     "Title": "表單驗證-1",
                     "Text": "<input #txt=\"ngModel\" [(ngModel)]=\"tee.name\" type=\"text\" required>",
                     "Group": true
+                }]
+            },
+            {
+                "Title": "Angular 管道",
+                "Data": [
+                {
+                    "Title": "管道",
+                    "Text": "{{數據源 | 管道}}\n\n{{ date | date:'yyyy-MM-dd'}}",
+                    "Group": true,
+                    "Imgs": [
+                        "https://lh3.googleusercontent.com/N5RutIYbqSKkV7YD_YOvzDLWd9kkTi2uAHyh5tU45k8djgpNPYUJx9qRNfRYJiAIgeF86Y5jCYkeMvoWqGoQ4GLMmpZdAUPOht6mhxD_1UuS_gyRblgFd_0_lKe4G69VavGZCdd907bIzlLTOFkcNFs_92WGJccPhgQACB5m_CEi7tD_tCtcN3yetmBHhMHyTHhCq87WLQDKtG9buQEOxa0dLOGVAN96wzLGbe4HJnOSVhl3ZwBDr6Q-3lkGGaTXSFbHG77XCeLsN8BNpI1O9uu6DxidKbfrJMFMXvXda72FTiaIRiygcw5v82imq_oSFKlB2anl_0wZp6qZRDcAY1kQ4DE7KLDDKBI_mdboNXCIk27u5UAQyf_GjHmintIuM4v4AZL_1589pTJRriGnvvEMeZMVT1mIZVxsxj3xkKIYEXiSkSXXHSy4Aen_RKGitPJ-_zjdkjMlifUoQnTpIJfr-PgWNg-efguLHlx3PnTep4gUOflOMQZO7_IdSQZozWU6neSd9DXogA3pPuBSp0QA2PjtiWRPwSuZLJazyY9awYxqHOpYYV-kqWeSW5YwBNLchd-aLNHsu3_dSo3zco_2tNc2v_lzC0Tu0Ru6HBXxT0TeWnELbUl6vFVL0YtFDwxT1S9SQ1MMik1CrIKr8je9FvACyDogi46_8_U5CutuI0I64McHJoaJHOOg8JEXjUX6FwZU5L02jU7TmtXDbB-pNG3meGQjq0545NK1hitUqX24p29e0Q=w778-h270-no?authuser=0"
+                    ]
                 },
                 {
-                    "Title": "循環語句",
-                    "Text": "# 範例 For\n*ngFor=\"let item of items let in=index let odd=odd\"\n\n# 範例 Switch\n[ngSwitch]=\"type\"\n*ngSwitchCase=\"1\"\n*ngSwitchDefault",
-                    "Group": true
-                },
-                {
-                    "Title": "樣式綁定",
-                    "Text": "# 範例\n<div [屬性]=\"'{name}'\"></div>\n\n[style.width]=\"'300px'\"\n\n# 多重\n[style]=\"'color:#fff;...'\"\n\n[style]=\"{'color':'#fff';...}\"\n\n[ngstyle]=\"{'color':'#fff';...}\"",
+                    "Title": "創建管道",
+                    "Text": "ng g p {name} or {pipes/test}",
                     "Group": true
                 }]
             }]
@@ -168,6 +174,10 @@
                 {
                     "Text": "Angular 10 Snippets",
                     "URL": "https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode"
+                },
+            {
+                    "Text": "Angular Extension Pack",
+                    "URL": "https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack"
                 }]
             }]
         }]
