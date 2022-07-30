@@ -16,13 +16,51 @@
                                 "URL": null
                             },
                             {
-                                "Text": "pip -r requirements.txt",
+                                "Text": "pip install -r requirements.txt",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "BeautifulSoup",
+                "Contnet": [
+                    {
+                        "Title": "安裝",
+                        "Data": [
+                            {
+                                "Text": "pip install beautifulsoup4",
                                 "URL": null
                             },
                             {
-                                "Title": "Test",
-                                "Text": "Test",
-                                "Group": true
+                                "Title":"example",
+                                "Text": "import requests\nfrom bs4 import BeautifulSoup\n\nurl=''\nres = requests.get(url,headers=headers)\nsoup=BeautifulSoup(res.text,'html.parser')",
+                                "Group":true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://steam.oxxostudio.tw/category/python/spider/beautiful-soup.html"
+                            },
+                            {
+                                "Title":"header",
+                                "Text": "\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36\" #使用者代理\n\n\"Referer\": \"https://www.google.com/\"",
+                                "Group":true,
+                                "URL": null
+                            },
+                            {
+                                "Text":"參考網址",
+                                "URL": "https://www.learncodewithmike.com/2020/09/7-tips-to-avoid-getting-blocked-while-scraping.html"
+                            },
+                            {
+                                "Title":"t",
+                                "Text":"參考網址",
+                                "Group":true,
+                                "Imgs":[
+                                    "https://images2.imgbox.com/29/5f/YdIXVu0p_o.png"
+                                ],
+                                "URL": null
                             }
                         ]
                     }
@@ -30,6 +68,26 @@
             }
         ],
         "Right": [
+            {
+                "Title": "學習心得",
+                "Contnet": [
+                    {
+                        "Title": "爬蟲知識點",
+                        "Data": [
+                            {
+                                "Title":"爬蟲失敗原因",
+                                "Text": "1.網站server端的loading不足\n2.一秒太多次requests\n3.一定時間內太多有規律、同IP的爬蟲\n4.特殊渲染的網頁\n5.直接檢查 requests 有沒有 headers",
+                                "Group":true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://quantpass.org/anti-cralwer-headers/"
+                            }
+                        ]
+                    }
+                ]
+            },
             {
                 "Title": "基礎知識",
                 "Contnet": [
