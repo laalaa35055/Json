@@ -7,57 +7,57 @@
         {
             "Name": "API",
             "ID": "API",
-            "URL":"https://laalaa35055.github.io/Json/NavList/API.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/API.json"
         },
         {
             "Name": "Search",
             "ID": "Search",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Search.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/Search.json"
         },
         {
             "Name": "NoteBook",
             "ID": "NoteBook",
-            "URL":"https://laalaa35055.github.io/Json/NavList/NoteBook.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/NoteBook.json"
         },
         {
             "Name": "Study Plan",
             "ID": "StudyPlan",
-            "URL":"https://laalaa35055.github.io/Json/NavList/StudyPlan.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/StudyPlan.json"
         },
         {
             "Name": "Problem",
             "ID": "Problem",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Problem.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/Problem.json"
         },
         {
             "Name": "Extension Tool",
             "ID": "ExtensionTool",
-            "URL":"https://laalaa35055.github.io/Json/NavList/ExtensionTool.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/ExtensionTool.json"
         },
         {
             "Name": "Tool Resources",
             "ID": "ToolResources",
-            "URL":"https://laalaa35055.github.io/Json/NavList/ToolResources.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/ToolResources.json"
         },
         {
             "Name": "Art & Animation",
             "ID": "Animation",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Animation.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/Animation.json"
         },
         {
             "Name": "Google Analytics",
             "ID": "GoogleAnalytics",
-            "URL":"https://laalaa35055.github.io/Json/NavList/GoogleAnalytics.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/GoogleAnalytics.json"
         },
         {
             "Name": "Forum Resources",
             "ID": "ForumResources",
-            "URL":"https://laalaa35055.github.io/Json/NavList/ForumResources.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/ForumResources.json"
         },
         {
             "Name": "Backend Setting",
             "ID": "Setting",
-            "URL":"https://laalaa35055.github.io/Json/NavList/Setting.json"
+            "URL": "https://laalaa35055.github.io/Json/NavList/Setting.json"
         }
     ]
 }
