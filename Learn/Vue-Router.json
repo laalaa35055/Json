@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "Vue-Router",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Routes",
                         "Data": [
@@ -65,7 +65,7 @@
         "Right": [
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 Vue Router ？",
                         "Data": [

@@ -121,6 +121,13 @@
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/NodeJs.json"
                 },
                 {
+                    "Name": "Redis",
+                    "ID": "Redis",
+                    "Title": "學習程度【 10 %】",
+                    "URL": "/LearnPage/Redis",
+                    "Ajax": "https://laalaa35055.github.io/Json/Learn/Redis.json"
+                },
+                {
                     "Name": "Websocket",
                     "ID": "Websocket",
                     "Title": "學習程度【 10 %】",

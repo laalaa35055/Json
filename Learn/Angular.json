@@ -8,7 +8,7 @@
         "Left": [
         {
             "Title": "使用說明",
-            "Contnet": [
+            "Content": [
             {
                 "Title": "Angular template",
                 "Data": [
@@ -114,7 +114,7 @@
         "Right": [
         {
             "Title": "學習心得",
-            "Contnet": [
+            "Content": [
             {
                 "Title": "知識點",
                 "Data": [
@@ -134,7 +134,7 @@
         },
         {
             "Title": "如何安裝",
-            "Contnet": [
+            "Content": [
             {
                 "Title": "Angular CLI",
                 "Data": [
@@ -147,7 +147,7 @@
         },
         {
             "Title": "基礎知識",
-            "Contnet": [
+            "Content": [
             {
                 "Title": "什麼是 Angular ？",
                 "Data": [
@@ -167,7 +167,7 @@
         },
         {
             "Title": "相關套件",
-            "Contnet": [
+            "Content": [
             {
                 "Title": "Angular",
                 "Data": [

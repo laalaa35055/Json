@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "Curl",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "curl",
                         "Data": [
@@ -43,7 +43,7 @@
             },
             {
                 "Title": "排程工作",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "crontab",
                         "Data": [
@@ -67,7 +67,7 @@
             },
             {
                 "Title": "目錄操作相關",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "pwd",
                         "Data": [
@@ -172,7 +172,7 @@
             },
             {
                 "Title": "檔案操作相關",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "cp",
                         "Data": [
@@ -268,7 +268,7 @@
             },
             {
                 "Title": "磁碟資訊相關",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "df",
                         "Data": [
@@ -318,7 +318,7 @@
         "Right": [
             {
                 "Title": "問題集",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Linux 更換 repo",
                         "Data": [
@@ -410,7 +410,7 @@
             },
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 Linux ？",
                         "Data": [

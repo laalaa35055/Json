@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "SQL 常用指令",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "SQL",
                         "Data": [
@@ -146,7 +146,7 @@
             },
             {
                 "Title": "資料庫安全",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "使用者帳號",
                         "Data": [
@@ -230,7 +230,7 @@
         "Right": [
             {
                 "Title": "學習心得",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "知識點",
                         "Data": [
@@ -256,7 +256,7 @@
             },
             {
                 "Title": "主從架構",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "主從架構設定",
                         "Data": [
@@ -366,7 +366,7 @@
             },
             {
                 "Title": "主主架構",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "主主架構",
                         "Data": [
@@ -390,7 +390,7 @@
             },
             {
                 "Title": "問題集",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "TIMESTAMP 自動增加",
                         "Data": [
@@ -460,7 +460,7 @@
             },
             {
                 "Title": "練習題目",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "MySQL 主從架構",
                         "Data": [
@@ -478,7 +478,7 @@
             },
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "MySQL 是什麼？",
                         "Data": [

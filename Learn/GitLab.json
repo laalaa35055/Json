@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "使用說明",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "GitLab 使用",
                         "Data": [
@@ -51,7 +51,7 @@
         "Right": [
             {
                 "Title": "學習心得",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "知識點",
                         "Data": [
@@ -69,7 +69,7 @@
             },
             {
                 "Title": "問題集",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "暫無",
                         "Data": [
@@ -83,7 +83,7 @@
             },
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 GitLab ？",
                         "Data": [
@@ -122,7 +122,7 @@
             },
             {
                 "Title": "安裝 GitLab",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "CentOS 7 安裝 GitLab",
                         "Data": [

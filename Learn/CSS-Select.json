@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "常用略複雜",
-                "Contnet": [
+                "Content": [
                     {
                         "Title":"表單用偽類選擇器",
                         "Data": [
@@ -312,7 +312,7 @@
         "Right": [
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "命名規則",
                         "Data": [
@@ -430,7 +430,7 @@
             },
             {
                 "Title": "常用選擇器",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "多層選取器",
                         "Data": [
@@ -482,7 +482,7 @@
             },
             {
                 "Title": "不常用選擇器",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "獨子選擇器",
                         "Data": [

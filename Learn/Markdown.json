@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "Application",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "標題",
                         "Data": [
@@ -104,7 +104,7 @@
         "Right": [
             {
                 "Title": "學習心得",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "知識點",
                         "Data": [
@@ -127,7 +127,7 @@
             },
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 Markdown 語法？",
                         "Data": [

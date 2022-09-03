@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "Application",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "匯出專案所需模組清單",
                         "Data": [
@@ -25,7 +25,7 @@
             },
             {
                 "Title": "BeautifulSoup",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "安裝",
                         "Data": [
@@ -70,7 +70,7 @@
         "Right": [
             {
                 "Title": "學習心得",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "爬蟲知識點",
                         "Data": [
@@ -90,7 +90,7 @@
             },
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 Python ？",
                         "Data": [
@@ -112,7 +112,7 @@
             },
             {
                 "Title": "相關套件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Virtualenv 虛擬環境安裝",
                         "Data": [

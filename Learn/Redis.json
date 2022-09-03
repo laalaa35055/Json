@@ -1,0 +1,162 @@
+{
+    "Name": "Redis",
+    "ID": "Redis",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "Redis 使用說明",
+                "Content": [
+                    {
+                        "Title": "Redis 基礎命令 - 1",
+                        "Data": [
+                            {
+                                "Text": "== 刪除 key ==",
+                                "URL": null
+                            },
+                            {
+                                "Text": "del { key }",
+                                "URL": null
+                            },
+                            {
+                                "Text": "unlink { key } ： 異步",
+                                "URL": null
+                            },
+                            {
+                                "Text": "== 設置過期時間 ==",
+                                "URL": null
+                            },
+                            {
+                                "Text": "expire { key } { time }",
+                                "URL": null
+                            },
+                            {
+                                "Text": "== 查看過期時間 ==",
+                                "URL": null
+                            },
+                            {
+                                "Text": "ttl key",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Redis 基礎命令 - 2",
+                        "Data": [
+                            {
+                                "Text": "== 切換數據庫 ==",
+                                "URL": null
+                            },
+                            {
+                                "Text": "select { index } ：最多 16 個",
+                                "URL": null
+                            },
+                            {
+                                "Text": "== 查看當前數據庫所有 key ==",
+                                "URL": null
+                            },
+                            {
+                                "Text": "dbsize",
+                                "URL": null
+                            },
+                            {
+                                "Text": "== 清空當前庫 ==",
+                                "URL": null
+                            },
+                            {
+                                "Text": "flushdb",
+                                "URL": null
+                            },
+                            {
+                                "Text": "== 通殺全部庫 ==",
+                                "URL": null
+                            },
+                            {
+                                "Text": "flushall",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Redis 五大數據類型",
+                        "Data": [
+                            {
+                                "Text": "String",
+                                "URL": null
+                            }, 
+                            {
+                                "Title": "String",
+                                "Text": "# Value 最多 512M\n\n# 類型為二進制",
+                                "Group": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "學習心得",
+                "Content": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "基礎知識",
+                "Content": [
+                    {
+                        "Title": "什麼是 Redis ？",
+                        "Data": [
+                            {
+                                "Text": "效能極高 – Redis能讀的速度是110000次/s,寫的速度是81000次/s ",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Redis支援資料的持久化，可以將記憶體中的資料儲存在磁碟中，重啟的時候可以再次載入進行使用",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Redis不僅僅支援簡單的key-value型別的資料，同時還提供list，set，zset，hash等資料結構的儲存",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Redis支援資料的備份，即master-slave模式的資料備份",
+                                "URL": null
+                            },
+                            {
+                                "Text": "官網",
+                                "URL": "https://redis.io/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": [
+            "https://www.bilibili.com/video/BV1Rv41177Af?p=1&vd_source=ab5e2849b04dd17a5f50210fe14ac0f7",
+            "https://www.itread01.com/study/redis-conf.html"
+        ]
+    }
+}

@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "Application",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "知識點",
                         "Data": [
@@ -23,7 +23,7 @@
         "Right": [
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 SRE ？",
                         "Data": [
@@ -49,7 +49,7 @@
             },
             {
                 "Title": "演進歷史",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "純物理機",
                         "Data": [
@@ -108,7 +108,7 @@
             },
             {
                 "Title": "補充知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "補充詞彙",
                         "Data": [

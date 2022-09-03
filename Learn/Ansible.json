@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "常用 Module",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "常用的 Ansible Module - 1",
                         "Data": [
@@ -100,7 +100,7 @@
         "Right": [
             {
                 "Title": "學習心得",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "知識點",
                         "Data": [
@@ -130,7 +130,7 @@
             },
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 Ansible ？",
                         "Data": [
@@ -215,7 +215,7 @@
             },
             {
                 "Title": "相關套件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "VScode 套件",
                         "Data": [

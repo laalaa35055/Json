@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "Window 10",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Crack",
                         "Data": [
@@ -41,7 +41,7 @@
         "Right": [
             {
                 "Title": "學習心得",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "知識點",
                         "Data": [
@@ -55,7 +55,7 @@
             },
             {
                 "Title": "問題集",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Windows 找占用 Port 的程式",
                         "Data": [
@@ -92,7 +92,7 @@
             },
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 Window ？",
                         "Data": [

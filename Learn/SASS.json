@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "Sass 編寫",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "變數命名方式",
                         "Data": [
@@ -54,7 +54,7 @@
             },
             {
                 "Title": "Nesting",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "使用 nesting 的黃金規則",
                         "Data": [
@@ -88,7 +88,7 @@
             },
             {
                 "Title": "偽元素",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "偽元素形式",
                         "Data": [
@@ -110,7 +110,7 @@
             },
             {
                 "Title": "@import 輸入 sass 檔案",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "讓 sass 重組檔案",
                         "Data": [
@@ -140,7 +140,7 @@
             },
             {
                 "Title": "@Mixin 函式",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "函示使用",
                         "Data": [
@@ -218,7 +218,7 @@
             },
             {
                 "Title": "@mixin + @content 擴增屬性",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "擴增屬性",
                         "Data": [
@@ -240,7 +240,7 @@
             },
             {
                 "Title": "Sass 迴圈介紹",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "for/ each / while 迴圈",
                         "Data": [
@@ -287,7 +287,7 @@
             },
             {
                 "Title": "$map",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "$map 數值型態",
                         "Data": [
@@ -339,7 +339,7 @@
             },
             {
                 "Title": "@each 用法",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "@each 用法",
                         "Data": [
@@ -375,7 +375,7 @@
         "Right": [
             {
                 "Title": "Sass 環境安裝",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "需先安裝 node.js",
                         "Data": [
@@ -417,7 +417,7 @@
             },
             {
                 "Title": "基本知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "為何要學 sass",
                         "Data": [
@@ -439,7 +439,7 @@
             },
             {
                 "Title": "Sass 資源",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Sass 資源",
                         "Data": [
@@ -457,7 +457,7 @@
             },
             {
                 "Title": "Sass 與 Scss 不同處",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "檔名",
                         "Data": [
@@ -498,7 +498,7 @@
             },
             {
                 "Title": "編譯工具介紹",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "檔名",
                         "Data": [
@@ -539,7 +539,7 @@
             },
             {
                 "Title": "數值型態",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "數值型態",
                         "Data": [
@@ -581,7 +581,7 @@
             },
             {
                 "Title": "運算子與條件判斷",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "比較符號",
                         "Data": [

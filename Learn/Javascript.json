@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "ES6",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "ES6",
                         "Data": [
@@ -53,7 +53,7 @@
             },
             {
                 "Title": "Math 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Math 物件",
                         "Data": [
@@ -80,7 +80,7 @@
             },
             {
                 "Title": "String",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "String",
                         "Data": [
@@ -101,7 +101,7 @@
             },
             {
                 "Title": "Number",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Number",
                         "Data": [
@@ -127,7 +127,7 @@
             },
             {
                 "Title": "Date",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Date",
                         "Data": [
@@ -159,7 +159,7 @@
             },
             {
                 "Title": "陣列方法",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Array-List",
                         "Data": [
@@ -177,7 +177,7 @@
             },
             {
                 "Title": "內建函式",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "內建函式",
                         "Data": [
@@ -195,7 +195,7 @@
             },
             {
                 "Title": "RegExp",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "RegExp 簡介",
                         "Data": [
@@ -237,7 +237,7 @@
             },
             {
                 "Title": "自訂函式",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "函式基礎",
                         "Data": [
@@ -302,7 +302,7 @@
             },
             {
                 "Title": "型態轉換",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "數字",
                         "Data": [
@@ -320,7 +320,7 @@
             },
             {
                 "Title": "history 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "history 方法",
                         "Data": [
@@ -342,7 +342,7 @@
             },
             {
                 "Title": "document 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "document 屬性",
                         "Data": [
@@ -433,7 +433,7 @@
             },
             {
                 "Title": "window 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "window 物件",
                         "Data": [
@@ -459,7 +459,7 @@
             },
             {
                 "Title": "navigator 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "navigator 屬性方法",
                         "Data": [
@@ -493,7 +493,7 @@
             },
             {
                 "Title": "location 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "location 屬性",
                         "Data": [
@@ -545,7 +545,7 @@
             },
             {
                 "Title": "input 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "input 物件",
                         "Data": [
@@ -571,7 +571,7 @@
             },
             {
                 "Title": "option 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "option 物件",
                         "Data": [
@@ -601,7 +601,7 @@
             },
             {
                 "Title": "select 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "select 物件",
                         "Data": [
@@ -627,7 +627,7 @@
             },
             {
                 "Title": "Form 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Form 物件",
                         "Data": [
@@ -653,7 +653,7 @@
             },
             {
                 "Title": "Form 物件",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Form 物件",
                         "Data": [
@@ -681,7 +681,7 @@
         "Right": [
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "主要功能",
                         "Data": [
@@ -728,7 +728,7 @@
             },
             {
                 "Title": "嵌入方式",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "嵌入 Html",
                         "Data": [
@@ -779,7 +779,7 @@
             },
             {
                 "Title": "DOM",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "DOM 簡介",
                         "Data": [
@@ -821,7 +821,7 @@
             },
             {
                 "Title": "物件操作",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "物件原理",
                         "Data": [
@@ -855,7 +855,7 @@
             },
             {
                 "Title": "變數",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "變數型別",
                         "Data": [
@@ -1040,7 +1040,7 @@
             },
             {
                 "Title": "遞增 / 遞減",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "原理與實例",
                         "Data": [
@@ -1068,7 +1068,7 @@
             },
             {
                 "Title": "流程控制結構",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "三種結構",
                         "Data": [
@@ -1130,7 +1130,7 @@
             },
             {
                 "Title": "陣列",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "陣列原理",
                         "Data": [
@@ -1198,7 +1198,7 @@
             },
             {
                 "Title": "型態比較",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "型態比較",
                         "Data": [

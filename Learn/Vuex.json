@@ -7,20 +7,20 @@
         "Left": [
             {
                 "Title": "基礎應用",
-                "contnet": [
+                "Content": [
                     {
                         "Title": "取得資料的方法",
-                        "data": [
+                        "Data": [
                             {
                                 "Title": "computed",
-                                "Text": "return this.$store.state.data",
+                                "Text": "return this.$store.state.Data",
                                 "Group": true
                             }
                         ]
                     },
                     {
                         "Title": "修改 store 中的 state 資料",
-                        "data": [
+                        "Data": [
                             {
                                 "Title": "state",
                                 "Text": "action 裡將接收到的資料 commit 至 mutation",
@@ -33,7 +33,7 @@
                     },
                     {
                         "Title": "dispatch 觸發 action 事件, 並傳遞內容",
-                        "data": [
+                        "Data": [
                             {
                                 "Title": "dispatch",
                                 "Text": "this.$store.dispatch('updateTest','balabala')",
@@ -43,7 +43,7 @@
                     },
                     {
                         "Title": "modules",
-                        "data": [
+                        "Data": [
                             {
                                 "Title": "modules",
                                 "Text": "modules",
@@ -60,10 +60,10 @@
         "Right": [
             {
                 "Title": "基礎知識",
-                "contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 Vuex ？",
-                        "data": [
+                        "Data": [
                             {
                                 "Title": "Vuex 管理狀態",
                                 "Group": true,
@@ -80,7 +80,7 @@
                     },
                     {
                         "Title": "安裝 Vuex 指令",
-                        "data": [
+                        "Data": [
                             {
                                 "Title": "安裝指令",
                                 "Group": true,
@@ -90,9 +90,9 @@
                     },
                     {
                         "Title": "store 倉庫",
-                        "data": [
+                        "Data": [
                             {
-                                "Text": "state（data）",
+                                "Text": "state（Data）",
                                 "URL": null
                             },
                             {

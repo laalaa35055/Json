@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "實例",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Grafana",
                         "Data": [
@@ -102,7 +102,7 @@
         "Right": [
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 Prometheus ？",
                         "Data": [
@@ -128,7 +128,7 @@
             },
             {
                 "Title": "安裝 & 配置",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "下載 Prometheus",
                         "Data": [
@@ -174,7 +174,7 @@
             },
             {
                 "Title": "操作紀錄",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "基礎操作",
                         "Data": [

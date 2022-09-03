@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "Openresty",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Openresty 使用",
                         "Data": [
@@ -35,7 +35,7 @@
             },
             {
                 "Title": "rewrite",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "rewrite 使用",
                         "Data": [
@@ -53,7 +53,7 @@
             },
             {
                 "Title": "upstream ",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "upstream 使用",
                         "Data": [
@@ -93,7 +93,7 @@
         "Right": [
             {
                 "Title": "學習心得",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "知識點",
                         "Data": [
@@ -108,7 +108,7 @@
             {
                 "Title": "問題集",
                 
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "nginx 服务无法停止 （ Windows ）",
                         "Data": [
@@ -134,7 +134,7 @@
             },
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 Openresty ？",
                         "Data": [

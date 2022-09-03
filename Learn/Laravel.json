@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "Route",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Route 知識點",
                         "Data": [
@@ -75,7 +75,7 @@
             },
             {
                 "Title": "Migrations",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "Migrations 知識點",
                         "Data": [
@@ -306,7 +306,7 @@
         "Right": [
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 Laravel  ？",
                         "Data": [
