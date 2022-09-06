@@ -82,12 +82,13 @@
                         "Title": "Redis 五大數據類型",
                         "Data": [
                             {
-                                "Text": "String",
-                                "URL": null
-                            }, 
-                            {
                                 "Title": "String",
-                                "Text": "# Value 最多 512M\n\n# 類型為二進制",
+                                "Text": "# Value 最多 512M\n\n# 類型為二進制\n\n# Key Value 後加字串\nappend { key } { value }\n\n# 得長度\nstrlen { key }\n\n# 設置未設置的 key\nsetnx { key }\n\n# key 中數字值增1\nincr { key }\n\n# key 中數字值減1\ndecr { key }\n\n # 自定義數值步長\nincrby/decrby { key } { 步長 }",
+                                "Group": true
+                            },
+                            {
+                                "Title": "List",
+                                "Text": "# Value 最多 512M",
                                 "Group": true
                             }
                         ]
