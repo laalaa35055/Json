@@ -6,14 +6,14 @@
     "Contents": {
         "Left": [
             {
-                "Title": "Curl",
+                "Title": "CURL",
                 "Content": [
                     {
-                        "Title": "curl",
+                        "Title": "cURL",
                         "Data": [
                             {
                                 "Title": "-X { request method }",
-                                "Text": "curl -X POST https://reqbin.com/echo/post/json",
+                                "Text": "cURL -X POST https://reqbin.com/echo/post/json",
                                 "Group": true,
                                 "URL": null
                             },
@@ -31,7 +31,7 @@
                             },
                             {
                                 "Text": "教學網址",
-                                "URL": "https://reqbin.com/req/c-dwjszac0/curl-post-json-example"
+                                "URL": "https://reqbin.com/req/c-dwjszac0/cURL-post-json-example"
                             },
                             {
                                 "Text": "參數網址",

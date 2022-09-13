@@ -60,7 +60,7 @@
                                 "URL": null
                             },
                             {
-                                "Text": "external_url 'http://192.168.1.xx'",
+                                "Text": "external_URL 'http://192.168.1.xx'",
                                 "URL": null
                             }
                         ]
@@ -128,7 +128,7 @@
                         "Data": [
                             {
                                 "Title": "安裝 GitLab",
-                                "Text": "#安装GitLab\ncurl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash\n\nsudo yum install gitlab-ce\n\n#调整防火墙规则，需要打开端口80和443\n\n#设置GitLab URL\nsudo nano /etc/gitlab/gitlab.rb\n\nexternal_url 'https://gitlab.example.com'\n\nsudo gitlab-ctl reconfigure",
+                                "Text": "#安装GitLab\ncURL https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash\n\nsudo yum install gitlab-ce\n\n#调整防火墙规则，需要打开端口80和443\n\n#设置GitLab URL\nsudo nano /etc/gitlab/gitlab.rb\n\nexternal_URL 'https://gitlab.example.com'\n\nsudo gitlab-ctl reconfigure",
                                 "Group": true
                             },
                             {

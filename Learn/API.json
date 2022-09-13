@@ -1,0 +1,118 @@
+{
+    "Name": "API",
+    "ID":"API",
+    "Type":0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "使用說明",
+                "Content": [
+                    {
+                        "Title": "Test  使用",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            },
+                            {
+                                "Title": "Test",
+                                "Text": "Test",
+                                "Group": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "學習心得",
+                "Content": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Entity Framework Core",
+                        "Data": [
+                            {
+                                "Text": "Microsoft.EntityFrameworkCore.SqlServer",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Microsoft.EntityFrameworkCore.Tools",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Microsoft.EntityFrameworkCore",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Ps：Linq",
+                                "URL": null
+                            },
+                            {
+                                "Title":"Cli",
+                                "Text": "# 本機型\nScaffold-DbContext \"Server=.\\SQLExpress;Database=Northwind;Trusted_Connection=True;\" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force -UseDatabaseNames\n\n\n# 複雜型\nScaffold-DbContext \"Data Source=.\\MSSQLSERVER2019;Initial Catalog=db_HAM;Persist Security Info=True;User ID=jb;Password=JB8421;\" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\\db_HAMContent -CoNtextDir Models\\db_HAMContent -Force -UseDatabaseNames",
+                                "Group": true,
+                                "Imgs":[
+                                    "https://lh3.googleusercontent.com/slJxYVB6igAm--XObGAoQD4kRSv-y5upk6bOD-PFweexZz5rTZUTkti9ZnnrY2-EtcwVJ-fAAtJwTclYdVPVqHAAStHeORM5RcVAhRdAgDA4kM3RYqt8lFUyFKADEW8gxqNihd1D1rtlymIoNjRg-0nP57329VkcZzJE1USEBqE7P3MUQQg9dANprdwBP5wfT66WC7GLPnujh7xdNWK41tUi1XEq5KBEjNrb2kWpAREKdlc9NAr4vwORcyAwcYfEY_wKHgf405JERDURLqiwPOEa8bJqkG7SZYSI0n0wiVewOyTC8FM7u2sIUvhNeYf1F8Zsh8XmoExOZ5UUc0X3ykqQbO6vWhTRKH2E3bBwPkFovr3cFT5yTZDnUrx5jODBMB1NhRI9Ep5twN9KQLdQn0JoS--9K8W5AbmWNG3bP_9hmkFgtSVKapXJi90_t8XoySOjFXhB5I61qGpid06RWZXa3YjkdKfJexnXZg6OJ50aKN6Dcwc-F4zYnGJqFLJ3KQfpSGzP-tDLS8PqUbmMQhzVkDrYhmPUZeC9PZijWyIasjOaB32a42EUyIUmBtagPSx9cBR67mvZBxhz7Us8bR418AsCv0TyqSYutUfY2ugIyla22iBxZfW5H-4XV3_0_gGxXFszW3ZUBFOXGpKwDCk6h0g6KFRCAw6qASumtbIX7qt5KuQDnka2dVbDo_MYNMfCqq6hB1an_YjIGpaHASZaOly4yESvwqsQkvGA46jpmqR_E6NSPT1S4EF0YyMu4TOjVFEiqILL7Y4lH1hghVSlLowsj1DHsn9ji-Ckwppz2zN6dVSG15rdkFDU0mTmRAIT_Ut7Bsk4wRDGPT1twGy7qFx6SCe-cIjqi57EiOaq8Nacb44fBVvAUs8rbL8rEv7oNrJwwcj-5NvdAHZALDDgnJqJXbQq=w1632-h558-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Text": "檔案網址",
+                                "URL": "https://drive.google.com/file/d/1l54VfJ86L2v6OHEZ-DZy1depu_Wy6LQc/view?usp=sharing"
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://www.uuu.com.tw/Public/content/article/20/20200413.htm"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "基礎知識",
+                "Content": [
+                    {
+                        "Title": "什麼是 API ？",
+                        "Data": [
+                            {
+                                "Title": "Websocket",
+                                "Text": "Websocket",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/0OSAFn8W-tK-NELaFIwECWPcxS8K4WpzeP0FdeUUp45evsEXgw9ERGcR44YsDJcsc4JEN1-LdnmAo4qvjkj8rAOmdh7wPDKXL6pPR4O9-xflzLMKjo_i7oj-aE1xAY7i-E1swE6B0-NYRiNMX5vmZvYSgGat0JPG6dxVXR6gxDsrKcpIAMQcD9QWalRNyq9l4QSDDYuecZf0Z8zG7Cb8U3LPy5UtU81WM53i-TDfDPimOShpvL1er-mpk7kcYaJT3U-YmJlPNTNLbYz4mtFjsqyD0mottC81xKdDRKLBjdTkre4p2DTmZYZlrVY3xuM-byEoRQ7cUiP53_azAhzdzVj8kiv4Q_u0ftN5UYOOVFGoEhpHBoeIUAXZb5KQt_5zXiFXn1TOAyomFF5o1AH35j-W4Kf1D9V8Un-SgTghZp3Shjif1cGNAb30BMDX94G_uqWklM1rsQhZJ3JLPn9ymVWa0_cj3LDE6TVuAdjaSqTNMMGp1mGqPh6eD--fCFutkI4z814Vxz3DIBblgzUcYyxeNMmd0LxzSxxhb5DnIyHmpRMULxFC81-iYEA8EMVI0LUgoJN68roXaLfwPGFfa1_Cn60ESJQOvaWTnGt1paYYtgGntiHgBWHnUEdvUDebCDhY0Ob4aeu7RtlgdsUtT7zIpx4IQKrEE8E_5Mu8-4_FAt5jl5fOT0bBBo9tWlg8FkO94k1TuNcBekHksXu0eoOi1IWfMZ7MNPFoFi3nPsl_XITHFuTtYg=w1069-h802-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}

@@ -124,7 +124,7 @@
                         "Data": [
                             {
                                 "Title": "安裝 Harbor",
-                                "Text": "#下載安裝包\nwget {url}\n\n#解壓縮\ntar xvf {.tgz}\n\n#複製一份 harbor.yml.tmpl 做為修改\n\n#修改完畢後\n./install.sh",
+                                "Text": "#下載安裝包\nwget {URL}\n\n#解壓縮\ntar xvf {.tgz}\n\n#複製一份 harbor.yml.tmpl 做為修改\n\n#修改完畢後\n./install.sh",
                                 "Group": true,
                                 "URL": null
                             },

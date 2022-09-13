@@ -524,7 +524,7 @@
                             {
                                 "Title": "官方安裝指令碼自動安裝",
                                 "Group": true,
-                                "Text": "curl -fsSL https://get.docker.com | bash -s docker --mirror aliyun",
+                                "Text": "cURL -fsSL https://get.docker.com | bash -s docker --mirror aliyun",
                                 "URL": null
                             },
                             {
@@ -620,7 +620,7 @@
                             {
                                 "Title": "Docker-Compose 安裝",
                                 "Group": true,
-                                "Text": "sudo curl -L \"https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-$(uname -s)-$(uname -m)\" -o /usr/local/bin/docker-compose\n\nchmod +x /usr/local/bin/docker-compose",
+                                "Text": "sudo cURL -L \"https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-$(uname -s)-$(uname -m)\" -o /usr/local/bin/docker-compose\n\nchmod +x /usr/local/bin/docker-compose",
                                 "URL": null
                             },
                             {

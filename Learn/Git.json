@@ -155,6 +155,24 @@
                         ]
                     },
                     {
+                        "Title": "應用集",
+                        "Data": [
+                            {
+                                "Title":"diff-tree",
+                                "Text": "# 匯出變更部分\ngit diff-tree --no-commit-id --name-only -r HEAD > filelist.txt\n\n# 使用 PowerShell 將變更檔案連同結構複製\n\n(Get-Content .\\filelist.txt) -Replace '/','\\' | foreach { cmd /c \"echo F | xcopy $_ D:\\Update\\$_ /i /y\" }\n\nPS：參考檔案為 filelist.txt，須變更複製路徑",
+                                "Group": true
+                            },
+                            {
+                                "Text": "檔案網址",
+                                "URL": "https://drive.google.com/file/d/1MYHk_fQ2BNhB-tH7jZptN6JH-yALZ1vO/view?usp=sharing"
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.darkthread.net/blog/export-git-commit-files/"
+                            }
+                        ]
+                    },
+                    {
                         "Title": "問題集",
                         "Data": [
                             {

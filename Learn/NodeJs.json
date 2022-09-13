@@ -166,7 +166,7 @@
                         "Data": [
                             {
                                 "Title": "安裝 NVM",
-                                "Text": "#這個安裝腳本會自行判斷是新裝還是更新\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash\n\n#更新 npm\nnvm install-latest-npm\n\n#列出系統內各 Node.js 版本\nnvm ls\n\n#列出可安裝的 Node.js LTS 版本\nnvm ls-remote --lts\n\n#安裝 Node.js，並且設為預設版次\nnvm install 16.13.1 --default\n\n#指定 Node.js 版本\nnvm use 16.13.1",
+                                "Text": "#這個安裝腳本會自行判斷是新裝還是更新\ncURL -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash\n\n#更新 npm\nnvm install-latest-npm\n\n#列出系統內各 Node.js 版本\nnvm ls\n\n#列出可安裝的 Node.js LTS 版本\nnvm ls-remote --lts\n\n#安裝 Node.js，並且設為預設版次\nnvm install 16.13.1 --default\n\n#指定 Node.js 版本\nnvm use 16.13.1",
                                 "Group": true,
                                 "URL":null
                             },

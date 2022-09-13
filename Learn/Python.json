@@ -35,7 +35,7 @@
                             },
                             {
                                 "Title":"example",
-                                "Text": "import requests\nfrom bs4 import BeautifulSoup\n\nurl=''\nres = requests.get(url,headers=headers)\nsoup=BeautifulSoup(res.text,'html.parser')",
+                                "Text": "import requests\nfrom bs4 import BeautifulSoup\n\nURL=''\nres = requests.get(URL,headers=headers)\nsoup=BeautifulSoup(res.text,'html.parser')",
                                 "Group":true,
                                 "URL": null
                             },

@@ -133,6 +133,13 @@
                     "Title": "學習程度【 10 %】",
                     "URL": "/LearnPage/Websocket",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Websocket.json"
+                },
+                {
+                    "Name": "API",
+                    "ID": "API",
+                    "Title": "學習程度【 10 %】",
+                    "URL": "/LearnPage/API",
+                    "Ajax": "https://laalaa35055.github.io/Json/Learn/API.json"
                 }
             ]
         },
