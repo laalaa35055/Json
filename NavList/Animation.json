@@ -25,7 +25,54 @@
             ]
         },
         {
-            "Name": "美術參考",
+            "Name": "美術程式",
+            "Group":1,
+            "Data": [
+                {
+                    "Name": "Navnav",
+                    "Title": "【Navnav】：提供 CSS 設計物件",
+                    "URL": "https://navnav.co/"
+                }
+            ]
+        },
+        {
+            "Name": "動畫設計參考",
+            "Group":1,
+            "Data": [
+                {
+                    "Name": "Animista",
+                    "Title": "【Animista】：動畫參考，提供 CSS 代碼",
+                    "URL": "https://animista.net/"
+                },
+                {
+                    "Name": "Easings",
+                    "Title": "【Easings】：動畫參考",
+                    "URL": "https://easings.net/"
+                },
+                {
+                    "Name": "Velocityjs",
+                    "Title": "【velocityjs】：動畫參考，需引入，用以加強 animate",
+                    "URL": "http://velocityjs.org/"
+                },
+                {
+                    "Name": "Greensock",
+                    "Title": "【Greensock】：動畫參考",
+                    "URL": "https://greensock.com/cheatsheet/"
+                },
+                {
+                    "Name": "Load Awesome",
+                    "Title": "【Load Awesome】：許多讀取動畫",
+                    "URL": "https://labs.danielcardoso.net/load-awesome/animations.html"
+                },
+                {
+                    "Name": "Mixamo",
+                    "Title": "【Mixamo】：可下載 3D 模組",
+                    "URL": "https://www.mixamo.com/#/?page=1&type=Character"
+                }
+            ]
+        },
+        {
+            "Name": "美術設計參考",
             "Group":1,
             "Data": [
                 {
@@ -62,42 +109,6 @@
                     "Name": "配色網站",
                     "Title": "【配色網站】：整理配色網站",
                     "URL": "https://junlearning.com/color-website/#%E4%BB%A5%E4%B8%BB%E9%A1%8C%E6%90%9C%E5%B0%8B%E9%A1%8F%E8%89%B2"
-                }
-            ]
-        },
-        {
-            "Name": "動畫參考",
-            "Group":1,
-            "Data": [
-                {
-                    "Name": "Animista",
-                    "Title": "【Animista】：動畫參考，提供 CSS 代碼",
-                    "URL": "https://animista.net/"
-                },
-                {
-                    "Name": "Easings",
-                    "Title": "【Easings】：動畫參考",
-                    "URL": "https://easings.net/"
-                },
-                {
-                    "Name": "Velocityjs",
-                    "Title": "【velocityjs】：動畫參考，需引入，用以加強 animate",
-                    "URL": "http://velocityjs.org/"
-                },
-                {
-                    "Name": "Greensock",
-                    "Title": "【Greensock】：動畫參考",
-                    "URL": "https://greensock.com/cheatsheet/"
-                },
-                {
-                    "Name": "Load Awesome",
-                    "Title": "【Load Awesome】：許多讀取動畫",
-                    "URL": "https://labs.danielcardoso.net/load-awesome/animations.html"
-                },
-                {
-                    "Name": "Mixamo",
-                    "Title": "【Mixamo】：可下載 3D 模組",
-                    "URL": "https://www.mixamo.com/#/?page=1&type=Character"
                 }
             ]
         },

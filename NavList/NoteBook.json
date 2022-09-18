@@ -4,6 +4,20 @@
     "Type": 1,
     "Data": [
         {
+            "Name": "基礎概念",
+            "ID": "Base",
+            "Group": 1,
+            "Data": [
+                {
+                    "Name": "電腦科學",
+                    "ID": "Computer",
+                    "Title": "學習程度【 50 %】",
+                    "URL": "/LearnPage/Computer",
+                    "Ajax": "https://laalaa35055.github.io/Json/Learn/Computer.json"
+                }
+            ]
+        },
+        {
             "Name": "前端技術",
             "ID": "FrontEnd",
             "Group": 1,

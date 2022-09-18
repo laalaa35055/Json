@@ -1,0 +1,294 @@
+{
+    "Name": "Computer",
+    "ID": "Computer",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "電腦是怎麼動起來的？",
+                "Content": [
+                    {
+                        "Title": "編碼",
+                        "Data": [
+                            {
+                                "Text": "電腦都是進行一樣的三件事情",
+                                "URL": null
+                            },
+                            {
+                                "Title": "輸入（Input）",
+                                "Text": "#　將資料或程式輸入，並轉換為二進位傳送到記憶單元中\n\n# 滑鼠、鍵盤、繪圖板、掃描器、麥克風、光碟機、照相機等",
+                                "Group": true
+                            },
+                            {
+                                "Title": "處理（Process）",
+                                "Text": "# 又分為中央處理單元（CPU）及記憶單元（MU）\n\n# 中央處理單元又細分為算術邏輯單元（ALU）及控制單元（CU）\n\n# 記憶單元（MU）：儲存程式或資料的地方\n\n# 控制單元（CU）：從主記憶體擷取指令碼再加以解碼，發出控制信號，並指揮及監督每一個單元，以確保電腦正常運作\n\n# 算數邏輯單元（ALU）：負責將記憶單元送來的程式或資料，進行「算術」及「邏輯運算」之後，再將結果送回「記憶單元」儲存起來\n\n# 算術運算：進行四則運算\n\n# 邏輯運算：先進行比較運算（大於 / 等於 / 小於），再做邏輯運算（邏輯閘：AND、OR、NOT）",
+                                "Group": true
+                            },
+                            {
+                                "Title": "輸出（Output）",
+                                "Text": "#　將程式或資料經過算數及邏輯運算後，轉換成使用者看得懂的文字、圖像、音訊、視訊，再顯示出來\n\n# 螢幕、印表機、喇叭等",
+                                "Group": true
+                            },
+                            {
+                                "Title": "流程圖",
+                                "Text": "1. 使用者透過「輸入單元」輸入資料或程式到「記憶單元」\n\n2. 「控制單元」從記憶單元中讀取資料或程式，控制動作皆由控制單元處理\n\n3. 如果要進行運算，必須經過「算術邏輯單元」來進行算術或邏輯運算\n\n4. 處理完後再傳送給「記憶單元」\n\n5. 最後將結果送到「輸出單元」來完成動作",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/v5UZgC3HH3go5PdLtFLjI7LCesiFZXYRVB-ZP5PFYQsZzG_YVg1lenqhL-W1EJZMczoTtrS3siL9_4s0Zk5G1TDNWB09c9VUMKvGut3xM_4uL4guwd549ZclJ6CiGjuJjQLDHTWZSe1RjIEGHFc7dl69wf4wj37JgQYgPf304A0yPr1zyihhiUva3sP4m58fqZqRWD1SENntpr1xywcrT6FaR9rQoUoXhIScTzhra_TMosyHZ0mCjJ7BeOaS69xMBvH7IS49G2XPr8hSOFL4yYhKrT_EEgBo0YvvSIb2qi39oM5RZCPZ5nohq8h1ELkcej_sQTUOy8w-k5OsmS9IJlFEPWLzOmPnERpd717-tZQtOc26TQFRld9N6M5Rdl2xXvIDeq3TRVxHn1FkVSDB7yf5_YniAzSKbqzFREh5COOO8x4InsxabXzJOwa9S7YanL46sbzcPfDKxwwNuJ4wM84Ym_mrGDSFUWze3ea5MxGXmpjjr1vCeP4igRkoxNbak4lUagtkjOi23NsCqdkKsXrW7p5e2Gxeo7GG8Iy1puGq7Mieia6nwZzpBoQ349z9WktPaURgKjTLQaCqVxLnNhrSDQXYEm8IAXMlWNEd25y_H7eQNUt8wxa9m2OeeWVxxWVl7q9ThBV5dm5wq7Vqf5rlhxeDpv-al1DA-9Cxh9LxHaFto7B1XxrMFFEf-pwfd3vxpGGdPN8ymkM9zLic13tTWN895m_xvYSfA3cCLTuwZsh9J1FK2w=w1200-h1105-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "電腦如何與人類溝通？",
+                "Content": [
+                    {
+                        "Title": "編碼",
+                        "Data": [
+                            {
+                                "Title": "ASCII",
+                                "Text": "# American Standard Code for Information Interchange\n\n# ASCII 最初是用了 7 個位元來表示每一個字元，共可以表示出 128 個字元\n\n# 後期的發展由 7 位元擴充為 8 位元，稱作 EASCII（Extended ASCII），共以 256 個字元所組成，擴充了許多符號、更提供希臘或拉丁符號使用",
+                                "Group": true
+                            },
+                            {
+                                "Title": "Unicode",
+                                "Text": "# 一套業界標準，將全世界所有的文字與符號都收錄進去，並以一組十六進位的數字給予每個字元一個獨一無二的代碼。\n\n# Unicode 定義了兩種轉換方式，其中需要認識的為 Unicode Transformation Format （UTF）！",
+                                "Group": true
+                            },
+                            {
+                                "Title": "UTF-8",
+                                "Text": "# 一個可變長度的編碼，使用 1 到 4 個位元組來表達一個字元，並能與 ASCII 相容\n\n# 它可以判斷要以多少位元組來表示字元，也因此 UTF-8 成為全世界最廣泛被使用的編碼方式。",
+                                "Group": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "學習心得",
+                "Content": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "基礎知識",
+                "Content": [
+                    {
+                        "Title": "什麼是 Test ？",
+                        "Data": [
+                            {
+                                "Title": "Test",
+                                "Text": "Test",
+                                "Group": true,
+                                "Imgs": [
+                                    "Test"
+                                ]
+                            },
+                            {
+                                "Text": "Test",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "二進位制與八進位制",
+                "Content": [
+                    {
+                        "Title": "什麼是進位制 ？",
+                        "Data": [
+                            {
+                                "Title": "二進位制",
+                                "Text": "# 十進位制，每進一位就是多乘 10（如：個位、百位、千位 ···）\n\n# 二進位制顧名思義就是「逢 2 進位」，每進一位時，就是多乘 2（如：1、2、4、8 ···）",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/RT3S44jA-ZKzHMM71-60z8X5R1DKiOd9-n8lnrDE21Tv3QlBtARJCEJTbvR_sUNUZEy_8Wnk-QUmFxm6EBe-WmFfUF-mwmYvE8xI4X4OeNhhxqvzo5qQX8Dnm0m0iWW_Z4uhyZeOoSCLo1vLm1hTanZoPs0T7qM2RCZ1B34kl3LmftkMNpmP8kUqcz4o5Gj6NsX3SD3f8RRjPJ8nk0Zo_k_imsBqQ3CY2iEakReNlvsHILXmF42xuOOJD5Nf2FRD9Z1rEYDcaSHPRltfuhDfJ_w30kPIwLyBJt-OnNKnOtAIQGaS3TF2i3iMKyP-R8HsLYTmYcQeb5n5QFhHu6LHAoA4qoLoEygB0ha10ATdIkR-8m8J6c2yJtM1FLeyKPCPordw7OB6f1OfgdZWmnOYdU7nBVxaKLJPdQdTJ833e7t6EzLd8HTCA3MhU2mflsa8_k3cw-T2Ehz7M-mfpKFkttdYYcmW_y23rodVJ52_uoQINilXA9TOVBoAuFnvCNmBP758Hm044UNpC1shOj-9D_E6O7-DHyxUD9wQuO0_gnJjS5vSHcSXI49iN5gbokSeHFfMI19utO0YL3EqMF1fGOk_z9tnTanE6BvbUE5IyfWE3Tj-d3ENT2QsSxiG6CMNIaPxmT1k4gsywjnfeVPs46rl-_javPLMjWU6TRrbp19SGMlDd1_fAcmRlmxQd3pZw1wDNZUA5KACbjuVwlawFHnSmXHAYI742eo81TDzeVHc79eeizZtBw=w933-h1253-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "八進位制",
+                                "Text": "# 八進位制和二進位制雷同，數字符號為「0、1、2、3、4、5、6、7」，是「逢 8 進位」的。",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/RMXQav3xt6TeRkOsQ2BMxBTWkLrnNYQv8DGS9-M6ARb-lGwniXCItZ4zqMHj8ZLysAXgw52U1F2oc2Fnm8UGcVIHlaOLOniSL9U8cEN8B4Jzohi8BjCWlNmQUpkYKJnU_XsT7OrDlt-884czkgW4Nofxzsg0Ad5fzu-Oo-QcqVxGs2nDMOqD-1SMRq6_pYG_grnRMz4aDmXNqr5PfL-GJYOpzNDcq-jHcFZgGt1TGoZReh5sfpEkIm57Rc9Uq5_P_DYlPcJubUuC5BHT_PN7kyimUPyx85T9HQnuCXMALdsdzFX-XKzA1UXQ_dcPJq3J9bovcSklzvprO-rbs2D7i6bes63rVvGOyQeMdqmSY4MwgmzP4h24hWrVuREIokwDKx1-R-aukqdjZRpNP2neNJUpfBPQdX5WsmZpbXyO21SnfqgVLHdPPtgkwCMNlesjkjblmH1RVu3nYnLBVGSbDdST2ZjrfkF5AFPpn_L3--tlwUbN8MLBETERt6PVF4auOScz6bf-YfOZQj41S89v-c13jW1eq218QUzZMOPwnaNeSZdLXCG3yLzuTTktow1x-lNS9b9iZQtrTtK_4ZvVVemg2tdJexI-WLWQz8ioQMk5s-agvZPZ2aRjvvO7FaRWJeYa0QfMgmOXqTb_2pvCWm1j9wG85_qox8i0iHX4_iRra6b5L3-uVd_X8y5pAOUumIqxPsBPwie1DYn6y5XgqCMxKhVuoaVAoeglhAp2nrXV1Vyn61hrXQ=w1200-h728-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "十六進位制",
+                                "Text": "# 十六進位制的數字符號為「0、1、2、3、4、5、6、7、8、9、A、B、C、D、E、F」",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/eh_zX87oa0ItIlrW586pbqWh4YED2DmQ578U6nMBZVlv7STEsxEv0Tur2dVS3uNVt5Z26v_R91xKyXqAHzkxzeJIiyIaPY5yBFPVt5hnUiBZorSkUNXoxuHw0UjEZyzuq_zZkKn7wspSOeq5-wm6SU-f5ugfMNcVy0tuoRPmeMUkDjNBdAt-tnoC5kOqz469GPE3nltHlyx_Plkpfr6IcLVIYB1IsbXHv4NAaerHspIM7Qj9e9T4m4GOo7DUwYZAf8qAKqJC1SgcZiezv13SV70nGF_z0CiNcvDo8T7ER-d30E3aYEz15ZKhMYU9JFXH6mRWuquDi5QiuybRZ8Ga3BGC2Y1jhtkiDbKFdSaVGOBIDMYfvlIyFzU-u8AcRfs8vUQ2Pjb3iPvKUZWiJ2pNNgpo5yueaY2Mm7Aq2dk67kGoY8n4RX9F9PsBRDTH_ImEgVFy58CJqkE7PwA-I9Lojv_byK_FF73ht8FoXj1cwfXW9jAruDLUHqSIX6yYwHMtvoKWlD-r4989Aaa5hXJkhWHq6Hb6-lrxHnRXKaUUxw-O4eDf2A4oUWA3BJ4yYOY2EkgF1eiJts2-B5YlhO2XAKZN0sLTSp9Br7KpEYMKkkmXs73aoXNq98LWSlr1KjvkIybbEmhwmfuS9f5gDYXW3IItj177FoNl6otJGv_29rEkVZa88lIM097QyMt9iXEJvIXtTpSCtzDiMzVyNyftdFKMWF3AYAe3UjZUT3jRCwHPtCY4Ihoybg=w647-h1253-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "轉換進位制",
+                        "Data": [
+                            {
+                                "Title": "十進位制轉換為其他進位制",
+                                "Text": "# 整數（除法）：將【十進位「整數」/「欲轉換進位數」】，一直除到商數為 0，再依序「由下往上」取出餘數。\n\n# 小數（乘法）： 將【十進位「小數」*「欲轉換進位數」】，一直乘到小數為 0，再依序「由上往下」取出整數。",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/tXnDK35FfrBlBvin0fGaQfDcJOFD_k8rI7cGUAzGpw1BFfZzL2_9KkApxbzkjhOLXuFv8BJPKFHnYbOks8VS3rERkP7LNSbIkt753caSbuq0gfitkBqYcZjoKvXh7DlnHo-Fl_YkfIBpXzbqKnbO8HoG07FvofU30KJ0S0fAOanIkuLzCQ0gNFPL9tkXC-4vmNBWnEAwIXRcoDqbXLmBfn3q2D9LLXMpWOUWEq6VkNuQPJRI-3uv2oQ-hB-dbU5T7Pz0lZ1gbiB-YQflQSq0n_TOLO9vvj7ReGvUKmUegtmo01sor_VsN6ewmc9u9oOrxhmuj7PYgUV57Wo-C2OHtU4KYIquS1MToHMdQzMcz3iuPBGweCz35t96E-7GFnZDTqSPJI0JBNeD8DqKsKLZarm1ew94MPYPvelOTp9i2ik7uvQbpPDm3Mke0LHaNQvnBDDVoEZbnd6Csc7vt8NAi9eSYnMM51VFSoVdzl2OY9HMj9rsqXetHRYV3uKW1CwEzz4o9cvGrJm359AvXY1cef_fdfwkfH7M7QmKCJLXpUVwOR9PL8R0cJa1C6D-DK7chmUq-YUpWPW9TicTZ8GnZgD4q3YIJP_BTiaPtwslPTKLkv6O86IUQl3lUVWFqWha3PgzRJwVd10RfvalvDDCbRFVUiOlqPC1pLDLZQoyDBFlgT5bIpc8DF9rRkbQWfQ7HCvsYyhKrBvBtVRBgdbp178NmkTMidJtRKqHOM02kCLFfpiBMpDfTw=w690-h1125-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "其他進位制轉換為十進位制",
+                                "Text": "",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/FYCoAF6Iu73CjZMeHSm-YIGK8MME5bKb50UGgCA9GaFLjXMwfRiafcybnQ5r8yrnGw0MVk-05H_l-5s4cSOAuHL41GudZj3TwF_O5euVyOdRxsO8EY2lRTlAD2U0B-DQAteZ3Vlvd-2a-u1xqcG0Ldeqtb3EUMPSIinHwbeTCHt0UUiA1EeVDospdGClvvXWMSJHSLP0jrILCe4n1fvgNy6v9sg8Z_GzkgAAetUYXFD095oKSOZooH9Rs1fRKUUXciGqoYT4BalKcv1Uq7bSUGepZXedDAXlAgI3OY_RjtP3jBuVylieqT6h7TbTIlkU9vDoPH5CmxJykhSIA2zXacqgpGWkRnQZPWYC-lBJ5DhPxieXu-WxyGWw9KAFOxnWqDlmIKEN1aae_I4SwnfM8R3R4xwVgmPiv0dy8sHroKNqVFaOPuhurKBr0DHrDDM7ge8d3omseH0HpUEPbZxxDHrEaCiEPkqfpUf_NOJPlpM2vFK9K4wZd296G5bvdh3w2Ax_SIKRzuujrwxGl5yZczTuQdVfvJlvl0zM4KryPmd3S2Q4s1ClFSdevZqwc-MZoxfw1_G2O9T9BpcjorZSrv_y1-aO-AMOt57uc2Pzdnnkqeljx-5ZlsxDVCKGFKO1bIJZwivu-q9YMGz4fyDpyO-pCqeeEn4XaLbXkeoJOLsekpyiIwNzHzvW-qgMAaD-tFbss7VGnb18GGGfqFCc0qUEAS8UN382sEwea4mJiGabZ1w-OXNyB6-6RIdeBj6k8v5KaZ6YU9cKkoFbg13uTaUP4ngOPZ-RjC-Zy1iWqS19LIC5g3fpsrkHqP_eES4g43rZ6ymzsPuDOPU9A-Y_syxmKoNpjJcepijvToDJ9IpLts4jk_jdSWJHjGrrJtCsvlMVjqoV1zuAhxpDR-eNfX6GR-lApU4E=w790-h1253-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "二進位制轉換為十六進位制",
+                                "Text": "# 16 為 2 的四次方，所以二進位制的每 4 個位數會被分為一組！\n\n# 以小數點為基準，分向左（整數）右（小數）兩邊，4 個位數為一組\n\n# 「整數」不足 4 個位數則「前面」補 0\n\n# 「小數」不足 4 個位數則「後面」補 0",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "十六進位制轉換二進位制",
+                                "Text": "# 將十六進位的一個位數以二進位制的 4 個位數表示，若不足4個位數則「前面」補 0",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/Eetx60AX803aXuUT2sRwRDU-Q4dDGHzXcUyKOpVzoH1JCIYjhJ14cMsxl5-iUUp8OzV4jbJe7pKW-3QMxEpWRdLHJjospg0daUjbrPT-xlXmYEdPrH3xQhkbr4SVwoW240IflkVC-wuLrDxEmW69Bkj8Xjj8QjbQ9OGZY4Pw733lS7yUHODiN_vI_-iCG7LBdlnfvFe0ae0d3hmPRCpnxqHmBKZt_w6HpXC3PjTgJET_KuLS_lL-P08cd5l0UyP5FsrKJh-96hvFKV_jo6Dr8yYWu51O1hw7ggZtWVJAK9hHs2b7HrojqtDlbM2-q-E8atJn0yTtaJCD454AQ5Kpo4PXns5PdemvKEZNjov-1QV9IIuKLG9OE6VjY-N07QnGvqyCUXh_gP38re5slEyiqyg4wi6Gn3YXbDBpMhduUPNoBuUYJArCevsQWxWV2-YjKB23XbQFM3XUu7R6mCEBNxYeV9EZ_mHTPI1DUV7wSFqu6am7HrFvYRPH7_ath6IgrBMobwOS8X23ASZt6t64sxv44jEnSUrSDabli3jEBPUiQuQasXpZC6G9dmu0kmzWJmVhjM9SSF7-UwpeEfBMt_OxQ8ZGRng66XuauwdE36GJYkLnLSANqfsd9i6a4IIGm6jwQ9qJJynaz9y6N7RBvrCnO3X-uVEQGqpEyTTLZ1eLyYT6-DhfoV42VgEYW4KUds545xHuUdrndVEcltoSlv4wPSKZI6IPdoUAzyiblAU7gGZYqTr9CQ=w1200-h900-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "1 與 0 的邏輯運算",
+                "Content": [
+                    {
+                        "Title": "什麼是進位制 ？",
+                        "Data": [
+                            {
+                                "Title": "反相閘（NOT Gate）",
+                                "Text": "# 遇 1 則 0，遇 0 則 1",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/PLuCQIz7KPjvILBUD2Fqdn0efoDAA6OvsPww_Kr7DHJXKc9a_hN8KIwB_qsp3XNyPjIdWgUEMBT8RRQk_EiEKHpzIdt5TAZAR-dhQemZYmWWXXs1Pg4pewTF7XGfwvBPJkyrUkZ7eoTHvfqQ3uGYkSJOFXw9QoraKOW3YWDVxcVQoEbYYlQeFOuLEfgeT6vIfUdG8wIt3JxrJPqMz-qvGg1QF_I_JePoSEVNDPVSjojEb6rjTgFpTf2ACdTKmVim4_sX0Xtv-tFRxE09LQygckKy3VCV3jykgxvL5HYoEvmLdwUIFRkPLaVI2CfsaEk_arC6w4xWyYisgY0RE6DCHIguthkLNHIJQkpUbS95sf62oQmCkT92lciOEMrhFixO2LPSo6PwBETmbm7U0HOwxbjurnej5Y8qOBMfpFtVO-T8GqdIvlxrVME9TZayoagGwpQAcJRc5r6mz5Nw1VCaDnvYrruHZaaN-u2DLf-64nXo4NvN3YzcP50bwcFs5ya_ryhUwYJNTCi-UlKGM7PrmAWagkWrEV6Z12BU5uA6B0AcFu4JYxLzdwjjV6A5pV0kmckR7ciYCcjJmhdtbWgXwS8E7HrbpUp6GSZHpUyl793DLt7c7ouyK4y_SYAokPv4hBn45J84EilOolM6Kuje_vj9Ni5fyU1e1Y4B6GQAdIXJdPG_oWHiV8jERdZc79-TCnA69rL2eNOrLTSmD-GDNVXTw14bg_RZFyDIXC8PAC0T_FHTkRGDNg=w1200-h500-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "或閘（OR Gate）",
+                                "Text": "# 只要有一個輸入端為 1，輸出端就是 1，即「遇 1 則 1」，或是「當所有輸入端皆為 0，則輸出方為 0」",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/GtzIXQTVs2wRcq-7b9IT68TaNsdpRmuyNrWGDP9Ok7d_vjhNUNehTW9T7yQrZea7oloN8AIbzbAhg000Y28K7aRzPJBe4rKwWN13WF-BcSUI_QVo5I84iIl_dFDmuDHxmLogNr3bMVGAINVFLSHC9UvhWzuyYNlWc4lOVj40ezlUE3_mOYuEINPVC3wAK2BpmFMn-rmSBcLX2WcysK-EddkVdgc76ST3vFxOJJttBAi-Bd6m6QtFbtT9W5cJnQakSLWxEsnCnIWKkED-0YLND2jQ6KafpLrvVXrzWL4r5XL1xI8-roVL8_mCIiISNCIfLYf0VYnnZXuwgifnpLdtWE5GPfsr_6LxrNuWF-yWcw3aoFdXUsDi_m7EVgyVBZPLBqXC0XriS8VPUwN3Owy6ai6ajj97B_-wyj29KMCIoOVpOe3lNlEry_RNjo0Thp_huZG0_kZt4TpZeyBhz018Hdq5Jtk1PEvGIEDaeucPpofdd74dMch_Vgv-5XyG4vUEGPApXAv0EgfDgH-S7qkI04y-AnXpiu6UZzwLdGZMhRIye3jUg3w35FvyswuKWFUayMrJ_8bwGqfuPVPxEzQeCmgnnJPx0HggI2OpCSidFgwnI80-kNH07ScIWniBrT2icnK9SdENH3pQCQjQAeczj5QH8LEirSGCCEgRyVe0kYwpR8R7_-TXx44kw4LMBCn0Tq2QHuOth1P4L3vXvCHF379TipMzPssIm_iccHVXehVc7aJkCTKrDnVR99Ur_VjbGzkg1_E3dhw1uqapI87501d4NKOUblkFeQ7m6i7RSit2TJFvM9ISy9qIWskzIQmgd1yIK3srYougxMhTenF-2H-0iVqvux0VmuT8vvQwjivg_c_BpqiDtEMv3YgcKLZHnPZMiWPUYMRSqXsz7ZEaxXkxkyoCAcT4=w1200-h720-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "反或閘（NOR Gate）",
+                                "Text": "# 遇 1 則 0」，當所有輸入端都是 0，輸出才是 1",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/Zi9iHVKwgVmSpTWFf16g_NQf31fBApyA2aOOozISKzbn7P-toIgI_lnH63wSqRfRqYjks7_ObriIBqBpVxggvbTRoVTyxNGdgj1z_8oLO_3yyt5m6Xgebn7emeiI6CpCiSXI8gBNe8mBoYqM0JaMoSHVxkouVy0o9za1qbTxqhns44ABuRuJxSeEZM6LnP5a8BsCz82WQBGTWjCKbVPTIO5v7SJ1Kdvmkei26oRpJcCsb33NNOe5QptuVHdCrlVpx_R1Gd4lglcjFEXZUbdca3zEwcqPRMiF2E9QAZju1rjCDgSFjAuXN7k3-xbiM_dCUWpH77Ao2PJekxFqGVcqEYNc3IRd9xO8ySPzcedo42wfks1G9N5JGZvNfjG2w8TRRKYI4UUY2xTCLh3WkPISjSnPjp0ljfrC2KYaa_w_4rQ_6EfJV4agaCSiSXKRc1eKCY6Ndrw-o08VZsGQKBcO1U8gipI8v7FTVa-dfA4_VDfp8PRizJdIWChX8VKeZgZVroXhjAl1ZHBp9Ww7Xtqw4Sf6at18vSLHXlA3s5KpQVwtA2URU2adWX-QAh6wVtsxx8YFDse3DDibU4xtyxHt146pZMH-0gU2RMyCkaTQQUHMkL2gkkowAoU_iXFLPRGoO1CL_3ByzlFZXKbNf0EffQucFVb1Svg-Dz7ZX2qzBHEE8DrSTpntLVumTouQ72KhZFksDmqG6iWdRSl4qXY1vRISG77HlnqK_yGejmHRn7Z1PhFCm_lqbg=w1200-h735-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "及閘（AND Gate）",
+                                "Text": "# 作用於最少兩個輸入，剛好與「遇 1 則 1」的或閘相反，及閘是「遇 0 則 0」，而當所有輸入端皆為 1，輸出才會是 1",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/zlwKxh6PfK68jHy1SQcLqeOIFuXZAHl1mfxVomOPuoUohEnohivyQ03iy2I_9l7vmyVZRG7zUbKdZFWQI0r2LMazaTMiMGPQDBj5WjyUD3puG2sdXd80Lv7hlJa-Opm77rHm3y78eNvD6e7S_I1Bpm--_G5WaRET5nLrQiHdk5r3kuAPQqi17DTotR99p1gFABfqaBU5DKPtt-NSAx1re4Je7sA44ltcHXrmIDrbU-FGQVxknuhKm9C4arH3UzYZVXum4rZDMUAiowEWyVJRz-tRRq9adz5CYOELUDitJPU33PbZRlT-eU6NdG1vUa1iOT_o90qvezgcAhaY4aF-ZOnhqhCiKBCtmKpgJ4ZQ8XU9rbaebE7aZsq3HgzdSSctH15mnTRKsrBVqx8guuO0tzvkyduEa35ndqoGslFRoOC8Neri4Rj5m8BBBE0zcjOWjHL6ZYBbgE_nR11mPfTnYFDxBSDbnE4BS1s14ZhCs5ZRROtWvX5bHuS44pLof5v8GHnurH2MD0T032iBTtLhcWtlMFjq7-Idhh4deXG-JiF4yN7kPq--Xj_EbPlPF4nR9Z3O53_3fgyNssKBzyjT1yLtLDehQNQ8TH3KOKrQzTtWOLYE9wKM2VtBJViRNxix2aTSxgj_ghGMe8RNtW-IacVD2xTdvZal4nqGihjVupYRYCN12bTY7UZtnEFBtPlX14b7c1dIbBAyAuN8yaHuyc9mYO5TuEusZ5K34ZQ6xcVy-BQv41XKBw=w1200-h720-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "反及閘（NAND Gate）",
+                                "Text": "# NAND 則是「遇 0 則 1」，即所有輸入端都是 1，輸出才是 0",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/4EGip-7qsLTGIyx-pJ7yVLcT3rDhMhCBUFAyqegCeqgeoQ6WZyKYs3OmpWh81UuvZWX_Pxb63d4RvIfhNRP66FXFZvnlKk5WIp9KPvMn0mh041bnJbs8kXmMICVuwj08SKdzUfDvrE9mw7gB49-NlMU2Ko1I2NUP7K3hf-jueSIhtIw3UWVBXEinE8Y7UkFUisXRbvKvYMfnvzNWh3qHDpDnJi9s_AIHdqCxoBYOeyoPZHsCVYCuTO1gW52WQEbom4GOeo5bxqBnPeokfe-nj338G5N7F__-nMTvGYhEGJdg0w_YeujkqyshxBQM1SbQ2b87-Jo3YFCwkzVIY3lLgCLUSqUparxYFjIHlTaNwYRjC1oFHfmkqxO4bNrcxKkOciviMlT3Bw7wMrXhZ0gIeCK-GdKH9zyhLFqYrVu8taLy12Y0LnKrPH2TbDZep_nXkb4QzdethHh79fZzoXQiRN9O6UxLUazriIPqrDxsQTimwBIogw-1BtRnnfHR8y7Kj098K99h1A9uK1ozXHYeWfB4NSppEe-_fypnJuE-8d9AakELj63Y0tz6mwk1iRtIbgTsWXwiWpjl05Ei57bo7zEvhfNnFoXm50iFgKZ7sPsWpD2-b-1rPyc2_dlBsM_FVfWKTQMB8RHkkaauObtAODOXqatSz6GGO6Bmpi_TM8Gp17cgWyI6of1LCvGbQeI69QsHN-Qm8YG5Bo48C95PCYXmcTQxpsOpxxWNGbBS5bxkpRHP2yhQjQ=w1200-h735-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "互斥或閘（XOR Gate）",
+                                "Text": "# 當輸入端有奇數個 1 時，輸出為 1，否則輸出 0",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/PSQyHI7isSrCebd7S5Il7DmqmkMfnllRKToY0g6r_wX3czq6qsxWKYA35MVNykwOeg99AQShh_MUX3--x6-66tzULU8uxrIIE116QppwcgQW2-PgdK3gT8_kNQmB_TX56a2PDQ1NQCQQlKvZIy7eXUso5jAaeiwKmQ_pRz-hy4oOu3yBU7abt2aU7cTjGIoVkJABxUzh57XydaWWDa_lmR4VKqZMxx0cmQm0-GuPPs1j9fCVu3ndImlyfBo3bBhmSxIU6FxN_-zlxw9WdE68tUylYKA-7n1VXVW0W0hZLi-A89koBnUAQSOeev10RdBFM3_EXemp3CQykBF5b1gbhmTMla8J8GZAQfwMVOojcl1K5vNs9z0rA68pVYxu79t_NUKDJRvLLHEXV8ywcSQnuE4w5-sUfhCmD9jFmFEAoU-38yWIfP_RvvDchN0Lfxe8BNY1IrOos0nqWO59CtUUsMhflXHCJ-J6DcmXEzeOTDzX2xoA3coxldxwfZvYGca-zVGk7RQcROJSyix6BJneav-4eqNHtQEtnwSkqupxckMpIkB1FPBgw15K94IOTksErFjCu198JeqmuGIqdLMAgzloq5-iZiymfcMRPp8VzstyB8GX_rXUtr8ZNQmJUTrdQIaGB1NZ4Z0tSEi3SSUEzAkEorsHjCzL9NwEAtb09g4d3ld-4Ots3-IuCtvBg0oxql1g2Z7zkzwHTTFvvUzuYJ01yNO6bbf4hC-6p6ElV0uGQ6962kzKxNXeqNHmCSonzkvMQfkIL3MoceTZe14icTUeVlhCezRBYooSZMOYb73LO3Hc3f6296vCap095e1GM3ZFO3_ON2zE2J927He5JHFV-VrxWEdGSxHd2czhhfafXPZmZmHGfBWKhyxn6Kto04uQItGJtymMeQgPJ4KZMuDue1w1dB_7=w1200-h720-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "反互斥或閘（XNOR Gate）",
+                                "Text": "# XOR（互斥或閘）的相反，當輸入端有偶數個 1 時（0 個 1 也算哦～)，輸出為 1，否則輸出為 0",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/uyeY9MZZ0EjZTDySG7lDMUg2bndoyhkm-9vGCUDSfnrfBbD9MEAl35BrXQqMsk888xRRPr6LjcLktbXEKUhl-Y_64w6NdxW7KEVgx-6cMu8ecWtw1jQdIF5SE_wJFMbatR5aSJlk1jGto14SQp7wyUPNjFJzzmmMWHx_o7QBKa1gDDn5le8Se8_-4oAS1__-yYpMm14wjKKM-mHbfUJ_JWILQ7AFvq3haK57ndxrWOO03EhFI1eiqrj-OLgsgTocFOTAAa6dSMBEis0Vxxs4qByZlzzGDfWyuPZveW-TEzDFOoEZddBIMC6z_9GUvf4UAxXd7YgZGMZBWcyXXTuiRCs8xeTeery6t_ju3lE2ogg9gKt7ypBMpfX98jEr3S_9g8Trq_Sd29H4Y0ozJqPEO_C01gwEETYMdxmbqxpM5Cv1jIMJ4QITMy8vh8UXkQRLtGESJ2PHbJthcLIoB0P4O5AE9nWozfommGkKKJ5pOVDOhgct-Z5mcQ0cGmHj2cWIoyJjuNqDIdZOs6Zc6T4eqhiM3ztkJA4s7VEACn9BLuqBe9iV2RgPjEqJMiVHoukDNBT_urOxUYZbvdiInL48L-l88ni_tqVml3DImRUtn-D5Km3qjJaKM-XT2QFDAyyS9s8y0N5y7PXodraBpXPJR3mgO_nQpGa_TyJWKo-kWYRj5w2Fhiu8WwxDmgsw4pWYL7SEaTmXKTnCtDqnLS1K-fwWRsROWf9WUJlXyrMWRIGwKzno6DuTlQ=w1200-h735-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "轉換進位制",
+                        "Data": [
+                            {
+                                "Title": "十進位制轉換為其他進位制",
+                                "Text": "# 整數（除法）：將【十進位「整數」/「欲轉換進位數」】，一直除到商數為 0，再依序「由下往上」取出餘數。\n\n# 小數（乘法）： 將【十進位「小數」*「欲轉換進位數」】，一直乘到小數為 0，再依序「由上往下」取出整數。",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/tXnDK35FfrBlBvin0fGaQfDcJOFD_k8rI7cGUAzGpw1BFfZzL2_9KkApxbzkjhOLXuFv8BJPKFHnYbOks8VS3rERkP7LNSbIkt753caSbuq0gfitkBqYcZjoKvXh7DlnHo-Fl_YkfIBpXzbqKnbO8HoG07FvofU30KJ0S0fAOanIkuLzCQ0gNFPL9tkXC-4vmNBWnEAwIXRcoDqbXLmBfn3q2D9LLXMpWOUWEq6VkNuQPJRI-3uv2oQ-hB-dbU5T7Pz0lZ1gbiB-YQflQSq0n_TOLO9vvj7ReGvUKmUegtmo01sor_VsN6ewmc9u9oOrxhmuj7PYgUV57Wo-C2OHtU4KYIquS1MToHMdQzMcz3iuPBGweCz35t96E-7GFnZDTqSPJI0JBNeD8DqKsKLZarm1ew94MPYPvelOTp9i2ik7uvQbpPDm3Mke0LHaNQvnBDDVoEZbnd6Csc7vt8NAi9eSYnMM51VFSoVdzl2OY9HMj9rsqXetHRYV3uKW1CwEzz4o9cvGrJm359AvXY1cef_fdfwkfH7M7QmKCJLXpUVwOR9PL8R0cJa1C6D-DK7chmUq-YUpWPW9TicTZ8GnZgD4q3YIJP_BTiaPtwslPTKLkv6O86IUQl3lUVWFqWha3PgzRJwVd10RfvalvDDCbRFVUiOlqPC1pLDLZQoyDBFlgT5bIpc8DF9rRkbQWfQ7HCvsYyhKrBvBtVRBgdbp178NmkTMidJtRKqHOM02kCLFfpiBMpDfTw=w690-h1125-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "其他進位制轉換為十進位制",
+                                "Text": "",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/FYCoAF6Iu73CjZMeHSm-YIGK8MME5bKb50UGgCA9GaFLjXMwfRiafcybnQ5r8yrnGw0MVk-05H_l-5s4cSOAuHL41GudZj3TwF_O5euVyOdRxsO8EY2lRTlAD2U0B-DQAteZ3Vlvd-2a-u1xqcG0Ldeqtb3EUMPSIinHwbeTCHt0UUiA1EeVDospdGClvvXWMSJHSLP0jrILCe4n1fvgNy6v9sg8Z_GzkgAAetUYXFD095oKSOZooH9Rs1fRKUUXciGqoYT4BalKcv1Uq7bSUGepZXedDAXlAgI3OY_RjtP3jBuVylieqT6h7TbTIlkU9vDoPH5CmxJykhSIA2zXacqgpGWkRnQZPWYC-lBJ5DhPxieXu-WxyGWw9KAFOxnWqDlmIKEN1aae_I4SwnfM8R3R4xwVgmPiv0dy8sHroKNqVFaOPuhurKBr0DHrDDM7ge8d3omseH0HpUEPbZxxDHrEaCiEPkqfpUf_NOJPlpM2vFK9K4wZd296G5bvdh3w2Ax_SIKRzuujrwxGl5yZczTuQdVfvJlvl0zM4KryPmd3S2Q4s1ClFSdevZqwc-MZoxfw1_G2O9T9BpcjorZSrv_y1-aO-AMOt57uc2Pzdnnkqeljx-5ZlsxDVCKGFKO1bIJZwivu-q9YMGz4fyDpyO-pCqeeEn4XaLbXkeoJOLsekpyiIwNzHzvW-qgMAaD-tFbss7VGnb18GGGfqFCc0qUEAS8UN382sEwea4mJiGabZ1w-OXNyB6-6RIdeBj6k8v5KaZ6YU9cKkoFbg13uTaUP4ngOPZ-RjC-Zy1iWqS19LIC5g3fpsrkHqP_eES4g43rZ6ymzsPuDOPU9A-Y_syxmKoNpjJcepijvToDJ9IpLts4jk_jdSWJHjGrrJtCsvlMVjqoV1zuAhxpDR-eNfX6GR-lApU4E=w790-h1253-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "二進位制轉換為十六進位制",
+                                "Text": "# 16 為 2 的四次方，所以二進位制的每 4 個位數會被分為一組！\n\n# 以小數點為基準，分向左（整數）右（小數）兩邊，4 個位數為一組\n\n# 「整數」不足 4 個位數則「前面」補 0\n\n# 「小數」不足 4 個位數則「後面」補 0",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "十六進位制轉換二進位制",
+                                "Text": "# 將十六進位的一個位數以二進位制的 4 個位數表示，若不足4個位數則「前面」補 0",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/Eetx60AX803aXuUT2sRwRDU-Q4dDGHzXcUyKOpVzoH1JCIYjhJ14cMsxl5-iUUp8OzV4jbJe7pKW-3QMxEpWRdLHJjospg0daUjbrPT-xlXmYEdPrH3xQhkbr4SVwoW240IflkVC-wuLrDxEmW69Bkj8Xjj8QjbQ9OGZY4Pw733lS7yUHODiN_vI_-iCG7LBdlnfvFe0ae0d3hmPRCpnxqHmBKZt_w6HpXC3PjTgJET_KuLS_lL-P08cd5l0UyP5FsrKJh-96hvFKV_jo6Dr8yYWu51O1hw7ggZtWVJAK9hHs2b7HrojqtDlbM2-q-E8atJn0yTtaJCD454AQ5Kpo4PXns5PdemvKEZNjov-1QV9IIuKLG9OE6VjY-N07QnGvqyCUXh_gP38re5slEyiqyg4wi6Gn3YXbDBpMhduUPNoBuUYJArCevsQWxWV2-YjKB23XbQFM3XUu7R6mCEBNxYeV9EZ_mHTPI1DUV7wSFqu6am7HrFvYRPH7_ath6IgrBMobwOS8X23ASZt6t64sxv44jEnSUrSDabli3jEBPUiQuQasXpZC6G9dmu0kmzWJmVhjM9SSF7-UwpeEfBMt_OxQ8ZGRng66XuauwdE36GJYkLnLSANqfsd9i6a4IIGm6jwQ9qJJynaz9y6N7RBvrCnO3X-uVEQGqpEyTTLZ1eLyYT6-DhfoV42VgEYW4KUds545xHuUdrndVEcltoSlv4wPSKZI6IPdoUAzyiblAU7gGZYqTr9CQ=w1200-h900-no?authuser=0"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [],
+        "Refer": []
+    }
+}
