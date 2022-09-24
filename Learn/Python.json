@@ -142,6 +142,27 @@
                                 "URL": "https://www.learncodewithmike.com/2020/02/python-mysql.html"
                             }
                         ]
+                    },
+                    {
+                        "Title": "Flask 架設網站",
+                        "Data": [
+                            {
+                                "Title": "起手式",
+                                "Text": "from flask import Flask\napp = Flask(__name__)\n@app.route(\"/\")\ndef home():\n\treturn\napp.run()",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "相關函式",
+                                "Text": "# 創造一個名為 templates 的資料夾\n\nreturn render_template(\"home.html\")",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://ithelp.ithome.com.tw/articles/10222132"
+                            }
+                        ]
                     }
                 ]
             }

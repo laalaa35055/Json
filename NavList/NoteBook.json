@@ -14,6 +14,13 @@
                     "Title": "學習程度【 50 %】",
                     "URL": "/LearnPage/Computer",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Computer.json"
+                },
+                {
+                    "Name": "Windows",
+                    "ID": "Windows",
+                    "Title": "學習程度【 50 %】",
+                    "URL": "/LearnPage/Windows",
+                    "Ajax": "https://laalaa35055.github.io/Json/Learn/Windows.json"
                 }
             ]
         },
@@ -149,11 +156,11 @@
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Websocket.json"
                 },
                 {
-                    "Name": "API",
-                    "ID": "API",
+                    "Name": "ASP.Net Api",
+                    "ID": "ASPAPI",
                     "Title": "學習程度【 10 %】",
-                    "URL": "/LearnPage/API",
-                    "Ajax": "https://laalaa35055.github.io/Json/Learn/API.json"
+                    "URL": "/LearnPage/ASPAPI",
+                    "Ajax": "https://laalaa35055.github.io/Json/Learn/ASPAPI.json"
                 }
             ]
         },
@@ -195,13 +202,6 @@
                     "Title": "學習程度【 70 %】",
                     "URL": "/LearnPage/SRE",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/SRE.json"
-                },
-                {
-                    "Name": "Window",
-                    "ID": "Window",
-                    "Title": "學習程度【 50 %】",
-                    "URL": "/LearnPage/Window",
-                    "Ajax": "https://laalaa35055.github.io/Json/Learn/Window.json"
                 },
                 {
                     "Name": "Linux",

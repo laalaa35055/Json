@@ -1,6 +1,6 @@
 {
-    "Name": "Window",
-    "ID": "Window",
+    "Name": "Windows",
+    "ID": "Windows",
     "Type": 0,
     "Nav": true,
     "Contents": {
@@ -8,6 +8,39 @@
             {
                 "Title": "Window 10",
                 "Content": [
+                    {
+                        "Title": "PowerShell 檔案與資料夾操作",
+                        "Data": [
+                            {
+                                "Title": "檢查檔案或目錄是否存在",
+                                "Text": "# 檢查檔案是否存在\n\nTest-Path -Path C:\\OfficeGuide\\MyFile.txt",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "複製檔案或目錄",
+                                "Text": "# 複製檔案\n\nCopy-Item C:\\MyFile.txt -Destination C:\\MyFile2.txt\n\n# 複製整個目錄，則要加上 -Recurse 參數\n\n# 檔案存在 加上 -Force 參數",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "搬移檔案或目錄",
+                                "Text": "# 搬移檔案\n\nMove-Item C:\\MyFile.txt -Destination D:\\MyFile2.txt",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "刪除檔案或目錄",
+                                "Text": "# 移除檔案\n\nRemove-Item C:\\MyFolder\\MyFile.txt\n\n# 如果不想讓它詢問，可以加上 -Recurse 參數",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "來源網址",
+                                "URL": "https://officeguide.cc/windows-powershell-file-folder-management/"
+                            }
+                        ]
+                    },
                     {
                         "Title": "Crack",
                         "Data": [
@@ -85,6 +118,20 @@
                             {
                                 "Text": "參考網址",
                                 "URL": "https://israynotarray.com/other/20200510/1067127387/"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Windows PowerShell 安裝 nano",
+                        "Data": [
+                            {
+                                "Title": "解決方法",
+                                "Text": "# 需安裝 chocolatey 包，系統管理員權限\n\nSet-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))\n\n#安裝 nano\nchoco install nano\n\n# 安裝 vim\nchoco install vim",
+                                "Group": true
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://www.delftstack.com/zh-tw/howto/powershell/edit-a-text-file-on-the-console-using-powershell/"
                             }
                         ]
                     }
