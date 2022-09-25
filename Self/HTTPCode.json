@@ -7,7 +7,7 @@
         "Left": [
             {
                 "Title": "狀態碼",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "常見的狀態碼",
                         "Data": [
@@ -44,7 +44,7 @@
                 ]
             },
             {
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "1xx 代碼",
                         "Data": [
@@ -69,7 +69,7 @@
                 ]
             },
             {
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "2xx 代碼",
                         "Data": [
@@ -110,7 +110,7 @@
                 ]
             },
             {
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "3xx 代碼",
                         "Data": [
@@ -155,7 +155,7 @@
                 ]
             },
             {
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "4xx 代碼",
                         "Data": [
@@ -240,7 +240,7 @@
                 ]
             },
             {
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "5xx 代碼",
                         "Data": [
@@ -288,7 +288,7 @@
         "Right": [
             {
                 "Title": "基礎知識",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "什麼是 HTTP 狀態碼？",
                         "Data": [
@@ -343,7 +343,7 @@
             },
             {
                 "Title": "何謂 HTTP 傳輸協定？",
-                "Contnet": [
+                "Content": [
                     {
                         "Title": "何謂傳輸協定？",
                         "Data": [

@@ -74,7 +74,7 @@
                 {
                     "Name": "Angular",
                     "ID": "Angular",
-                    "Title": "學習程度【 0 %】",
+                    "Title": "學習程度【 50 %】",
                     "URL": "/LearnPage/Angular",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Angular.json"
                 },
@@ -88,14 +88,14 @@
                 {
                     "Name": "Vue-Router",
                     "ID": "Vue-Router",
-                    "Title": "學習程度【 40 %】",
+                    "Title": "學習程度【 30 %】",
                     "URL": "/LearnPage/Vue-Router",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Vue-Router.json"
                 },
                 {
                     "Name": "Markdown",
                     "ID": "Markdown",
-                    "Title": "學習程度【 10 %】",
+                    "Title": "學習程度【 40 %】",
                     "URL": "/LearnPage/Markdown",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Markdown.json"
                 }
@@ -114,37 +114,44 @@
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/MySQL.json"
                 },
                 {
+                    "Name": "MSSQL",
+                    "ID": "MSSQL",
+                    "Title": "學習程度【 30 %】",
+                    "URL": "/LearnPage/MSSQL",
+                    "Ajax": "https://laalaa35055.github.io/Json/Learn/MSSQL.json"
+                },
+                {
                     "Name": "Python",
                     "ID": "Python",
-                    "Title": "學習程度【 0 %】",
+                    "Title": "學習程度【 50 %】",
                     "URL": "/LearnPage/Python",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Python.json"
                 },
                 {
                     "Name": "PHP",
                     "ID": "PHP",
-                    "Title": "學習程度【 90 %】",
+                    "Title": "學習程度【 70 %】",
                     "URL": "/LearnPage/PHP",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/PHP.json"
                 },
                 {
                     "Name": "Laravel",
                     "ID": "Laravel",
-                    "Title": "學習程度【 0 %】",
+                    "Title": "學習程度【 30 %】",
                     "URL": "/LearnPage/Laravel",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Laravel.json"
                 },
                 {
                     "Name": "NodeJs",
                     "ID": "NodeJs",
-                    "Title": "學習程度【 10 %】",
+                    "Title": "學習程度【 30 %】",
                     "URL": "/LearnPage/NodeJs",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/NodeJs.json"
                 },
                 {
                     "Name": "Redis",
                     "ID": "Redis",
-                    "Title": "學習程度【 10 %】",
+                    "Title": "學習程度【 15 %】",
                     "URL": "/LearnPage/Redis",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Redis.json"
                 },
@@ -158,7 +165,7 @@
                 {
                     "Name": "ASP.Net Api",
                     "ID": "ASPAPI",
-                    "Title": "學習程度【 10 %】",
+                    "Title": "學習程度【 30 %】",
                     "URL": "/LearnPage/ASPAPI",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/ASPAPI.json"
                 }
@@ -171,21 +178,21 @@
                 {
                     "Name": "Git",
                     "ID": "Git",
-                    "Title": "學習程度【 60 %】",
+                    "Title": "學習程度【 70 %】",
                     "URL": "/LearnPage/Git",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Git.json"
                 },
                 {
                     "Name": "GitHub",
                     "ID": "GitHub",
-                    "Title": "學習程度【 50 %】",
+                    "Title": "學習程度【 60 %】",
                     "URL": "/LearnPage/GitHub",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/GitHub.json"
                 },
                 {
                     "Name": "GitLab",
                     "ID": "GitLab",
-                    "Title": "學習程度【 40 %】",
+                    "Title": "學習程度【 30 %】",
                     "URL": "/LearnPage/GitLab",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/GitLab.json"
                 }
@@ -206,7 +213,7 @@
                 {
                     "Name": "Linux",
                     "ID": "Linux",
-                    "Title": "學習程度【 50 %】",
+                    "Title": "學習程度【 60 %】",
                     "URL": "/LearnPage/Linux",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Linux.json"
                 },
@@ -227,21 +234,21 @@
                 {
                     "Name": "Ansible",
                     "ID": "Ansible",
-                    "Title": "學習程度【 75 %】",
+                    "Title": "學習程度【 70 %】",
                     "URL": "/LearnPage/Ansible",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Ansible.json"
                 },
                 {
                     "Name": "Openresty",
                     "ID": "Openresty",
-                    "Title": "學習程度【 20 %】",
+                    "Title": "學習程度【 30 %】",
                     "URL": "/LearnPage/Openresty",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Openresty.json"
                 },
                 {
                     "Name": "Prometheus",
                     "ID": "Prometheus",
-                    "Title": "學習程度【 10 %】",
+                    "Title": "學習程度【 30 %】",
                     "URL": "/LearnPage/Prometheus",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Prometheus.json"
                 }
@@ -255,7 +262,7 @@
                 {
                     "Name": "English-哥倫布",
                     "ID": "English",
-                    "Title": "學習程度【 0 %】",
+                    "Title": "學習程度【 10 %】",
                     "URL": "https://drive.google.com/drive/folders/1nQeIEBnsR-XS-JqeCa7h1ICy6khmIJaD?usp=sharing",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/English.json"
                 }

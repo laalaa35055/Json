@@ -134,6 +134,62 @@
                                 "URL": "https://www.delftstack.com/zh-tw/howto/powershell/edit-a-text-file-on-the-console-using-powershell/"
                             }
                         ]
+                    },
+                    {
+                        "Title": "Windows 10 上安裝 WSL + Centos",
+                        "Data": [
+                            {
+                                "Text": "確認已經安裝好 WSL 與 Windows Terminal",
+                                "URL": null
+                            },
+                            {
+                                "Title": "解決方法",
+                                "Text": "# 查詢可用 Linux Distro\nwsl -l -o\n\n# 下載 CentOS Image\n\n# 點擊兩下執行安裝。安裝會自動執行\n\n# 更新 Centos\nyum -y update && yum -y upgrade\n\n# 解除安裝 Centos\n./Centos7.exe clean\n\nPs：於 Centos 7 存放檔案的資料夾",
+                                "Group": true
+                            },
+                            {
+                                "Text": "CentOS Image 網址",
+                                "URL": "https://github.com/mishamosher/CentOS-WSL/releases"
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://www.kwchang0831.dev/dev-env/wsl/centos"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Windows 10 安置網路芳鄰",
+                        "Data": [
+                            {
+                                "Title": "開啟流程",
+                                "Text": "控制台 > 網路和共用中心 > 變更進階共用設定 > 「私人」內容的「開啟網路探索」、「開啟檔案及印表機共用」 > 「所有網路」中選擇「開啟共用」\n\n# 遇到問題\n控制台 > 程式和功能 > 開啟或關閉 Windows 功能 > SMB 1.0/CIFS 檔案共用支援",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/gkpaSB5I__NYpvotAvVoV5gFnn52OUyYHoZnlXEFJy_iriHbvr01nZ1gyleWdkZSd_dnFyuMWZr77Kkk1Lexl-a6-y8JPWWangXMmXLnn3fD8pfG355Ow8hrfVDEWeGqoP0gnpXGHZiXhCXfDW0AbE6MsF8p3ZDV335vjpV_91UI_B5Om4xfyvKd1OSFG_CTWmeenZOapd5YHz-yOKOOHdqLQPJUN2ipS4B3R4lBYJQ1GpJ6dadQQJJgPY1_ipf_VYMS8soSAY-jsj-L4y194w5PM9ORWYsDEi5j_wXk0XMebeV4NWF_oEJLsoJu7witUmHH2UfqLT1URMRa1adXOLRiQG8snU-9Vffg2eRYxiw0icqnQJk4Erpl1VrKpNGXw3ZneFhbv4WHH4UOyPWIOZ4nTV94dP9Y8OZ7rbzK9olNxBxexk3VLz0pcP6nMW2hCVQRV3dLPgGBDQ33EHxP3-Jzug6TepHFj11RtI8gmTfglqPmLB7V1wGD4DyuG_l6X-WSGBDr9qEPgCsmGnplK5kR-qDhXBxLgsHOV7s6iwjFcGLg7XRJ7nv-PuFXjqkdS9ilWG6edz2lBn1eivnO6D6s4J_ZlPStDS9dQXeieDGzgzVVpyn9EYcsYIVzUbNFezgF5YAWIglglUCm73H_XqUEQn8pVs9NNWwR9vJ-pdmi3RaV6QDh2BNUDP--BJQRPGSdv-gNhj4PfOG5lFoM4e4UHzRZ9Z6AaIOwdmUKt6pWAxqqsqeLm9oIT7N013MIfzf9JQaefSPqDFcyey5t_r1cZzHlQyX7w-zJDoX9H5WgdsiPYRhej9ilvUwtu-UBKg5ruJkfQoJEz6KekPcS8qrm9JGArvLFQVHFKSky1Yj1KBfrb2cLTH_T41RovpGXuVNZD_UjH3k_8oY3iJtMRPeTGgoRanWP=w1398-h948-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Title": "開啟共用",
+                                "Text": "內容 > 共用 > 共用 > 新增「EVERYONE」 > 將 Everyone 權限都開啟",
+                                "Group": true
+                            },
+                            {
+                                "Title": "網芳密碼",
+                                "Text": "控制台 > 使用者帳戶 > 管理您的認證 > Windows 認證 > 「編輯」進行登入帳號密碼的修改",
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/tofRxh51aOxXwxc_J8eZcu5GJIKG84gs430jSn6nosaKg-Mu9cwamKnfhPQmDW_PSrSbk_9viLlSgkhA5qubFGXkDoJ3FZHRWU2A6CLfpBufIwV6gRlsyVMNcgyV41nAPMwy1WojyOJ0SN4DDu8gDGay-M8hN2w9_bQILwfA5rFTHXoQVzxPV_FQJIjJjrXyhseWPoIa3lkqD_YD48vDJsJImP8HaAexZKJUHCVW_hhC_5pIVFWxgvopDTmPft7ltCZLddmmc-yGuVMk4BIK3wVcCZon4plkBHhkBpDwjJ6DiUUvqmULubbMC5p56hrSip1ma85p8Mdexnia0s2GtoffLT5v3fbmF6uFiyzJvflnSv_0FMupCvZ3Oew1_V8XX7RS83iegjsZnWVwnNzYiCs4rOMhnubI24YfZI637VMyvptMjBKEoZt9kbBcUof1xprntO1b0gzeGoKBGRNbUIITpL-kR8IDIXujRjpshwrW3EnzVxOh8gWykjhcrGiTQ5ohhf_TNvS9_xgZEh0DcMnS0ENnjbr-XQzRdOUEWjj0qjd0BxlOBVpcK6RL1Kdyak7stEJT1FoKbSAc3MyaOpIqlkwnOoR9F1fYvMKu6nnZIxfx2o_YXiq908L-2G90Lt26I-dTDSckTOY1M844pv3Q-PkTp0FZ8LH_ucFklgcoCdM-hHAkUobyAc3c81eT483aKGy-FX6URl04qz_H2Mf5bSA5ZaLTtkZD814sJ7QTX-rzfKSvZayCXH3j_w-NwbvnmXA8GGoV3mrtJqnswgF99PODMXup6-KL-Gx7kfSL5fwhlSOaw6RUnc9zyRoRt5G2gC3s_4db_4l7USsRmSxu0lXXwN6S6ro3wLlZ7JERz6di2Eimu4teGHXldIU7-9tayfqM59Nd239d1qdu_fWhlAxmuMAv=w868-h323-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Text": "參考網址-開啟流程",
+                                "URL": "https://kkplay3c.net/win10-smb/"
+                            },
+                            {
+                                "Text": "參考網址-網芳密碼",
+                                "URL": "https://noter.tw/8564/samba/"
+                            }
+                        ]
                     }
                 ]
             },

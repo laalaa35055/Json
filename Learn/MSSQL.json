@@ -1,0 +1,131 @@
+{
+    "Name": "MSSQL",
+    "ID": "MSSQL",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "SQL 常用指令",
+                "Content": [
+                    {
+                        "Title": "SQL",
+                        "Data": [
+                            {
+                                "Text": "SELECT User,Host FROM mysql.user;",
+                                "URL": null
+                            },
+                            {
+                                "Text": "mysqldump -utest -p123 > xxx.sql",
+                                "URL": null
+                            },
+                            {
+                                "Text": "drop user {username}",
+                                "URL": null
+                            },
+                            {
+                                "Text": "show Databases;",
+                                "URL": null
+                            },
+                            {
+                                "Text": "use {Database-name};",
+                                "URL": null
+                            },
+                            {
+                                "Text": "show tables;",
+                                "URL": null
+                            },
+                            {
+                                "Text": "create Database {name};",
+                                "URL": null
+                            },
+                            {
+                                "Text": "執行 sql 檔：source {URL};",
+                                "URL": null
+                            },
+                            {
+                                "Text": "desc[ribe] {table-name};",
+                                "URL": null
+                            },
+                            {
+                                "Text": "存成文字檔：tee '路徑';",
+                                "URL": null
+                            },
+                            {
+                                "Text": "notee",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "學習心得",
+                "Content": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "SQL Server預設Port：（TCP）1433",
+                                "URL": null
+                            },
+                            {
+                                "Text": "SQL Server DAC Port：（TCP）1434",
+                                "URL": null
+                            },
+                            {
+                                "Text": "SQL Server Browser Port：（UDP）1434",
+                                "URL": null
+                            },
+                            {
+                                "Text": "SQL Server Mirroring Port：（TCP）5022",
+                                "URL": null
+                            },
+                            {
+                                "Text": "SSAS Port：（TCP）2383",
+                                "URL": null
+                            },
+                            {
+                                "Text": "SQL Server  Service Broker：（TCP）4022",
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址-1",
+                                "URL": "https://dotblogs.com.tw/rockchang/2014/04/14/144730"
+                            },
+                            {
+                                "Text": "參考網址-2",
+                                "URL": "http://support.microsoft.com/kb/968872/zh-tw"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "問題集",
+                "Content": [
+                    {
+                        "Title": "允許遠端連線",
+                        "Data": [
+                            {
+                                "Text": "允許遠端連線",
+                                "URL": "https://www.dotblogs.com.tw/kkman021/2015/10/20/153622#google_vignette"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [
+            "https://ithelp.ithome.com.tw/articles/10212134"
+        ],
+        "Refer": [
+            "http://note.drx.tw/2012/12/mysql-syntax.html"
+        ]
+    }
+}
