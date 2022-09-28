@@ -184,6 +184,61 @@
                 ]
             },
             {
+                "Title": "加密",
+                "Content": [
+                    {
+                        "Title": "JWT",
+                        "Data": [
+                            {
+                                "Title": "ConfigureServices 添加",
+                                "Text": "services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)\n.AddJwtBearer(options =>\n{\n\toptions.TokenValidationParameters = new TokenValidationParameters\n\t{\n\t\tValidateIssuer = true,\n\t\tValidIssuer = Configuration[\"Jwt:Issuer\"],\n\t\tValidateAudience = true,\n\t\tValidAudience = Configuration[\"Jwt:Audience\"],\n\t\tValidateLifetime = true,\n\t\tIssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration[\"JWT:KEY\"]))\n\t};\n});\n\n# appsettings.json\n\n\"JWT\": {\n\t\"KEY\": \"ASDZXASDHAUISDHASDOHAHSDUAHDS\",\n\t\"Issuer\": \"todo.com\",\n\t\"Audience\": \"my\"\n}",
+                                "Group": true
+                            },
+                            {
+                                "Title": "Controller 添加",
+                                "Text": "# 設定使用者資訊var claims = new List<Claim>\n{\n\tnew Claim(JwtRegisteredClaimNames.Email, user.Account),\n\tnew Claim(\"FullName\", user.Name),\n\tnew Claim(JwtRegisteredClaimNames.NameId, user.EmployeeId.ToString())\n};\n\n# 取出appsettings.json裡的KEY處理\nvar securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration[\"JWT:KEY\"]));# 設定jwt相關資訊\n\n# 設定jwt相關資訊\nvar jwt = new JwtSecurityToken\n{\n\tissuer: _configuration[\"JWT:Issuer\"],\n\taudience: _configuration[\"JWT:Audience\"],\n\tclaims: claims,\n\texpires: DateTime.Now.AddMinutes(30),\n\tsigningCredentials: new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256)\n);\n\n# 產生JWT Token\nvar token = new JwtSecurityTokenHandler().WriteToken(jwt);",
+                                "Group": true
+                            },
+                            {
+                                "Text": "Microsoft.AspNetCore.Authentication.JwtBearer",
+                                "URL": null
+                            },
+                            {
+                                "Text": "System.IdentityModel.Tokens.Jwt",
+                                "URL": null
+                            },
+                            {
+                                "Title": "Tip",
+                                "Text": "# ClockSkew = TimeSpan.Zero\n\nres: DateTime.Now.AddSeconds(10)\n\n[Authorize(Roles = \"test\")]\n\npublic readonly IConfiguration _configuration;",
+                                "Group": true
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.miniasp.com/post/2019/12/16/How-to-use-JWT-token-based-auth-in-aspnet-core-31"
+                            },
+                            {
+                                "Text": "參考網址-2",
+                                "URL": "https://blog.talllkai.com/ASPNETCore/2021/09/15/JWT"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Cookies",
+                        "Data": [
+                            {
+                                "Title": "解決方法",
+                                "Text": "# Configure\napp.UseCookiePolicy();\napp.UseAuthentication();\napp.UseAuthorization();\n\n# ConfigureServices\nservices.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option =>\n{\n\toption.LoginPath = new PathString(\"/api/Login/NoLogin\");\n}",
+                                "Group": true
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "Title": "Linq",
                 "Content": [
                     {
@@ -209,16 +264,6 @@
                         "Title": "Linq 使用方法",
                         "Data": [
                             {
-                                "Title": "宣告式",
-                                "Text": "from a in {Context.table} where a.Name == 'test' select a;",
-                                "Group": true
-                            },
-                            {
-                                "Title": "編程式",
-                                "Text": "Context.table.where(a=>a.Name='test');",
-                                "Group": true
-                            },
-                            {
                                 "Text": "Contains：不完全配對，類似於 where",
                                 "URL": null
                             }
@@ -230,7 +275,7 @@
                 "Title": "問題集",
                 "Content": [
                     {
-                        "Title": "什麼是 API ？",
+                        "Title": "interface、abstract、virtual 區別 ？",
                         "Data": [
                             {
                                 "Title": "interface、abstract、virtual 區別",
@@ -240,6 +285,20 @@
                             {
                                 "Text": "參考網址",
                                 "URL": "https://ad57475747.medium.com/c-%E9%9B%9C%E8%A8%98-%E4%BB%8B%E9%9D%A2-interface-%E6%8A%BD%E8%B1%A1-abstract-%E8%99%9B%E6%93%AC-virtual-%E4%B9%8B%E6%88%91%E8%A6%8B-dc3c5878bb80"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "解決 API 跨域問題",
+                        "Data": [
+                            {
+                                "Title": "解決方法",
+                                "Text": "# 在 ConfigureServices 中添加\n\nservices.AddCors(options =>{ \n\toptions.AddPolicy(\"CorsPolicy\",builder =>{\n\t\n\t\tbuilder.AllowAnyOrigin()\n\t\t\t.AllowAnyMethod()\n\t\t\t.AllowAnyHeader();\n\t});\n});\n\n# 在 Configure 中加入\napp.UseCors(\"CorsPolicy\");",
+                                "Group": true
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.csdn.net/HerryDong/article/details/124234605"
                             }
                         ]
                     }
