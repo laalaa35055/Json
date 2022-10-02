@@ -342,6 +342,30 @@
                         ]
                     }
                 ]
+            },
+            {
+                "Title": "安裝",
+                "Content": [
+                    {
+                        "Title": "如何安裝 Laravel？",
+                        "Data": [
+                            {
+                                "Title": "安裝流程",
+                                "Text": "# 需先安裝 PHP\n\n# 打開 php.ini 設定\nextension=pdo_mysql\nextension=fileinfo\n\n# 安裝 laravel\ncomposer global require laravel/installer\n\n# 創建專案\nlaravel new { Project_Name }\n\n# 啟動\nphp artisan serve",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://ithelp.ithome.com.tw/articles/10214064"
+                            },
+                            {
+                                "Text": "Composer 下載網址",
+                                "URL": "https://getcomposer.org/"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },

@@ -21,6 +21,13 @@
                     "Title": "學習程度【 50 %】",
                     "URL": "/LearnPage/Windows",
                     "Ajax": "https://laalaa35055.github.io/Json/Learn/Windows.json"
+                },
+                {
+                    "Name": "區塊鍊",
+                    "ID": "BlockChain",
+                    "Title": "學習程度【 10 %】",
+                    "URL": "/LearnPage/BlockChain",
+                    "Ajax": "https://laalaa35055.github.io/Json/Learn/BlockChain.json"
                 }
             ]
         },
