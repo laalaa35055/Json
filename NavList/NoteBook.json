@@ -262,6 +262,20 @@
             ]
         },
         {
+            "Name": "新技術",
+            "ID": "NewT",
+            "Group": 1,
+            "Data": [
+                {
+                    "Name": "Flutter",
+                    "ID": "Flutter",
+                    "Title": "學習程度【 70 %】",
+                    "URL": "/LearnPage/Flutter",
+                    "Ajax": "https://laalaa35055.github.io/Json/Learn/Flutter.json"
+                }
+            ]
+        },
+        {
             "Name": "英文學習",
             "ID": "English",
             "Group": 1,

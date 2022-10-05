@@ -1,0 +1,246 @@
+{
+    "Name": "Flutter",
+    "ID": "Flutter",
+    "Type": 0,
+    "Nav": true,
+    "Contents": {
+        "Left": [
+            {
+                "Title": "使用說明",
+                "Content": [
+                    {
+                        "Title": "Test  使用",
+                        "Data": [
+                            {
+                                "Text": "暫無",
+                                "URL": null
+                            },
+                            {
+                                "Title": "暫無",
+                                "Text": "暫無",
+                                "Group": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "常用屬性",
+                "Content": [
+                    {
+                        "Title": "Container",
+                        "Data": [
+                            {
+                                "Title": "child：可以設定一個子元件",
+                                "Text": "child:Text('君莫笑')",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "color：背景顏色",
+                                "Text": "color:Colors.blue\n\ncolor:Color(0xFFFF0000)\n\ncolor:Color.fromARGB(255,255,0,0)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "alignment：對齊方式",
+                                "Text": "alignment:Alignment.bottomCenter",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "constraints",
+                                "Text": "# 最大高度、最大寬度、最小高度、最小寬度\n\nconstraints:BoxConstraints(\n\tmaxWidth:300,\n\tmaxHeight:100,\n\t...)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "margin: 外部間距",
+                                "Text": "margin:EdgeInsets.all(50)\n\nmargin:EdgeInsets.only(left:50)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "padding: 內部間距",
+                                "Text": "padding:EdgeInsets.all(50)\n\npadding:EdgeInsets.only(left:50)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-6container.html"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "水平與垂直布局",
+                "Content": [
+                    {
+                        "Title": "Container",
+                        "Data": [
+                            {
+                                "Title": "child：可以設定一個子元件",
+                                "Text": "child:Text('君莫笑')",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "color：背景顏色",
+                                "Text": "color:Colors.blue\n\ncolor:Color(0xFFFF0000)\n\ncolor:Color.fromARGB(255,255,0,0)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "alignment：對齊方式",
+                                "Text": "alignment:Alignment.bottomCenter",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "constraints",
+                                "Text": "# 最大高度、最大寬度、最小高度、最小寬度\n\nconstraints:BoxConstraints(\n\tmaxWidth:300,\n\tmaxHeight:100,\n\t...)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "margin: 外部間距",
+                                "Text": "margin:EdgeInsets.all(50)\n\nmargin:EdgeInsets.only(left:50)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "padding: 內部間距",
+                                "Text": "padding:EdgeInsets.all(50)\n\npadding:EdgeInsets.only(left:50)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-7-row-column.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Right": [
+            {
+                "Title": "學習心得",
+                "Content": [
+                    {
+                        "Title": "知識點",
+                        "Data": [
+                            {
+                                "Text": "中文文檔",
+                                "URL": "https://flutter.cn/docs"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "問題集",
+                        "Data": [
+                            {
+                                "Text": "暫無",
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "功能須知",
+                "Content": [
+                    {
+                        "Title": "視覺輔助排版工具",
+                        "Data": [
+                            {
+                                "Title": "debugPaintSizeEnabled",
+                                "Text": "# 需在 main 輸入，會匯入模組\n\ndebugPaintSizeEnabled = true;",
+                                "Group": true,
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "關閉右上緞帶",
+                        "Data": [
+                            {
+                                "Title": "debugShowCheckedModeBanner",
+                                "Text": "# 需在 MaterialAPP() 輸入，會匯入模組\n\ndebugShowCheckedModeBanner = false;",
+                                "Group": true,
+                                "URL": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "基礎知識",
+                "Content": [
+                    {
+                        "Title": "什麼是 Flutter？",
+                        "Data": [
+                            {
+                                "Text": "一個能建立原生跨平台的框架",
+                                "URL": null
+                            },
+                            {
+                                "Text": "用一種程式語言(dart)寫一份Code能同時讓iOS與Android平台使用",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Dart 是Google開發的程式語言，針對前端介面開發所使用的程式語言",
+                                "URL": null
+                            },
+                            {
+                                "Text": "官網",
+                                "URL": "https://docs.flutter.dev/cookbook"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "如何安裝",
+                "Content": [
+                    {
+                        "Title": "如何安裝 Flutter？",
+                        "Data": [
+                            {
+                                "Title": "安裝流程",
+                                "Text": "#需安裝\n\n# Flutter SDK\n# Android Studio\n# IntelliJ\n\n# 檢查確認 Flutter SDK 版本\nflutter --version\n\n# 檢查\nflutter doctor\n\n# 授權使用合約\nflutter doctor --android-licenses\n\n# 檢查當下頻道\nflutter channel\n\n# 切換頻道\nflutter channel [頻道名稱]\n\n",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "Flutter 下載點",
+                                "URL": "https://docs.flutter.dev/get-started/install?gclid=Cj0KCQjw1vSZBhDuARIsAKZlijSbl6mut0_VuD_80clOLWsqgTVVNCaby9h2NNIcq4Px8NM5GEHwBi8aAqbrEALw_wcB&gclsrc=aw.ds"
+                            },
+                            {
+                                "Text": "IntelliJ 套件：Flutter、Dart",
+                                "URL": null
+                            },
+                            {
+                                "Text": "IntelliJ IDEA 下載點",
+                                "URL": "https://www.jetbrains.com/idea/download/#section"
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-2-flutter.html"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Source": {
+        "Text": true,
+        "From": [
+            "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-1-flutter.html"
+        ],
+        "Refer": []
+    }
+}
