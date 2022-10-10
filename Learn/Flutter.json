@@ -6,19 +6,114 @@
     "Contents": {
         "Left": [
             {
-                "Title": "使用說明",
+                "Title": "頁面應用",
                 "Content": [
                     {
-                        "Title": "Test  使用",
+                        "Title": "常用方式",
                         "Data": [
                             {
-                                "Text": "暫無",
+                                "Text": "起手式",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/start.dart"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "簡單跳頁",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day09.dart"
+                            },
+                            {
+                                "Title": "跳轉至 PageB",
+                                "Text": "Navigator.push(context, MaterialPageRoute(builder: (content)=> PageB()));",
+                                "Group": true,
                                 "URL": null
                             },
                             {
-                                "Title": "暫無",
-                                "Text": "暫無",
-                                "Group": true
+                                "Title": "回上一頁",
+                                "Text": "Navigator.pop(context);",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-13.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "頁面傳值",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day10.dart"
+                            },
+                            {
+                                "Title": "傳值",
+                                "Text": "PageB(intval:100,strval:\"King\")",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "接收",
+                                "Text": "int intval;\nString strval;\nPageB({Key? key, this.intval=0, this.strval=\"\"}) : super(key: key);",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-14.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "跳頁並回傳",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day12.dart"
+                            },
+                            {
+                                "Title": "傳值",
+                                "Text": "BPage()\n\n# 重點在 async await ，還需接收回傳值\n\n# setState 重新 render",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "回傳",
+                                "Text": "Navigator.pop(context, 'B頁資料');",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-15.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "傳遞整包資料",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day11.dart"
+                            },
+                            {
+                                "Title": "傳值",
+                                "Text": "PageB(product:product)",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "接收",
+                                "Text": "Product product;\nPageB({Key? key, required this.product}) : super(key: key);",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-16.html"
                             }
                         ]
                     }
@@ -30,6 +125,10 @@
                     {
                         "Title": "Container",
                         "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day02.dart"
+                            },
                             {
                                 "Title": "child：可以設定一個子元件",
                                 "Text": "child:Text('君莫笑')",
@@ -71,54 +170,314 @@
                                 "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-6container.html"
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "Title": "水平與垂直布局",
-                "Content": [
+                    },
                     {
-                        "Title": "Container",
+                        "Title": "水平與垂直容器",
                         "Data": [
                             {
-                                "Title": "child：可以設定一個子元件",
-                                "Text": "child:Text('君莫笑')",
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day03.dart"
+                            },
+                            {
+                                "Title": "Row 水平佈局容器",
+                                "Text": "return Row(\n  children: <Widget>[Text('1'), Text('2'), Text('3')],\n);",
                                 "Group": true,
                                 "URL": null
                             },
                             {
-                                "Title": "color：背景顏色",
-                                "Text": "color:Colors.blue\n\ncolor:Color(0xFFFF0000)\n\ncolor:Color.fromARGB(255,255,0,0)",
+                                "Title": "Column 水平佈局容器",
+                                "Text": "return Column(\n  children: <Widget>[Text('1'), Text('2'), Text('3')],\n);",
                                 "Group": true,
                                 "URL": null
                             },
                             {
-                                "Title": "alignment：對齊方式",
-                                "Text": "alignment:Alignment.bottomCenter",
-                                "Group": true,
+                                "Text": "主軸方向的對齊方式 mainAxisAlignment",
                                 "URL": null
                             },
                             {
-                                "Title": "constraints",
-                                "Text": "# 最大高度、最大寬度、最小高度、最小寬度\n\nconstraints:BoxConstraints(\n\tmaxWidth:300,\n\tmaxHeight:100,\n\t...)",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
-                                "Title": "margin: 外部間距",
-                                "Text": "margin:EdgeInsets.all(50)\n\nmargin:EdgeInsets.only(left:50)",
-                                "Group": true,
-                                "URL": null
-                            },
-                            {
-                                "Title": "padding: 內部間距",
-                                "Text": "padding:EdgeInsets.all(50)\n\npadding:EdgeInsets.only(left:50)",
-                                "Group": true,
+                                "Text": "副軸方向的對齊方式 crossAxisAlignment",
                                 "URL": null
                             },
                             {
                                 "Text": "參考網址",
                                 "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-7-row-column.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Center 容器",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day04.dart"
+                            },
+                            {
+                                "Title": "Center",
+                                "Text": "return Center(\n  child: Text('Test'),\n);",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Title": "Flutter Logo",
+                                "Text": "return Row(\n  : child:FlutterLogo(size:100,color:colors.red),\n);",
+                                "Group": true,
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Text 文字標籤元件",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day05.dart"
+                            },
+                            {
+                                "Text": "文字換行：\\n",
+                                "URL": null
+                            },
+                            {
+                                "Text": "maxLines：限制行數",
+                                "URL": null
+                            },
+                            {
+                                "Text": "style: TextStyle(fontSize: 100)",
+                                "URL": null
+                            },
+                            {
+                                "Text": "style: TextStyle(color: Colors.red)",
+                                "URL": null
+                            },
+                            {
+                                "Text": "style: TextStyle(decoration: TextDecoration.underline)",
+                                "URL": null
+                            },
+                            {
+                                "Text": "style: TextStyle(fontWeight: FontWeight.bold)",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "Image 圖片元件",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day07.dart"
+                            },
+                            {
+                                "Title": "載入本地資源圖片",
+                                "Text": "# 新增目錄資料夾 assets\n\n# 開啟 pubspec.yaml\n\n# 找到 flutter:\n\n# 第一層，可看註解內容\n\n# 路徑需注意--assets",
+                                "Group": true
+                            },
+                            {
+                                "Text": "Image.asset('路徑')",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Image.asset('路徑',width:10)",
+                                "URL": null
+                            },
+                            {
+                                "Text": "Image.network('url')",
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-11image.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "TextField 文字輸入框元件",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day08.dart"
+                            },
+                            {
+                                "Title": "綁定輸入框值",
+                                "Text": "# 先建立 final TextEditingController mycontroller = new TextEditingController();\n\n# 加入 controller：mycontroller\n\nmycontroller.text",
+                                "Group": true
+                            },
+                            {
+                                "Text": "controller： 監聽文字輸入內容(★最重要★)",
+                                "URL": null
+                            },
+                            {
+                                "Text": "onChanged：當文字有改變觸發事件",
+                                "URL": null
+                            },
+                            {
+                                "Text": "onSubmitted：當按下鍵盤Entenr觸發事件",
+                                "URL": null
+                            },
+                            {
+                                "Text": "enable：是否禁用",
+                                "URL": null
+                            },
+                            {
+                                "Text": "maxLength：最大長度",
+                                "URL": null
+                            },
+                            {
+                                "Text": "maxLines：最大行數",
+                                "URL": null
+                            },
+                            {
+                                "Text": "style：文字輸入框樣式",
+                                "URL": null
+                            },
+                            {
+                                "Text": "textAlign：文字對齊方式",
+                                "URL": null
+                            },
+                            {
+                                "Text": "obscureText：設定是否為隱碼，設定為true文字將會被隱碼，false則會顯示明文正常文字內容",
+                                "URL": null
+                            },
+                            {
+                                "Text": "inputFormatters：設定允許輸入的文字格式",
+                                "URL": null
+                            },
+                            {
+                                "Text": "decoration：文字輸入框元件裝飾效果",
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-12textfield.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "SnackBar 提示元件",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day14.dart"
+                            },
+                            {
+                                "Title": "顯示設定",
+                                "Text": "ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(\"顯示訊息\")));",
+                                "Group": true,
+                                "Imgs":[
+                                    "https://lh3.googleusercontent.com/pw/AL9nZEUdVw7Woujr0jjakWYdKDggAE4YH96qRe23JAgCl2are0cR7uvIvxia3rZXLjm0U3VLkxV6aq0m_az77XLaYeCuXuiIw2jHpBGk8AsRzerQZBnsuC2bjJ6m7xdkDf-dQ0T7EopxURIQ92onRN85sqI=w587-h348-no?authuser=0"
+                                ]
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-18snackbar.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "AlertDialog 訊息對話",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day15.dart"
+                            },
+                            {
+                                "Title": "常用的屬性",
+                                "Text": "title：訊息對話框視窗標題\n\ncontent：訊息對話框視窗內文\n\nactions：訊息對話框視窗，按鈕觸發事件",
+                                "Group": true
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-19.html"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "BottomNavigationBar 底部頁面導航元件",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day16.dart"
+                            },
+                            {
+                                "Title": "常用的屬性",
+                                "Text": "items ，底部頁面導航項目\n\ncurrentIndex，當前索引值\n\nonTap，按鈕點擊後觸發事件",
+                                "Group": true
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-20bottomnavigationbar.html"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "按鈕",
+                "Content": [
+                    {
+                        "Title": "Button 按鈕元件",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day06.dart"
+                            },
+                            {
+                                "Title": "IconButton：圖示按鈕",
+                                "Text": "color：Icon的顏色\n\nhighlightColor：當按鈕按下時的顏色\n\nsplashColor：當按鈕按下時的水波顏色\n\nicon：按鈕Icon\n\nonPressed：按鈕按下時所調用的邏輯，若為null則不使用\n\niconSize: Icon大小，預設為24",
+                                "Group": true
+                            },
+                            {
+                                "Text": "TextButton：文字按鈕",
+                                "URL": null
+                            },
+                            {
+                                "Text": "OutlineButton：邊框按鈕",
+                                "URL": null
+                            },
+                            {
+                                "Text": "ElevatedButton：漂浮按鈕",
+                                "URL": null
+                            },
+                            {
+                                "Text": "style: TextStyle(fontWeight: FontWeight.bold)",
+                                "URL": null
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "FloatingActionButton 漂浮按鈕",
+                        "Data": [
+                            {
+                                "Text": "範例",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/day13.dart"
+                            },
+                            {
+                                "Text": "Ps：加入地點須注意，Body 的同層",
+                                "URL": null
+                            },
+                            {
+                                "Text": "onPressed：按鈕按下後觸發的方法邏輯程式。",
+                                "URL": null
+                            },
+                            {
+                                "Text": "elevation：按鈕陰影大小值",
+                                "URL": null
+                            },
+                            {
+                                "Text": "foregrnundColor：前景色",
+                                "URL": null
+                            },
+                            {
+                                "Text": "backgroundColor：背景色",
+                                "URL": null
+                            },
+                            {
+                                "Title": "floatingActionButtonLocation",
+                                "Text": "centerDocked 底部中間\n\nendDocked 右下角\n\ncenterFloat 中間偏上\n\nendFloat 底部偏上",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-17floatingactionbutton.html"
                             }
                         ]
                     }
@@ -132,6 +491,10 @@
                     {
                         "Title": "知識點",
                         "Data": [
+                            {
+                                "Text": "起手式",
+                                "URL": "https://github.com/Example-Roydon/Example-Flutter/blob/main/example_flutter/lib/start.dart"
+                            },
                             {
                                 "Text": "中文文檔",
                                 "URL": "https://flutter.cn/docs"
@@ -150,8 +513,29 @@
                 ]
             },
             {
-                "Title": "功能須知",
+                "Title": "基礎功能須知",
                 "Content": [
+                    {
+                        "Title": "Flutter 處理畫面",
+                        "Data": [
+                            {
+                                "Text": "StatelessWidget：初始化後都不會改變狀態的 widget",
+                                "URL": null
+                            },
+                            {
+                                "Text": "StatefulWidget：StatefulWidget 可以透過 setState 再一次重繪",
+                                "URL": null
+                            },
+                            {
+                                "Text": "快捷鍵：stl、stful",
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://tw-hkt.blogspot.com/2019/11/flutter-30-day-5.html"
+                            }
+                        ]
+                    },
                     {
                         "Title": "視覺輔助排版工具",
                         "Data": [
@@ -168,7 +552,7 @@
                         "Data": [
                             {
                                 "Title": "debugShowCheckedModeBanner",
-                                "Text": "# 需在 MaterialAPP() 輸入，會匯入模組\n\ndebugShowCheckedModeBanner = false;",
+                                "Text": "# 需在 MaterialAPP() 輸入，會匯入模組\n\ndebugShowCheckedModeBanner:false,",
                                 "Group": true,
                                 "URL": null
                             }
@@ -197,6 +581,43 @@
                             {
                                 "Text": "官網",
                                 "URL": "https://docs.flutter.dev/cookbook"
+                            }
+                        ]
+                    },
+                    {
+                        "Title": "什麼是 Material？",
+                        "Data": [
+                            {
+                                "Text": "Flutter 是由 Google 主導研發出來的開源跨平台軟體框架",
+                                "URL": null
+                            },
+                            {
+                                "Text": "官方也建議採用 Material Design",
+                                "URL": null
+                            },
+                            {
+                                "Text": "官網 ",
+                                "URL": "https://material.io/design/"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Widget 階層關係圖",
+                "Content": [
+                    {
+                        "Title": "什麼是 Material？",
+                        "Data": [
+                            {
+                                "Title": "Widget 階層關係圖",
+                                "Text": "",
+                                "URL": null,
+                                "Group": true,
+                                "Imgs": [
+                                    "https://lh3.googleusercontent.com/pw/AL9nZEWffJQ9fbLa5BlWRC3cVdC0IIEEgts0D8o5AERTyPwZeHMtEwcv8jZolhhQav2DhzwVrkcNJZRxx58MwymlQa2BndiM2Xkeb_jxpfbIlU2Qe3Vt0BsOepF8EwmyONynH9bCSKEOWT_ouCWhcBUUqi0=w700-h599-no?authuser=0",
+                                    "https://lh3.googleusercontent.com/pw/AL9nZEV97O4pHb1il9eLj9-MRJcguckvFe-w1mkaO2wtKYe7rMVOqPcwm3ETWaCcRqofOjY9sCFsYnRx5LbxK4IjePUnvNmgFAhMK9tr8FzhyhfsjEPwVnH4Yhqb_soPioi2hR8Kvj88wq1TSLNPfzQj-cU=s681-no?authuser=0"
+                                ]
                             }
                         ]
                     }
