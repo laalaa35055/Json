@@ -1,7 +1,7 @@
 {
     "Name": "GitLab",
-    "ID":"GitLab",
-    "Type":0,
+    "ID": "GitLab",
+    "Type": 0,
     "Nav": true,
     "Contents": {
         "Left": [
@@ -71,11 +71,27 @@
                 "Title": "問題集",
                 "Content": [
                     {
-                        "Title": "暫無",
+                        "Title": "docker gitlab 初始密码查看",
                         "Data": [
                             {
-                                "Text": "暫無",
+                                "Title": "docker 運行",
+                                "Text": "docker run -d --name gitlab -p 8080:80 --restart always gitlab/gitlab-ce",
+                                "Group": true,
                                 "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://ithelp.ithome.com.tw/articles/10211148"
+                            },
+                            {
+                                "Title": "运行一下代码查看root的默认密码",
+                                "Text": "docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password",
+                                "Group": true,
+                                "URL": null
+                            },
+                            {
+                                "Text": "參考網址",
+                                "URL": "https://blog.csdn.net/cirea1987/article/details/120178421"
                             }
                         ]
                     }
